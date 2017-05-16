@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"defaultColor" : "ab 5/16/2017 16:30",
+		"defaultLabelInterval" : "ab 5/16/2017 16:47",
+		"defaultLength" : "ab 5/16/2017 16:52",
+		"defaultOrientation" : "ab 5/16/2017 16:59",
+		"defaultOrigin" : "ab 5/16/2017 16:51",
+		"defaultStepInterval" : "ab 5/16/2017 16:48" },
+	"instance" : {
+		"initialize" : "ab 5/16/2017 16:58",
+		"initializeDefaults" : "ab 5/16/2017 16:47",
+		"labelInterval" : "ab 5/16/2017 16:32",
+		"labelInterval:" : "ab 5/16/2017 16:32",
+		"length" : "ab 5/16/2017 16:32",
+		"length:" : "ab 5/16/2017 16:32",
+		"orientation" : "ab 5/16/2017 16:32",
+		"orientation:" : "ab 5/16/2017 16:32",
+		"stepInterval" : "ab 5/16/2017 16:32",
+		"stepInterval:" : "ab 5/16/2017 16:32" } }
