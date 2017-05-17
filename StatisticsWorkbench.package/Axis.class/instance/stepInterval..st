@@ -1,3 +1,3 @@
 accessing
 stepInterval: anObject
-	stepInterval := anObject
+	stepInterval := anObject.

@@ -1,3 +1,3 @@
 accessing
 length: anObject
-	length := anObject
+	length := anObject.

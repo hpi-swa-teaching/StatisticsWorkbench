@@ -1,3 +1,3 @@
 accessing
 orientation: anObject
-	orientation := anObject
+	orientation := anObject.

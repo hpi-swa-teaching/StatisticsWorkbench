@@ -1,3 +1,3 @@
 accessing
 labelInterval: anObject
-	labelInterval := anObject
+	labelInterval := anObject.

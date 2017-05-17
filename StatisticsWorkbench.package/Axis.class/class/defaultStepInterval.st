@@ -1,3 +1,3 @@
 as yet unclassified
 defaultStepInterval 
-	^1.
+	^50.
