@@ -1,3 +1,3 @@
 as yet unclassified
 defaultLabelInterval 
-	^200.
+	^100.

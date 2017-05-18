@@ -3,4 +3,5 @@ initializeDefaults
 	self orientation: self class defaultOrientation;
 		labelInterval: self class defaultLabelInterval;
 		stepInterval: self class defaultStepInterval;
-		length: self class defaultLength.
+		min: self class defaultMin;
+		max: self class defaultMax.
