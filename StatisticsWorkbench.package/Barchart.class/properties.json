@@ -11,5 +11,5 @@
 	"name" : "Barchart",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

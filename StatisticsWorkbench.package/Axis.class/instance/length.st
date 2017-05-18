@@ -1,3 +1,3 @@
 accessing
 length
-	^ min abs + max abs.
+	^ (min - max) abs.

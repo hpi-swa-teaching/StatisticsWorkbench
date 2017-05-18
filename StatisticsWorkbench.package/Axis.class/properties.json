@@ -10,7 +10,9 @@
 		"labelInterval",
 		"stepInterval",
 		"min",
-		"max" ],
+		"max",
+		"lastMin",
+		"lastMax" ],
 	"name" : "Axis",
 	"pools" : [
 		 ],

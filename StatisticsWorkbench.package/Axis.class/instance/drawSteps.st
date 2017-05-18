@@ -3,7 +3,8 @@ drawSteps
 	|i x y|
 	x := self position x.
 	y := self position y.
-	i := self min.
+	i := 0.
+	
 	self orientation = #horizontal ifTrue: [
 	self length / self stepInterval timesRepeat: [
 			self addMorph: (PolygonMorph 	vertices: {((x + i) @ (y + 10)).((x + i )@ (y - 1))} 

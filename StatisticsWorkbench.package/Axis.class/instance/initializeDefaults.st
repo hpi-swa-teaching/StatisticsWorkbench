@@ -4,4 +4,7 @@ initializeDefaults
 		labelInterval: self class defaultLabelInterval;
 		stepInterval: self class defaultStepInterval;
 		min: self class defaultMin;
-		max: self class defaultMax.
+		lastMin:  self class defaultMin;
+		max: self class defaultMax;
+		lastMax: self class defaultMax.
+	

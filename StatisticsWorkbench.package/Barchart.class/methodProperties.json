@@ -4,8 +4,6 @@
 	"instance" : {
 		"barWidth" : "mp 5/16/2017 16:49",
 		"barWidth:" : "mp 5/16/2017 16:49",
-		"createBar:width:position:" : "mp 5/18/2017 12:48",
 		"initialize" : "mp 5/16/2017 16:50",
-		"updateDiagram" : "mp 5/18/2017 12:43",
 		"valueCollection" : "mp 5/16/2017 16:50",
 		"valueCollection:" : "mp 5/16/2017 16:50" } }

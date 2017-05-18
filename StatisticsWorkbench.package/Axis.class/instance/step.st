@@ -2,6 +2,8 @@ as yet unclassified
 step
 
 	self
+		updateMin;
+		updateMax;
 		borderColor: self color;
 		updateOrientation;
 		updateStep;
