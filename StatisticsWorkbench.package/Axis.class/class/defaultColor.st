@@ -1,3 +1,3 @@
 as yet unclassified
 defaultColor 
-	^Color green.
+	^Color black.

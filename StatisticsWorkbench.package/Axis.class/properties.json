@@ -6,10 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"show_val",
-		"textmorph" ],
-	"name" : "SWBar",
+		"orientation",
+		"labelInterval",
+		"stepInterval",
+		"min",
+		"max" ],
+	"name" : "Axis",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "PolygonMorph",
 	"type" : "normal" }

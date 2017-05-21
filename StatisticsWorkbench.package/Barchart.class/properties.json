@@ -6,16 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"orientation",
-		"labelInterval",
-		"stepInterval",
-		"min",
-		"max",
-		"lastMin",
-		"lastMax",
-		"legend" ],
-	"name" : "SWAxis",
+		"valuecollection",
+		"barwidth" ],
+	"name" : "Barchart",
 	"pools" : [
 		 ],
-	"super" : "PolygonMorph",
+	"super" : "Object",
 	"type" : "normal" }
