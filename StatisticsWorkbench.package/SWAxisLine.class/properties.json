@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"caption" ],
+	"name" : "SWAxisLine",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

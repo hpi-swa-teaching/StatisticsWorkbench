@@ -1,0 +1,15 @@
+{
+	"category" : "StatisticsWorkbench",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"valuecollection",
+		"barwidth" ],
+	"name" : "SWBarchart",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
