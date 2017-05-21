@@ -6,5 +6,6 @@ initializeDefaults
 		min: self class defaultMin;
 		lastMin:  self class defaultMin;
 		max: self class defaultMax;
-		lastMax: self class defaultMax.
+		lastMax: self class defaultMax;
+		legend: self class defaultLegend.
 	

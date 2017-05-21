@@ -7,5 +7,5 @@ step
 		borderColor: self color;
 		updateOrientation;
 		updateStep;
-		updateLabel.
+		updateTexts.
 	self submorphs do: [:a | a color: self color; borderColor: self borderColor].

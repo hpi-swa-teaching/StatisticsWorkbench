@@ -12,7 +12,8 @@
 		"min",
 		"max",
 		"lastMin",
-		"lastMax" ],
+		"lastMax",
+		"legend" ],
 	"name" : "Axis",
 	"pools" : [
 		 ],
