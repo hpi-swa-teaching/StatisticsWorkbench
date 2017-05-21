@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"valuecollection",
-		"barwidth" ],
-	"name" : "Barchart",
+		"show_val",
+		"textmorph" ],
+	"name" : "SWBar",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "RectangleMorph",
 	"type" : "normal" }

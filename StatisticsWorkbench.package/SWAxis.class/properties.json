@@ -14,7 +14,7 @@
 		"lastMin",
 		"lastMax",
 		"legend" ],
-	"name" : "Axis",
+	"name" : "SWAxis",
 	"pools" : [
 		 ],
 	"super" : "PolygonMorph",
