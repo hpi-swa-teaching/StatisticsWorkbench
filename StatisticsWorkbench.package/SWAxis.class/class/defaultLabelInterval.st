@@ -1,3 +1,0 @@
-defaults
-defaultLabelInterval 
-	^100.
