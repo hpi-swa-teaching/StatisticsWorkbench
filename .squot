@@ -1,3 +1,5 @@
 OrderedDictionary {
-	'StatisticsWorkbench.package' : #SquotCypressCodeSerializer
+	'StatisticsWorkbench-Core.package' : #SquotCypressCodeSerializer,
+	'StatisticsWorkbench-GUI.package' : #SquotCypressCodeSerializer,
+	'StatisticsWorkbench-Tests.package' : #SquotCypressCodeSerializer
 }
