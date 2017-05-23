@@ -9,9 +9,10 @@
 		"realX",
 		"realY",
 		"printedX",
-		"printedY" ],
+		"printedY",
+		"lineGraph" ],
 	"name" : "DataPoint",
 	"pools" : [
 		 ],
-	"super" : "EllipseMorph",
+	"super" : "RectangleMorph",
 	"type" : "normal" }

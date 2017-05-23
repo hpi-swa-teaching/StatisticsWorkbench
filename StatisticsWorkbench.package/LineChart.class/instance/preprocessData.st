@@ -2,6 +2,7 @@ as yet unclassified
 preprocessData
 	
 	| transformedY dataVertices|
+	
 	dataVertices := Bag new.
 	
 	self dataset keysDo: [:xData|
@@ -9,6 +10,8 @@ preprocessData
 		dataVertices add: (xData @ transformedY).
 		self makeDataPoint: (xData @ (self dataset at: xData)) at: (xData @ transformedY).
 	].
-
+	
+	dataVertices := dataVertices sorted: [:a :b | a x <= b x].
+	
 	^ dataVertices.
 	  

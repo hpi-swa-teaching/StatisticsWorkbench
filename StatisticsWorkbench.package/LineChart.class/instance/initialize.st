@@ -3,6 +3,7 @@ initialize
 	
 	super initialize.
 	
+	self connected: true.
 	self dataPoints: Bag new.
 	self makeTestData.
 	self setVertices: self preprocessData.
@@ -12,6 +13,3 @@ initialize
 	
 	self makeOpen.
 	self openInWorld.
-	
-	Transcript show: self dataPoints.
-	

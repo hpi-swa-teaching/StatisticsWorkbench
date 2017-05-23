@@ -2,6 +2,10 @@ as yet unclassified
 initialize 
 	
 	super initialize.
-	self bounds: (0@0 corner: 20@20);
-		color: Color red.
+	
+	self bounds: (100 @ 100 extent: 10 @ 10);
+		color: Color orange;
+		 borderColor: Color orange.
+	
+	self openInWorld.
 	
