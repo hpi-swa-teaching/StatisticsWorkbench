@@ -11,7 +11,7 @@
 		"printedX",
 		"printedY",
 		"lineGraph" ],
-	"name" : "DataPoint",
+	"name" : "SWDataPoint",
 	"pools" : [
 		 ],
 	"super" : "RectangleMorph",

@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"show_val",
-		"textmorph" ],
-	"name" : "Bar",
+		"dataset",
+		"dataPoints",
+		"connected" ],
+	"name" : "SWLineChart",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "PolygonMorph",
 	"type" : "normal" }

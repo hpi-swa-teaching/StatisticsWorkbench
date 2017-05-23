@@ -2,7 +2,7 @@ as yet unclassified
 makeDataPoint: realPoint at: printPosition
 	
 	| newDataPoint |
-	newDataPoint := DataPoint new openInWorld.
+	newDataPoint := SWDataPoint new openInWorld.
 	
 	newDataPoint realX: realPoint x.
 	newDataPoint realY: realPoint y.
