@@ -1,0 +1,15 @@
+{
+	"category" : "StatisticsWorkbench",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dataset",
+		"dataPoints" ],
+	"name" : "LineChart",
+	"pools" : [
+		 ],
+	"super" : "PolygonMorph",
+	"type" : "normal" }

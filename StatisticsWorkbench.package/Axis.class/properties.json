@@ -1,0 +1,18 @@
+{
+	"category" : "StatisticsWorkbench",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"orientation",
+		"labelInterval",
+		"stepInterval",
+		"min",
+		"max" ],
+	"name" : "Axis",
+	"pools" : [
+		 ],
+	"super" : "PolygonMorph",
+	"type" : "normal" }
