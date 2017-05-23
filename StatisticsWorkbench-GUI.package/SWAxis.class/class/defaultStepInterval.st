@@ -1,0 +1,3 @@
+defaults
+defaultStepInterval 
+	^50.

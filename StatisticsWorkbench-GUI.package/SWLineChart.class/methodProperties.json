@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"connected" : "J.R. 5/23/2017 15:36",
+		"connected:" : "J.R. 5/23/2017 15:36",
+		"dataPoints" : "J.R. 5/18/2017 17:40",
+		"dataPoints:" : "J.R. 5/18/2017 17:40",
+		"dataset" : "J.R. 5/18/2017 14:41",
+		"dataset:" : "J.R. 5/18/2017 14:41",
+		"initialize" : "J.R. 5/23/2017 15:36",
+		"makeDataPoint:at:" : "maf 5/23/2017 19:24",
+		"makeTestData" : "J.R. 5/23/2017 16:51",
+		"maxY" : "J.R. 5/23/2017 17:35",
+		"preprocessData" : "J.R. 5/23/2017 15:25",
+		"step" : "J.R. 5/23/2017 16:38",
+		"stepTime" : "J.R. 5/23/2017 15:36",
+		"transformY:" : "J.R. 5/18/2017 17:17",
+		"updateVertices" : "J.R. 5/23/2017 17:31" } }
