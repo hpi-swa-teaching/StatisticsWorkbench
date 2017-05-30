@@ -1,8 +1,14 @@
 {
 	"class" : {
-		"create:orientation:" : "maf 5/21/2017 15:21",
-		"create:orientation:caption:" : "maf 5/21/2017 15:34" },
+		"create:orientation:" : "mp 5/30/2017 15:55",
+		"create:orientation:caption:" : "mp 5/30/2017 15:57" },
 	"instance" : {
-		"caption" : "maf 5/21/2017 15:13",
-		"caption:" : "maf 5/21/2017 15:13",
-		"initialize" : "maf 5/21/2017 15:33" } }
+		"caption" : "mp 5/30/2017 16:01",
+		"caption:" : "mp 5/30/2017 16:01",
+		"captionMorph" : "mp 5/30/2017 15:51",
+		"captionMorph:" : "mp 5/30/2017 15:51",
+		"initialize" : "maf 5/21/2017 15:33",
+		"strokeColor:" : "mp 5/30/2017 16:04",
+		"strokeMorph" : "mp 5/30/2017 15:50",
+		"strokeMorph:" : "mp 5/30/2017 15:50",
+		"textColor:" : "mp 5/30/2017 16:05" } }

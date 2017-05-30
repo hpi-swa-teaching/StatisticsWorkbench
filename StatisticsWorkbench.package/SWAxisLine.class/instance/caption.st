@@ -1,4 +1,4 @@
 accessing
 caption
 	
-	^ caption
+	^ self captionMorph contents.

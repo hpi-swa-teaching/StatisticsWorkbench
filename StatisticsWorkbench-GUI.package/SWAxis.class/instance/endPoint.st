@@ -1,4 +1,4 @@
 accessing
 endPoint
 	
-	^ endPoint
+	^ self vertices at: 2

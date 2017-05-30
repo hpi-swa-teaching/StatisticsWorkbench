@@ -1,4 +1,4 @@
 accessing
 valueRange
-	
-	^ valueRange
+
+	^self max - self min.
