@@ -9,4 +9,4 @@ createAt: startPoint withMin: min to: endPoint withMax: max step: step orientati
 			orientation: orientation;
 			makeForwardArrow;
 			drawMarkers;
-			openInWorld.
+			yourself

@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"create" : "maf 5/21/2017 14:51",
+		"create" : "maf 5/30/2017 17:12",
 		"createAt:withMin:to:withMax:" : "mp 5/30/2017 16:59",
 		"createAt:withMin:to:withMax:step:" : "mp 5/30/2017 17:15",
-		"createAt:withMin:to:withMax:step:orientation:" : "mp 5/30/2017 17:14",
+		"createAt:withMin:to:withMax:step:orientation:" : "maf 5/30/2017 17:40",
 		"defaultBorderColor" : "maf 5/21/2017 13:44",
 		"defaultBorderWidth" : "maf 5/21/2017 13:43",
 		"defaultColor" : "maf 5/21/2017 13:43",
@@ -21,6 +21,7 @@
 		"draw" : "maf 5/21/2017 13:59",
 		"drawMarkers" : "mp 5/30/2017 16:49",
 		"endPoint" : "mp 5/30/2017 16:43",
+		"endPoint:" : "maf 5/30/2017 17:17",
 		"initialize" : "maf 5/21/2017 13:42",
 		"initializeDefaults" : "maf 5/21/2017 13:46",
 		"labelInterval" : "ab 5/16/2017 20:32",
@@ -36,6 +37,7 @@
 		"orientation" : "maf 5/21/2017 13:17",
 		"orientation:" : "maf 5/21/2017 13:17",
 		"startPoint" : "mp 5/30/2017 16:43",
+		"startPoint:" : "maf 5/30/2017 17:17",
 		"stepInterval" : "maf 5/21/2017 13:32",
 		"stepInterval:" : "maf 5/21/2017 13:32",
 		"textColor:" : "mp 5/30/2017 16:06",

@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "maf 5/24/2017 13:24",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "Travis",
+	"name" : "SWAxisTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
