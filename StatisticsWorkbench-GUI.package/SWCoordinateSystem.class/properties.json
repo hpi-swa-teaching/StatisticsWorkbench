@@ -1,0 +1,15 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"xAxis",
+		"yAxis" ],
+	"name" : "SWCoordinateSystem",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
