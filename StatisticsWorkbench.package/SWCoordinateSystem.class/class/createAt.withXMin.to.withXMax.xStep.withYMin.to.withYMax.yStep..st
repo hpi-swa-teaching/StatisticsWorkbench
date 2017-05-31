@@ -8,4 +8,5 @@ createAt: startPoint withXMin: xMin to: xEndPoint withXMax: xMax xStep: xStep wi
 		xAxis: xAxis;
 		addMorph: xAxis;
 		yAxis: yAxis;
-		addMorph: yAxis.
+		addMorph: yAxis;
+		openInWorld
