@@ -3,6 +3,6 @@ testSetInvalidStepInterval
 	| axis |
 	axis := SWAxis create.
 	
-	"check invalid max"
+	"check invalid stepInterval"
 	self should: [axis stepInterval: 0] raise: SWInvalidArgumentError.
 	self should: [axis stepInterval -1] raise: SWInvalidArgumentError.

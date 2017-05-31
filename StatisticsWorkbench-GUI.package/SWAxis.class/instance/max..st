@@ -1,4 +1,8 @@
 accessing
 max: anObject 
-	max := anObject.
-	self updateMarkers
+	(self min notNil and: anObject notNil)
+		ifTrue: [ anObject <= self min
+			ifTrue: [SWInvalidArgumentError signal]
+			ifFalse: [max := anObject.
+				self updateMarkers]]
+		ifFalse: [ max := anObject]
