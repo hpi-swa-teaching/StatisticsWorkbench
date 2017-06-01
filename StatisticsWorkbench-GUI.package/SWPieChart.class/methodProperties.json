@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"accumulateValues" : "J.R. 5/30/2017 18:03",
+		"center" : "J.R. 5/30/2017 16:39",
+		"center:" : "J.R. 5/30/2017 16:39",
+		"circleStartpoint" : "J.R. 5/30/2017 18:14",
+		"computeAngleFrom:" : "J.R. 5/30/2017 18:24",
+		"computeEndpointFrom:with:" : "J.R. 5/30/2017 18:24",
+		"createPieSliceFrom:with:at:" : "J.R. 5/30/2017 18:32",
+		"data" : "J.R. 5/30/2017 16:22",
+		"data:" : "J.R. 5/30/2017 16:22",
+		"initialize" : "J.R. 5/30/2017 18:16",
+		"makeTestData" : "J.R. 5/30/2017 17:48",
+		"pieslices" : "J.R. 5/30/2017 15:35",
+		"pieslices:" : "J.R. 5/30/2017 15:35",
+		"radius" : "J.R. 5/30/2017 16:33",
+		"radius:" : "J.R. 5/30/2017 16:33" } }

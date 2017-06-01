@@ -1,7 +1,7 @@
 as yet unclassified
 preprocessData
 	
-	| transformedY dataVertices|
+	| transformedY dataVertices |
 	
 	dataVertices := Bag new.
 	
