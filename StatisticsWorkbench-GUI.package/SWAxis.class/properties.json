@@ -14,7 +14,8 @@
 		"legend",
 		"startPoint",
 		"endPoint",
-		"valueRange" ],
+		"valueRange",
+		"textColor" ],
 	"name" : "SWAxis",
 	"pools" : [
 		 ],
