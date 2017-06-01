@@ -1,8 +1,11 @@
 initialization
 drawMarkers
-	| i |
+	| i textcolor |
 	i := 0.
 	self textColor isNil ifTrue: [self textColor: self class defaultTextColor].
+	self textVisibility
+		ifTrue: [textcolor := self textColor]
+		ifFalse: [textcolor := Color transparent].
 	[i - 1 < (self valueRange / self stepInterval)]
 		whileTrue: [
 			| position orientation | 
@@ -17,6 +20,6 @@ drawMarkers
 						create: position
 						orientation: orientation
 						caption: (self min + (i * self stepInterval)) printString
-						textColor: self textColor
+						textColor: textcolor
 						strokeColor: self borderColor).
 				i := i + 1]

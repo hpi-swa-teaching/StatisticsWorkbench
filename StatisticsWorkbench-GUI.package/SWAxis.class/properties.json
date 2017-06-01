@@ -15,7 +15,8 @@
 		"startPoint",
 		"endPoint",
 		"valueRange",
-		"textColor" ],
+		"textColor",
+		"textVisibility" ],
 	"name" : "SWAxis",
 	"pools" : [
 		 ],

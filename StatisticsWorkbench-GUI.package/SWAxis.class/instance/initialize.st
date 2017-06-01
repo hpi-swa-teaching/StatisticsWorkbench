@@ -1,4 +1,4 @@
 initialization
 initialize 
 	super initialize.
-	self initializeDefaults.
+	self initializeDefaults
