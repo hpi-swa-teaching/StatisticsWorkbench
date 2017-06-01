@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"create" : "mp 5/31/2017 12:17",
-		"createAt:withXMin:to:withXMax:xStep:withYMin:to:withYMax:yStep:" : "mp 6/1/2017 13:25" },
+		"create" : "mp 6/1/2017 15:22",
+		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:" : "mp 6/1/2017 15:20" },
 	"instance" : {
 		"getPositionForValueX:y:" : "mp 6/1/2017 14:54",
 		"initialize" : "mp 5/31/2017 15:33",
