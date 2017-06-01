@@ -23,6 +23,7 @@
 		"drawMarkers" : "mp 6/1/2017 14:15",
 		"endPoint" : "mp 5/30/2017 16:43",
 		"endPoint:" : "mp 6/1/2017 14:00",
+		"getPositionForValue:" : "mp 6/1/2017 14:49",
 		"initialize" : "mp 6/1/2017 14:14",
 		"initializeDefaults" : "mp 6/1/2017 12:25",
 		"labelInterval" : "ab 5/16/2017 20:32",
