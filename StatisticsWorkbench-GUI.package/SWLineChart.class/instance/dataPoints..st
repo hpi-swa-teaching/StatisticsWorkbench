@@ -1,3 +1,3 @@
 accessing
 dataPoints: anObject
-	dataPoints := anObject
+	dataPoints := anObject.

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"dataset",
 		"dataPoints",
-		"connected" ],
+		"connected",
+		"coordinateSystem" ],
 	"name" : "SWLineChart",
 	"pools" : [
 		 ],

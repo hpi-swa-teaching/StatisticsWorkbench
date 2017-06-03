@@ -1,3 +1,3 @@
 accessing
 connected: anObject
-	connected := anObject
+	connected := anObject.
