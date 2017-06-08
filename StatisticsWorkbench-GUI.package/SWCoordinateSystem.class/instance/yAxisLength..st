@@ -1,5 +1,3 @@
 as yet unclassified
 yAxisLength: aLength
-	self yAxis length: aLength.
-	self xAxis position: (self yAxis startPoint).
-	self updateBounds
+	self bounds: ((yAxis endPoint - (30@30)) corner: ((xAxis endPoint x@(yAxis startPoint y+ aLength)) + (30@30)))
