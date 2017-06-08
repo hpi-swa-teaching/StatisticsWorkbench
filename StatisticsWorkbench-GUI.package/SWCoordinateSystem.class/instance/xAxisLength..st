@@ -1,4 +1,4 @@
 as yet unclassified
-setXAxisLength: aLength
+xAxisLength: aLength
 	self xAxis length: aLength.
 	self updateBounds
