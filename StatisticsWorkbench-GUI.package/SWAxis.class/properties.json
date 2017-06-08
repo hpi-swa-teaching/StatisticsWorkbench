@@ -13,8 +13,10 @@
 		"max",
 		"legend",
 		"startPoint",
-		"endPoint",
-		"valueRange" ],
+		"length",
+		"valueRange",
+		"textColor",
+		"textVisibility" ],
 	"name" : "SWAxis",
 	"pools" : [
 		 ],

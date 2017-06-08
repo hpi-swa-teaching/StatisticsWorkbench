@@ -8,4 +8,5 @@ initializeDefaults
 		legend: self class defaultLegend;
 		color: self class defaultColor;
 		borderWidth: self class defaultBorderWidth;
-		borderColor: self class defaultBorderColor.
+		borderColor: self class defaultBorderColor;
+		textColor: self class defaultTextColor.
