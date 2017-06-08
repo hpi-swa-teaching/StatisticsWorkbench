@@ -14,3 +14,4 @@ initialize
 	
 	self makeOpen.
 	self openInWorld.
+	self coordinateSystem addMorph: self.

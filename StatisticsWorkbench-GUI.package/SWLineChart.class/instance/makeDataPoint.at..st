@@ -17,4 +17,5 @@ makeDataPoint: realPoint at: printPosition
 		(newDataPoint  printedX - (newDataPoint width * 0.5)) @ (newDataPoint printedY - 		(newDataPoint height * 0.5)).
 	
 	self dataPoints add: newDataPoint.
+	self addMorph: newDataPoint.
 	

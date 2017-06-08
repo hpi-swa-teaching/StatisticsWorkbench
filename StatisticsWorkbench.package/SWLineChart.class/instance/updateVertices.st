@@ -15,4 +15,9 @@ updateVertices
 	
 	newDataPoints := newDataPoints sorted: [:a :b | a x <= b x].
 	
-	self setVertices: newDataPoints.
+	self connected ifTrue: [
+		self setVertices: newDataPoints.
+	]
+	ifFalse:[
+		self setVertices: {0 @ 0}.
+	].
