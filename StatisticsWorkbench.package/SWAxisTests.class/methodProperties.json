@@ -3,11 +3,10 @@
 		 },
 	"instance" : {
 		"testMarkersAreDrawable" : "maf 5/30/2017 17:15",
-		"testMarkersAreNotDrawableWhenEndPointIsNull" : "maf 5/30/2017 17:17",
+		"testMarkersAreNotDrawableWhenEndPointIsNull" : "maf 6/8/2017 14:09",
 		"testMarkersAreNotDrawableWhenMaxIsNull" : "maf 5/30/2017 17:16",
 		"testMarkersAreNotDrawableWhenMinIsNull" : "maf 5/30/2017 17:16",
-		"testMarkersAreNotDrawableWhenStartPointIsNull" : "maf 5/30/2017 17:16",
-		"testMarkersAreNotDrawableWhenStepIntervalIsNegative" : "maf 5/30/2017 17:22",
-		"testMarkersAreNotDrawableWhenStepIntervalIsNull" : "maf 5/30/2017 17:18",
+		"testMarkersAreNotDrawableWhenStartPointIsNull" : "maf 6/8/2017 14:06",
+		"testMarkersAreNotDrawableWhenStepIntervalIsNegative" : "maf 6/8/2017 14:09",
 		"testSetInvalidMaxOrMin" : "mp 5/31/2017 15:59",
-		"testSetInvalidStepInterval" : "mp 5/31/2017 16:04" } }
+		"testSetInvalidStepInterval" : "maf 6/8/2017 14:13" } }

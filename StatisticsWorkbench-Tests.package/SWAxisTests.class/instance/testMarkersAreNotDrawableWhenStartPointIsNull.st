@@ -2,6 +2,5 @@ tests
 testMarkersAreNotDrawableWhenStartPointIsNull
 	| axis |
 	axis := SWAxis create.
-	axis startPoint: nil.
-	self assert: axis areMarkersDrawable not
+	self should: [axis startPoint: nil] raise: SWInvalidArgumentError.
 	
