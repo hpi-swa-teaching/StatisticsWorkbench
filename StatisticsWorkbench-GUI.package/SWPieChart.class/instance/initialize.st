@@ -17,5 +17,11 @@ initialize
 	self openInWorld.
 	
 	wheelColors := Color wheel: self data size.
+	self pieKey: SWPieKey new.
+	self addMorph: self pieKey.
+	self pieKey pieSlices: self pieslices.
 	
 	self data keysAndValuesDo:  [:aKey :aValue | self createPieSliceFrom: aKey with: aValue at: pos colored: 													(wheelColors at: pos). pos := pos + 1].
+
+	self pieKey pieSlices: self pieslices.
+	self pieKey drawKey.

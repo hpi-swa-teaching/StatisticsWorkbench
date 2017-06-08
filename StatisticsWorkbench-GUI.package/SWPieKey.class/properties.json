@@ -6,14 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"data",
-		"pieslices",
-		"radius",
-		"center",
-		"circleStartpoint",
-		"pieKey" ],
-	"name" : "SWPieChart",
+		"pieSlices",
+		"pieKeyNames",
+		"pieKeyColors" ],
+	"name" : "SWPieKey",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "RectangleMorph",
 	"type" : "normal" }
