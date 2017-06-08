@@ -3,7 +3,6 @@
 		"create" : "mp 6/1/2017 15:22",
 		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:" : "mp 6/1/2017 15:20" },
 	"instance" : {
-		"extent" : "mp 6/8/2017 14:04",
 		"getPositionForValue:" : "mp 6/8/2017 14:08",
 		"initialize" : "mp 5/31/2017 15:33",
 		"updateBounds" : "mp 6/8/2017 13:48",
