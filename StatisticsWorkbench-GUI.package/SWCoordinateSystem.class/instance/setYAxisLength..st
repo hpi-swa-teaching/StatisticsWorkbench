@@ -1,5 +1,5 @@
 as yet unclassified
 setYAxisLength: aLength
-	self halt.
 	self yAxis length: aLength.
+	self xAxis position: (self yAxis startPoint).
 	self updateBounds
