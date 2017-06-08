@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"valuecollection",
-		"barwidth" ],
+		"barwidth",
+		"AxisPosition",
+		"coordSystem" ],
 	"name" : "SWBarchart",
 	"pools" : [
 		 ],

@@ -1,12 +1,19 @@
 {
 	"class" : {
-		 },
+		"createBarWithWidth:pos:value:color:" : "TB 6/1/2017 11:53",
+		"createBarWithWidth:pos:value:color:bottom:" : "TB 6/1/2017 14:05",
+		"createBarWithWidth:pos:value:color:bottom:height:" : "TB 6/1/2017 15:26" },
 	"instance" : {
-		"delete" : "mp 5/16/2017 16:44",
-		"initialize" : "mp 5/16/2017 16:43",
+		"bottom" : "TB 6/1/2017 14:36",
+		"bottom:" : "TB 6/1/2017 14:36",
+		"initialize" : "TB 6/1/2017 15:00",
 		"show_val" : "mp 5/16/2017 16:08",
 		"show_val:" : "mp 5/16/2017 16:08",
-		"step" : "mp 5/16/2017 16:32",
+		"step" : "TB 6/1/2017 12:34",
 		"textmorph" : "mp 5/16/2017 16:21",
 		"textmorph:" : "mp 5/16/2017 16:21",
-		"update:value:width:color:" : "mp 5/16/2017 16:28" } }
+		"update:value:width:color:" : "TB 6/1/2017 13:51",
+		"update:value:width:color:bottom:" : "TB 6/1/2017 14:37",
+		"update:value:width:color:bottom:height:" : "TB 6/1/2017 15:33",
+		"value" : "TB 6/1/2017 12:33",
+		"value:" : "TB 6/1/2017 12:33" } }
