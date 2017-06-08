@@ -1,3 +1,3 @@
 accessing
 realY: anObject
-	realY := anObject
+	realY := anObject.

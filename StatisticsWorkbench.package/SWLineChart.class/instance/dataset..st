@@ -1,3 +1,3 @@
 accessing
 dataset: anObject
-	dataset := anObject
+	dataset := anObject.

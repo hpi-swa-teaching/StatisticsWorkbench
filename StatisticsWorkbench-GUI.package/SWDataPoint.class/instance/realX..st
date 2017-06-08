@@ -1,3 +1,3 @@
 accessing
 realX: anObject
-	realX := anObject
+	realX := anObject.

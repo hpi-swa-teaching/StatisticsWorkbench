@@ -1,4 +1,4 @@
 defaults
 createAt: startPoint withMin: min length: length withMax: max step: step
 
-	^ SWAxis createAt: startPoint withMin: min to: length withMax: max step: step orientation: #horizontal
+	^ SWAxis createAt: startPoint withMin: min length: length withMax: max step: step orientation: #horizontal
