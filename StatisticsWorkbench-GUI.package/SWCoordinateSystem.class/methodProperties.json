@@ -5,9 +5,9 @@
 	"instance" : {
 		"getPositionForValueX:y:" : "mp 6/1/2017 14:54",
 		"initialize" : "mp 5/31/2017 15:33",
-		"setXAxisLength:" : "mp 6/1/2017 13:42",
-		"setYAxisLength:" : "mp 6/1/2017 13:42",
-		"updateBounds" : "mp 6/1/2017 13:33",
+		"setXAxisLength:" : "maf 6/8/2017 13:10",
+		"setYAxisLength:" : "maf 6/8/2017 13:25",
+		"updateBounds" : "maf 6/8/2017 13:21",
 		"xAxis" : "mp 5/30/2017 17:07",
 		"xAxis:" : "mp 5/30/2017 17:07",
 		"yAxis" : "mp 5/30/2017 17:07",

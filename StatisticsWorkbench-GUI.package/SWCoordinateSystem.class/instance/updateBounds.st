@@ -1,3 +1,3 @@
 as yet unclassified
 updateBounds
-	self bounds: (yAxis endPoint corner: (xAxis endPoint + (60@60)))
+	self bounds: ((yAxis endPoint - (30@30)) corner: (xAxis endPoint + (30@30)))
