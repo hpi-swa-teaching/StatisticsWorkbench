@@ -10,7 +10,8 @@
 		"value",
 		"center",
 		"endpoint",
-		"startpoint" ],
+		"startpoint",
+		"pointSet" ],
 	"name" : "SWPieSlice",
 	"pools" : [
 		 ],

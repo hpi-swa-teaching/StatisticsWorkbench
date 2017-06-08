@@ -14,5 +14,5 @@
 	"name" : "SWPieChart",
 	"pools" : [
 		 ],
-	"super" : "PolygonMorph",
+	"super" : "Morph",
 	"type" : "normal" }
