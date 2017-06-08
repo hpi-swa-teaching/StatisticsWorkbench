@@ -6,7 +6,7 @@ preprocessData
 	dataVertices := Bag new.
 	
 	self dataset keysDo: [:xData|
-		printPosition := self computePrintPositionFrom: (xData @ (self dataset at: xData)).
+		printPosition := self coordinateSystem positionFor: (xData @ (self dataset at: xData)).
 		dataVertices add: printPosition.
 		self makeDataPoint: (xData @ (self dataset at: xData)) at: printPosition .
 	].

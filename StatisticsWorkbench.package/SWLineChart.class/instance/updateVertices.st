@@ -6,7 +6,7 @@ updateVertices
 	newDataPoints := Bag new.
 	
 	self dataPoints do: [:dataPoint | 
-		printPosition := self computePrintPositionFrom: (dataPoint realX @ dataPoint realY).
+		printPosition := self coordinateSystem positionFor: (dataPoint realX @ dataPoint realY).
 		dataPoint printedX: printPosition x;
 						printedY: printPosition y;
 						position: 
