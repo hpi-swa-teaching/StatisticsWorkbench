@@ -1,10 +1,8 @@
 as yet unclassified
-updateVertices
-	
+updateVisualization
 	| newDataPoints printPosition |
 	
 	newDataPoints := Bag new.
-	
 	self dataPoints do: [:dataPoint | 
 		printPosition := self coordinateSystem positionFor: (dataPoint realX @ dataPoint realY).
 		dataPoint printedX: printPosition x;

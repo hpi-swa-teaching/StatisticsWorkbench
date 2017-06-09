@@ -4,7 +4,6 @@ preprocessData
 	| printPosition dataVertices |
 	
 	dataVertices := Bag new.
-	
 	self dataset keysDo: [:xData|
 		printPosition := self coordinateSystem positionFor: (xData @ (self dataset at: xData)).
 		dataVertices add: printPosition.
