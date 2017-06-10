@@ -4,7 +4,7 @@
 		"createTestData1" : "mp 6/9/2017 18:28",
 		"createTestDataPieAndBarChart" : "mp 6/10/2017 12:39" },
 	"instance" : {
-		"addCoordinateSystem" : "mp 6/10/2017 12:35",
+		"addCoordinateSystem" : "mp 6/10/2017 13:01",
 		"coordinateSystem" : "mp 6/10/2017 12:34",
 		"coordinateSystem:" : "mp 6/10/2017 12:34",
 		"diagrams" : "mp 6/9/2017 13:19",
@@ -12,7 +12,7 @@
 		"extent:" : "mp 6/10/2017 12:41",
 		"hasCoordinateSystem" : "mp 6/10/2017 12:34",
 		"hasDiagram" : "mp 6/9/2017 18:25",
-		"initialize" : "mp 6/9/2017 18:00",
+		"initialize" : "mp 6/10/2017 13:00",
 		"updateDiagrams" : "mp 6/10/2017 12:30",
 		"visualize:with:" : "mp 6/10/2017 12:37",
 		"xAxisMax:" : "mp 6/10/2017 12:35",
