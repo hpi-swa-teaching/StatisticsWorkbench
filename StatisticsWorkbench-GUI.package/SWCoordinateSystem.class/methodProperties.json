@@ -3,13 +3,13 @@
 		"create" : "mp 6/1/2017 15:22",
 		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:" : "mp 6/1/2017 15:20" },
 	"instance" : {
-		"extent:" : "mp 6/8/2017 15:24",
+		"boundsThreshold" : "mp 6/10/2017 13:04",
+		"extent:" : "mp 6/10/2017 13:10",
 		"initialize" : "mp 5/31/2017 15:33",
 		"positionFor:" : "mp 6/8/2017 15:42",
-		"updateBounds" : "mp 6/8/2017 13:48",
 		"xAxis" : "mp 5/30/2017 17:07",
 		"xAxis:" : "mp 5/30/2017 17:07",
-		"xAxisLength:" : "mp 6/8/2017 15:24",
+		"xAxisLength:" : "mp 6/10/2017 13:14",
 		"yAxis" : "mp 5/30/2017 17:07",
 		"yAxis:" : "mp 5/30/2017 17:07",
-		"yAxisLength:" : "mp 6/8/2017 15:27" } }
+		"yAxisLength:" : "mp 6/10/2017 13:14" } }
