@@ -1,5 +1,5 @@
 as yet unclassified
-updateVisualization
+updateChart
 	| newDataPoints printPosition |
 	
 	newDataPoints := Bag new.

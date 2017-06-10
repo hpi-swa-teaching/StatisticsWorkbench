@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"valuecollection",
+		"dataset",
 		"barwidth",
 		"AxisPosition",
-		"coordSystem" ],
+		"coordinateSystem" ],
 	"name" : "SWBarchart",
 	"pools" : [
 		 ],

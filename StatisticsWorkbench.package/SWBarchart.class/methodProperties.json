@@ -1,17 +1,18 @@
 {
 	"class" : {
 		"create" : "TB 6/1/2017 11:39",
-		"createWithCollection:width:at:" : "TB 6/1/2017 15:09" },
+		"createWithCollection:width:at:" : "TB 6/1/2017 15:09",
+		"needsCoordinateSystem" : "mp 6/10/2017 12:38" },
 	"instance" : {
 		"AxisPosition" : "TB 6/1/2017 14:50",
 		"AxisPosition:" : "TB 6/1/2017 14:50",
 		"addBar:position:value:" : "TB 5/24/2017 17:04",
 		"barWidth" : "mp 5/16/2017 16:49",
 		"barWidth:" : "mp 5/16/2017 16:49",
-		"coordSystem" : "TB 6/1/2017 15:15",
-		"coordSystem:" : "TB 6/1/2017 15:15",
-		"drawChart" : "TB 6/8/2017 11:51",
-		"initialize" : "TB 6/1/2017 15:46",
-		"updateChart" : "TB 6/1/2017 15:43",
-		"valueCollection" : "mp 5/16/2017 16:50",
-		"valueCollection:" : "mp 5/16/2017 16:50" } }
+		"coordinateSystem" : "mp 6/10/2017 12:31",
+		"coordinateSystem:" : "mp 6/10/2017 12:31",
+		"dataset" : "mp 6/10/2017 12:22",
+		"dataset:" : "mp 6/10/2017 12:23",
+		"drawChart" : "mp 6/10/2017 12:32",
+		"initialize" : "mp 6/10/2017 12:32",
+		"updateChart" : "mp 6/10/2017 12:43" } }

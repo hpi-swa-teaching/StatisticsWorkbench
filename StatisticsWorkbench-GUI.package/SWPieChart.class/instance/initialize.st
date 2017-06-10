@@ -15,7 +15,6 @@ initialize
 	self pieslices: OrderedCollection new.
 	self makeTestData.	
 	self openInWorld.
-	
 	wheelColors := Color wheel: self data size.
 	
 	self data keysAndValuesDo:  [:aKey :aValue | self createPieSliceFrom: aKey with: aValue at: pos colored: 													(wheelColors at: pos). pos := pos + 1].

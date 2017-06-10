@@ -2,9 +2,9 @@ as yet unclassified
 visualize: data with: diagram
 	| emptydiag |
 	emptydiag := (diagram new).
-	diagram needsCoordinatesystem
+	diagram needsCoordinateSystem
 		ifTrue: [
-			emptydiag coordinateSystem: self addCoordinatesystem ].
+			emptydiag coordinateSystem: self addCoordinateSystem ].
 	emptydiag dataset: data.
 	self diagrams add: emptydiag.
 	self addMorph: emptydiag.

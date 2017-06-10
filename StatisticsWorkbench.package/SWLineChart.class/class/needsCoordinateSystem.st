@@ -1,3 +1,3 @@
 as yet unclassified
-needsCoordinatesystem
+needsCoordinateSystem
 	^ true.

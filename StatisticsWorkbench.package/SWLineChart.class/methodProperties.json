@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"needsCoordinatesystem" : "mp 6/9/2017 14:50" },
+		"needsCoordinateSystem" : "mp 6/10/2017 12:37" },
 	"instance" : {
 		"connected" : "J.R. 5/23/2017 15:36",
 		"connected:" : "J.R. 6/8/2017 11:50",
@@ -12,6 +12,5 @@
 		"dataset:" : "mp 6/9/2017 18:05",
 		"initialize" : "mp 6/9/2017 18:17",
 		"makeDataPoint:at:" : "J.R. 6/8/2017 11:24",
-		"makeTestData" : "J.R. 6/3/2017 19:34",
 		"preprocessData" : "mp 6/9/2017 18:19",
-		"updateVisualization" : "mp 6/9/2017 18:19" } }
+		"updateChart" : "mp 6/10/2017 12:30" } }

@@ -1,4 +1,4 @@
 as yet unclassified
 updateDiagrams
-	self diagrams do: [:diagram | diagram updateVisualization]
+	self diagrams do: [:diagram | diagram updateChart]
 	

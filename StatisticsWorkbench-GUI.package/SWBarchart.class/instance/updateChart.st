@@ -1,17 +1,15 @@
 nil
 updateChart
- |xpos yPos i |
+ |xpos yPos |
 	self submorphsDo: [:s| s delete].
 	self drawChart.
-	i := 1.
-	yPos := (self coordSystem getPositionForValueX: 0 y: 0) y.
-	self valueCollection do: [:element| 
-		xpos := (self coordSystem getPositionForValueX: i y: 0) x.
+	yPos := (self coordinateSystem positionFor: (0@0)) y.
+	self dataset keysDo: [:xData| 
+		xpos := (self coordinateSystem positionFor: (xData@0)) x.
 		self addMorph: (SWBar createBarWithWidth: self barWidth 
 		pos: (xpos - (self barWidth /2))@yPos
-		value: element  
+		value: (self dataset at: xData)  
 		color: Color red 
 		bottom: yPos
-		height: yPos - (self coordSystem getPositionForValueX: 0 y: element) y ). 
-		i := i+1].
+		height: yPos - (self coordinateSystem positionFor: (0@ (self dataset at: xData))) y )].
 	

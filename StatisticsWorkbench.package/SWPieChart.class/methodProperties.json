@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"needsCoordinateSystem" : "mp 6/10/2017 12:37" },
 	"instance" : {
 		"accumulateValues" : "J.R. 5/30/2017 18:03",
 		"center" : "J.R. 5/30/2017 16:39",
@@ -11,7 +11,7 @@
 		"createPieSliceFrom:with:at:colored:" : "ab 6/8/2017 14:31",
 		"data" : "J.R. 5/30/2017 16:22",
 		"data:" : "J.R. 5/30/2017 16:22",
-		"initialize" : "ab 6/8/2017 14:18",
+		"initialize" : "mp 6/9/2017 18:51",
 		"makeTestData" : "ab 6/8/2017 14:59",
 		"pieslices" : "J.R. 5/30/2017 15:35",
 		"pieslices:" : "J.R. 5/30/2017 15:35",
