@@ -1,14 +1,13 @@
 as yet unclassified
 preprocessData
 	
-	| transformedY dataVertices |
+	| printPosition dataVertices |
 	
 	dataVertices := Bag new.
-	
 	self dataset keysDo: [:xData|
-		transformedY := self transformY: (self dataset at: xData).
-		dataVertices add: (xData @ transformedY).
-		self makeDataPoint: (xData @ (self dataset at: xData)) at: (xData @ transformedY).
+		printPosition := self coordinateSystem positionFor: (xData @ (self dataset at: xData)).
+		dataVertices add: printPosition.
+		self makeDataPoint: (xData @ (self dataset at: xData)) at: printPosition .
 	].
 	
 	dataVertices := dataVertices sorted: [:a :b | a x <= b x].

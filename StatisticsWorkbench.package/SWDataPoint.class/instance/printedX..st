@@ -1,3 +1,3 @@
 accessing
 printedX: anObject
-	printedX := anObject
+	printedX := anObject.

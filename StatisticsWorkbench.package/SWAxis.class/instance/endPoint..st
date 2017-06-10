@@ -1,6 +1,9 @@
 accessing
 endPoint: aPoint
 	
+	aPoint isNil
+		ifTrue: [ SWInvalidArgumentError signal: 'End point must be set.'].
+		
 	self vertices at: 2 put: aPoint.
-	self changed; "doesn't work, i don't know how to redraw the Line (analog startPoint)"
+	self computeBounds;
 		updateMarkers

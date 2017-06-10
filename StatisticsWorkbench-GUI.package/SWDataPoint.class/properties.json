@@ -9,8 +9,7 @@
 		"realX",
 		"realY",
 		"printedX",
-		"printedY",
-		"lineGraph" ],
+		"printedY" ],
 	"name" : "SWDataPoint",
 	"pools" : [
 		 ],
