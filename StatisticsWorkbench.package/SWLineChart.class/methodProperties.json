@@ -1,6 +1,9 @@
 {
 	"class" : {
-		"needsCoordinateSystem" : "mp 6/10/2017 12:37" },
+		"create" : "mp 6/10/2017 13:23",
+		"createWith:" : "mp 6/10/2017 13:29",
+		"needsCoordinateSystem" : "mp 6/10/2017 12:37",
+		"testData" : "mp 6/10/2017 13:26" },
 	"instance" : {
 		"connected" : "J.R. 5/23/2017 15:36",
 		"connected:" : "J.R. 6/8/2017 11:50",

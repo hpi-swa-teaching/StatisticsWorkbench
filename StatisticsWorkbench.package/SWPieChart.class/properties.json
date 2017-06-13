@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"data",
 		"pieslices",
 		"radius",
 		"center",
-		"circleStartpoint" ],
+		"circleStartpoint",
+		"dataset" ],
 	"name" : "SWPieChart",
 	"pools" : [
 		 ],
