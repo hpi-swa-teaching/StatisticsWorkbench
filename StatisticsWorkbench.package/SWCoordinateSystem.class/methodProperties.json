@@ -4,9 +4,11 @@
 		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:" : "mp 6/1/2017 15:20" },
 	"instance" : {
 		"boundsThreshold" : "mp 6/10/2017 13:04",
-		"extent:" : "mp 6/10/2017 13:10",
+		"extent:" : "mp 6/14/2017 13:48",
 		"initialize" : "mp 5/31/2017 15:33",
 		"positionFor:" : "mp 6/8/2017 15:42",
+		"toggleRaster" : "mp 6/14/2017 13:53",
+		"updateMarkers" : "mp 6/14/2017 13:53",
 		"xAxis" : "mp 5/30/2017 17:07",
 		"xAxis:" : "mp 5/30/2017 17:07",
 		"xAxisLength:" : "mp 6/10/2017 13:14",
