@@ -1,6 +1,6 @@
 as yet unclassified
 updateData
 	
-	self data: Dictionary new.
+	self dataset: Dictionary new.
 	
-	self pieslices do: [:pieSlice | self data at: pieSlice name put: pieSlice value ].
+	self pieslices do: [:pieSlice | self dataset at: pieSlice name put: pieSlice value ].

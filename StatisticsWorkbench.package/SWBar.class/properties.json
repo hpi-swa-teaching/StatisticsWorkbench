@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"show_val",
-		"textmorph" ],
+		"textmorph",
+		"value",
+		"bottom" ],
 	"name" : "SWBar",
 	"pools" : [
 		 ],

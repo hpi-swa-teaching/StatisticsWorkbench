@@ -1,4 +1,4 @@
 as yet unclassified
 strokeColor: aColor
 
-	strokeMorph borderColor: aColor.
+	self strokeMorph borderColor: aColor.

@@ -13,10 +13,11 @@
 		"max",
 		"legend",
 		"startPoint",
-		"length",
+		"rasterLength",
 		"valueRange",
 		"textColor",
-		"textVisibility" ],
+		"textVisibility",
+		"raster" ],
 	"name" : "SWAxis",
 	"pools" : [
 		 ],

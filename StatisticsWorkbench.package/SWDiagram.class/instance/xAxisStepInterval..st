@@ -1,5 +1,5 @@
 as yet unclassified
 xAxisStepInterval: aValue
-	self hasCoordinatesystem ifTrue: [
-		self coordinatesystem xAxis stepInterval: aValue]
-	updateDiagrams
+	self hasCoordinateSystem ifTrue: [
+		self coordinateSystem xAxis stepInterval: aValue].
+	self updateDiagrams

@@ -1,11 +1,13 @@
 as yet unclassified
-visualize: data with: diagram
+visualize: data with: diagram 
 	| emptydiag |
-	emptydiag := (diagram new).
-	diagram needsCoordinatesystem
-		ifTrue: [
-			emptydiag coordinateSystem: self addCoordinatesystem ].
+	emptydiag := diagram new.
+	diagram needsCoordinateSystem
+		ifTrue: [emptydiag coordinateSystem: self addCoordinateSystem].
 	emptydiag dataset: data.
 	self diagrams add: emptydiag.
 	self addMorph: emptydiag.
-	self updateDiagrams.
+	diagram needsCoordinateSystem 
+		ifTrue: [self updateCoordinateSystem]
+		ifFalse: [self bounds: emptydiag bounds].
+	self updateDiagrams

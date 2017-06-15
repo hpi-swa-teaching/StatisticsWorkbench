@@ -1,3 +1,3 @@
 accessing
 length
-	^ length
+	^ self startPoint dist: self endPoint

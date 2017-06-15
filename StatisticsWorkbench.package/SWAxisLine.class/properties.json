@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"captionMorph",
-		"strokeMorph" ],
+		"strokeMorph",
+		"rasterMorph" ],
 	"name" : "SWAxisLine",
 	"pools" : [
 		 ],
