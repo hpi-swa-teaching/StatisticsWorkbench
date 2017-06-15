@@ -1,5 +1,5 @@
 as yet unclassified
-updateDataPoints
+update
 	self dataPointMorphs
 		do: [:dataPoint | self removeDataPoint: dataPoint].
 	
