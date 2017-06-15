@@ -2,11 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"printedX" : "J.R. 5/18/2017 17:36",
-		"printedX:" : "J.R. 6/3/2017 22:49",
-		"printedY" : "J.R. 5/18/2017 17:36",
-		"printedY:" : "J.R. 6/3/2017 22:49",
-		"realX" : "J.R. 5/18/2017 17:35",
-		"realX:" : "J.R. 6/3/2017 22:49",
-		"realY" : "J.R. 5/18/2017 17:35",
-		"realY:" : "J.R. 6/3/2017 22:49" } }
+		"realPoint" : "maf 6/15/2017 16:15",
+		"realPoint:" : "maf 6/15/2017 16:23",
+		"renderedPoint" : "maf 6/15/2017 16:15",
+		"renderedPoint:" : "maf 6/15/2017 16:23",
+		"update:" : "maf 6/15/2017 16:16" } }

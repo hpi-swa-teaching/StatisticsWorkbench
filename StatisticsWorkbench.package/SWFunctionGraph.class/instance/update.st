@@ -1,7 +1,6 @@
 as yet unclassified
 update
-	self updateLine.
-	self updateDataPoints 
+	self lineMorph setVertices: NotImplemented new
 	
 	"| newDataPoints printPosition |
 	

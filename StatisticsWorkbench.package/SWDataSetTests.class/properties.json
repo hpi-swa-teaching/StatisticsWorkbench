@@ -1,14 +1,14 @@
 {
-	"category" : "StatisticsWorkbench-GUI",
+	"category" : "StatisticsWorkbench-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SWScatterPlot",
+		"updated" ],
+	"name" : "SWDataSetTests",
 	"pools" : [
 		 ],
-	"super" : "SWChart",
+	"super" : "TestCase",
 	"type" : "normal" }

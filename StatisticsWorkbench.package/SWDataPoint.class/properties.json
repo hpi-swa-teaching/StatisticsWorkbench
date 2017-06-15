@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"realX",
-		"realY",
-		"printedX",
-		"printedY" ],
+		"realPoint",
+		"renderedPoint",
+		"visualMorph" ],
 	"name" : "SWDataPoint",
 	"pools" : [
 		 ],

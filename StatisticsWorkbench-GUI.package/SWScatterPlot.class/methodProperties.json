@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addDataPoint:" : "maf 6/15/2017 15:35",
-		"removeDataPoint:" : "maf 6/15/2017 15:35",
-		"update" : "maf 6/15/2017 15:35" } }
+		"addDataPoint:" : "maf 6/15/2017 15:52",
+		"at:" : "maf 6/15/2017 15:58",
+		"dataPoints" : "maf 6/15/2017 15:53",
+		"makeDataPoint:at:" : "maf 6/15/2017 16:13",
+		"removeDataPoint:" : "maf 6/15/2017 15:53",
+		"update" : "maf 6/15/2017 15:59" } }

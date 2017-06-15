@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"create" : "maf 6/15/2017 15:34",
+		"create" : "maf 6/15/2017 15:58",
 		"createWith:" : "maf 6/15/2017 14:38",
 		"defaultBorderColor" : "maf 6/15/2017 13:31",
 		"defaultBorderWidth" : "maf 6/15/2017 13:31",
@@ -11,14 +11,8 @@
 	"instance" : {
 		"coordinateSystem" : "J.R. 6/3/2017 19:15",
 		"coordinateSystem:" : "J.R. 6/3/2017 22:45",
-		"dataPointMorphs" : "maf 6/15/2017 13:51",
-		"dataPointMorphs:" : "maf 6/15/2017 14:20",
-		"dataPoints" : "J.R. 5/18/2017 17:40",
-		"dataPoints:" : "J.R. 6/3/2017 22:48",
-		"initialize" : "maf 6/15/2017 13:54",
+		"initialize" : "maf 6/15/2017 15:59",
 		"lineMorph" : "maf 6/15/2017 13:51",
 		"lineMorph:" : "maf 6/15/2017 13:51",
-		"makeDataPoint:at:" : "maf 6/15/2017 13:26",
 		"preprocessData" : "mp 6/9/2017 18:19",
-		"update" : "maf 6/15/2017 13:50",
-		"updateLine" : "maf 6/15/2017 15:34" } }
+		"update" : "maf 6/15/2017 16:00" } }
