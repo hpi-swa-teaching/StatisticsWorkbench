@@ -1,0 +1,18 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lineMorph",
+		"dataPointMorphs",
+		"dataPoints",
+		"connected",
+		"coordinateSystem" ],
+	"name" : "SWFunctionGraph",
+	"pools" : [
+		 ],
+	"super" : "SWChart",
+	"type" : "normal" }

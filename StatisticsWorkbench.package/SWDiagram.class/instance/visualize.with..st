@@ -1,13 +1,12 @@
 as yet unclassified
-visualize: data with: diagram 
-	| emptydiag |
-	emptydiag := diagram new.
-	diagram needsCoordinateSystem
-		ifTrue: [emptydiag coordinateSystem: self addCoordinateSystem].
-	emptydiag dataset: data.
-	self diagrams add: emptydiag.
-	self addMorph: emptydiag.
-	diagram needsCoordinateSystem 
+visualize: aSWDataSet with: aChart 
+	| chart |
+	chart := aChart new.
+	aChart needsCoordinateSystem
+		ifTrue: [chart coordinateSystem: self addCoordinateSystem].
+	chart dataset: aSWDataSet.
+	self addChart: chart.
+	aChart needsCoordinateSystem 
 		ifTrue: [self updateCoordinateSystem]
-		ifFalse: [self bounds: emptydiag bounds].
-	self updateDiagrams
+		ifFalse: [self bounds: chart bounds].
+	self updateCharts

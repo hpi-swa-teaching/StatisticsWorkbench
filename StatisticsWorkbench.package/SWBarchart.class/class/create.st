@@ -1,4 +1,0 @@
-nil
-create
-	^(SWBarchart new)
-	

@@ -1,0 +1,16 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"barwidth",
+		"AxisPosition",
+		"coordinateSystem" ],
+	"name" : "SWBarGraph",
+	"pools" : [
+		 ],
+	"super" : "SWChart",
+	"type" : "normal" }

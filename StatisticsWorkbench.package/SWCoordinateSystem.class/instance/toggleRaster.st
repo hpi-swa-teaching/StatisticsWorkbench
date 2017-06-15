@@ -3,4 +3,4 @@ toggleRaster
 	self xAxis toggleRaster.
 	self yAxis toggleRaster.
 	self updateRasterSize.
-	self updateMarkers.
+	self updateMarkers

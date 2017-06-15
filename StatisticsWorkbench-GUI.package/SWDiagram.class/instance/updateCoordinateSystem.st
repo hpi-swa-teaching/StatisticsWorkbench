@@ -4,11 +4,11 @@ updateCoordinateSystem
 	maximumx := 0.
 	maximumy := 0.
 	stepIntervalX:=1.
-	self diagrams do: [:diagram| 	diagram dataset keysDo:
+	self charts do: [:diagram| 	diagram dataset keysDo:
 										[:x | maximumx<x ifTrue: [maximumx:=x]].
 									diagram dataset valuesDo:
 										[:y | maximumy<y ifTrue: [maximumy:=y]].
-									diagram defaultStepInterval>stepIntervalX ifTrue: 										[stepIntervalX:=diagram defaultStepInterval]].
+									diagram class defaultStepInterval>stepIntervalX ifTrue: 										[stepIntervalX:=diagram defaultStepInterval]].
 								
 	self xAxisMax: maximumx.
 	self yAxisMax: maximumy.
