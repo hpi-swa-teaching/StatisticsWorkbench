@@ -3,8 +3,7 @@ updateSlices
 	
 	| aPosition pointSet |
 	
-	self updateData.
-	
+	self updateData.	
 	aPosition := 1.
 		
 	self pieslices do: [:pieSlice | 

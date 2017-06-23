@@ -1,1 +1,0 @@
-I'm a dummy class to check wether travis is working or not.

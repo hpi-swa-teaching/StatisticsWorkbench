@@ -7,6 +7,8 @@ createPieSliceFrom: aKey with: aValue at: aPosition colored: aColor
 	pointSet := OrderedCollection new.
 	self addMorph: pieSlice.
 	self pieslices add: pieSlice.
+	self pieKey pieSlices add: self pieslices last.
+
 
 	aPosition = 1
 	ifTrue: [ pieSlice startpoint: self circleStartpoint ]
