@@ -1,4 +1,3 @@
 accessing
 xAxis: anObject
-	
-	xAxis := anObject.
+	xAxis := anObject

@@ -1,3 +1,3 @@
 as yet unclassified
 create
-	^ SWCoordinateSystem createAt: (100@600) xMin: 0 xMax: 100 xStep: 5 xLength: 400 yMin: 0 yMax: 100 yStep: 5 yLength: 400
+	^ SWCoordinateSystem createAt: self defaultStartPoint xMin: self defaultMin xMax: self defaultMax xStep: self defaultStep xLength: self defaultLength yMin: self defaultMin yMax: self defaultMax yStep: self defaultStep yLength: self defaultLength boundsThreshold: self defaultBoundsThreshold 

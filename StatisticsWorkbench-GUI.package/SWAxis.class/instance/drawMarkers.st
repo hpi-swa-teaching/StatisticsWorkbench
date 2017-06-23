@@ -22,6 +22,6 @@ drawMarkers
 						caption: (self min + (i * self stepInterval)) printString
 						textColor: textcolor
 						strokeColor: self borderColor
-						raster: (self raster and: self rasterLength notNil)
+						raster: (self rasterVisibility and: self rasterLength notNil)
 						length: self rasterLength).
 				i := i + 1]

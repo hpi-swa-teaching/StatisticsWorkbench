@@ -1,4 +1,3 @@
 accessing
 yAxis: anObject
-	
-	yAxis := anObject.
+	yAxis := anObject

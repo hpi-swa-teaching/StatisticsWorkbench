@@ -1,4 +1,4 @@
 accessing
 initialize 
 	super initialize.
-	data := Dictionary new
+	data := OrderedDictionary new

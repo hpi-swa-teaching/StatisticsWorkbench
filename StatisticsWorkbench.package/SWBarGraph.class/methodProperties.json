@@ -2,16 +2,17 @@
 	"class" : {
 		"create" : "maf 6/15/2017 14:38",
 		"createWithCollection:width:at:" : "maf 6/15/2017 14:38",
+		"defaultStepInterval" : "maf 6/23/2017 23:54",
 		"needsCoordinateSystem" : "mp 6/10/2017 12:38" },
 	"instance" : {
 		"AxisPosition" : "TB 6/1/2017 14:50",
 		"AxisPosition:" : "TB 6/1/2017 14:50",
+		"addBar:" : "maf 6/23/2017 23:26",
 		"addBar:position:value:" : "TB 5/24/2017 17:04",
 		"barWidth" : "mp 5/16/2017 16:49",
 		"barWidth:" : "mp 5/16/2017 16:49",
 		"coordinateSystem" : "mp 6/10/2017 12:31",
 		"coordinateSystem:" : "mp 6/10/2017 12:31",
-		"defaultStepInterval" : "mp 6/14/2017 12:05",
 		"drawChart" : "mp 6/10/2017 12:32",
 		"initialize" : "mp 6/10/2017 12:32",
-		"update" : "maf 6/15/2017 13:40" } }
+		"update" : "maf 6/23/2017 23:35" } }

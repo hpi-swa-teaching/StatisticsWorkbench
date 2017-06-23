@@ -1,3 +1,3 @@
 as yet unclassified
-hasDiagram
+hasChart
 	^ charts notNil "maybe not needed -> needs some thought put into"

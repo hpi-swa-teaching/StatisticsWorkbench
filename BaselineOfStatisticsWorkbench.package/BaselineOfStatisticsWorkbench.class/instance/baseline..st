@@ -7,7 +7,7 @@ baseline: spec
       spec
         package: 'StatisticsWorkbench-Core';
         package: 'StatisticsWorkbench-GUI';
-		package: 'StatisticsWorkbench-Exceptions';
+	  package: 'StatisticsWorkbench-Exceptions';
         package: 'StatisticsWorkbench-Tests' with: [spec requires: #('default')];
         yourself.
       spec

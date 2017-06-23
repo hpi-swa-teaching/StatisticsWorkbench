@@ -1,3 +1,3 @@
 defaults
 create
-	^ SWAxis createAt: (100@100) withMin: 0 length: 400 withMax: 100. 
+	^ SWAxis createAt: self defaultStartPoint withMin: self defaultMin length: self defaultLength withMax: self defaultMax. 

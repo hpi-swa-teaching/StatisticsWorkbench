@@ -4,6 +4,6 @@ extent: aPoint
 	self hasCoordinateSystem
 		ifTrue:[
 			self coordinateSystem extent: aPoint].
-	self hasDiagram
+	self hasChart
 		ifTrue:[
 			self updateCharts]
