@@ -6,4 +6,6 @@ addAxis: anAxis dimension: aDimension
 		ifTrue: [self xAxis: anAxis].
 		
 	aDimension = #y
-		ifTrue: [self yAxis: anAxis]
+		ifTrue: [self yAxis: anAxis].
+		
+	self addMorph: anAxis

@@ -13,7 +13,7 @@ drawMarkers
 			self orientation = #horizontal
 				ifTrue: [position := self startPoint + (i * self stepInterval * self normedMarkerLength @ 0).
 						orientation := #vertical]
-				ifFalse: [position := self startPoint + (0 @ ((-1) * i * self stepInterval * self normedMarkerLength)).
+				ifFalse: [position := self startPoint + (0 @ (-1 * i * self stepInterval * self normedMarkerLength)).
 						orientation := #horizontal].
 				self
 					addMorph: (SWAxisLine
