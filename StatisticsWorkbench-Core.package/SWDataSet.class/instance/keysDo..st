@@ -1,3 +1,4 @@
 accessing
 keysDo: aBlockClosure
-	^ data keysDo: aBlockClosure
+
+	^ self data keysDo: aBlockClosure

@@ -1,4 +1,5 @@
 accessing
 initialize 
+
 	super initialize.
-	data := OrderedDictionary new
+	self data: OrderedDictionary new

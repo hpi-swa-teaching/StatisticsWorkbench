@@ -1,3 +1,4 @@
 accessing
 valuesDo: aBlockClosure
-	data valuesDo: aBlockClosure
+
+	self data valuesDo: aBlockClosure

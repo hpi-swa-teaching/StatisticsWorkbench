@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"data",
 		"pieslices",
 		"radius",
 		"center",

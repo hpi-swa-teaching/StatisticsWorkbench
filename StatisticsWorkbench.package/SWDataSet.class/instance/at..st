@@ -1,3 +1,3 @@
 accessing
 at: aKey
-	^ data at: aKey
+	^ self data at: aKey
