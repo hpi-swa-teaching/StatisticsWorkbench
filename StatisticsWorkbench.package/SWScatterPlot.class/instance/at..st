@@ -1,6 +1,7 @@
 as yet unclassified
 at: aPoint
 	| submorphs |
+	
 	submorphs := self submorphs.
 	
 	submorphs do: [:submorph | (submorph realPoint = aPoint) ifTrue: [ ^ submorph ]].

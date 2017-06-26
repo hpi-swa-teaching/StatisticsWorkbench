@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"create" : "J.R. 6/26/2017 11:03",
-		"createWith:" : "maf 6/15/2017 14:38",
 		"defaultBorderColor" : "maf 6/15/2017 13:31",
 		"defaultBorderWidth" : "maf 6/15/2017 13:31",
 		"defaultColor" : "J.R. 6/26/2017 09:57",
@@ -14,5 +13,4 @@
 		"initialize" : "J.R. 6/26/2017 11:02",
 		"lineMorph" : "maf 6/15/2017 13:51",
 		"lineMorph:" : "maf 6/15/2017 13:51",
-		"preprocessData" : "mp 6/9/2017 18:19",
 		"update" : "J.R. 6/26/2017 10:55" } }

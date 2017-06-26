@@ -1,9 +1,13 @@
 as yet unclassified
 update
-	| submorphs |
-	submorphs := self submorphs.
-	submorphs
-		do: [:dataPoint | self removeDataPoint: dataPoint]
+	
+	self dataPoints	do: [:dataPoint | self removeDataPoint: dataPoint].
+		
+	self dataset keysAndValuesDo: [:xValue :yValue |
+		self makeDataPoint: xValue @ yValue.
+	].
+
+	self dataPoints do: [:dataPoint | dataPoint position: dataPoint renderedPoint  ].
 	
 	
 	
