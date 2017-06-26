@@ -1,3 +1,5 @@
 as yet unclassified
 initialize 
-	self lineMorph: LineMorph new.
+
+	super initialize.
+	self color: Color transparent.

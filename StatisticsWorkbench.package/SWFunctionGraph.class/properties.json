@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lineMorph" ],
+		"lineMorph",
+		"coordinateSystem" ],
 	"name" : "SWFunctionGraph",
 	"pools" : [
 		 ],

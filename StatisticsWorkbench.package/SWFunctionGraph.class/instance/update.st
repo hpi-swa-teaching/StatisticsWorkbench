@@ -1,6 +1,16 @@
 as yet unclassified
 update
-	self lineMorph setVertices: NotImplemented new
+	| newVertices |
+	
+	newVertices := Bag new.
+	
+	self dataset keysAndValuesDo: [:xValue :yValue |
+		newVertices add: (self coordinateSystem positionFor: xValue @ yValue).
+	].
+	
+	newVertices := newVertices sorted: [:a :b | a x <= b x].
+	self lineMorph setVertices: newVertices.
+	self lineMorph comeToFront
 	
 	"| newDataPoints printPosition |
 	

@@ -9,7 +9,7 @@ updateCoordinateSystem
 										[:x | maximumx<x ifTrue: [maximumx:=x]].
 									diagram dataset valuesDo:
 										[:y | maximumy<y ifTrue: [maximumy:=y]].
-									diagram class defaultStepInterval>stepIntervalX ifTrue: 										[stepIntervalX:=diagram defaultStepInterval]].
+									diagram class defaultStepInterval>stepIntervalX ifTrue: 										[stepIntervalX:=diagram class defaultStepInterval]].
 								
 	self xAxisMax: maximumx.
 	self yAxisMax: maximumy.

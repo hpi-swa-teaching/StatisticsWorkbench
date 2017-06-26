@@ -1,18 +1,18 @@
 {
 	"class" : {
-		"create" : "maf 6/15/2017 15:58",
+		"create" : "J.R. 6/26/2017 11:03",
 		"createWith:" : "maf 6/15/2017 14:38",
 		"defaultBorderColor" : "maf 6/15/2017 13:31",
 		"defaultBorderWidth" : "maf 6/15/2017 13:31",
-		"defaultColor" : "maf 6/15/2017 13:30",
+		"defaultColor" : "J.R. 6/26/2017 09:57",
 		"defaultStepInterval" : "maf 6/15/2017 14:23",
-		"needsCoordinateSystem" : "mp 6/10/2017 12:37",
+		"needsCoordinateSystem" : "J.R. 6/26/2017 09:47",
 		"testData" : "mp 6/10/2017 13:26" },
 	"instance" : {
-		"coordinateSystem" : "J.R. 6/3/2017 19:15",
-		"coordinateSystem:" : "J.R. 6/3/2017 22:45",
-		"initialize" : "maf 6/15/2017 15:59",
+		"coordinateSystem" : "J.R. 6/26/2017 09:54",
+		"coordinateSystem:" : "J.R. 6/26/2017 09:54",
+		"initialize" : "J.R. 6/26/2017 11:02",
 		"lineMorph" : "maf 6/15/2017 13:51",
 		"lineMorph:" : "maf 6/15/2017 13:51",
 		"preprocessData" : "mp 6/9/2017 18:19",
-		"update" : "maf 6/15/2017 16:00" } }
+		"update" : "J.R. 6/26/2017 10:55" } }

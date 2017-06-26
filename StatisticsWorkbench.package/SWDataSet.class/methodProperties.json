@@ -2,11 +2,13 @@
 	"class" : {
 		"fromDictionary:" : "maf 6/15/2017 14:40" },
 	"instance" : {
+		"addDataPoint:" : "J.R. 6/26/2017 11:12",
 		"at:" : "maf 6/15/2017 14:58",
 		"at:put:" : "maf 6/15/2017 15:45",
 		"data" : "maf 6/15/2017 14:43",
 		"data:" : "maf 6/15/2017 15:09",
 		"initialize" : "maf 6/23/2017 23:58",
+		"keysAndValuesDo:" : "J.R. 6/26/2017 09:41",
 		"keysDo:" : "maf 6/15/2017 14:58",
 		"removeAll" : "maf 6/15/2017 15:09",
 		"size" : "maf 6/23/2017 23:53",

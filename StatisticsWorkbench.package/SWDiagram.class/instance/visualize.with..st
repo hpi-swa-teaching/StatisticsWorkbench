@@ -1,7 +1,7 @@
 as yet unclassified
 visualize: aSWDataSet with: aChart 
 	| chart |
-	chart := aChart new.
+	chart := aChart create.
 	aChart needsCoordinateSystem
 		ifTrue: [chart coordinateSystem: self addCoordinateSystem].
 	chart dataset: aSWDataSet.
