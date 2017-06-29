@@ -1,16 +1,19 @@
 {
 	"class" : {
-		"create" : "J.R. 6/26/2017 11:03",
-		"defaultBorderColor" : "maf 6/15/2017 13:31",
-		"defaultBorderWidth" : "maf 6/15/2017 13:31",
-		"defaultColor" : "J.R. 6/26/2017 09:57",
-		"defaultStepInterval" : "maf 6/15/2017 14:23",
-		"needsCoordinateSystem" : "J.R. 6/26/2017 09:47",
-		"testData" : "mp 6/10/2017 13:26" },
+		"create" : "J.R. 6/29/2017 13:54",
+		"defaultBorderColor" : "J.R. 6/29/2017 13:46",
+		"defaultBorderWidth" : "J.R. 6/29/2017 13:46",
+		"defaultColor" : "J.R. 6/29/2017 13:46",
+		"defaultStepInterval" : "J.R. 6/29/2017 13:46",
+		"needsCoordinateSystem" : "J.R. 6/29/2017 13:46" },
 	"instance" : {
-		"coordinateSystem" : "J.R. 6/26/2017 09:54",
-		"coordinateSystem:" : "J.R. 6/26/2017 09:54",
-		"initialize" : "J.R. 6/26/2017 11:02",
+		"coordinateSystem" : "J.R. 6/29/2017 13:34",
+		"coordinateSystem:" : "J.R. 6/29/2017 13:34",
+		"createLineMorph" : "J.R. 6/29/2017 13:57",
+		"generateVertices" : "J.R. 6/29/2017 14:16",
+		"initialize" : "J.R. 6/29/2017 13:34",
 		"lineMorph" : "maf 6/15/2017 13:51",
-		"lineMorph:" : "maf 6/15/2017 13:51",
-		"update" : "J.R. 6/26/2017 10:55" } }
+		"lineMorph:" : "J.R. 6/29/2017 13:34",
+		"registerLineMorph" : "J.R. 6/29/2017 14:17",
+		"sortVertices:" : "J.R. 6/29/2017 14:14",
+		"update" : "J.R. 6/29/2017 14:17" } }

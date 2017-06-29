@@ -1,4 +1,4 @@
 accessing
 lineMorph: anObject
 	
-	lineMorph := anObject.
+	lineMorph := anObject
