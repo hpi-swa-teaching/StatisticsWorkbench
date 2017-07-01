@@ -4,12 +4,10 @@ create
 	
 	newPieChart := SWPieChart new.
 	newPieChart
-		pieKey: SWPieKey create;
 		radius: self defaultRadius;
 		center: self defaultWorldPosition;
 		extent: self defaultExtent;
-		color: Color transparent;
-		pieslices: OrderedCollection new.
+		pieKey: SWPieKey create.
 	
 	newPieChart addPieKey: newPieChart pieKey.
 	
