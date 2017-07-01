@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createDiagramWith:" : "maf 7/1/2017 11:54",
+		"createDiagramWith:" : "maf 7/1/2017 16:17",
 		"testAddChartToDiagram" : "maf 7/1/2017 12:44",
 		"testBarGraphContainsTwoAxis" : "maf 7/1/2017 12:37",
 		"testFunctionGraphContainsTwoAxis" : "maf 7/1/2017 12:36",
-		"testMultipleChartsDependOnOneDataSet" : "maf 7/1/2017 13:05",
+		"testMultipleChartsDependOnOneDataSet" : "maf 7/1/2017 17:00",
 		"testPieChartContainsNoAxis" : "maf 7/1/2017 12:38",
 		"testScatterPlotContainsTwoAxis" : "maf 7/1/2017 12:38",
-		"testVisualizeMultipleCharts" : "maf 7/1/2017 12:47" } }
+		"testVisualizeMultipleCharts" : "maf 7/1/2017 16:17" } }
