@@ -1,0 +1,4 @@
+accessing
+barwidth
+	
+	^ barwidth

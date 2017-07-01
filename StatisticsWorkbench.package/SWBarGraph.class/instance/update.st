@@ -3,7 +3,7 @@ update
  |xpos yPos |
 	self flag: #fishy.
 	self barWidth: (self coordinateSystem xAxis length/ self dataset size)/2.
-	self submorphsDo: [:s| s delete].
+	self submorphsDo: [:s| self removeBar: s].
 	self drawChart.
 	yPos := (self coordinateSystem positionFor: 0@0) y.
 	self dataset keysDo: [:xData| 
