@@ -1,3 +1,4 @@
+
 environment:
   CYG_ROOT: C:\cygwin
   CYG_BASH: C:\cygwin\bin\bash
@@ -6,13 +7,8 @@ environment:
   CYG_MIRROR: http://cygwin.mirror.constant.com
   SCI_RUN: /cygdrive/c/smalltalkCI-master/run.sh
   matrix:
-    # Currently, only Squeak and Pharo images are supported on AppVeyor.
     - SMALLTALK: Squeak-trunk
     - SMALLTALK: Squeak-5.1
-    - SMALLTALK: Squeak-5.0
-    - SMALLTALK: Squeak-4.6
-    - SMALLTALK: Squeak-4.5
-    
 
 platform:
   - x86
@@ -21,3 +17,8 @@ install:
   - '%CYG_EXE% -dgnqNO -R "%CYG_ROOT%" -s "%CYG_MIRROR%" -l "%CYG_CACHE%" -P unzip'
   - ps: Start-FileDownload "https://github.com/hpi-swa/smalltalkCI/archive/master.zip" "C:\smalltalkCI.zip"
   - 7z x C:\smalltalkCI.zip -oC:\ -y > NULL
+
+build: false
+
+test_script:
+- '%CYG_BASH% -lc "cd $APPVEYOR_BUILD_FOLDER; exec 0</dev/null; $SCI_RUN"'
