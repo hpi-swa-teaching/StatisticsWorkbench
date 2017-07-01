@@ -10,18 +10,16 @@
 		"defaultStartPoint" : "maf 6/23/2017 23:44",
 		"defaultStep" : "maf 6/23/2017 23:39" },
 	"instance" : {
-		"addAxis:dimension:" : "maf 6/24/2017 00:37",
+		"addAxis:dimension:" : "ab 7/1/2017 17:35",
 		"boundsThreshold" : "maf 6/15/2017 13:22",
 		"boundsThreshold:" : "maf 6/15/2017 13:23",
 		"extent:" : "maf 7/1/2017 11:56",
 		"initialize" : "maf 6/15/2017 13:21",
-		"positionFor:" : "mp 6/8/2017 15:42",
+		"positionFor:" : "ab 7/1/2017 16:54",
 		"toggleRaster" : "mp 7/1/2017 17:21",
 		"update" : "mp 7/1/2017 17:22",
 		"updateRasterSize" : "maf 6/24/2017 00:15",
 		"xAxis" : "maf 6/24/2017 00:15",
 		"xAxis:" : "maf 6/24/2017 00:15",
-		"xAxisLength:" : "maf 6/24/2017 00:23",
 		"yAxis" : "maf 6/24/2017 00:15",
-		"yAxis:" : "maf 6/24/2017 00:15",
-		"yAxisLength:" : "mp 6/10/2017 13:14" } }
+		"yAxis:" : "maf 6/24/2017 00:15" } }

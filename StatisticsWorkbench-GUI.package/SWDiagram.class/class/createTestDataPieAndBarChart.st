@@ -11,5 +11,5 @@ createTestDataPieAndBarChart
 	dict at: 6 put: 1.
 	dict at: 7 put: 10.
 	dict at: 8 put: 11.
-	dict at: 9 put: 12.
-	^ dict
+	dict at: 9 put: 20.
+ ^ dict

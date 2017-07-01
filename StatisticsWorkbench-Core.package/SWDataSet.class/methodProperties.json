@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"fromDictionary:" : "maf 7/1/2017 13:36" },
+		"fromDictionary:" : "maf 7/1/2017 13:36",
+		"fromOrderedCollection:" : "ab 7/1/2017 13:36" },
 	"instance" : {
 		"addDataPoint:" : "J.R. 6/26/2017 11:12",
 		"at:" : "J.R. 6/26/2017 14:34",
