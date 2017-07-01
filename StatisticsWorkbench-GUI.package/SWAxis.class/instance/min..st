@@ -4,5 +4,5 @@ min: anObject
 		ifTrue: [ anObject >= self max
 			ifTrue: [SWInvalidArgumentError signal]
 			ifFalse: [min := anObject.
-				self updateMarkers]]
+				self update]]
 		ifFalse: [min := anObject.]

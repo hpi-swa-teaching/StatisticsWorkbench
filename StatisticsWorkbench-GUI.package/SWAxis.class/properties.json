@@ -17,7 +17,8 @@
 		"valueRange",
 		"textColor",
 		"textVisibility",
-		"rasterVisibility" ],
+		"rasterVisibility",
+		"markers" ],
 	"name" : "SWAxis",
 	"pools" : [
 		 ],

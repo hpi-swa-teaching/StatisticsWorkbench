@@ -16,7 +16,7 @@ drawMarkers
 				ifFalse: [position := self startPoint + (0 @ (-1 * i * self stepInterval * self normedMarkerLength)).
 						orientation := #horizontal].
 				self
-					addMorph: (SWAxisLine
+					addMarker: (SWAxisLine
 						create: position
 						orientation: orientation
 						caption: (self min + (i * self stepInterval)) printString
