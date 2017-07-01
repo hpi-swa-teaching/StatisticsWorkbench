@@ -4,4 +4,7 @@
 	"instance" : {
 		"testAddAndRemoveItems" : "maf 6/23/2017 22:54",
 		"testDependentsAreNotifiedAboutChanges" : "maf 6/23/2017 22:45",
+		"testMax" : "maf 7/1/2017 13:28",
+		"testMin" : "maf 7/1/2017 13:28",
+		"testOnlyTwoDimensionsSupported" : "maf 7/1/2017 13:37",
 		"update:" : "maf 6/15/2017 15:42" } }

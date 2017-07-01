@@ -1,11 +1,11 @@
 as yet unclassified
-max: aDimension
+min: aDimension
 	"possible values: #x, #y"
 	
 	(aDimension = #x)
-		ifTrue: [^ self data keys max].
+		ifTrue: [^ self data keys min].
 		
 	(aDimension = #y)
-		ifTrue: [^ self data values max].
+		ifTrue: [^ self data values min].
 		
 	SWInvalidArgumentError signal: 'This axis is not supported.'
