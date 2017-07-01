@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"create" : "J.R. 6/26/2017 11:46",
+		"create" : "J.R. 7/1/2017 16:59",
 		"defaultStepInterval" : "J.R. 6/29/2017 13:35",
 		"needsCoordinateSystem" : "J.R. 6/26/2017 11:53" },
 	"instance" : {
-		"addDataPoint:" : "J.R. 6/26/2017 11:46",
+		"addDataPoint:" : "J.R. 7/1/2017 16:59",
 		"coordinateSystem" : "J.R. 6/29/2017 13:32",
 		"coordinateSystem:" : "J.R. 6/29/2017 13:32",
-		"dataPoints" : "J.R. 6/29/2017 13:24",
-		"generateDataPoints" : "J.R. 6/29/2017 13:31",
+		"dataPoints" : "J.R. 7/1/2017 16:48",
+		"dataPoints:" : "J.R. 7/1/2017 16:49",
+		"generateDataPoints" : "J.R. 7/1/2017 16:51",
 		"initialize" : "J.R. 6/29/2017 13:31",
-		"makeDataPoint:" : "J.R. 6/29/2017 13:29",
 		"removeDataPoint:" : "J.R. 6/29/2017 13:28",
 		"renderDataPoints" : "J.R. 6/29/2017 13:26",
 		"resetDataPoints" : "J.R. 6/29/2017 13:32",

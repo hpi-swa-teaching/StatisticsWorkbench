@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pieSlices",
 		"pieKeyNames",
-		"pieKeyColors" ],
+		"pieKeyColors",
+		"pieslices" ],
 	"name" : "SWPieKey",
 	"pools" : [
 		 ],

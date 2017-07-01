@@ -1,3 +1,4 @@
 accessing
 pointSet
+
 	^ pointSet

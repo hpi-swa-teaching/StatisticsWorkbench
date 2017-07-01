@@ -1,5 +1,4 @@
 as yet unclassified
 updateSlice
 	
-	self setVertices: self pointSet asArray.
-	self makeClosed.
+	self setVertices: self pointSet asArray; makeClosed

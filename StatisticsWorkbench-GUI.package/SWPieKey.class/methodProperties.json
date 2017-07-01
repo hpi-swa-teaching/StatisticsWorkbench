@@ -1,12 +1,22 @@
 {
 	"class" : {
-		 },
+		"create" : "J.R. 7/1/2017 17:30",
+		"defaultColorSwatchExtent" : "J.R. 7/1/2017 17:44",
+		"defaultExtent" : "J.R. 7/1/2017 17:19",
+		"defaultKeyPointHeight" : "J.R. 7/1/2017 17:54",
+		"defaultMargin" : "J.R. 7/1/2017 17:56",
+		"defaultWorldPosition" : "J.R. 7/1/2017 17:19" },
 	"instance" : {
-		"drawKey" : "ab 6/8/2017 16:13",
-		"initialize" : "ab 6/15/2017 14:37",
-		"pieKeyColors" : "ab 6/8/2017 16:11",
-		"pieKeyColors:" : "ab 6/8/2017 16:11",
-		"pieKeyNames" : "ab 6/8/2017 16:11",
-		"pieKeyNames:" : "ab 6/8/2017 16:11",
-		"pieSlices" : "ab 6/8/2017 15:48",
-		"pieSlices:" : "ab 6/8/2017 15:48" } }
+		"addColorSwatch:" : "J.R. 7/1/2017 17:39",
+		"addKeyPoint:" : "J.R. 7/1/2017 17:39",
+		"computeKeyExtent" : "J.R. 7/1/2017 17:57",
+		"drawColorSwatchOf:at:" : "J.R. 7/1/2017 17:55",
+		"drawKey" : "J.R. 7/1/2017 17:57",
+		"drawKeyPointOf:at:" : "J.R. 7/1/2017 17:59",
+		"initialize" : "J.R. 7/1/2017 17:17",
+		"pieKeyColors" : "J.R. 7/1/2017 17:28",
+		"pieKeyColors:" : "J.R. 7/1/2017 17:28",
+		"pieKeyNames" : "J.R. 7/1/2017 17:28",
+		"pieKeyNames:" : "J.R. 7/1/2017 17:28",
+		"pieslices" : "J.R. 7/1/2017 17:29",
+		"pieslices:" : "J.R. 7/1/2017 17:30" } }

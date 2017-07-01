@@ -1,6 +1,6 @@
 as yet unclassified
 registerPieslice: aPieslice
 
-	self addMorph: aPieslice.
+	self addPieslice: aPieslice.
 	self pieslices add: aPieslice.
-	self pieKey pieSlices add: aPieslice
+	self pieKey pieslices add: aPieslice
