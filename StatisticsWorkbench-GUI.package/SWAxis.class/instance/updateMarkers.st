@@ -1,6 +1,6 @@
 as yet unclassified
 updateMarkers
 	self areMarkersDrawable
-		ifTrue: [self
-					submorphsDo: [:morph | morph delete];
+		ifTrue: [	self markers notNil ifTrue: [self markers do: [:morph | morph delete]].
+				self	markers: OrderedCollection new;
 				 	drawMarkers]

@@ -1,7 +1,6 @@
 accessing
 length: aLength
 	| direction |
-	length := aLength.
 	self orientation = #horizontal
 		ifTrue: [direction := (aLength@0).
 				self endPoint: (self startPoint + direction)]

@@ -8,4 +8,4 @@ stepInterval: anObject
 	stepInterval := anObject.
 	
 	anObject notNil
-		ifTrue: [ self updateMarkers ]
+		ifTrue: [ self update ]

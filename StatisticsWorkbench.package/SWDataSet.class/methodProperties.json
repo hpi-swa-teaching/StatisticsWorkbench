@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"fromDictionary:" : "maf 6/15/2017 14:40" },
+		"fromDictionary:" : "maf 7/1/2017 13:36",
+		"fromOrderedCollection:" : "ab 7/1/2017 13:36" },
 	"instance" : {
 		"addDataPoint:" : "J.R. 6/26/2017 11:12",
 		"at:" : "J.R. 6/26/2017 14:34",
@@ -10,6 +11,8 @@
 		"initialize" : "J.R. 6/26/2017 16:13",
 		"keysAndValuesDo:" : "J.R. 6/26/2017 15:13",
 		"keysDo:" : "J.R. 6/26/2017 15:13",
+		"max:" : "maf 7/1/2017 13:18",
+		"min:" : "maf 7/1/2017 13:19",
 		"removeAll" : "J.R. 6/26/2017 15:13",
 		"removeDataPoint:" : "J.R. 6/26/2017 16:13",
 		"size" : "J.R. 6/26/2017 15:13",

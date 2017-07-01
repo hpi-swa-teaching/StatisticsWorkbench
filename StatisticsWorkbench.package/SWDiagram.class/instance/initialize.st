@@ -3,4 +3,4 @@ initialize
 	super initialize.
 	
 	self color: Color transparent;
-	      charts: Bag new
+	      charts: OrderedCollection new
