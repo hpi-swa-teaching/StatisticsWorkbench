@@ -1,4 +1,9 @@
 as yet unclassified
 create
+	| funcGraph |
 	
-	^ SWFunctionGraph new
+	funcGraph := SWFunctionGraph new.
+	funcGraph createLineMorph.
+	funcGraph registerLineMorph.
+	
+	^ funcGraph

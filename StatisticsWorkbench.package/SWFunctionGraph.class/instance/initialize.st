@@ -3,7 +3,4 @@ initialize
 
 	super initialize.
 	
-	self 
-		color: Color transparent;
-		createLineMorph;
-		registerLineMorph
+	self color: Color transparent
