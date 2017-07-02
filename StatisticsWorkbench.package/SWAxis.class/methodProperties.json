@@ -20,7 +20,7 @@
 		"defaultTextVisibility" : "maf 6/24/2017 00:06",
 		"vertices:color:borderWidth:borderColor:" : "mp 7/2/2017 11:00" },
 	"instance" : {
-		"add:" : "mp 7/2/2017 11:19",
+		"add:" : "mp 7/2/2017 11:22",
 		"areMarkersDrawable" : "mp 5/31/2017 15:47",
 		"axisColor:" : "mp 7/2/2017 11:12",
 		"createMarkerAtIndex:" : "mp 7/2/2017 10:51",
@@ -64,7 +64,7 @@
 		"textVisibility" : "mp 6/1/2017 14:06",
 		"textVisibility:" : "mp 7/2/2017 11:09",
 		"toggleRaster" : "maf 6/24/2017 00:09",
-		"toggleTextVisibility" : "maf 6/24/2017 00:10",
+		"toggleTextVisibility" : "mp 7/2/2017 11:26",
 		"update" : "mp 7/1/2017 17:18",
 		"updateLegend" : "mp 7/1/2017 17:34",
 		"updateMarkers" : "mp 7/2/2017 11:18",
