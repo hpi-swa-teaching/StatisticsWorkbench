@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"create" : "J.R. 7/1/2017 17:23",
+		"create" : "J.R. 7/1/2017 18:53",
 		"defaultExtent" : "J.R. 6/29/2017 15:01",
 		"defaultRadius" : "J.R. 6/26/2017 14:10",
 		"defaultWorldPosition" : "J.R. 6/29/2017 15:00",
@@ -15,7 +15,7 @@
 		"computeRadianFrom:" : "J.R. 7/1/2017 16:38",
 		"createPieSliceFrom:with:at:colored:" : "J.R. 7/1/2017 16:43",
 		"generateOuterBorderOf:with:from:" : "J.R. 7/1/2017 16:00",
-		"initialize" : "J.R. 6/29/2017 12:44",
+		"initialize" : "J.R. 7/1/2017 18:52",
 		"pieKey" : "J.R. 6/29/2017 12:47",
 		"pieKey:" : "J.R. 6/29/2017 12:48",
 		"pieslices" : "J.R. 6/29/2017 12:48",
@@ -27,5 +27,5 @@
 		"setEndpointOf:by:" : "J.R. 7/1/2017 16:43",
 		"setStartpointOf:by:" : "J.R. 6/29/2017 15:14",
 		"update" : "J.R. 7/1/2017 16:18",
-		"updatePieKey" : "J.R. 7/1/2017 17:31",
+		"updatePieKey" : "J.R. 7/1/2017 18:41",
 		"updatePieslices" : "J.R. 6/29/2017 12:44" } }

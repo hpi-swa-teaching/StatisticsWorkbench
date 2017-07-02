@@ -2,8 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testDeleteLegend" : "ab 7/1/2017 18:34",
-		"testGetPositionForValue" : "ab 7/1/2017 18:58",
 		"testMarkersAreDrawable" : "maf 5/30/2017 17:15",
 		"testMarkersAreNotDrawableWhenEndPointIsNull" : "maf 6/8/2017 14:09",
 		"testMarkersAreNotDrawableWhenMaxIsNull" : "maf 5/30/2017 17:16",
@@ -14,6 +12,4 @@
 		"testSetAxisTextColor" : "mp 7/1/2017 17:02",
 		"testSetInvalidMaxOrMin" : "mp 5/31/2017 15:59",
 		"testSetInvalidStepInterval" : "maf 6/8/2017 14:13",
-		"testUpdateLegend" : "ab 7/1/2017 18:35",
-		"testUpdateMarkers" : "ab 7/1/2017 18:09",
-		"testValueRange" : "ab 7/1/2017 18:20" } }
+		"testUpdateMarkers" : "ab 7/1/2017 18:09" } }

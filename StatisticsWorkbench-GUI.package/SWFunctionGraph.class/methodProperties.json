@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"create" : "J.R. 6/29/2017 13:54",
+		"create" : "J.R. 7/1/2017 18:21",
 		"defaultBorderColor" : "J.R. 6/29/2017 13:46",
 		"defaultBorderWidth" : "J.R. 6/29/2017 13:46",
 		"defaultColor" : "J.R. 6/29/2017 13:46",
@@ -9,9 +9,9 @@
 	"instance" : {
 		"coordinateSystem" : "J.R. 6/29/2017 13:34",
 		"coordinateSystem:" : "J.R. 6/29/2017 13:34",
-		"createLineMorph" : "J.R. 6/29/2017 13:57",
+		"createLineMorph" : "J.R. 7/1/2017 18:20",
 		"generateVertices" : "J.R. 6/29/2017 14:16",
-		"initialize" : "J.R. 6/29/2017 13:34",
+		"initialize" : "J.R. 7/1/2017 18:21",
 		"lineMorph" : "maf 6/15/2017 13:51",
 		"lineMorph:" : "J.R. 6/29/2017 13:34",
 		"registerLineMorph" : "J.R. 6/29/2017 14:17",

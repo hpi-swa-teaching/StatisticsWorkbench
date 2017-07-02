@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"create" : "J.R. 7/1/2017 17:30",
+		"create" : "J.R. 7/1/2017 18:51",
 		"defaultColorSwatchExtent" : "J.R. 7/1/2017 17:44",
 		"defaultExtent" : "J.R. 7/1/2017 17:19",
 		"defaultKeyPointHeight" : "J.R. 7/1/2017 17:54",
@@ -12,8 +12,8 @@
 		"computeKeyExtent" : "J.R. 7/1/2017 17:57",
 		"drawColorSwatchOf:at:" : "J.R. 7/1/2017 17:55",
 		"drawKey" : "J.R. 7/1/2017 17:57",
-		"drawKeyPointOf:at:" : "J.R. 7/1/2017 17:59",
-		"initialize" : "J.R. 7/1/2017 17:17",
+		"drawKeyPointOf:at:" : "J.R. 7/1/2017 18:55",
+		"initialize" : "J.R. 7/1/2017 18:14",
 		"pieKeyColors" : "J.R. 7/1/2017 17:28",
 		"pieKeyColors:" : "J.R. 7/1/2017 17:28",
 		"pieKeyNames" : "J.R. 7/1/2017 17:28",

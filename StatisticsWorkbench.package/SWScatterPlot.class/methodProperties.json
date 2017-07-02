@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"create" : "J.R. 7/1/2017 16:59",
+		"create" : "mp 7/1/2017 18:06",
 		"defaultStepInterval" : "J.R. 6/29/2017 13:35",
 		"needsCoordinateSystem" : "J.R. 6/26/2017 11:53" },
 	"instance" : {
@@ -10,7 +10,7 @@
 		"dataPoints" : "J.R. 7/1/2017 16:48",
 		"dataPoints:" : "J.R. 7/1/2017 16:49",
 		"generateDataPoints" : "J.R. 7/1/2017 16:51",
-		"initialize" : "J.R. 6/29/2017 13:31",
+		"initialize" : "J.R. 7/1/2017 18:16",
 		"removeDataPoint:" : "J.R. 6/29/2017 13:28",
 		"renderDataPoints" : "J.R. 6/29/2017 13:26",
 		"resetDataPoints" : "J.R. 6/29/2017 13:32",
