@@ -1,4 +1,4 @@
 accessing
 textColor: aColor
-	self submorphsDo: [:morph|morph textColor: aColor].
+	self markers do: [:marker | marker textColor: aColor].
 	textColor := aColor

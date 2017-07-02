@@ -19,6 +19,12 @@ create: aPosition orientation: anOrientation caption: aText textColor: aColor1 s
 						width: 1).
 			instance captionMorph: (TextMorph new contents: aText;
 					 position: aPosition x @ (aPosition y + 7))].
+				
+	instance textColor: aColor1.
+	instance strokeColor: aColor2.
+	instance addMorph: instance strokeMorph.
+	instance addMorph: instance captionMorph.
+	
 	aBoolean ifTrue:[
 		anOrientation = #horizontal
 			ifTrue: [	instance rasterMorph: (LineMorph
@@ -32,9 +38,6 @@ create: aPosition orientation: anOrientation caption: aText textColor: aColor1 s
 						color: Color gray
 						width: 1)].
 		instance rasterColor: Color gray.
-		instance addMorph: instance rasterMorph].
-	instance textColor: aColor1.
-	instance strokeColor: aColor2.
-	instance addMorph: instance strokeMorph.
-	instance addMorph: instance captionMorph.
+		instance addMorph: instance rasterMorph behind: instance strokeMorph].
+	
 	^ instance

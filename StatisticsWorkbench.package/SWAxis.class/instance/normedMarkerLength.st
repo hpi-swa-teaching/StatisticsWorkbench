@@ -1,4 +1,4 @@
 accessing
 normedMarkerLength
 	
-	^ (self length / self valueRange).
+	^ self length / self valueRange.
