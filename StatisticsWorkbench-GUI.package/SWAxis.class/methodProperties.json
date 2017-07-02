@@ -21,8 +21,8 @@
 		"vertices:color:borderWidth:borderColor:" : "mp 7/2/2017 11:00" },
 	"instance" : {
 		"add:" : "mp 7/2/2017 11:22",
-		"areMarkersDrawable" : "mp 5/31/2017 15:47",
-		"axisColor:" : "mp 7/2/2017 11:12",
+		"areMarkersDrawable" : "mp 7/2/2017 11:30",
+		"color:" : "mp 7/2/2017 11:59",
 		"createMarkerAtIndex:" : "mp 7/2/2017 10:51",
 		"deleteLegend" : "mp 7/1/2017 17:10",
 		"drawMarkers" : "mp 7/2/2017 11:19",
@@ -44,7 +44,7 @@
 		"min" : "ab 5/17/2017 22:05",
 		"min:" : "mp 7/1/2017 17:21",
 		"newMarkerPosition:" : "mp 7/2/2017 10:39",
-		"normedMarkerLength" : "mp 6/14/2017 13:43",
+		"normedMarkerLength" : "mp 7/2/2017 11:29",
 		"orientation" : "maf 5/21/2017 13:17",
 		"orientation:" : "maf 5/21/2017 13:17",
 		"rasterLength" : "mp 6/14/2017 13:45",
@@ -52,7 +52,7 @@
 		"rasterVisibility" : "maf 6/24/2017 00:09",
 		"rasterVisibility:" : "maf 6/24/2017 00:09",
 		"relativeStepInterval" : "mp 7/2/2017 10:43",
-		"remove:" : "mp 7/2/2017 11:16",
+		"remove:" : "mp 7/2/2017 11:31",
 		"removeAll" : "mp 7/2/2017 11:18",
 		"setLegend:" : "mp 7/1/2017 17:33",
 		"startPoint" : "mp 5/30/2017 16:43",
@@ -68,4 +68,4 @@
 		"update" : "mp 7/1/2017 17:18",
 		"updateLegend" : "mp 7/1/2017 17:34",
 		"updateMarkers" : "mp 7/2/2017 11:18",
-		"valueRange" : "mp 5/30/2017 16:18" } }
+		"valueRange" : "mp 7/2/2017 11:30" } }
