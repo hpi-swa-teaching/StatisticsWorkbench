@@ -1,0 +1,4 @@
+nil
+defaultColor
+
+	^ Color red

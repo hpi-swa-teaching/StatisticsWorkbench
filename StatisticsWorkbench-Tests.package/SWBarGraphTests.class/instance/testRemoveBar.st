@@ -7,7 +7,6 @@ testRemoveBar
 	dataset := SWDiagramMock dataSet.
 	
 	barGraph dataset: dataset.
-	barGraph update.
 	
 	self assert: [ barGraph bars size = dataset size ].
 	

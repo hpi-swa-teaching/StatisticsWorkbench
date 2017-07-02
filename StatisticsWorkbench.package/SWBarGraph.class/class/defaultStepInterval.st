@@ -1,3 +1,4 @@
 nil
 defaultStepInterval
-	^1.
+	
+	^ 1
