@@ -11,5 +11,5 @@
 	"name" : "SWDataPoint",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "SWChartElement",
 	"type" : "normal" }

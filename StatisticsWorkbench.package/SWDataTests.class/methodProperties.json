@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"createSeeded" : "maf 7/2/2017 17:39" },
+	"instance" : {
+		"testAdd" : "maf 7/2/2017 18:08",
+		"testAt" : "maf 7/2/2017 18:19",
+		"testDimension" : "maf 7/2/2017 18:13",
+		"testFromCollection" : "maf 7/2/2017 17:57",
+		"testFromDictionary" : "maf 7/2/2017 17:55",
+		"testRemove" : "maf 7/2/2017 18:08" } }

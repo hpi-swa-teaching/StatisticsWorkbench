@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"realPoint",
-		"renderedPoint" ],
-	"name" : "SWDataPoint",
+		 ],
+	"name" : "SWChartElement",
 	"pools" : [
 		 ],
-	"super" : "SWChartElement",
+	"super" : "Morph",
 	"type" : "normal" }
