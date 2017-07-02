@@ -7,8 +7,6 @@ drawKeyPointOf: aPieslice at: aPosition
 	self addKeyPoint: keyPoint.
 	self pieKeyNames add: keyPoint.
 	
-	keyPoint 
-		contents: aPieslice name asString;
-		position: self position + 
-							(self class defaultMargin * 2.5 @ (aPosition * self class defaultKeyPointHeight))
-			
+	keyPoint contents: aPieslice name asString;
+			position: self position + 
+								(self class defaultMargin @ (aPosition * self class defaultKeyPointHeight))
