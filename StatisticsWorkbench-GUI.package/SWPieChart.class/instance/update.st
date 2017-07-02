@@ -1,6 +1,5 @@
 as yet unclassified
 update
 	
-	self 
-		updatePieslices;
-		updatePieKey
+	self updatePieslices.
+	self updatePieKey

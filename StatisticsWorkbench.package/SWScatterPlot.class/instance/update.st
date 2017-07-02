@@ -2,7 +2,7 @@ as yet unclassified
 update
 	
 	self
-		resetDataPoints;
+		removeAll;
 		generateDataPoints;
 		renderDataPoints
 	

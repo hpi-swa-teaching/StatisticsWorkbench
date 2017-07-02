@@ -1,4 +1,0 @@
-accessing
-printedPosition
-	
-	^ printedPosition

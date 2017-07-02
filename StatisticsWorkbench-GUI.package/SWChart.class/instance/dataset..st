@@ -9,4 +9,4 @@ dataset: anObject
 			ifFalse: [ dataset removeDependent: self ].
 	dataset := anObject.
 	anObject addDependent: self.
-	self update
+	self changed

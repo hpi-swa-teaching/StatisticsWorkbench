@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddBar" : "maf 7/2/2017 10:28",
-		"testBarCount" : "maf 7/2/2017 10:25",
+		"testAdd" : "maf 7/2/2017 16:02",
+		"testBarCount" : "maf 7/2/2017 16:01",
 		"testBarGraphImplementsCreate" : "maf 7/2/2017 10:11",
-		"testBarsGetRemovedFromCollection" : "maf 7/2/2017 10:47",
 		"testCollectionsGetInitialized" : "maf 7/2/2017 10:54",
-		"testRemoveBar" : "maf 7/2/2017 10:23" } }
+		"testIsInvisible" : "maf 7/2/2017 11:21",
+		"testRemove" : "maf 7/2/2017 15:59",
+		"testRemoveAll" : "maf 7/2/2017 15:53" } }

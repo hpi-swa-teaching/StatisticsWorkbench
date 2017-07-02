@@ -3,5 +3,5 @@ testPieChartContainsNoAxis
 	| diagram |
 	diagram := self createDiagramWith: SWPieChart.
 	
-	self assert: [ diagram hasCoordinateSystem not ].
+	self should: [(diagram charts at: 1) coordinateSystem ] raise: Exception 
 	

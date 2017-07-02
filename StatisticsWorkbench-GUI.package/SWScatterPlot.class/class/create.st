@@ -1,4 +1,4 @@
 as yet unclassified
 create
 
-	^ SWScatterPlot  new.
+	^ SWScatterPlot  new

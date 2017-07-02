@@ -3,7 +3,7 @@
 		"fromDictionary:" : "maf 7/1/2017 13:36",
 		"fromOrderedCollection:" : "ab 7/1/2017 13:36" },
 	"instance" : {
-		"addDataPoint:" : "J.R. 6/26/2017 11:12",
+		"add:" : "maf 7/2/2017 11:58",
 		"at:" : "J.R. 6/26/2017 14:34",
 		"at:put:" : "J.R. 6/26/2017 14:35",
 		"data" : "maf 6/15/2017 14:43",
@@ -13,8 +13,9 @@
 		"keysDo:" : "J.R. 6/26/2017 15:13",
 		"max:" : "maf 7/1/2017 13:18",
 		"min:" : "maf 7/1/2017 13:19",
+		"remove:" : "maf 7/2/2017 11:58",
 		"removeAll" : "J.R. 6/26/2017 15:13",
-		"removeDataPoint:" : "J.R. 6/26/2017 16:13",
+		"renameDataPoint:with:" : "J.R. 7/2/2017 14:26",
 		"size" : "J.R. 6/26/2017 15:13",
 		"values" : "J.R. 6/26/2017 14:13",
 		"valuesDo:" : "J.R. 6/26/2017 15:12" } }

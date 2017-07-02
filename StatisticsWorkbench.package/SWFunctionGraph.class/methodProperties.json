@@ -1,19 +1,22 @@
 {
 	"class" : {
-		"create" : "J.R. 6/29/2017 13:54",
+		"create" : "J.R. 7/1/2017 18:21",
 		"defaultBorderColor" : "J.R. 6/29/2017 13:46",
 		"defaultBorderWidth" : "J.R. 6/29/2017 13:46",
 		"defaultColor" : "J.R. 6/29/2017 13:46",
 		"defaultStepInterval" : "mp 7/1/2017 12:40",
 		"needsCoordinateSystem" : "J.R. 6/29/2017 13:46" },
 	"instance" : {
-		"coordinateSystem" : "J.R. 6/29/2017 13:34",
-		"coordinateSystem:" : "J.R. 6/29/2017 13:34",
-		"createLineMorph" : "J.R. 6/29/2017 13:57",
-		"generateVertices" : "J.R. 6/29/2017 14:16",
-		"initialize" : "J.R. 6/29/2017 13:34",
+		"add:" : "maf 7/2/2017 12:14",
+		"createLineMorph" : "maf 7/2/2017 14:28",
+		"generateVertices" : "maf 7/2/2017 14:27",
+		"initialize" : "maf 7/2/2017 12:09",
 		"lineMorph" : "maf 6/15/2017 13:51",
 		"lineMorph:" : "J.R. 6/29/2017 13:34",
 		"registerLineMorph" : "J.R. 6/29/2017 14:17",
-		"sortVertices:" : "J.R. 6/29/2017 14:14",
-		"update" : "J.R. 6/29/2017 14:17" } }
+		"remove:" : "maf 7/2/2017 12:14",
+		"removeAll" : "maf 7/2/2017 12:18",
+		"update" : "maf 7/2/2017 12:25",
+		"vertices" : "maf 7/2/2017 12:13",
+		"vertices:" : "maf 7/2/2017 14:27",
+		"verticesComparator" : "maf 7/2/2017 12:22" } }

@@ -5,9 +5,10 @@
 		"needsCoordinateSystem" : "maf 6/15/2017 13:18" },
 	"instance" : {
 		"add:" : "maf 7/2/2017 10:48",
+		"coordinateSystem" : "maf 7/2/2017 16:03",
 		"dataset" : "maf 6/15/2017 13:39",
-		"dataset:" : "maf 6/15/2017 15:16",
+		"dataset:" : "maf 7/2/2017 14:44",
 		"remove:" : "maf 7/2/2017 10:48",
 		"removeAll" : "maf 7/2/2017 10:48",
-		"update" : "maf 6/15/2017 13:40",
+		"update" : "maf 7/2/2017 15:30",
 		"update:" : "maf 6/15/2017 15:07" } }

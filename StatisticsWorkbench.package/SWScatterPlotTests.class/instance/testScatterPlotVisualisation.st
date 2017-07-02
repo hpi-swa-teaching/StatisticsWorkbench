@@ -1,8 +1,13 @@
 tests
 testScatterPlotVisualisation
-	| scatterPlot |
+	| scatterPlot diagram dataset |
 	
-	scatterPlot := SWScatterPlot new.
-	scatterPlot coordinateSystem: SWCoordinateSystemMock new.
-	scatterPlot dataset: SWDiagram createTestData.
-	self assert: (scatterPlot submorphs size) = (SWDiagram createTestData keys size)
+	dataset := SWDiagramMock dataSet.
+	
+	diagram := SWDiagram new
+								visualize: dataset with: SWScatterPlot;
+								yourself.
+	
+	scatterPlot := diagram charts at: 1.
+	
+	self assert: [ (scatterPlot dataPoints size) = dataset size ]

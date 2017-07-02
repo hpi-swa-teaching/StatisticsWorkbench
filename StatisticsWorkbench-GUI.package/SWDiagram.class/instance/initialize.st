@@ -3,4 +3,5 @@ initialize
 	super initialize.
 	
 	self color: Color transparent;
-	      charts: OrderedCollection new
+	      charts: OrderedCollection new;
+		addCoordinateSystem

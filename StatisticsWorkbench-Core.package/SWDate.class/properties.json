@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"position",
-		"printedPosition",
-		"caption" ],
+		"key",
+		"value",
+		"caption",
+		"group" ],
 	"name" : "SWDate",
 	"pools" : [
 		 ],
