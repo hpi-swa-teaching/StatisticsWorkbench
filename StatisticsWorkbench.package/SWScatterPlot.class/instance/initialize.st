@@ -3,6 +3,5 @@ initialize
 
 	super initialize.
 	
-	self 
-		color: Color transparent;
-		dataPoints: OrderedCollection new
+	self color: Color transparent;
+	dataPoints: OrderedCollection new.

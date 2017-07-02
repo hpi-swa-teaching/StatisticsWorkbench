@@ -1,6 +1,4 @@
 as yet unclassified
 initialize
 
-	super initialize.
-	
-	self pieslices: OrderedCollection new; color: Color transparent
+	super initialize
