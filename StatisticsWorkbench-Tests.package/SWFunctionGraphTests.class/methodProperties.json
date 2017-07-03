@@ -2,6 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAdd" : "J.R. 7/3/2017 23:06",
+		"testCollectionsGetInitialized" : "J.R. 7/3/2017 23:21",
+		"testFunctionGraphVisualisation" : "J.R. 7/3/2017 23:22",
 		"testInitialize" : "maf 7/2/2017 12:10",
 		"testIsInvisible" : "maf 7/2/2017 12:12",
+		"testRemove" : "J.R. 7/3/2017 23:18",
+		"testRemoveAll" : "J.R. 7/3/2017 23:19",
 		"testVerticesComparator" : "maf 7/2/2017 14:26" } }
