@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAdd" : "maf 7/2/2017 16:04",
+		"testAdd" : "maf 7/3/2017 12:24",
 		"testCollectionsGetInitialized" : "maf 7/2/2017 12:06",
 		"testIsInvisible" : "maf 7/2/2017 11:22",
-		"testRemove" : "maf 7/2/2017 15:58",
-		"testRemoveAll" : "maf 7/2/2017 15:53",
-		"testScatterPlotVisualisation" : "maf 7/2/2017 16:06" } }
+		"testRemove" : "maf 7/3/2017 12:25",
+		"testRemoveAll" : "maf 7/3/2017 12:25",
+		"testScatterPlotVisualisation" : "maf 7/3/2017 12:25" } }

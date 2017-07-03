@@ -3,7 +3,7 @@ testAdd
 
 	| dataset diagram |
 	
-	dataset := SWDiagramMock dataSet.
+	dataset := SWDataTests createSeeded.
 
 	diagram := SWDiagram new
 								visualize: dataset with: SWScatterPlot;
