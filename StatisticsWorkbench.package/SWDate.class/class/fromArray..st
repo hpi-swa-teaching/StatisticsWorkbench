@@ -1,10 +1,7 @@
 as yet unclassified
-create: aSWVector
-	
-	aSWVector dimensions = 0
+fromArray: anArray
+
+	anArray size = 0
 		ifTrue: [ SWInvalidDimensionError signal: 'You must provide at least one dimension' ].
-	
-	
-	^ SWDate new
-				key: aSWVector;
-				yourself
+		
+	^ self create: (SWVector create: anArray)

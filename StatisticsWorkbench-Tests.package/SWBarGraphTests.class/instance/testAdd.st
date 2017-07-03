@@ -2,7 +2,7 @@ as yet unclassified
 testAdd
 	| barGraph dataset diagram |
 	
-	dataset := SWDiagramMock dataSet.
+	dataset := SWDataTests createSeeded.
 	diagram := SWDiagram new
 								visualize: dataset with: SWBarGraph;
 								yourself.
