@@ -9,6 +9,6 @@ testAdd
 								visualize: dataset with: SWScatterPlot;
 								yourself.
 	
-	dataset add: 0@0.
+	dataset add: (SWDate fromPoint: 0@0).
 	
 	self assert: [ (diagram charts at: 1) dataPoints size = dataset size ]
