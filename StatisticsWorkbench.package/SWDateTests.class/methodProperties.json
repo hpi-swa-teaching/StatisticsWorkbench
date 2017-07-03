@@ -4,7 +4,11 @@
 	"instance" : {
 		"testCreate" : "maf 7/2/2017 17:42",
 		"testEqual" : "maf 7/2/2017 18:17",
+		"testGreater" : "maf 7/3/2017 09:05",
+		"testGreaterEqual" : "maf 7/3/2017 09:05",
 		"testIdentity" : "maf 7/2/2017 18:16",
 		"testKey" : "maf 7/2/2017 18:18",
+		"testLess" : "maf 7/3/2017 09:07",
+		"testLessEqual" : "maf 7/3/2017 09:07",
 		"testNext" : "maf 7/3/2017 08:52",
 		"testPrevious" : "maf 7/3/2017 08:51" } }
