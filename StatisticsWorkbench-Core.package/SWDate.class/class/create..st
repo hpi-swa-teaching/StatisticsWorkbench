@@ -6,5 +6,5 @@ create: anArray
 	
 	
 	^ SWDate new
-				key: anArray;
+				key: (SWVector create: anArray);
 				yourself

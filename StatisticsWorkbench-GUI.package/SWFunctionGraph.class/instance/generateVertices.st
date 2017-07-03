@@ -4,8 +4,9 @@ generateVertices
 	
 	newVertices := OrderedCollection new.
 	
-	self data keysAndValuesDo: [:xValue :yValue |
-		newVertices add: (self coordinateSystem positionFor: xValue @ yValue)
+	self data do: [ :date |
+		newVertices add: 
+							(self coordinateSystem positionFor: date key asPoint x @ date key asPoint y)
 	].
 
 	^ newVertices
