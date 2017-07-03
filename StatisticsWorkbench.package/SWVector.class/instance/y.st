@@ -4,4 +4,4 @@ y
 	self dimensions < 2
 		ifTrue: [SWInvalidDimensionError signal: 'No Y-Dimension available'].
 		
-	^ self at: 2
+	^ self data at: 2

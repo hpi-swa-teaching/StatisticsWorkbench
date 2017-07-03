@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dimensions" ],
+		"data" ],
 	"name" : "SWVector",
 	"pools" : [
 		 ],
-	"super" : "Array",
+	"super" : "Object",
 	"type" : "variable" }

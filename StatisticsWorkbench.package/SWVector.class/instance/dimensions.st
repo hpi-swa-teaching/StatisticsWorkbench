@@ -1,4 +1,4 @@
 as yet unclassified
 dimensions
 
-	^ self size
+	^ self data size

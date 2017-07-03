@@ -1,8 +1,8 @@
 as yet unclassified
-add: aPoint
+add: aSWDate
 	| newDataPoint |
 	
-	newDataPoint := (SWDataPoint create: aPoint at: (self coordinateSystem positionFor: aPoint)).
+	newDataPoint := (SWDataPoint create: aSWDate at: (self coordinateSystem positionFor: aSWDate data asPoint)).
 	
 	self dataPoints add: newDataPoint.
 	self addMorph: newDataPoint

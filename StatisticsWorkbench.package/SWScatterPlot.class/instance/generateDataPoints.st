@@ -1,6 +1,6 @@
 as yet unclassified
 generateDataPoints
 
-	self dataset keysAndValuesDo: [:xValue :yValue |
-		self add: xValue @ yValue
+	self dataset do: [:item |
+		self add: item
 	]
