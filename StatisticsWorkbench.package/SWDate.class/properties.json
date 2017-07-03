@@ -11,7 +11,8 @@
 		"caption",
 		"group",
 		"previous",
-		"next" ],
+		"next",
+		"aBlock" ],
 	"name" : "SWDate",
 	"pools" : [
 		 ],

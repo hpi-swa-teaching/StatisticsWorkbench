@@ -2,7 +2,7 @@ as yet unclassified
 testAt
 
 	| data |
-	data := SWDataTests class createSeeded.
+	data := SWDataTests createSeeded.
 	
 	self assert: [ (data at: #(0 1)) notNil ].
 	self assert: [ (data at: #(1 1)) notNil ].

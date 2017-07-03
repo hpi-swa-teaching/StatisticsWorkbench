@@ -4,7 +4,7 @@ testAddCorrectPosition
 	| data |
 	data := SWDataTests createSeeded.
 	
-	data add: #(2 0).
+	data add: (SWDate create: #(2 0)).
 	
 	self assert: [ data size = 5 ].
 	

@@ -1,14 +1,24 @@
 {
 	"class" : {
-		 },
+		"create" : "maf 7/3/2017 10:33" },
 	"instance" : {
-		"add:" : "maf 7/2/2017 16:32",
-		"at:" : "maf 7/2/2017 16:32",
+		"add:" : "maf 7/3/2017 12:12",
+		"add:between:and:" : "maf 7/3/2017 11:25",
+		"addAtFirst:" : "maf 7/3/2017 11:19",
+		"addAtLast:" : "maf 7/3/2017 11:22",
+		"addFirst:" : "maf 7/3/2017 12:07",
+		"at:" : "maf 7/3/2017 12:13",
 		"data" : "maf 7/2/2017 16:32",
 		"data:" : "maf 7/2/2017 16:32",
+		"dimensions" : "maf 7/3/2017 10:38",
 		"first" : "J.R. 7/3/2017 09:12",
 		"first:" : "J.R. 7/3/2017 09:12",
+		"initialize" : "maf 7/3/2017 12:09",
 		"last" : "J.R. 7/3/2017 09:12",
 		"last:" : "J.R. 7/3/2017 09:12",
-		"remove:" : "maf 7/2/2017 16:33",
+		"remove:" : "maf 7/3/2017 11:06",
+		"size" : "maf 7/3/2017 10:20",
+		"size:" : "maf 7/3/2017 10:21",
+		"sizeDecrement" : "maf 7/3/2017 10:21",
+		"sizeIncrement" : "maf 7/3/2017 10:21",
 		"update:with:" : "maf 7/2/2017 17:36" } }

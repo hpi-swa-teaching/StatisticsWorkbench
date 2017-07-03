@@ -3,5 +3,4 @@ initialize
 
 	super initialize.
 	
-	self color: Color transparent;
-		lineMorph: self createLineMorph 
+	self lineMorph: self createLineMorph 

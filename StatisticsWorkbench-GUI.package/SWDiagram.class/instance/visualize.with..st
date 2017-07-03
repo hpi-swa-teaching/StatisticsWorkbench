@@ -1,10 +1,10 @@
 as yet unclassified
-visualize: aSWDataSet with: aChart 
+visualize: aSWData with: aChart 
 	| chart |
 	chart := aChart create.
 	self addChart: chart.
 	
-	chart dataset: aSWDataSet.
+	chart dataset: aSWData.
 	
 	aChart needsCoordinateSystem 
 		ifTrue: [self updateCoordinateSystem]

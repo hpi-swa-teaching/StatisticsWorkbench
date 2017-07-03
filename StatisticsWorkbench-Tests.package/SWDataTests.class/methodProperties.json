@@ -1,13 +1,14 @@
 {
 	"class" : {
-		"createSeeded" : "maf 7/2/2017 17:39" },
+		"createSeeded" : "maf 7/3/2017 09:49" },
 	"instance" : {
-		"testAdd" : "maf 7/2/2017 18:08",
-		"testAddCorrectPosition" : "maf 7/3/2017 08:54",
-		"testAt" : "maf 7/2/2017 18:19",
-		"testDimension" : "maf 7/2/2017 18:13",
-		"testFirst" : "maf 7/3/2017 08:50",
-		"testFromCollection" : "maf 7/2/2017 17:57",
-		"testFromDictionary" : "maf 7/2/2017 17:55",
-		"testLast" : "maf 7/3/2017 08:50",
-		"testRemove" : "maf 7/2/2017 18:08" } }
+		"testAdd" : "maf 7/3/2017 12:14",
+		"testAddCorrectPosition" : "maf 7/3/2017 10:18",
+		"testAddFirst" : "maf 7/3/2017 09:55",
+		"testAt" : "maf 7/3/2017 10:32",
+		"testDimension" : "maf 7/3/2017 10:40",
+		"testFirst" : "maf 7/3/2017 10:44",
+		"testLast" : "maf 7/3/2017 10:44",
+		"testRemove" : "maf 7/3/2017 10:53",
+		"testRemoveFirst" : "maf 7/3/2017 10:59",
+		"testRemoveLast" : "maf 7/3/2017 11:00" } }
