@@ -1,11 +1,11 @@
 as yet unclassified
-create: aPoint at: aRenderPoint
+create: aSWDate at: aRenderPoint
 	| newDataPoint |
 	
 	newDataPoint := SWDataPoint new.
 	
 	newDataPoint 
-					realPoint: aPoint;
+					date: aSWDate;
 					renderedPoint: aRenderPoint;
 					width: self defaultWidth;
 					height: self defaultHeight;

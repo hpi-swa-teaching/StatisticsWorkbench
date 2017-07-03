@@ -9,6 +9,9 @@
 		"testDimension" : "maf 7/3/2017 10:40",
 		"testFirst" : "maf 7/3/2017 10:44",
 		"testLast" : "maf 7/3/2017 10:44",
+		"testMax" : "maf 7/3/2017 12:33",
+		"testMaxAcceptsXandY" : "maf 7/3/2017 12:32",
+		"testMin" : "maf 7/3/2017 12:33",
 		"testRemove" : "maf 7/3/2017 10:53",
 		"testRemoveFirst" : "maf 7/3/2017 10:59",
 		"testRemoveLast" : "maf 7/3/2017 11:00" } }
