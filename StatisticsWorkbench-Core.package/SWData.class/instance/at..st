@@ -11,7 +11,7 @@ at: anArray
 	
 	current := self first.
 	
-	[ current notNil and: [ (current key literalEqual: anArray) not ]]
+	[ current notNil and: [ (current key data literalEqual: anArray) not ]]
 		whileTrue: [ current := current next ].
 		
 	^ current
