@@ -5,4 +5,4 @@ as yet unclassified
 		ifFalse: 
 			[SWInvalidDimensionError signal: 'Compared vectors must have same dimensions!'].
 	
-	^ anotherSWVector notNil and: [self data literalEqual: anotherSWVector]
+	^ anotherSWVector notNil and: [self data literalEqual: anotherSWVector data]

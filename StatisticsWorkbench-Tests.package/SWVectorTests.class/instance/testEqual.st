@@ -17,4 +17,4 @@ testEqual
 	
 	self flag: #fishy.
 	" @Julius: Einfach false oder Exception? Entscheide du!"
-	self assert: [ (vector1 = vector4) not ]	
+	self should: [ vector1 = vector4 ] raise: SWInvalidDimensionError 	

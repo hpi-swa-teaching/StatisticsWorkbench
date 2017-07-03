@@ -1,4 +1,4 @@
 as yet unclassified
 fromPoint: aPoint
-
-	self create: #(aPoint x aPoint y)
+	
+	^ self create: (Array with: aPoint x with: aPoint y)
