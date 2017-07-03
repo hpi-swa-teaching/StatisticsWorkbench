@@ -7,9 +7,9 @@
 		"defaultStepInterval" : "mp 7/1/2017 12:40",
 		"needsCoordinateSystem" : "J.R. 6/29/2017 13:46" },
 	"instance" : {
-		"add:" : "maf 7/2/2017 12:14",
+		"add:" : "J.R. 7/4/2017 00:32",
 		"createLineMorph" : "maf 7/2/2017 14:28",
-		"generateVertices" : "maf 7/4/2017 00:20",
+		"generateVertices" : "J.R. 7/4/2017 00:32",
 		"initialize" : "maf 7/3/2017 12:15",
 		"lineMorph" : "maf 6/15/2017 13:51",
 		"lineMorph:" : "J.R. 6/29/2017 13:34",

@@ -1,5 +1,5 @@
 as yet unclassified
 errorIfDimensionIsOutOfBounds: anIndex
 
-	(self dimensions >= anIndex and: [ anIndex > 0 ])
+	(anIndex between: 1 and: self dimensions) not
 		ifFalse: [ SWInvalidDimensionError signal: 'Can not calculate max in undefined dimension' ].
