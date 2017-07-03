@@ -6,4 +6,4 @@ testRemoveLast
 	
 	data remove: #(3 0).
 	
-	self assert: [ data last key = #(1 3) ]
+	self assert: [ data last key data = #(1 3) ]

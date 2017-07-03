@@ -3,8 +3,8 @@ at: anArray
 	
 	| current |
 	
-	(self dimensions = anArray size) not
-		ifTrue: [ SWInvalidDimensionError signal: 'Invalid dimension.' ].
+	(self dimensions = anArray size)
+		ifFalse: [ SWInvalidDimensionError signal: 'Invalid dimension.' ].
 	
 	self size = 0
 		ifTrue: [ ^ nil ].

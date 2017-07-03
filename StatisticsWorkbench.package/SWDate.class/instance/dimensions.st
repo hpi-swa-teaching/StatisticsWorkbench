@@ -1,4 +1,4 @@
 accessing
 dimensions
 
-	^ self key size
+	^ self key dimensions
