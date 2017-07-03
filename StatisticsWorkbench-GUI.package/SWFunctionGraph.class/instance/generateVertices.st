@@ -4,7 +4,7 @@ generateVertices
 	
 	newVertices := OrderedCollection new.
 	
-	self dataset keysAndValuesDo: [:xValue :yValue |
+	self data keysAndValuesDo: [:xValue :yValue |
 		newVertices add: (self coordinateSystem positionFor: xValue @ yValue)
 	].
 

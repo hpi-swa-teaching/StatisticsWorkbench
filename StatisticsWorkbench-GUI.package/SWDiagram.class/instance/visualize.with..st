@@ -4,7 +4,7 @@ visualize: aSWData with: aChart
 	chart := aChart create.
 	self addChart: chart.
 	
-	chart dataset: aSWData.
+	chart data: aSWData.
 	
 	aChart needsCoordinateSystem 
 		ifTrue: [self updateCoordinateSystem]

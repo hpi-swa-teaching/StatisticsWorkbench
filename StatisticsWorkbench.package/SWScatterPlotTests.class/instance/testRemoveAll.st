@@ -3,7 +3,7 @@ testRemoveAll
 
 	| scatterPlot|
 	scatterPlot := SWScatterPlot new.
-	scatterPlot dataset: SWData createSeeded.
+	scatterPlot data: SWData createSeeded.
 	
 	scatterPlot removeAll. 
 	self assert: [ scatterPlot dataPoints size = 0 ]

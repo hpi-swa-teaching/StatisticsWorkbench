@@ -1,4 +1,4 @@
 as yet unclassified
 accumulateValues
 	
-	^ self dataset values sum
+	^ self data values sum

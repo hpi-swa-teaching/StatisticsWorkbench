@@ -3,7 +3,7 @@ testRemoveAll
 
 	| barGraph |
 	barGraph := SWBarGraph new.
-	barGraph dataset: SWDiagramMock dataSet.
+	barGraph data: SWDataTests createSeeded.
 	barGraph removeAll.
 	
 	self assert: [ barGraph bars size = 0 ]

@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dataset",
 		"data" ],
 	"name" : "SWChart",
 	"pools" : [

@@ -2,7 +2,7 @@ tests
 testScatterPlotVisualisation
 	| scatterPlot diagram dataset |
 	
-	dataset := SWData createSeeded.
+	dataset := SWDataTests createSeeded.
 	
 	diagram := SWDiagram new
 								visualize: dataset with: SWScatterPlot;

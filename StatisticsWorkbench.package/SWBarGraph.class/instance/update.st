@@ -2,7 +2,7 @@ nil
 update
 	
 	self removeAll.
-	self createBarsFrom: self dataset.
+	self createBarsFrom: self data.
 	
 	
 	
