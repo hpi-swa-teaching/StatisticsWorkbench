@@ -9,7 +9,9 @@
 		"key",
 		"value",
 		"caption",
-		"group" ],
+		"group",
+		"previous",
+		"next" ],
 	"name" : "SWDate",
 	"pools" : [
 		 ],
