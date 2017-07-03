@@ -10,7 +10,7 @@ testAdd
 	barGraph := (diagram charts at: 1).
 	self assert: [ barGraph bars size = dataset size ].
 	
-	dataset add: 100@100.
+	dataset add: (SWDate fromPoint: 100@100).
 	
 	self assert: [ barGraph bars size = dataset size ]
 	

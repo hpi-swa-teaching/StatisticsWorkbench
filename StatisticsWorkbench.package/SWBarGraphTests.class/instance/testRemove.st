@@ -2,7 +2,7 @@ as yet unclassified
 testRemove
 	| barGraph dataset diagram |
 	
-	dataset := SWDiagramMock dataSet.
+	dataset := SWDataTests createSeeded.
 	
 	diagram := SWDiagram new
 								visualize: dataset with: SWBarGraph;
@@ -13,7 +13,7 @@ testRemove
 	
 	self assert: [ barGraph bars size = dataset size ].
 	
-	dataset remove: 1.
+	dataset remove: #(1 1).
 	
 	self assert: [ barGraph bars size = dataset size ]
 	
