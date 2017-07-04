@@ -5,9 +5,9 @@ visualize: aSWData with: aChart
 	self addChart: chart.
 	
 	chart data: aSWData.
-	
+		
 	aChart needsCoordinateSystem 
 		ifTrue: [self updateCoordinateSystem]
-		ifFalse: [self bounds: chart bounds].
+		ifFalse: [self bounds: chart bounds. self coordinateSystem hide].
 	
 	self updateCharts
