@@ -1,4 +1,0 @@
-accessing
-realPoint
-
-	^ realPoint

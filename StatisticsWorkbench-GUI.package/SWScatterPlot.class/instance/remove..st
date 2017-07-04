@@ -1,5 +1,5 @@
 as yet unclassified
 remove: aDataPoint
 	
-	dataPoints remove: aDataPoint.
+	self dataPoints remove: aDataPoint.
 	aDataPoint delete
