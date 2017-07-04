@@ -6,7 +6,7 @@
 		"defaultWorldPosition" : "J.R. 6/29/2017 15:00",
 		"needsCoordinateSystem" : "J.R. 6/29/2017 15:05" },
 	"instance" : {
-		"accumulateValues" : "maf 7/4/2017 00:20",
+		"accumulateValues" : "J.R. 7/4/2017 01:50",
 		"addPieKey:" : "J.R. 6/29/2017 15:04",
 		"addPieslice:" : "J.R. 7/2/2017 11:52",
 		"center" : "J.R. 6/29/2017 12:47",
@@ -28,4 +28,4 @@
 		"setStartpointOf:by:" : "J.R. 6/29/2017 15:14",
 		"update" : "J.R. 7/2/2017 11:53",
 		"updatePieKey" : "J.R. 7/2/2017 11:52",
-		"updatePieslices" : "maf 7/4/2017 00:20" } }
+		"updatePieslices" : "J.R. 7/4/2017 02:03" } }
