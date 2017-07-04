@@ -5,4 +5,5 @@ addFirst: aSWDate
 			   next: nil.
 	
 	self first: aSWDate.
-	self last: aSWDate
+	self last: aSWDate.
+	self changed
