@@ -7,7 +7,8 @@ updatePieslices
 	
 	self resetPieslices.
 	
-	self data keysAndValuesDo:  [:aKey :aValue | 
-		self createPieSliceFrom: aKey with: aValue at: pos colored: (wheelColors at: pos). 
-		pos := pos + 1
-	]
+	self flag: #fishy.
+	self data do: [:date |
+		self createPieSliceFrom: date key x with: date key y  at: pos colored: (wheelColors at: pos).
+		pos := pos + 1.
+		]

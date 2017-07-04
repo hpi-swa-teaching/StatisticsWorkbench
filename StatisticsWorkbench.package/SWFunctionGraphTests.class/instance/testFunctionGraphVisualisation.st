@@ -2,7 +2,7 @@ as yet unclassified
 testFunctionGraphVisualisation
 	| funcGraph diagram dataset |
 	
-	dataset := SWData createSeeded.
+	dataset := SWDataTests createSeeded.
 	
 	diagram := SWDiagram new
 								visualize: dataset with: SWFunctionGraph;
