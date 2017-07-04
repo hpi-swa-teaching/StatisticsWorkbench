@@ -21,6 +21,7 @@ remove: anArray
 		ifTrue: [
 			self first: nil.
 			self last: nil.
+			self changed.
 			^ toBeDeleted
 			].
 
@@ -28,15 +29,17 @@ remove: anArray
 		ifTrue: [ 
 			toBeDeleted next previous: toBeDeleted previous. 
 			self first: toBeDeleted next.
+			self changed.
 			^ toBeDeleted ].
 	
 	self last = toBeDeleted
 		ifTrue: [ 
 			toBeDeleted previous next: toBeDeleted next.
 			self last: toBeDeleted previous.
+			self changed.
 			^ toBeDeleted ].
 	
 	toBeDeleted previous next: toBeDeleted next.
-	toBeDeleted next previous: toBeDeleted previous..
+	toBeDeleted next previous: toBeDeleted previous.
 
-	self changed.
+	self changed
