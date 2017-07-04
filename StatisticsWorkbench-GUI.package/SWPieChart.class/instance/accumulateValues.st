@@ -1,4 +1,4 @@
 as yet unclassified
 accumulateValues
 	
-	^ self data values sum
+	^ (self data dimension: 2) sum
