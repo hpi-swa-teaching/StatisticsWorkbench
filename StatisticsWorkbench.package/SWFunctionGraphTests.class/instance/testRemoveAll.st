@@ -7,4 +7,4 @@ testRemoveAll
 	
 	funcGraph := diagram charts at: 1.
 	funcGraph removeAll. 
-	self assert: [ funcGraph dataPoints size = 0 ]
+	self assert: [ funcGraph vertices size = 0 ]

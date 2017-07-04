@@ -2,4 +2,4 @@ as yet unclassified
 removeAll
 
 	self vertices removeAll.
-	self lineMorph setVertices: self vertices 
+	self lineMorph setVertices: {0 @ 0}.
