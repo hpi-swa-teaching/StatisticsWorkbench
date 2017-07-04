@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"realPoint",
 		"renderedPoint" ],
 	"name" : "SWDataPoint",
 	"pools" : [

@@ -6,6 +6,7 @@ create: aSWDate at: aRenderPoint
 	
 	newDataPoint 
 					date: aSWDate;
+					renderedPoint: aRenderPoint;
 					width: self defaultWidth;
 					height: self defaultHeight;
 					color: self defaultColor;

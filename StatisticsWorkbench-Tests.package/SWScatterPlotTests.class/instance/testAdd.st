@@ -11,4 +11,4 @@ testAdd
 	
 	dataset add: (SWDate fromPoint: 0@0).
 	
-	self assert: [ (diagram charts at: 1) dataPoints size = dataset size ]
+	self assert: [ (diagram charts at: 1) dataPoints size = dataset count ]
