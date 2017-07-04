@@ -39,4 +39,4 @@ remove: anArray
 	toBeDeleted previous next: toBeDeleted next.
 	toBeDeleted next previous: toBeDeleted previous..
 
-	^ toBeDeleted 
+	self changed.

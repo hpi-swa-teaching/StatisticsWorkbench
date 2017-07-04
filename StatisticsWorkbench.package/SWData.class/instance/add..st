@@ -22,7 +22,8 @@ add: aSWDate
 	current = self first
 		ifTrue: [ ^ self addAtFirst: aSWDate. ].
 	
-	^ self add: aSWDate between: current previous and: current
+	self add: aSWDate between: current previous and: current.
+	self changed.
 	
 	
 	
