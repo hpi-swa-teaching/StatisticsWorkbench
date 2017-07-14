@@ -1,4 +1,4 @@
 as yet unclassified
 input
 
-	^ NotImplemented 
+	^ (self predecessors collect: [:predecessor | predecessor output ]) asArray

@@ -9,7 +9,8 @@
 		"instruction",
 		"predecessors",
 		"successors",
-		"output" ],
+		"output",
+		"label" ],
 	"name" : "SWNode",
 	"pools" : [
 		 ],

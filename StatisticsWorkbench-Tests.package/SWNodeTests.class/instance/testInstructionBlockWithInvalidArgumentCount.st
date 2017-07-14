@@ -1,4 +1,10 @@
 as yet unclassified
 testInstructionBlockWithInvalidArgumentCount
 
-	self should: [ "smth" ] raise: SWInvalidArgumentError 
+	| noArgument oneArgument multipleArguments |
+	
+	noArgument := SWNode create: [ true ].
+	noArgument predecessors add: (SWNode new output: 1; yourself).
+	self should: [ noArgument execute ] raise: SWInvalidArgumentError.
+	noArgument predecessors add: (SWNode new output: 2; yourself).
+	self should: [ noArgument execute ] raise: SWInvalidArgumentError. 
