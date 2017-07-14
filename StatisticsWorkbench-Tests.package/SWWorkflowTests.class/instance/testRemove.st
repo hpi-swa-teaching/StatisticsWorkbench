@@ -1,4 +1,4 @@
 as yet unclassified
-testCreateAfter
+testRemove
 	
 	self assert: [ false ]

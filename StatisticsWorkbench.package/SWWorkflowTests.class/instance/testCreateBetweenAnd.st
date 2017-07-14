@@ -1,4 +1,4 @@
 as yet unclassified
-testCreateAfter
+testCreateBetweenAnd
 	
 	self assert: [ false ]

@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"testInput" : "maf 7/14/2017 11:10",
+		"testInstructionBlockGetsCalled" : "maf 7/14/2017 11:14",
+		"testInstructionBlockWithInvalidArgumentCount" : "maf 7/14/2017 11:15",
+		"testVisualizeWith" : "maf 7/14/2017 11:10" } }

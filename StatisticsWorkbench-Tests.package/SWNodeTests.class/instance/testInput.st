@@ -1,4 +1,4 @@
 as yet unclassified
-testCreateAfter
-	
+testInput
+
 	self assert: [ false ]

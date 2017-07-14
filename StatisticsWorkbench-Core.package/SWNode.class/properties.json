@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"instruction",
+		"predecessors",
+		"successors",
+		"output" ],
 	"name" : "SWNode",
 	"pools" : [
 		 ],
