@@ -12,7 +12,7 @@ testSize
 	self assert: [ workflow size = 1 ].
 	
 	node2 := SWNode new.
-	workflow add: node2.
+	workflow add: node2 after: node1.
 	
 	self assert: [ workflow size = 2 ].
 	

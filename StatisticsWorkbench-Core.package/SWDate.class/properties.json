@@ -10,7 +10,6 @@
 		"value",
 		"caption",
 		"group",
-		"previous",
 		"next",
 		"aBlock" ],
 	"name" : "SWDate",

@@ -1,6 +1,6 @@
 as yet unclassified
 testExecuteMeAndSuccessors
-	
+	"
 	| workflow node1 node2 node3 node4 testData |
 	
 	testData := SWDataTests createSeeded.
@@ -29,4 +29,4 @@ testExecuteMeAndSuccessors
 	self assert: [node4 output size = (testData size + 3)].
 	self assert: [(node4 output at: #(4 2)) notNil ].
 	self assert: [(node4 output at: #(4 4)) notNil ].
-	self assert: [(node4 output at: #(5 2)) notNil ].
+	self assert: [(node4 output at: #(5 2)) notNil ]."
