@@ -5,6 +5,6 @@ testInstructionBlockGetsCalled
 	flag := false.
 	instructionBlock := [ flag := true ].
 	
-	(SWNode create: instructionBlock with: 'Unit Testing') execute. 
+	(SWNode createWith: instructionBlock labelled: 'Unit Testing') execute. 
 	
 	self assert: [ flag ] 

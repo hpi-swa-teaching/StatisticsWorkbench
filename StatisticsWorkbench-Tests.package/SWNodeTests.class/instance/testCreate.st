@@ -3,7 +3,7 @@ testCreate
 
 	| instructionBlock node |
 	instructionBlock := [ true ]. 
-	node := SWNode create: instructionBlock.
+	node := SWNode createWith: instructionBlock.
 	
 	self assert: [ node notNil ].
 	self assert: [ node instruction = instructionBlock ]

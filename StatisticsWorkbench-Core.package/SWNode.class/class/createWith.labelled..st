@@ -1,5 +1,5 @@
 as yet unclassified
-create: aBlockClosure with: aString
+createWith: aBlockClosure labelled: aString
 
 	^ SWNode new
 				instruction: aBlockClosure;

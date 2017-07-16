@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"create:" : "maf 7/14/2017 11:21",
-		"create:with:" : "maf 7/14/2017 11:21" },
+		"createWith:" : "maf 7/16/2017 12:24",
+		"createWith:labelled:" : "maf 7/16/2017 12:23" },
 	"instance" : {
 		"execute" : "maf 7/14/2017 13:59",
 		"initialize" : "maf 7/14/2017 11:45",
