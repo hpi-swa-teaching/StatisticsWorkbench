@@ -1,4 +1,6 @@
 as yet unclassified
 testCreateFirst
 	
-	self assert: [ false ]
+	| instructionBlock |
+	instructionBlock := [ true ].
+	self assert: [ (SWWorkflow createFirst: instructionBlock) first instruction = instructionBlock ]
