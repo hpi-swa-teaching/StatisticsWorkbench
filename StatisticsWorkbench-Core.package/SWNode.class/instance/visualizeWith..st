@@ -1,4 +1,8 @@
 as yet unclassified
 visualizeWith: aChart
 
-	^ NotImplemented 
+	self output class = SWData
+		ifTrue: [ ^ SWDiagram new 
+								visualize: self output with: aChart; 
+								yourself ] 
+		ifFalse: [ ^ self output ] 

@@ -1,4 +1,4 @@
 as yet unclassified
 isEnd
 
-	^ NotImplemented 
+	^ self successors isEmpty 

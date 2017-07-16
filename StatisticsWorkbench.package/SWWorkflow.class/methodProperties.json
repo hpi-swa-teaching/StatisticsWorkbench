@@ -4,11 +4,12 @@
 	"instance" : {
 		"add:" : "mp 7/16/2017 13:08",
 		"add:after:" : "mp 7/16/2017 13:10",
-		"add:before:" : "mp 7/16/2017 13:11",
+		"add:before:" : "maf 7/16/2017 14:29",
 		"add:between:and:" : "mp 7/16/2017 13:14",
 		"at:" : "mp 7/16/2017 13:19",
 		"initialize" : "maf 7/16/2017 12:36",
 		"nodes" : "maf 7/16/2017 12:36",
 		"nodes:" : "maf 7/16/2017 12:36",
 		"remove:" : "mp 7/16/2017 13:34",
+		"removeAt:" : "maf 7/16/2017 13:50",
 		"size" : "mp 7/16/2017 13:24" } }

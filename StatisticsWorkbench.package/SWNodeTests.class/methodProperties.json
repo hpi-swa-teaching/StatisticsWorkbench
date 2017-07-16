@@ -9,8 +9,6 @@
 		"testInstructionBlockGetsCalled" : "maf 7/16/2017 12:24",
 		"testInstructionBlockGetsCalledWithInput" : "maf 7/16/2017 12:24",
 		"testInstructionBlockWithInvalidArgumentCount" : "maf 7/16/2017 12:24",
-		"testIsEnd" : "maf 7/16/2017 12:47",
-		"testIsStart" : "maf 7/16/2017 12:47",
-		"testPredecessors" : "mp 7/16/2017 13:05",
-		"testSuccsessors" : "maf 7/14/2017 11:17",
-		"testVisualizeWith" : "maf 7/14/2017 11:10" } }
+		"testIsEnd" : "maf 7/16/2017 13:52",
+		"testIsStart" : "maf 7/16/2017 13:51",
+		"testVisualizeWith" : "maf 7/16/2017 14:53" } }
