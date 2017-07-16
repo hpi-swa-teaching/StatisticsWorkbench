@@ -21,7 +21,7 @@ testExecuteMeAndSuccessors
 		
 	node1 executeMeAndSuccessors.
 	
-	"self assert: [node1 output = testData ]."
+	self assert: [node1 output = testData ].
 	self assert: [node2 output size = (testData size - 1)].
 	self assert: [node3 output size = (testData size + 2)].
 	self assert: [(node3 output at: #(4 2)) notNil ].
