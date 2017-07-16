@@ -1,4 +1,4 @@
 as yet unclassified
 at: anIndex
 	" return a node "
-	^ NotImplemented 
+	^ self nodes at: anIndex

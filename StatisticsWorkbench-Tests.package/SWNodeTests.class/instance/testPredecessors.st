@@ -1,4 +1,4 @@
 as yet unclassified
-testCreateAfter
-	
+testPredecessors
+
 	self assert: [ false ]

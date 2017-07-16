@@ -1,4 +1,4 @@
 as yet unclassified
 remove: aNode
 
-	^ NotImplemented 
+	self nodes remove: aNode
