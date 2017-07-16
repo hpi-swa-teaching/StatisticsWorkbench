@@ -23,7 +23,7 @@ remove: anArray
 					previous := current.
 					current := current next
 					]
-			]
+			].
 		
 	self sizeDecrement.
 	
