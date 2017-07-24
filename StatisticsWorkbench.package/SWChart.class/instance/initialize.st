@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self color: Color transparent
+	super color: Color transparent

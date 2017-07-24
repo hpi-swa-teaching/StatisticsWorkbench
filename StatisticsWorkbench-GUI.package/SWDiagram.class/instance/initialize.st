@@ -3,6 +3,6 @@ initialize
 	super initialize.
 	
 	self color: Color transparent;
-		charts: OrderedCollection new;
-		addCoordinateSystem
+		charts: OrderedCollection new
+		"addCoordinateSystem"
 			
