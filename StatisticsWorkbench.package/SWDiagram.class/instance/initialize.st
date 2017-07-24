@@ -2,7 +2,7 @@ as yet unclassified
 initialize
 	super initialize.
 	
-	self color: Color transparent;
-		charts: OrderedCollection new
-		"addCoordinateSystem"
+	super color: Color transparent.
+	self charts: OrderedCollection new
+		
 			
