@@ -4,10 +4,12 @@
 		"createSeeded2" : "J.R. 7/4/2017 03:34" },
 	"instance" : {
 		"testAdd" : "maf 7/4/2017 01:09",
-		"testAddCorrectPosition" : "maf 7/4/2017 00:58",
+		"testAddCorrectPosition" : "mp 7/16/2017 17:44",
 		"testAddFirst" : "maf 7/4/2017 01:10",
 		"testAt" : "maf 7/3/2017 10:32",
+		"testAtIndex" : "mp 7/16/2017 18:03",
 		"testDimension" : "maf 7/4/2017 01:11",
+		"testEqual" : "maf 7/24/2017 13:19",
 		"testFirst" : "maf 7/4/2017 01:12",
 		"testLast" : "maf 7/4/2017 01:12",
 		"testMax" : "maf 7/3/2017 12:33",

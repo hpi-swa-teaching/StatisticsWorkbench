@@ -1,3 +1,3 @@
-accessing
+as yet unclassified
 last
-	^ last
+	^ self atIndex: size.

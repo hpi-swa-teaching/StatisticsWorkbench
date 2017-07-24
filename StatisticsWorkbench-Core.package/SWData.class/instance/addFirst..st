@@ -1,9 +1,7 @@
 as yet unclassified
 addFirst: aSWDate
 	
-	aSWDate previous: nil;
-			   next: nil.
-	
+	aSWDate next: nil.
 	self first: aSWDate.
-	self last: aSWDate.
+	self size: 1.
 	self changed

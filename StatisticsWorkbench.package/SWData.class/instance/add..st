@@ -1,20 +1,18 @@
 as yet unclassified
 add: aSWDate
 	
-	| current | 
+	| current previous | 
 	
-	self sizeIncrement.
-	
-	self size = 1
+	self size = 0
 		ifTrue: [ ^ self addFirst: aSWDate ].
 	
 	(self dimensions = aSWDate dimensions) not
 		ifTrue: [ SWInvalidDimensionError signal: 'Dimension of linked list and dimension of inserted item must be equal.' ]. 
 	
 	current := self first.
-	
+
 	[ current notNil and: [ current < aSWDate ] ]
-		whileTrue: [ current := current next ].
+		whileTrue: [ previous := current. current := current next ].
 	
 	current isNil
 		ifTrue: [ ^ self addAtLast: aSWDate ].
@@ -22,7 +20,7 @@ add: aSWDate
 	current = self first
 		ifTrue: [ ^ self addAtFirst: aSWDate. ].
 	
-	self add: aSWDate between: current previous and: current.
+	self add: aSWDate between: previous and: current.
 	self changed.
 	
 	

@@ -14,7 +14,9 @@ testAdd
 	self assert: [ (workflow at: 1) = node1 ].
 	
 	node2 := SWNode new.
-	workflow add: node2.
+	workflow add: node2 after: node1.
 	
 	self assert: [ workflow size = 2 ].
-	self assert: [ (workflow at: 2) = node2 ]
+	self assert: [ (workflow at: 2) = node2 ].
+	
+	self should: [ workflow add: SWNode new ] raise: SWInvalidArgumentError 

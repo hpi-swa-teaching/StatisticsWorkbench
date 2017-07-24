@@ -12,7 +12,7 @@ testExecuteMeAndSuccessors
 	node3 := SWNode createWith: [:data | data add: (SWDate fromArray: #(4 2)); add: (SWDate fromArray: #(4 4)). data].
 	workflow add: node3 after: node1.
 	node4 := SWNode createWith: [:data | data add: (SWDate fromArray: #(5 2)). data].
-	workflow add: node4 after: node2.
+	workflow add: node4 after: node3.
 
 	self assert: [node1 output = nil ].
 	self assert: [node2 output = nil ].

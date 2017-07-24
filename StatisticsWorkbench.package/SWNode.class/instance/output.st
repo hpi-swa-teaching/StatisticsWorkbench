@@ -1,4 +1,4 @@
 accessing
 output
 	
-	^ output
+	^ output deepCopy

@@ -1,45 +1,30 @@
 as yet unclassified
 remove: anArray
 
-	| toBeDeleted |
-	
-	self sizeDecrement.
-	
+	| toBeDeleted current previous |
 	toBeDeleted := self at: anArray.
 	
 	self size = 0
 		ifTrue: [ ^ nil ].
-	
-	self flag: #fishy. "Consider using a resumable exception"
-	toBeDeleted isNil
-		ifTrue: [ ^ nil ].
-	
-	self flag: #fishy.
-	self flag: #fishy. "really fishy"
-
-	self first = self last
-		ifTrue: [
-			self first: nil.
-			self last: nil.
-			self changed.
-			^ toBeDeleted
-			].
-
+		
 	self first = toBeDeleted
-		ifTrue: [ 
-			toBeDeleted next previous: toBeDeleted previous. 
-			self first: toBeDeleted next.
-			self changed.
-			^ toBeDeleted ].
+		ifTrue: [ self first: self first next. current := nil ]
+		ifFalse: [ current := self first next ].
 	
-	self last = toBeDeleted
-		ifTrue: [ 
-			toBeDeleted previous next: toBeDeleted next.
-			self last: toBeDeleted previous.
-			self changed.
-			^ toBeDeleted ].
+	previous := self first.
+	[ current notNil ]
+		whileTrue: [ 
+			current = toBeDeleted
+				ifTrue: [ 
+					previous next: current next.
+					current := nil.
+					]
+				ifFalse: [
+					previous := current.
+					current := current next
+					]
+			].
+		
+	self sizeDecrement.
 	
-	toBeDeleted previous next: toBeDeleted next.
-	toBeDeleted next previous: toBeDeleted previous.
-
 	self changed

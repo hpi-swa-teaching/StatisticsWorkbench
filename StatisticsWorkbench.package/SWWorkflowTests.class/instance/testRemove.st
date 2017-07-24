@@ -7,7 +7,7 @@ testRemove
 	node1 := SWNode new.
 	workflow add: node1.
 	node2 := SWNode new.
-	workflow add: node2.
+	workflow add: node2 after: node1.
 	
 	self assert: [ workflow size = 2 ].
 	

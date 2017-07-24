@@ -9,5 +9,5 @@ testAddCorrectPosition
 	self assert: [ data size = 5 ].
 	
 	self assert: [ data first next next next key data = #(2 0) ].
-	self assert: [ data last previous key data = #(2 0) ]
+	self assert: [ (data atIndex: (data size - 1)) key data = #(2 0) ]
 	

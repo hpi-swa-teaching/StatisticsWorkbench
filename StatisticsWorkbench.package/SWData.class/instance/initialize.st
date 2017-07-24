@@ -9,5 +9,4 @@ initialize
 									yourself.
 	
 	self size: 0;
-		first: nil;
-		last: nil
+		first: nil
