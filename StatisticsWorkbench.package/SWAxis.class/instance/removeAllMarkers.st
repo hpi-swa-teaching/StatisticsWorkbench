@@ -1,4 +1,4 @@
-as yet unclassified
-removeAll
+adding/removing
+removeAllMarkers
 
 	self markers copy do: [:marker | self remove: marker]

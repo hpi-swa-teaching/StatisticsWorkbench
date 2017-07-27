@@ -12,9 +12,11 @@
 		"captionMorph:" : "mp 5/30/2017 15:51",
 		"initialize" : "mp 5/31/2017 15:33",
 		"rasterColor:" : "mp 6/14/2017 13:29",
+		"rasterLineVisibility:with:" : "mp 7/27/2017 19:24",
 		"rasterMorph" : "mp 6/14/2017 12:20",
 		"rasterMorph:" : "mp 6/14/2017 12:20",
 		"strokeColor:" : "mp 6/14/2017 13:29",
 		"strokeMorph" : "mp 5/30/2017 15:50",
 		"strokeMorph:" : "mp 5/30/2017 15:50",
-		"textColor:" : "mp 5/30/2017 16:05" } }
+		"textColor:" : "mp 5/30/2017 16:05",
+		"toggleRasterLine" : "mp 7/27/2017 19:16" } }

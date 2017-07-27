@@ -1,5 +1,6 @@
 accessing
 stepInterval: anObject
+
 	anObject isNil
 		ifTrue: [ SWInvalidArgumentError signal: 'Step interval must be set.'].
 	anObject <= 0

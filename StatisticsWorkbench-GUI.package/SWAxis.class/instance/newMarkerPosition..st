@@ -1,4 +1,4 @@
-as yet unclassified
+helper
 newMarkerPosition: aIndex
 	self orientation = #horizontal
 		ifTrue: [	^ self startPoint + 

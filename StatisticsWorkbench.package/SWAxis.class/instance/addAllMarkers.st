@@ -1,5 +1,5 @@
-initialization
-drawMarkers
+adding/removing
+addAllMarkers
 	| i |
 	i := 0.
 	[i - 1 < self relativeStepInterval]

@@ -1,4 +1,6 @@
-as yet unclassified
+updating
 update
+
 	self updateLegend.
-	self updateMarkers
+	self updateMarkers.
+	self changed: self

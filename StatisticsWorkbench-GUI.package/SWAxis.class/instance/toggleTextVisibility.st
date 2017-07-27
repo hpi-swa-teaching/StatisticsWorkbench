@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 toggleTextVisibility
 	self textVisibility: self textVisibility not.
 	self textVisibility
