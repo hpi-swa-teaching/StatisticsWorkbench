@@ -2,6 +2,6 @@ as yet unclassified
 testInitialize
 
 	| functionGraph |
-	functionGraph := SWFunctionGraph new.
+	functionGraph := SWLineChart new.
 	
 	self assert: [ functionGraph lineMorph notNil ] 

@@ -5,7 +5,7 @@ testFunctionGraphVisualisation
 	dataset := SWDataTests createSeeded.
 	
 	diagram := SWDiagram new
-								visualize: dataset with: SWFunctionGraph;
+								visualize: dataset with: SWLineChart new;
 								yourself.
 	
 	funcGraph := diagram charts at: 1.

@@ -1,5 +1,6 @@
-as yet unclassified
+updating
 updateCoordinateSystem
+
 	| maximumx maximumy stepIntervalX temp|
 	maximumx := 0.
 	maximumy := 0.
@@ -10,4 +11,4 @@ updateCoordinateSystem
 								temp y > maximumy ifTrue: [maximumy:=temp y].
 								diagram class defaultStepInterval>stepIntervalX ifTrue: 									[stepIntervalX:=diagram class defaultStepInterval]].
 
-	self flag: #fishy. " method doesnt do anything -> update maax and stepinterval missing "
+	self flag: #fishy. " method doesnt do anything -> update max and stepinterval missing "

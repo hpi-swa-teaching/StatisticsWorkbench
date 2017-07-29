@@ -2,7 +2,7 @@ as yet unclassified
 testIsInvisible 
 
 	| functionGraph |
-	functionGraph := SWFunctionGraph new.
+	functionGraph := SWLineChart new.
 	
 	self assert: [ functionGraph color = Color transparent ]
 	

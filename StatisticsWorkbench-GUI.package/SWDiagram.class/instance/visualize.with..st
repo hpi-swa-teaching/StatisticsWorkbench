@@ -1,17 +1,16 @@
-as yet unclassified
+geometry
 visualize: aSWData with: aChart 
-	| chart |
 	
+	self flag: #fishy. "nested if statement"
 	(aChart needsCoordinateSystem and: [ self coordinateSystem isNil ])
-		ifTrue: [ self addCoordinateSystem ].
+		ifTrue: [ self hasCoordinateSystem ifFalse: [self addCoordinateSystem: self createCoordinateSystem]].
 	
-	chart := aChart create.
-	self addChart: chart.
+	self add: aChart.
 	
-	chart data: aSWData.
+	aChart data: aSWData.
 		
 	aChart needsCoordinateSystem 
 		ifTrue: [self updateCoordinateSystem]
-		ifFalse: [self bounds: chart bounds. "self coordinateSystem hide"].
+		ifFalse: [self bounds: aChart bounds. "self coordinateSystem hide"].
 	
 	self updateCharts
