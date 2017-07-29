@@ -3,7 +3,7 @@ visualize: aSWData with: aChart
 	
 	self flag: #fishy. "nested if statement"
 	(aChart needsCoordinateSystem and: [ self coordinateSystem isNil ])
-		ifTrue: [ self hasCoordinateSystem ifFalse: [self addCoordinateSystem: self createCoordinateSystem]].
+		ifTrue: [ self hasCoordinateSystem ifFalse: [self add: self createCoordinateSystem]].
 	
 	self add: aChart.
 	
