@@ -1,3 +1,4 @@
-as yet unclassified
+defaults
 defaultBoundsThreshold
-	^ 60@60
+
+	^ 60 @ 60

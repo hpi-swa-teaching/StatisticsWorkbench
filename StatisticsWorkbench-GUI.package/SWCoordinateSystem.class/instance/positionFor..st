@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 positionFor: aPoint
 	
-	^ self xAxis startPoint + ((self xAxis getPositionForValue: aPoint x)@(-1*(self yAxis getPositionForValue: aPoint y)))
+	^ self xAxis startPoint + ((self xAxis getPositionForValue: aPoint x) @ ((self yAxis getPositionForValue: aPoint y) negated))
