@@ -1,4 +1,4 @@
-accessing
+adding/removing
 removeAll
 
 	^ self subclassResponsibility 

@@ -1,6 +1,6 @@
 accessing
 barWidth
 
-	barwidth notNil
-		ifTrue: [ ^ barwidth ]
+	barWidth notNil
+		ifTrue: [ ^ barWidth]
 		ifFalse: [ ^ self coordinateSystem xAxis length / self data size / 2 ]

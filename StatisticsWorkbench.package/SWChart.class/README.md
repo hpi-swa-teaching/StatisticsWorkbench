@@ -1,0 +1,1 @@
+I am an abstract chart with basic behavior

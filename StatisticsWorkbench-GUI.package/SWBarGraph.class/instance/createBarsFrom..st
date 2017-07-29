@@ -1,7 +1,9 @@
-nil
+as yet unclassified
 createBarsFrom: aSWData
 	
 	| xOfBar height |
+	
+	self flag: #fishy.
 	
 	aSWData do: [:date |
 		xOfBar := self barPositionFor: date key x.
