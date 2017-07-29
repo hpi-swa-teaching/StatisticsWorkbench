@@ -1,4 +1,4 @@
-as yet unclassified
+adding/removing
 remove: aDataPoint
 	
 	self dataPoints remove: aDataPoint.

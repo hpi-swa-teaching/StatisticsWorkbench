@@ -1,2 +1,4 @@
 adding/removing
-removePieslice: aSlice
+removePieslice: aPieslice
+
+	

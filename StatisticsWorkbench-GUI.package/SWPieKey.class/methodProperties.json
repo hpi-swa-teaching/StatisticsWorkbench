@@ -9,6 +9,7 @@
 	"instance" : {
 		"addColorSwatch:" : "J.R. 7/1/2017 17:39",
 		"addKeyPoint:" : "J.R. 7/1/2017 17:39",
+		"addTo:" : "J.R. 7/29/2017 16:12",
 		"computeKeyExtent" : "J.R. 7/1/2017 17:57",
 		"drawColorSwatchOf:at:" : "J.R. 7/1/2017 17:55",
 		"drawKey" : "J.R. 7/1/2017 17:57",
@@ -19,4 +20,5 @@
 		"pieKeyNames" : "J.R. 7/1/2017 17:28",
 		"pieKeyNames:" : "J.R. 7/1/2017 17:28",
 		"pieslices" : "J.R. 7/1/2017 17:29",
-		"pieslices:" : "J.R. 7/1/2017 17:30" } }
+		"pieslices:" : "J.R. 7/1/2017 17:30",
+		"removeFrom:" : "J.R. 7/29/2017 16:14" } }

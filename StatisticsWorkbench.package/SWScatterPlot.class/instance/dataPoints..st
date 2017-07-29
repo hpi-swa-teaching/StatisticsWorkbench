@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 dataPoints: anObject
 
 	dataPoints := anObject

@@ -7,6 +7,8 @@
 		"needsCoordinateSystem" : "J.R. 7/29/2017 15:30" },
 	"instance" : {
 		"accumulateValues" : "J.R. 7/4/2017 01:50",
+		"add:" : "J.R. 7/29/2017 16:11",
+		"addPieKey" : "J.R. 7/29/2017 16:21",
 		"addPieKey:" : "J.R. 6/29/2017 15:04",
 		"addPieslice:" : "J.R. 7/29/2017 15:57",
 		"center" : "J.R. 6/29/2017 12:47",
@@ -23,9 +25,12 @@
 		"pieslices:" : "J.R. 6/29/2017 12:48",
 		"radius" : "J.R. 6/29/2017 12:48",
 		"radius:" : "J.R. 6/29/2017 12:48",
+		"remove:" : "J.R. 7/29/2017 16:13",
 		"removeAllPieslices" : "J.R. 7/29/2017 15:53",
-		"removePieslice:" : "J.R. 7/29/2017 15:51",
+		"removePieKey" : "J.R. 7/29/2017 16:19",
+		"removePieKey:" : "J.R. 7/29/2017 16:16",
+		"removePieslice:" : "J.R. 7/29/2017 16:17",
 		"startpointOf:by:" : "J.R. 7/29/2017 15:59",
 		"update" : "J.R. 7/29/2017 16:00",
-		"updatePieKey" : "J.R. 7/2/2017 11:52",
-		"updatePieslices" : "J.R. 7/29/2017 15:53" } }
+		"updatePieKey" : "J.R. 7/29/2017 16:21",
+		"updatePieslices" : "J.R. 7/29/2017 16:25" } }
