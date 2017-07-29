@@ -1,4 +1,4 @@
 comparing
 = anotherSWDate
 	
-	^ anotherSWDate notNil and: [self key literalEqual: anotherSWDate key]
+	^ anotherSWDate notNil and: [ self key literalEqual: anotherSWDate key ]
