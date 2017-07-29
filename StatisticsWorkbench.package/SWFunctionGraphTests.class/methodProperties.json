@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAdd" : "J.R. 7/29/2017 18:05",
+		"testAdd" : "J.R. 7/29/2017 18:35",
 		"testCollectionsGetInitialized" : "J.R. 7/29/2017 17:36",
 		"testFunctionGraphVisualisation" : "J.R. 7/29/2017 18:05",
 		"testInitialize" : "J.R. 7/29/2017 17:36",
 		"testIsInvisible" : "J.R. 7/29/2017 17:37",
-		"testRemove" : "J.R. 7/29/2017 18:05",
+		"testRemove" : "J.R. 7/29/2017 18:35",
 		"testRemoveAll" : "J.R. 7/29/2017 18:06",
 		"testVerticesComparator" : "J.R. 7/29/2017 17:38" } }

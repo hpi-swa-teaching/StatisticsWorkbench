@@ -14,4 +14,4 @@ testRemove
 	funcGraph := diagram charts at: 1.
 	dataset remove: #(0 1).
 	
-	self assert: [ funcGraph lineMorph vertices size = dataset count ]
+	self assert: [ funcGraph lineMorph vertices size = dataset size ]

@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 last
-	^ self atIndex: size.
+
+	^ self atIndex: self size
