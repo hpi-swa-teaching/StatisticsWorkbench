@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 input
 
-	^ (self predecessors collect: [:predecessor | predecessor output ]) asArray
+	^ (self predecessors collect: [ :predecessor | predecessor output ]) asArray

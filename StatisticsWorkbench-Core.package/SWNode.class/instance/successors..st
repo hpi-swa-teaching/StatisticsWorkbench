@@ -1,4 +1,4 @@
 accessing
 successors: anObject
 	
-	successors := anObject.
+	successors := anObject
