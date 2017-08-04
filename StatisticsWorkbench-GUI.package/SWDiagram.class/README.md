@@ -1,0 +1,1 @@
+I am able to manage multiple charts
