@@ -1,4 +1,4 @@
 *StatisticsWorkbench-creation
-asSwVector
+asSWVector
 
 	^ SWVector fromArray: self

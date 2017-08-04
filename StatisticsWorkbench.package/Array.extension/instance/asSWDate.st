@@ -1,4 +1,4 @@
 *StatisticsWorkbench-creation
-asSwDate 
+asSWDate 
 
 	^ SWDate fromArray: self

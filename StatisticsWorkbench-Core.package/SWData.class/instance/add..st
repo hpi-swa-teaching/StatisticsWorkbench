@@ -1,7 +1,7 @@
 adding/removing
 add: anObject
 	
-	anObject addToSwData: self
+	anObject addToSWData: self
 	
 	
 	

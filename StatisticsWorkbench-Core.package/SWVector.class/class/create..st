@@ -1,4 +1,4 @@
 as yet unclassified
 create: anObject
 	
-	^ anObject asSwVector
+	^ anObject asSWVector

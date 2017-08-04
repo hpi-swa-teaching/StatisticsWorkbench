@@ -1,4 +1,4 @@
 adding/removing
-addToSwData: aSwData
+addToSWData: aSwData
 
 	aSwData addSwDate: self
