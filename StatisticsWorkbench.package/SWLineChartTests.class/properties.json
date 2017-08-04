@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SWFunctionGraphTests",
+		"lineChart",
+		"data",
+		"diagram" ],
+	"name" : "SWLineChartTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
