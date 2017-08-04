@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEqual
 
 	| data1 data2 data3 |

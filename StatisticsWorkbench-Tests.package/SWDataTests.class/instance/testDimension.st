@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDimension
 
 	| d1 d2 d3 d5 |

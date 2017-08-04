@@ -1,10 +1,8 @@
 accessing
-min: anInteger
-
-	anInteger isInteger
-		ifFalse: [ SWInvalidArgumentError signal: 'You must provide a number' ].
-	self max notNil
-		ifTrue: [ anInteger >= self max
-			ifTrue: [ SWInvalidArgumentError signal: 'The provided number must be smaller than max' ] ].
-	min := anInteger.
-	self update
+min: anObject
+	(self max notNil and: anObject notNil)
+		ifTrue: [ anObject >= self max
+			ifTrue: [SWInvalidArgumentError signal]
+			ifFalse: [min := anObject.
+				self update]]
+		ifFalse: [min := anObject.]

@@ -1,8 +1,13 @@
 as yet unclassified
 addCoordinateSystem
+	
+	| coord | 
+	
 	self hasCoordinateSystem
 		ifFalse: [
-			self coordinateSystem: SWCoordinateSystem create.
+			coord := SWCoordinateSystem create.
+			coord addDependent: self.
+			self coordinateSystem: coord.
 			self bounds: self coordinateSystem bounds.
 			self position: self coordinateSystem position.
 			self addMorph: self coordinateSystem].

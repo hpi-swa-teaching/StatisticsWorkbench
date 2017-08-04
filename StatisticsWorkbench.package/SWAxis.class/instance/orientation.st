@@ -1,5 +1,4 @@
 accessing
 orientation
-	" Possible values: #horizontal, #vertical "
-	
-	^ orientation
+	" Possible values: #horizontal, #vertical"
+	^ orientation.
