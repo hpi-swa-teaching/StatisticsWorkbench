@@ -1,6 +1,5 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
-	
 	self dataPoints: OrderedCollection new

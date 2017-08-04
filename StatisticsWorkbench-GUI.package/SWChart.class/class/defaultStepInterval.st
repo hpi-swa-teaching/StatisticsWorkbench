@@ -1,3 +1,4 @@
-as yet unclassified
-defaultStepInterval 
+defaults
+defaultStepInterval
+
 	^ self subclassResponsibility 

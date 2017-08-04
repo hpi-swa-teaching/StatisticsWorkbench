@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 caption: aString
 
-	self textmorph contents: aString
+	self barLabelMorph contents: aString

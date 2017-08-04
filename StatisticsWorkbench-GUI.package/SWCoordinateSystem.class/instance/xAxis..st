@@ -1,4 +1,6 @@
 accessing
 xAxis: anObject
+
+	xAxis removeDependent: self.
 	xAxis := anObject.
-	xAxis addDependent: anObject
+	xAxis addDependent: self

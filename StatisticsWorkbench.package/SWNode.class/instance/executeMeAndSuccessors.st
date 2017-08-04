@@ -1,4 +1,5 @@
-as yet unclassified
+workflow execution
 executeMeAndSuccessors
+
 	self execute.
-	self successors do: [:successor | successor executeMeAndSuccessors]
+	self successors do: [ :successor | successor executeMeAndSuccessors ]

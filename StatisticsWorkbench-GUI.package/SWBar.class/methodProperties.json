@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"create" : "maf 7/2/2017 09:49",
+		"create" : "J.R. 7/29/2017 16:57",
 		"defaultColor" : "maf 7/2/2017 09:48" },
 	"instance" : {
-		"bottom" : "TB 6/1/2017 14:36",
-		"bottom:" : "TB 6/1/2017 14:36",
-		"caption:" : "maf 7/1/2017 18:20",
-		"initialize" : "maf 7/1/2017 18:20",
-		"textmorph" : "mp 5/16/2017 16:21",
-		"textmorph:" : "mp 5/16/2017 16:21",
-		"value" : "TB 6/1/2017 12:33",
-		"value:" : "TB 6/1/2017 12:33" } }
+		"barLabelMorph" : "J.R. 7/29/2017 16:54",
+		"barLabelMorph:" : "J.R. 7/29/2017 16:55",
+		"bottom" : "J.R. 7/29/2017 16:51",
+		"bottom:" : "J.R. 7/29/2017 16:51",
+		"caption:" : "J.R. 7/29/2017 16:52",
+		"initialize" : "J.R. 7/29/2017 16:55",
+		"value" : "J.R. 7/29/2017 16:56",
+		"value:" : "J.R. 7/29/2017 16:56" } }

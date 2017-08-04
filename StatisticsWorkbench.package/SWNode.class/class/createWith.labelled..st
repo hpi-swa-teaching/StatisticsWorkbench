@@ -1,7 +1,7 @@
-as yet unclassified
+instance creation
 createWith: aBlockClosure labelled: aString
 
 	^ SWNode new
-				instruction: aBlockClosure;
-				label: aString;
-				yourself
+						instruction: aBlockClosure;
+						label: aString;
+						yourself

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 x
 		
 	^ self data at: 1

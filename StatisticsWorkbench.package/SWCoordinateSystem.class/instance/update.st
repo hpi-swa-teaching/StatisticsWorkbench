@@ -1,4 +1,6 @@
-as yet unclassified
+updating
 update
 
-	self changed
+	self updateRasterSize.
+	self xAxis update.
+	self yAxis update

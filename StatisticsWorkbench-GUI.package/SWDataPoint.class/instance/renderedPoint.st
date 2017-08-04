@@ -1,4 +1,4 @@
 accessing
 renderedPoint
 
-	^ renderedPoint - ((self width @ self height) * 0.5)
+	^ renderedPoint - (self width @ self height * 0.5)

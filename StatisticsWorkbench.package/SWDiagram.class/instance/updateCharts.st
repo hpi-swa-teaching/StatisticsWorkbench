@@ -1,4 +1,5 @@
-as yet unclassified
+updating
 updateCharts
-	self charts do: [:chart | chart update]
+
+	self charts do: [ :chart | chart update ]
 	

@@ -6,9 +6,9 @@ testAdd
 	dataset := SWDataTests createSeeded.
 
 	diagram := SWDiagram new
-								visualize: dataset with: SWFunctionGraph;
+								visualize: dataset with: SWLineChart new;
 								yourself.
 	
 	dataset add: (SWDate fromPoint: 0@0).
 	
-	self assert: [ (diagram charts at: 1) lineMorph vertices size = dataset count ]
+	self assert: [ (diagram charts at: 1) lineMorph vertices size = dataset size ]

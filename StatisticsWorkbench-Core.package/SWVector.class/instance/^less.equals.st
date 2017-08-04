@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 <= anotherSWVector
 		
 	^ self < anotherSWVector or: [ self = anotherSWVector ]

@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 renderDataPoints
 
-	self dataPoints do: [ :dataPoint | dataPoint position: dataPoint renderedPoint  ]
+	self dataPoints do: [ :dataPoint | dataPoint position: dataPoint renderedPoint ]

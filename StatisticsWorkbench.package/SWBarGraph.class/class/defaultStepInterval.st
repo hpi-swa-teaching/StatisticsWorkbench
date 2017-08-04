@@ -1,4 +1,4 @@
-nil
+defaults
 defaultStepInterval
 	
 	^ 1

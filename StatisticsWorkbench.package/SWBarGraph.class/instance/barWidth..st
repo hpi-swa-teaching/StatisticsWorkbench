@@ -1,4 +1,4 @@
 accessing
 barWidth: anObject
 
-	barwidth := anObject
+	barWidth := anObject
