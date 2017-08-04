@@ -1,0 +1,20 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data",
+		"diagramLineChart",
+		"diagramBarChart",
+		"diagramEmpty",
+		"diagramLineScatter",
+		"diagramPieChart",
+		"diagramScatterPlot" ],
+	"name" : "SWDiagramTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
