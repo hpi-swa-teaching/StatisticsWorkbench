@@ -4,8 +4,10 @@ createSeeded
 	" don't change! Multiple unit tests relying on that data "
 	
 	^ SWData new
-				add: #(0 1);
-				add: #(1 1);
-				add: #(1 3);
-				add: #(3 0);
+				add: #(5 5);
+				add: #(20 10);
+				add: #(40 60);
+				add: #(60 40);
+				add: #(80 80);
+				add: #(100 65);
 				yourself
