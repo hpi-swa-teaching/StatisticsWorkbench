@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testBarGraphImplementsCreate
 	
-	self assert: [ (SWBarGraph create = nil) not ] 
+	self deny: SWBarGraph create = nil

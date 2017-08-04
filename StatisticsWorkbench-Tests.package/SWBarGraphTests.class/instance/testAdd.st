@@ -1,18 +1,10 @@
-as yet unclassified
+testing
 testAdd
-	| barGraph dataset diagram |
 	
-	dataset := SWDataTests createSeeded.
-	diagram := SWDiagram new
-								visualize: dataset with: SWBarGraph new;
-								yourself.
+	self assert: self barGraph bars size = self data size.
 	
-	barGraph := (diagram charts at: 1).
-	self assert: [ barGraph bars size = dataset size ].
-	
-	dataset add: (SWDate fromPoint: 100@100).
-	
-	self assert: [ barGraph bars size = dataset size ]
+	self data add: (SWDate create: 100 @ 100).
+	self assert: self barGraph bars size = self data size
 	
 	
 	

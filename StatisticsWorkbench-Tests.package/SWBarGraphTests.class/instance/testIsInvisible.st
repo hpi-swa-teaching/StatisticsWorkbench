@@ -1,7 +1,4 @@
-as yet unclassified
+testing
 testIsInvisible 
 
-	| barGraph |
-	barGraph := SWBarGraph new.
-	
-	self assert: [ barGraph color = Color transparent ]
+	self assert: self barGraph color = Color transparent

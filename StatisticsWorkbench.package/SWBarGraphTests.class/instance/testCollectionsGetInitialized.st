@@ -1,7 +1,5 @@
-as yet unclassified
+testing
 testCollectionsGetInitialized
 
-	| barGraph |
-	barGraph := SWBarGraph new.
-	self assert: [ barGraph bars notNil and: [ barGraph bars size = 0 ] ]
+	self assert: (self barGraph bars notNil and: [ self barGraph bars size = 4 ])
 	

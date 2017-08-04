@@ -1,21 +1,10 @@
-as yet unclassified
+testing
 testRemove
-	| barGraph dataset diagram |
 	
-	dataset := SWDataTests createSeeded.
+	self assert: self barGraph bars size = self data size.
 	
-	diagram := SWDiagram new
-								visualize: dataset with: SWBarGraph  new;
-								yourself.
-	
-	
-	barGraph := diagram charts at: 1.
-	
-	self assert: [ barGraph bars size = dataset size ].
-	
-	dataset remove: #(1 1).
-	
-	self assert: [ barGraph bars size = dataset size ]
+	self data remove: #(1 1).
+	self assert: self barGraph bars size = self data size
 	
 	
 	
