@@ -1,7 +1,11 @@
 as yet unclassified
 create
 
-	^ SWPieKey new
+	| newPieKey |
+	newPieKey := SWPieKey new.
+	newPieKey key
 						position: self defaultWorldPosition;
 						extent: self defaultExtent;
-						color: Color white
+						color: Color white.
+	
+	^ newPieKey

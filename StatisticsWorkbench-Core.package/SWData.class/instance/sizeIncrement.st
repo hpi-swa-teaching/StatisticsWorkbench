@@ -1,4 +1,4 @@
-as yet unclassified
+math functions
 sizeIncrement 
 
 	self size: self size + 1

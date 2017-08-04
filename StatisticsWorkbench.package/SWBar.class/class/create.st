@@ -1,6 +1,6 @@
-as yet unclassified
+instance creation
 create
 
 	^ SWBar new 
-				color: self defaultColor Color;
-				yourself
+					color: self defaultColor;
+					yourself

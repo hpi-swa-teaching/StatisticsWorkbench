@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 newXAxisHeightAfterExtent: aPoint
 
-	^ self yAxis endPoint x@(aPoint y - self boundsThreshold y + self yAxis endPoint y)
+	^ self yAxis endPoint x @ (aPoint y - self boundsThreshold y + self yAxis endPoint y)

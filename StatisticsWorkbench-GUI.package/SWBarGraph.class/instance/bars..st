@@ -1,4 +1,4 @@
 accessing
 bars: anObject
 	
-	bars := anObject.
+	bars := anObject

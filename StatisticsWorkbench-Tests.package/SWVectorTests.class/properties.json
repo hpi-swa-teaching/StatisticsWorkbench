@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"vector1",
+		"vector2",
+		"vector3",
+		"vector4" ],
 	"name" : "SWVectorTests",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 accessing
 center: anObject
 
-	center := anObject.
+	center := anObject

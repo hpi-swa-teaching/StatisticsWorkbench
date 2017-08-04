@@ -1,8 +1,9 @@
-as yet unclassified
+initialization
 initialize
+
 	super initialize.
-	
-	self color: Color transparent.
-	self charts: OrderedCollection new
+	self 
+		color: Color transparent;
+		charts: OrderedCollection new
 		
 			

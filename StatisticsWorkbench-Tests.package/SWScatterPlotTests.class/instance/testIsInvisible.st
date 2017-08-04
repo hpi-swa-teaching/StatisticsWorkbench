@@ -1,7 +1,4 @@
 tests
 testIsInvisible 
 
-	| scatterPlotGraph |
-	scatterPlotGraph := SWScatterPlot new.
-	
-	self assert: [ scatterPlotGraph color = Color transparent ]
+	self assert: self scatterPlot color = Color transparent

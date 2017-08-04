@@ -1,10 +1,5 @@
-as yet unclassified
+tests
 testLess
-
-	| date1 date2 date3 |
-	date1 := SWDate fromArray: #(0 0).
-	date2 := SWDate fromArray: #(0 1).
-	date3 := SWDate fromArray: #(1 1).
 	
-	self assert: [ date2 < date3 and: [ date1 < date3 ]  ].
-	self assert: [ date1 < date2 ]
+	self assert: [ self date2 < self date3 and: self date1 < self date3  ].
+	self assert: self date1 < self date2 

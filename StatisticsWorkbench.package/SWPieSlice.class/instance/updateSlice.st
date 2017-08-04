@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 updateSlice
 	
-	self setVertices: self pointSet asArray; makeClosed
+	self slice setVertices: self pointSet asArray; makeClosed

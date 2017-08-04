@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 computeRadianFrom: anAbsoluteValue
 	
-	^ anAbsoluteValue  / self accumulateValues * 2 * Float pi
+	^ anAbsoluteValue / self accumulateValues * 2 * Float pi

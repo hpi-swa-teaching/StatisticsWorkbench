@@ -8,9 +8,10 @@
 	"instvars" : [
 		"pieKeyNames",
 		"pieKeyColors",
-		"pieslices" ],
+		"pieslices",
+		"key" ],
 	"name" : "SWPieKey",
 	"pools" : [
 		 ],
-	"super" : "RectangleMorph",
+	"super" : "SWChartElement",
 	"type" : "normal" }

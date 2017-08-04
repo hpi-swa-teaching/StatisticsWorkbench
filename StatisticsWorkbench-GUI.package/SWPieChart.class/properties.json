@@ -8,9 +8,9 @@
 	"instvars" : [
 		"pieslices",
 		"radius",
-		"center",
 		"circleStartpoint",
-		"pieKey" ],
+		"pieKey",
+		"chartCenter" ],
 	"name" : "SWPieChart",
 	"pools" : [
 		 ],

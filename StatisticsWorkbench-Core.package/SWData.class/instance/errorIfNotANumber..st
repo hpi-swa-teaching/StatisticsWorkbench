@@ -1,5 +1,5 @@
-as yet unclassified
+errors
 errorIfNotANumber: anObject
 
 	anObject isNumber 
-		ifFalse: [ SWInvalidArgumentError signal: 'You must provide a numerical value'. ]
+		ifFalse: [ SWInvalidArgumentError signal: 'You must provide a numerical value' ]

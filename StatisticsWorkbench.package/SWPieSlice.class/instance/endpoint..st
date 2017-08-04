@@ -1,4 +1,4 @@
 accessing
 endpoint: anObject
 
-	endpoint := anObject.
+	endpoint := anObject

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 createWith: aBlockClosure
 
 	^ self createWith: aBlockClosure labelled: ''

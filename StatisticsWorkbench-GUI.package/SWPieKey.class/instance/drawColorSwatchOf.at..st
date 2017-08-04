@@ -7,7 +7,7 @@ drawColorSwatchOf: aPieslice at: aPosition
 	self addColorSwatch: colorSwatch.
 	self pieKeyColors add: colorSwatch. 
 	
-	colorSwatch color: aPieslice color;
-						position: self position + (self class defaultMargin @ 
-																(aPosition * self class defaultKeyPointHeight));
+	colorSwatch color: aPieslice slice color;
+						position: self key position + (self class defaultMargin @ 
+																(aPosition * self class defaultKeyPointHeight - 10));
 						extent: self class defaultColorSwatchExtent

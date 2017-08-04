@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 at: anIndex
-	" return a node "
+	
 	^ self nodes at: anIndex

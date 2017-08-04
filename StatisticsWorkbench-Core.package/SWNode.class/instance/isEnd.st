@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 isEnd
 
 	^ self successors isEmpty 

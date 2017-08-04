@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 visualizeWith: aChart
 
 	self output class = SWData

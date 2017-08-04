@@ -1,3 +1,4 @@
-as yet unclassified
+updating
 update: anArray with: newArray
+
 	^ NotImplemented 

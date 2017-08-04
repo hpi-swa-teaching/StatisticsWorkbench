@@ -5,7 +5,7 @@ testRemove
 	dataset := SWDataTests createSeeded.
 	
 	diagram := SWDiagram new
-								visualize: dataset with: SWBarGraph;
+								visualize: dataset with: SWBarGraph  new;
 								yourself.
 	
 	

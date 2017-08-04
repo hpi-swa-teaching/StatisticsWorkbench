@@ -8,12 +8,12 @@
 	"instvars" : [
 		"name",
 		"value",
-		"center",
 		"endpoint",
 		"startpoint",
-		"pointSet" ],
+		"pointSet",
+		"slice" ],
 	"name" : "SWPieSlice",
 	"pools" : [
 		 ],
-	"super" : "PolygonMorph",
+	"super" : "SWChartElement",
 	"type" : "normal" }

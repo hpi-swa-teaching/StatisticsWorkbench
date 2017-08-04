@@ -1,4 +1,4 @@
 accessing
 circleStartpoint
 	
-	^ self center x @ (self center y - self radius)
+	^ self chartCenter x @ (self chartCenter y - self radius)

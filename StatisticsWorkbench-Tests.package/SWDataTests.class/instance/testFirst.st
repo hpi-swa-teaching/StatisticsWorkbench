@@ -1,4 +1,4 @@
 tests
 testFirst
 
-	self assert: [ SWDataTests createSeeded first key data = #(0 1) ]
+	self assert: self data first key data = #(0 1)

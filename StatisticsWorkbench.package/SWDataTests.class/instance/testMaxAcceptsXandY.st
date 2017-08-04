@@ -1,10 +1,7 @@
 tests
 testMaxAcceptsXandY
-
-	| data |
-	data := SWDataTests createSeeded.
 	
-	self assert: [ (data max: #x) = 3 ].
-	self assert: [ (data max: #y) = 3 ].
+	self assert: (self data max: #x) = 3.
+	self assert: (self data max: #y) = 3.
 	
 	self should: [ data max: #z ] raise: SWInvalidDimensionError 

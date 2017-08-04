@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testInstructionBlockGetsCalledWithInput
 	
 	| instructionBlock c node |
@@ -10,4 +10,4 @@ testInstructionBlockGetsCalledWithInput
 	
 	node execute.
 	
-	self assert: [ c = 8 ] 
+	self assert: c = 8

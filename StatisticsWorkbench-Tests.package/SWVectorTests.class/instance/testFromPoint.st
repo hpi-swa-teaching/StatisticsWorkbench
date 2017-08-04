@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testFromPoint
 
 	self assert: [ (SWVector fromPoint: 0@0) = (SWVector create: #(0 0)) ].
