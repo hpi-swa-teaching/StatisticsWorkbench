@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testCreate
 
 	self assert: [ (SWVector create: #(0)) notNil ].
