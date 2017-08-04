@@ -1,10 +1,10 @@
-as yet unclassified
+tests
 testInstructionBlockGetsCalled
 	
-	| instructionBlock flag node |
+	| instructionBlock flag |
 	flag := false.
 	instructionBlock := [ flag := true ].
 	
 	(SWNode createWith: instructionBlock labelled: 'Unit Testing') execute. 
 	
-	self assert: [ flag ] 
+	self assert: flag

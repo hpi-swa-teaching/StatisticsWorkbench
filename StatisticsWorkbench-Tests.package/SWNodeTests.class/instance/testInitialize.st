@@ -1,8 +1,8 @@
-as yet unclassified
+tests
 testInitialize 
 
 	| node |
 	node := SWNode new.
 	
-	self assert: [ node predecessors isCollection ].
-	self assert: [ node successors isCollection ]
+	self assert: node predecessors isCollection.
+	self assert: node successors isCollection
