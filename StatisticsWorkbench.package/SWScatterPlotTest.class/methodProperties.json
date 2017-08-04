@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"data" : "maf 8/4/2017 20:39",
+		"data:" : "maf 8/4/2017 20:39",
+		"diagram" : "maf 8/4/2017 20:39",
+		"diagram:" : "maf 8/4/2017 20:39",
+		"scatterPlot" : "maf 8/4/2017 20:39",
+		"scatterPlot:" : "maf 8/4/2017 20:39",
+		"setUp" : "maf 8/4/2017 22:21",
+		"testAdd" : "maf 8/4/2017 20:39",
+		"testCollectionsGetInitialized" : "maf 8/4/2017 20:40",
+		"testIsInvisible" : "maf 8/4/2017 20:41",
+		"testRemove" : "maf 8/4/2017 20:42",
+		"testRemoveAll" : "maf 8/4/2017 20:43",
+		"testScatterPlotVisualisation" : "maf 8/4/2017 20:43" } }
