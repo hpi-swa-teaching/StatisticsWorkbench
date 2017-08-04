@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"data",
+		"scatterPlot",
+		"diagram" ],
 	"name" : "SWScatterPlotTests",
 	"pools" : [
 		 ],

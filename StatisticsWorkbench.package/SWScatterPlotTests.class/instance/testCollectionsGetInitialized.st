@@ -1,7 +1,4 @@
 tests
 testCollectionsGetInitialized 
-
-	| scatterPlot |
-	scatterPlot := SWScatterPlot new.
 	
-	self assert: [ scatterPlot dataPoints notNil and: [ scatterPlot dataPoints size = 0 ] ]
+	self assert: (self scatterPlot dataPoints notNil and: [ self scatterPlot dataPoints size = self data size ])

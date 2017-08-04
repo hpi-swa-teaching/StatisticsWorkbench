@@ -1,13 +1,4 @@
 tests
 testScatterPlotVisualisation
-	| scatterPlot diagram dataset |
 	
-	dataset := SWDataTests createSeeded.
-	
-	diagram := SWDiagram new
-								visualize: dataset with: SWScatterPlot new;
-								yourself.
-	
-	scatterPlot := diagram charts at: 1.
-	
-	self assert: [ (scatterPlot dataPoints size) = dataset size ]
+	self assert: self scatterPlot dataPoints size = self data size
