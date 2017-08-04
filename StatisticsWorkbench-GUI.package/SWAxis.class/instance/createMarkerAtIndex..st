@@ -1,8 +1,13 @@
-constructing
+as yet unclassified
 createMarkerAtIndex: aIndex
-
+	| orientation | 
+			
+	self orientation = #horizontal
+		ifTrue: [	orientation := #vertical]
+		ifFalse: [orientation := #horizontal].
+	 
 	^ SWAxisLine 	create: (self newMarkerPosition: aIndex)
-					orientation: self invertedOrientation
+					orientation: orientation
 					caption: (self min + (aIndex * self stepInterval)) printString
 					textColor: self textColor
 					strokeColor: self borderColor

@@ -4,14 +4,17 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "mp 7/27/2017 17:23",
+	"commentStamp" : "",
 	"instvars" : [
 		"orientation",
+		"labelInterval",
 		"stepInterval",
 		"min",
 		"max",
 		"legend",
+		"startPoint",
 		"rasterLength",
+		"valueRange",
 		"textColor",
 		"textVisibility",
 		"rasterVisibility",

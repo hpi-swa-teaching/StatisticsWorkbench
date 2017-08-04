@@ -1,4 +1,4 @@
-testing
+as yet unclassified
 areMarkersDrawable
 	(self max notNil
 		and: self min notNil
