@@ -6,7 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"data",
+		"diagramLineChart",
+		"diagramBarChart",
+		"diagramEmpty",
+		"diagramLineScatter",
+		"diagramPieChart",
+		"diagramScatterPlot" ],
 	"name" : "SWDiagramTests",
 	"pools" : [
 		 ],

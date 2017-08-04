@@ -1,9 +1,7 @@
 testing
 testScatterPlotContainsTwoAxis
-	| diagram |
-	diagram := self createDiagramWith: SWScatterPlot new.
 	
-	self assert: [ diagram hasCoordinateSystem ].
-	self assert: [ (diagram coordinateSystem xAxis == nil) not ].
-	self assert: [ (diagram coordinateSystem yAxis == nil) not]
+	self assert: self diagramScatterPlot hasCoordinateSystem.
+	self deny: self diagramScatterPlot coordinateSystem xAxis == nil.
+	self deny: self diagramScatterPlot coordinateSystem yAxis == nil
 	
