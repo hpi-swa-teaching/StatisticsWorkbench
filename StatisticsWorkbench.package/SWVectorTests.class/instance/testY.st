@@ -1,13 +1,12 @@
 testing
 testY
 
-	| vector1 vector2 vector3 |
-	vector1 := SWVector create: #(1 1).
-	vector2 := SWVector create: #(2 2 3).
-	vector3 := SWVector create: #(1).
+	| vector5 |
+	vector5 := SWVector create: #(1).
 	
-	self assert: [ vector1 y = 1].
-	self assert: [ vector2 y = 2].
+	self assert: self vector1 y = 0.
+	self assert: self vector2 y = 1.
+	self assert: self vector3 y = 1.
+	self assert: self vector4 y = 2.
 	
-	self should: [ vector3 y ] raise: SWInvalidDimensionError
-	"message: be creative. design knowledge <3"
+	self should: [ vector5 y ] raise: SWInvalidDimensionError

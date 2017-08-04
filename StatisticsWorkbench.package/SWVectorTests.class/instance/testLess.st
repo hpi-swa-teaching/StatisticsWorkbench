@@ -1,17 +1,11 @@
 testing
 testLess
-
-	| vector1 vector2 vector3 vector4 |
-	vector1 := SWVector create: #(0 0).
-	vector2 := SWVector create: #(0 1).
-	vector3 := SWVector create: #(1 1).
-	vector4 := SWVector create: #(1 2 3).
 	
-	self assert: [ (vector2 < vector1) not ].
-	self assert: [ (vector3 < vector1) not ].
-	self assert: [ (vector3 < vector2) not ].
+	self deny: self vector2 < self vector1.
+	self deny: self vector3 < self vector1.
+	self deny: self vector3 < self vector2.
 	
-	self assert: [ (vector1 < vector1) not ].
-	self assert: [ vector1 < vector3 ].
-	self assert: [ vector2 < vector3 ].
-	self assert: [ vector1 < vector2 ]	
+	self deny: self vector1 < self vector1.
+	self assert: self vector1 < self vector3.
+	self assert: self vector2 < self vector3.
+	self assert: self vector1 < self vector2
