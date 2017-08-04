@@ -15,3 +15,13 @@ dataset := SWDataTest createSeeded2.
 ... or display data with multiple plots by using following code..
 
 (SWDiagram new visualize: dataset with: SWScatterPlot create and: SWLineChart create) openInWorld 
+
+Manipulate dataset individually ()...
+
+by adding data point with...
+
+dataset add: #(70 30).
+
+... or deleting datapoints with...
+
+dataset remove: #(70 30).
