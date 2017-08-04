@@ -1,9 +1,6 @@
-instance creation
+as yet unclassified
 create
-
 	| newPieChart |
-	
-	self flag: #fishy.
 	
 	newPieChart := SWPieChart new.
 	newPieChart

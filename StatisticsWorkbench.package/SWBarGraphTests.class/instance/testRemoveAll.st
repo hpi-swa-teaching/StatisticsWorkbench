@@ -3,7 +3,7 @@ testRemoveAll
 
 	| barGraph diagram |
 	diagram := SWDiagram new
-								visualize: SWDataTests createSeeded with: SWBarGraph new. 
+								visualize: SWDataTests createSeeded with: SWBarGraph. 
 	
 	barGraph := diagram charts at: 1.
 	barGraph removeAll.

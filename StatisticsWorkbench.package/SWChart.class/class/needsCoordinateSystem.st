@@ -1,5 +1,3 @@
 as yet unclassified
-needsCoordinateSystem
-
-	self flag: #tom.
+needsCoordinateSystem 
 	self subclassResponsibility 

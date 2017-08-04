@@ -1,8 +1,6 @@
-updating
+as yet unclassified
 updatePieKey
-	
-	self flag: #fishy.
-	
-	self removePieKey.
+
+	self pieKey submorphs do: [:x | x delete].
 	self pieKey pieslices: self pieslices.
-	self addPieKey
+	self pieKey drawKey.

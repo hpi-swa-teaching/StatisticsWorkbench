@@ -1,7 +1,7 @@
 testing
 testFunctionGraphContainsTwoAxis
 	| diagram |
-	diagram := self createDiagramWith: SWLineChart new.
+	diagram := self createDiagramWith: SWFunctionGraph.
 	
 	self assert: [ diagram hasCoordinateSystem ].
 	self assert: [ (diagram coordinateSystem xAxis == nil) not ].

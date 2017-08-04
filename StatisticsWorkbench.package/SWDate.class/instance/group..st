@@ -1,4 +1,4 @@
 accessing
 group: anObject
 	
-	group := anObject
+	group := anObject.

@@ -6,7 +6,7 @@ testRemove
 	dataset := SWDataTests createSeeded.
 	
 	diagram := SWDiagram new
-								visualize: dataset with: SWScatterPlot new;
+								visualize: dataset with: SWScatterPlot;
 								yourself. 
 	
 	self flag: #fishy. "Make them work without coupling them to a specific dataset"

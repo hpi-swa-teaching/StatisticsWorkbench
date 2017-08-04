@@ -1,4 +1,4 @@
 accessing
 instruction: anObject
 	
-	instruction := anObject
+	instruction := anObject.

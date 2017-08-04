@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"create:at:" : "J.R. 7/29/2017 16:59",
+		"create:at:" : "J.R. 7/4/2017 04:34",
 		"defaultColor" : "J.R. 6/26/2017 11:41",
 		"defaultHeight" : "J.R. 6/26/2017 11:55",
 		"defaultWidth" : "J.R. 6/26/2017 11:55" },
 	"instance" : {
-		"renderedPoint" : "J.R. 7/29/2017 17:01",
+		"initialize" : "J.R. 7/1/2017 18:15",
+		"renderedPoint" : "J.R. 7/1/2017 18:15",
 		"renderedPoint:" : "J.R. 7/1/2017 18:15",
 		"update:" : "J.R. 7/1/2017 18:15" } }

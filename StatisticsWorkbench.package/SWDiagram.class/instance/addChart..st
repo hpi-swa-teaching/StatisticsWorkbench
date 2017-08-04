@@ -1,6 +1,4 @@
-adding/removing
+as yet unclassified
 addChart: aSWChart
-
 	self charts add: aSWChart.
-	self addMorph: aSWChart.
-	aSWChart addDependent: self
+	self addMorph: aSWChart 

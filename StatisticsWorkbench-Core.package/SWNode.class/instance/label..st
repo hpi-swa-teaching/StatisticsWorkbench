@@ -1,4 +1,4 @@
 accessing
 label: anObject
 	
-	label := anObject
+	label := anObject.

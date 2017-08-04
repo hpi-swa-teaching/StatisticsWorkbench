@@ -1,4 +1,4 @@
-geometry
+nil
 barBottom
 	
-	^ (self coordinateSystem positionFor: 0 @ 0) y
+	^ (self coordinateSystem positionFor: 0@0) y

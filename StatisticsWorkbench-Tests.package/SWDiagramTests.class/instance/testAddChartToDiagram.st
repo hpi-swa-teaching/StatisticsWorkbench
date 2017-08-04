@@ -1,9 +1,9 @@
 testing
 testAddChartToDiagram
 	| diagram chartCountBeforeInsert |
-	diagram := self createDiagramWith: SWLineChart new.
+	diagram := self createDiagramWith: SWFunctionGraph.
 	
 	chartCountBeforeInsert := diagram charts size.
-	diagram add: SWScatterPlot create.
+	diagram addChart: SWScatterPlot create.
 	
 	self assert: [ diagram charts size = (chartCountBeforeInsert + 1) ]

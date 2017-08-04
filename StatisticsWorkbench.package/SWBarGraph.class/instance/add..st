@@ -1,4 +1,4 @@
-adding/removing
+nil
 add: aBar
 
 	self bars add: aBar.

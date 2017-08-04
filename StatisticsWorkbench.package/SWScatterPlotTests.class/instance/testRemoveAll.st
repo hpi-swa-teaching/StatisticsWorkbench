@@ -4,7 +4,7 @@ testRemoveAll
 	| dataset diagram scatterPlot |
 	dataset := SWDataTests createSeeded.
 	diagram := SWDiagram new
-								visualize: dataset with: SWScatterPlot new.
+								visualize: dataset with: SWScatterPlot.
 	scatterPlot := diagram charts at: 1.
 	scatterPlot data: SWDataTests createSeeded.
 	

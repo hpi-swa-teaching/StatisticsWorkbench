@@ -1,4 +1,4 @@
-defaults
+nil
 defaultColor
 
 	^ Color red

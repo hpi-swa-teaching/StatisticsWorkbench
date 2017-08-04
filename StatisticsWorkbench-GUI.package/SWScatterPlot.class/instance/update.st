@@ -1,7 +1,7 @@
-updating
+as yet unclassified
 update
 	
-	self 
+	self
 		removeAll;
 		generateDataPoints;
 		renderDataPoints

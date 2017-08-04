@@ -5,7 +5,7 @@ testBarCount
 	dataset := SWDataTests createSeeded.
 	
 	diagram := SWDiagram new
-								visualize: dataset with: SWBarGraph new. 
+								visualize: dataset with: SWBarGraph. 
 	
 	
 	barGraph := diagram charts at: 1.

@@ -1,4 +1,4 @@
-adding/removing
+accessing
 add: aVisualElement
 
 	^ self subclassResponsibility 

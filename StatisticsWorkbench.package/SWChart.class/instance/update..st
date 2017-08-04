@@ -1,4 +1,3 @@
-updating
+accessing
 update: anObject
-
 	self update

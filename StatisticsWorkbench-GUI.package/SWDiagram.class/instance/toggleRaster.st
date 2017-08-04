@@ -1,4 +1,3 @@
-geometry
+as yet unclassified
 toggleRaster
-
-	self hasCoordinateSystem ifTrue: [ self coordinateSystem toggleRaster ]
+	self hasCoordinateSystem ifTrue:[self coordinateSystem toggleRaster]

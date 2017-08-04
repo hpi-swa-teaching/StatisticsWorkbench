@@ -1,8 +1,8 @@
-updating
+nil
 update
 	
-	self removeAll;
-		   createBarsFrom: self data
+	self removeAll.
+	self createBarsFrom: self data.
 	
 	
 	

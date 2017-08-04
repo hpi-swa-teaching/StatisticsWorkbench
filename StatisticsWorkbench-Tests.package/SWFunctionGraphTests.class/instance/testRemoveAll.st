@@ -3,7 +3,7 @@ testRemoveAll
 
 	| funcGraph diagram |
 	diagram := SWDiagram new
-								visualize: SWDataTests createSeeded with: SWLineChart new. 
+								visualize: SWDataTests createSeeded with: SWFunctionGraph. 
 	
 	funcGraph := diagram charts at: 1.
 	funcGraph removeAll. 

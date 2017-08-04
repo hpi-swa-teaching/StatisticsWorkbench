@@ -1,9 +1,16 @@
-adding/removing
+as yet unclassified
 addAxis: anAxis dimension: aDimension
-	"possible values: (#x #y)"
+	"dimension := (#x #y)"
 	
 	aDimension = #x
-		ifTrue: [ self xAxis: anAxis ].
+		ifTrue: [self xAxis: anAxis].
+		
 	aDimension = #y
-		ifTrue: [ self yAxis: anAxis ].
-	self addMorph: anAxis
+		ifTrue: [self yAxis: anAxis].
+	
+	self addMorph: anAxis.
+	
+	"SWInvalidArgumentError signal: 'This dimension is not supported.'."
+	
+	self flag: #fishy. "delete old axis --> dictionary"
+	

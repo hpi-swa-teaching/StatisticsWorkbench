@@ -1,4 +1,4 @@
 accessing
 predecessors: anObject
 	
-	predecessors := anObject
+	predecessors := anObject.

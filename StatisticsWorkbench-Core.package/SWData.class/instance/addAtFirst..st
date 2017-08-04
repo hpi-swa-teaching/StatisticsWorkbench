@@ -1,8 +1,7 @@
-adding/removing
+as yet unclassified
 addAtFirst: aSWDate
 
 	aSWDate next: self first.
-	self 
-		first: aSWDate;
-		sizeIncrement;
-		changed
+	self first: aSWDate.
+	self sizeIncrement.
+	self changed

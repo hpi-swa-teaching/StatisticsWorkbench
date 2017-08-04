@@ -1,4 +1,3 @@
-defaults
+as yet unclassified
 defaultLength
-
 	^ 400

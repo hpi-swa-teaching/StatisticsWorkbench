@@ -1,5 +1,4 @@
-instance creation
+nil
 create
-
 	^ SWBarGraph new
 	

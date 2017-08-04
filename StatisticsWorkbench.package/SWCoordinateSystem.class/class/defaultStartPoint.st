@@ -1,4 +1,3 @@
-defaults
+as yet unclassified
 defaultStartPoint
-
-	^ 100 @ 600
+	^ 100@600

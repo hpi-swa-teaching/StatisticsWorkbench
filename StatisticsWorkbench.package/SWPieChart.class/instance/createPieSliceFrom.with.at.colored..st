@@ -1,16 +1,14 @@
-creation
+as yet unclassified
 createPieSliceFrom: aKey with: aValue at: aPosition colored: aColor
 	
 	| newPieslice pointSet |
 	
-	self flag: #fishy.
-	
 	newPieslice := SWPieSlice new.
 	pointSet := OrderedCollection new.
 	
-	self add: newPieslice;
-		 startpointOf: newPieslice by: aPosition.
-	self endpointOf: newPieslice by: aValue.
+	self registerPieslice: newPieslice; 
+		setStartpointOf: newPieslice by: aPosition.
+	self setEndpointOf: newPieslice by: aValue.
 	
 	newPieslice
 			name: aKey;

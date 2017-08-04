@@ -1,4 +1,6 @@
-geometry
+as yet unclassified
 generateDataPoints
 
-	self data do: [ :item | self add: (self createDataPoint: item) ]
+	self data do: [:item |
+		self add: item
+	]

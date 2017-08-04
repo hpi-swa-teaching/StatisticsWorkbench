@@ -1,4 +1,3 @@
-testing
+as yet unclassified
 hasChart
-
-	^ self charts size > 0
+	^ charts notNil "maybe not needed -> needs some thought put into"

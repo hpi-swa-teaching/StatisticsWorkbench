@@ -1,7 +1,7 @@
-initialization
+as yet unclassified
 initialize
-
 	super initialize.
-	self barLabelMorph: TextMorph new
+	self textmorph: TextMorph new.
+	self addMorph: self textmorph
 
 	

@@ -1,4 +1,4 @@
 accessing
 caption: anObject
 	
-	caption := anObject
+	caption := anObject.
