@@ -1,22 +1,17 @@
-as yet unclassified
+testing
 testAdd
-
-	| workflow node1 node2 |
 	
-	workflow := SWWorkflow new.
+	self assert: self workflow size = 0.
 	
-	self assert: [ workflow size = 0 ].
+	self workflow add: self node1.
 	
-	node1 := SWNode new.
-	workflow add: node1.
+	self assert: self workflow size = 1.
+	self assert: (self workflow at: 1) = self node1.
 	
-	self assert: [ workflow size = 1 ].
-	self assert: [ (workflow at: 1) = node1 ].
+	self workflow add: self node2 after: self node1.
 	
-	node2 := SWNode new.
-	workflow add: node2 after: node1.
+	self assert: self workflow size = 2.
+	self assert: (self workflow at: 2) = self node2.
 	
-	self assert: [ workflow size = 2 ].
-	self assert: [ (workflow at: 2) = node2 ].
-	
-	self should: [ workflow add: SWNode new ] raise: SWInvalidArgumentError 
+	" Error if node does not have any predecessors or successors "
+	self should: [ self workflow add: SWNode new ] raise: SWInvalidArgumentError 

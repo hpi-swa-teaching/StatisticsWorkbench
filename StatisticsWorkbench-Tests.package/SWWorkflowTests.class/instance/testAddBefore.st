@@ -1,30 +1,22 @@
-as yet unclassified
+testing
 testAddBefore
 
-	| workflow node1 node2 node3 |
-	workflow := SWWorkflow new.
-	node1 := SWNode new.
-	node2 := SWNode new.
-	node3 := SWNode new.
+	self workflow add: self node1.
+	self workflow add: self node2 before: self node1.
 	
-	workflow add: node1.
+	self assert: (self workflow at: 2) = self node2.
+	self assert: self node1 predecessors size = 1.
+	self assert: (self node1 predecessors at: 1) = self node2.
+	self assert: (self node2 successors at: 1) = self node1.
+	self deny: self node1 isStart.
+	self assert: node2 isStart.
+	
+	self workflow add: self node3 before: self node1.
+	self assert: (self node1 predecessors size) = 2.
+	self assert: (self node1 predecessors at: 2) = self node3.
+	self deny: self node1 isStart. 
+	self assert: self node3 isStart.
 
-	workflow add: node2 before: node1.
-	
-	self assert: [ (workflow at: 2) = node2 ].
-	self assert: [ node1 predecessors size = 1 ].
-	self assert: [ (node1 predecessors at: 1) = node2 ].
-	self assert: [ (node2 successors at: 1) = node1 ].
-	self assert: [ node1 isStart not ].
-	self assert: [ node2 isStart ].
-	
-	workflow add: node3 before: node1.
-	self assert: [ (node1 predecessors size) = 2 ].
-	self assert: [ (node1 predecessors at: 2) = node3 ].
-	self assert: [ node1 isStart not ]. 
-	self assert: [ node3 isStart ].
-
-	self flag: #fishy.
-	self should: [ workflow add: SWNode new before: node1 ] raise: Notification
+	self should: [ self workflow add: SWNode new before: self node1 ] raise: Notification
 	
 	

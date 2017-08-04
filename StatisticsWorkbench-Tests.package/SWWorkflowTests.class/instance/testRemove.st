@@ -1,24 +1,19 @@
-as yet unclassified
+testing
 testRemove
 
-	| workflow node1 node2 |
+	self workflow add: self node1.
+	self workflow add: self node2 after: self node1.
 	
-	workflow := SWWorkflow new.
-	node1 := SWNode new.
-	workflow add: node1.
-	node2 := SWNode new.
-	workflow add: node2 after: node1.
+	self assert: self workflow size = 2.
 	
-	self assert: [ workflow size = 2 ].
+	self workflow remove: self node2.
 	
-	workflow remove: node2.
+	self assert: self workflow size = 1.
+	self assert: (self workflow at: 1) = self node1.
+	self should: [ self workflow remove: self node2 ] raise: Error.
 	
-	self assert: [ workflow size = 1 ].
-	self assert: [ (workflow at: 1) = node1 ].
-	self should: [ workflow remove: node2 ] raise: Error.
+	self workflow remove: self node1.
 	
-	workflow remove: node1.
-	
-	self should: [ workflow remove: node1 ] raise: Error.
-	self assert: [ workflow size = 0 ].
-	self should: [ workflow remove: SWNode new ] raise: Error
+	self should: [ self workflow remove: self node1 ] raise: Error.
+	self assert: self workflow size = 0.
+	self should: [ self workflow remove: SWNode new ] raise: Error

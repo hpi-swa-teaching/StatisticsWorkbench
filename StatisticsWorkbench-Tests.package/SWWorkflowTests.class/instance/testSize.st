@@ -1,25 +1,16 @@
-as yet unclassified
+testing
 testSize
-	| workflow node1 node2 |
+
+	self assert: self workflow size = 0.
 	
-	workflow := SWWorkflow new.
+	self workflow add: self node1.
+	self assert: self workflow size = 1.
 	
-	self assert: [ workflow size = 0 ].
+	self workflow add: self node2 after: self node1.
+	self assert: self workflow size = 2.
 	
-	node1 := SWNode new.
-	workflow add: node1.
+	self workflow remove: self node1.
+	self assert: self workflow size = 1.
 	
-	self assert: [ workflow size = 1 ].
-	
-	node2 := SWNode new.
-	workflow add: node2 after: node1.
-	
-	self assert: [ workflow size = 2 ].
-	
-	workflow remove: node1.
-	
-	self assert: [ workflow size = 1 ].
-	
-	workflow remove: node2.
-	
-	self assert: [ workflow size = 0 ]
+	self workflow remove: self node2.
+	self assert: self workflow size = 0

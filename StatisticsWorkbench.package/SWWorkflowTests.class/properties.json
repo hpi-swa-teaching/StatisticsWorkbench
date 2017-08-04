@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"workflow",
+		"node1",
+		"node2",
+		"node3" ],
 	"name" : "SWWorkflowTests",
 	"pools" : [
 		 ],
