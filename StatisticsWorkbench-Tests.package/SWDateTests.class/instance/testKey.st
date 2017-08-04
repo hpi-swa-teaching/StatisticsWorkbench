@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testKey
 
-	self assert: [ (SWDate fromArray: #(0 0)) key data = #(0 0) ]
+	self assert: (SWDate create: #(0 0)) key data = #(0 0)
