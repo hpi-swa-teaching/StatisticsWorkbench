@@ -1,9 +1,8 @@
-as yet unclassified
+testing
 testToggleRaster
 	
-	|coordinateSystem visibility1|
+	| visibility1|
 	
-	coordinateSystem := SWCoordinateSystem create.
 	visibility1 := coordinateSystem  xAxis rasterVisibility.
 	coordinateSystem toggleRaster.
-	self assert: [(visibility1 = coordinateSystem xAxis rasterVisibility) not]
+	self deny: visibility1 = coordinateSystem xAxis rasterVisibility

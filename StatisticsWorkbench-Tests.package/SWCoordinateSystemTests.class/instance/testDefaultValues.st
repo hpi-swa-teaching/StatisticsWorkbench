@@ -1,11 +1,7 @@
-as yet unclassified
+testing
 testDefaultValues
 	
-	|coordinateSystem|
-	
-	coordinateSystem := SWCoordinateSystem create.
-	
-	self assert: [(coordinateSystem xAxis  == nil)not].
-	self assert: [(coordinateSystem yAxis  == nil)not].
-	self assert: [(coordinateSystem boundsThreshold = (60@60))].
-	self assert: [(coordinateSystem color = Color white)]
+	self deny: self coordinateSystem xAxis  == nil.
+	self deny: self coordinateSystem yAxis  == nil.
+	self assert: coordinateSystem boundsThreshold = SWCoordinateSystem defaultBoundsThreshold.
+	self assert: coordinateSystem color = Color white

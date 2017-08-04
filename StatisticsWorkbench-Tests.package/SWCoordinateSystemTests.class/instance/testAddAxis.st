@@ -1,11 +1,10 @@
-as yet unclassified
+testing
 testAddAxis
 
-	|coordinateSystem xAxis|
+	| xAxis|
 	
 	xAxis := SWAxis create.
-	coordinateSystem := SWCoordinateSystem create.
 	
-	coordinateSystem addAxis: xAxis  dimension: #x.
-	self assert: [coordinateSystem xAxis = xAxis].
+	self coordinateSystem addAxis: xAxis dimension: #x.
+	self assert: self coordinateSystem xAxis = xAxis.
 	

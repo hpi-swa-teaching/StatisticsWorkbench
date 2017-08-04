@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testIsInvisible 
 	
 	"self assert: [ SWBar new color = Color transparent ]"

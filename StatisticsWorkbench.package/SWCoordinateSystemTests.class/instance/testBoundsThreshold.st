@@ -1,11 +1,10 @@
-as yet unclassified
+testing
 testBoundsThreshold
 
-	|coordinateSystem oldBounds|
+	| oldBounds |
 	
-	coordinateSystem := SWCoordinateSystem create.
 	oldBounds := coordinateSystem boundsThreshold.
-	coordinateSystem boundsThreshold: oldBounds + (10@10).
-	self assert: [(oldBounds = coordinateSystem boundsThreshold) not]
+	coordinateSystem boundsThreshold: oldBounds + SWCoordinateSystem defaultBoundsThreshold.
+	self deny: oldBounds = coordinateSystem boundsThreshold
 	
 	

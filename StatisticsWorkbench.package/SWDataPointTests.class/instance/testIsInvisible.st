@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testIsInvisible
 
 	"self assert: [ SWDataPoint new color = Color transparent ] "
