@@ -1,4 +1,4 @@
-as yet unclassified
+adding/removing
 add: aNode after: aPredecessorNode
 
 	aPredecessorNode successors add: aNode.

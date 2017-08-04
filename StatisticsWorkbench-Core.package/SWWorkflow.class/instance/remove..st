@@ -1,4 +1,4 @@
-as yet unclassified
+adding/removing
 remove: aNode
 
 	self nodes remove: aNode
