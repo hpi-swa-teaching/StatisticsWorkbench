@@ -2,26 +2,34 @@
 
 Statistics Workbench
 
-Usage
+## Usage
 
 Create data or use example data "seeded2" with...
 
-dataset := SWDataTest createSeeded2.
+```Smalltalk
+dataset := SWDataTests createSeeded2.
+````
 
 ... then display data with a scatter plot (class SWScatterPlot) or bar chart (class SWBarGraph) or function graph (class SWLineChart) or pie chart (class SWPieChart) with... 
 
-(SWDiagram new visualize: dataset with: SWScatterPlot create) openInWorld 
+```Smalltalk
+(SWDiagram new visualize: dataset with: SWScatterPlot) openInWorld 
+```
 
 ... or display data with multiple plots by using following code..
 
-(SWDiagram new visualize: dataset with: SWScatterPlot create and: SWLineChart create) openInWorld 
+```Smalltalk
+(SWDiagram new visualize: dataset with: SWScatterPlot create and: SWLineChart) openInWorld 
+```
 
-Manipulate dataset individually ()...
+Manipulate dataset individually by adding data point with:
 
-by adding data point with...
-
+```Smalltalk
 dataset add: #(70 30).
+```
 
 ... or deleting datapoints with...
 
+```Smalltalk
 dataset remove: #(70 30).
+```
