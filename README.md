@@ -1,4 +1,4 @@
-# SWT17-Project-10 [![Build Status](https://travis-ci.org/HPI-SWA-Teaching/SWT17-Project-10.svg?branch=master)](https://travis-ci.org/HPI-SWA-Teaching/SWT17-Project-10)[![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT17-Project-10/badge.svg?branch=master)](https://coveralls.io/github/HPI-SWA-Teaching/SWT17-Project-10?branch=master)[![Build status](https://ci.appveyor.com/api/projects/status/8xha1uuj2klmw4o2?svg=true)](https://ci.appveyor.com/project/marcfreiheit/swt17-project-10)
+# SWT17-Project-10 [![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT17-Project-10.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/SWT17-Project-10)[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SWT17-Project-10/badge.svg?branch=master)](https://coveralls.io/github/hpi-swa-teaching/SWT17-Project-10?branch=master)[![Build status](https://ci.appveyor.com/api/projects/status/8xha1uuj2klmw4o2?svg=true)](https://ci.appveyor.com/project/marcfreiheit/swt17-project-10)
 
 Statistics Workbench
 
