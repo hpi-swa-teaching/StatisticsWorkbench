@@ -1,5 +1,0 @@
-comparing
-> anotherSWVector
-	
-	^ anotherSWVector < self
-	

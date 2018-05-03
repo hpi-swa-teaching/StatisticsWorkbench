@@ -1,1 +1,0 @@
-I am a wrapper for a singly linked list of SWDate objects

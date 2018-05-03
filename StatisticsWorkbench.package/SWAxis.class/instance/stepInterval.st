@@ -1,4 +1,0 @@
-accessing
-stepInterval
-	
-	^ stepInterval

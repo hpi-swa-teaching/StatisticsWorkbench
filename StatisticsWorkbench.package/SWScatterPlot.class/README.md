@@ -1,1 +1,0 @@
-I visualize arbitrary key value pairs of given data

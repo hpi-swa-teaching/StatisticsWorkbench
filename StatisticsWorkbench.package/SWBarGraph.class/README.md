@@ -1,1 +1,0 @@
-I visualize categorical data with bars

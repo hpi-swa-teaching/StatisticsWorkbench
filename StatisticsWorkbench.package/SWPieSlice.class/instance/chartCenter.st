@@ -1,4 +1,0 @@
-accessing
-chartCenter
-
-	^ self center

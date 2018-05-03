@@ -1,4 +1,0 @@
-defaults
-defaultMax
-
-	^ 100
