@@ -1,4 +1,4 @@
 instance creation
 create
 
-	^ SWScatterPlot new
+	^ SWDataOld new

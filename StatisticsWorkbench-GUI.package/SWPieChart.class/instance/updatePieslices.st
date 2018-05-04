@@ -7,6 +7,6 @@ updatePieslices
 	wheelColors := Color wheel: self data size.
 	self removeAllPieslices.
 	self data do:  [ :date | 
-		self createPieSliceFrom: date key x with: date key y  at: pos colored: (wheelColors at: pos).
+		self createPieSliceFrom: date x with: date y at: pos colored: (wheelColors at: pos).
 		pos := pos + 1
 	]

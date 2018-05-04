@@ -1,4 +1,4 @@
 *StatisticsWorkbench-Core
 addToSWData: aSWData
 
-	aSWData addSwDate: self asSWDate
+	aSWData addVector: self asSWVector

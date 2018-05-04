@@ -8,7 +8,7 @@ createVertices
 	
 	self data do: [ :date |
 		newVertices add: 
-							(self coordinateSystem positionFor: date key asPoint x @ date key asPoint y)
+							(self coordinateSystem positionFor: date asPoint)
 	].
 
 	^ newVertices

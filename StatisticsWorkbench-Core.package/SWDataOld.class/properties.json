@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "J.R. 7/29/2017 18:26",
 	"instvars" : [
+		"first",
+		"size",
 		"dimensionIndices" ],
-	"name" : "SWData",
+	"name" : "SWDataOld",
 	"pools" : [
 		 ],
-	"super" : "OrderedCollection",
+	"super" : "Object",
 	"type" : "normal" }

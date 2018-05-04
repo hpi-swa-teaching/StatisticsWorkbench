@@ -1,4 +1,4 @@
 creation
-createDataPoint: aSWDate
+createDataPoint: aSWVector
 
-	^ SWDataPoint create: aSWDate at: (self coordinateSystem positionFor: aSWDate key asPoint)
+	^ SWDataPoint create: aSWVector at: (self coordinateSystem positionFor: aSWVector asPoint)
