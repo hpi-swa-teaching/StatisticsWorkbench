@@ -5,15 +5,15 @@ createBarsFrom: aSWData
 	
 	self flag: #fishy.
 	
-	aSWData do: [:date |
-		xOfBar := self barPositionFor: date x.
-		height := self barBottom - (self coordinateSystem positionFor: 0 @ date y) y.
+	aSWData do: [:vector |
+		xOfBar := self barPositionFor: vector x.
+		height := self barBottom - (self coordinateSystem positionFor: 0 @ vector y) y.
 		self add:
 			(SWBar new
 						width: self barWidth;
 						position: (xOfBar - self barWidth) @ (self barBottom - height);
-						value: date y;
+						value: vector y;
 						height: height;
-						date: date;
+						date: vector;
 						bottom: self barBottom)
 		]

@@ -1,4 +1,4 @@
 geometry
 generateDataPoints
 
-	self data do: [ :item | self add: (self createDataPoint: item) ]
+	self data do: [ :vector | self add: (self createDataPoint: vector) ]

@@ -1,4 +1,0 @@
-comparing
->= anotherSWDate
-	
-	^ anotherSWDate <= self

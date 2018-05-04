@@ -4,7 +4,7 @@ createSeeded
 	self flag: #fishy.  
 	" don't change! Multiple unit tests relying on that data "  
 	
-	^ SWData new     
+	^ SWData create     
 		add: #(0 1);
 		add: #(1 1);
 		add: #(1 3); 
