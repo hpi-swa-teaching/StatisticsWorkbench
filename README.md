@@ -36,5 +36,5 @@ dataset add: #(70 30).
 ... or deleting data points with...
 
 ```
-dataset remove: #(70 30).
+dataset removeArray: #(70 30).
 ```
