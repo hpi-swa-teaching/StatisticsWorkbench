@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self 
-		color: Color transparent;
-		charts: OrderedCollection new
+		color: Color transparent; 
+		charts: OrderedCollection new.
 		
 			
