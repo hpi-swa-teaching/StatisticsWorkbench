@@ -1,7 +1,3 @@
-adding/removing
+as yet unclassified
 add: anObject
-	
-	anObject addToSWData: self
-	
-	
-	
+	anObject addToSWData: self.

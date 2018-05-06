@@ -6,9 +6,9 @@ createVertices
 	
 	newVertices := OrderedCollection new.
 	
-	self data do: [ :date |
+	self data do: [ :vector |
 		newVertices add: 
-							(self coordinateSystem positionFor: date key asPoint x @ date key asPoint y)
+							(self coordinateSystem positionFor: vector asPoint)
 	].
 
 	^ newVertices
