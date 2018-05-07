@@ -11,4 +11,4 @@ initialize
 		color: Color transparent.
 	
 	self addMorph: self key.
-	self key color: Color white.
+	self key color: Color white. 
