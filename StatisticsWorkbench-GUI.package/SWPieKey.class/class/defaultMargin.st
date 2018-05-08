@@ -1,4 +1,4 @@
 as yet unclassified
 defaultMargin
 
-	^ 25
+	^ 20

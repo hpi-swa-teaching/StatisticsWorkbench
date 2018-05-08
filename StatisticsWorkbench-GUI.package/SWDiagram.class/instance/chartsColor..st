@@ -1,4 +1,4 @@
 accessing
 chartsColor: aColor
 
-	self charts do: [ :chart | chart color: aColor ]
+	self charts do: [:chart | chart color: aColor]

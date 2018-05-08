@@ -1,10 +1,10 @@
 as yet unclassified
-drawKey
+drawKeyFor: aPieChart
 	| position |
 	
 	position := 0.5.
-	self key bottomRight: self owner owner bottomRight.
-	"self key topLeft: self owner extent."
+	self key topLeft: aPieChart topRight.
+	"self key bottomRight: self owner owner bottomRight."
 	
 	self pieslices do: [:pieslice | 
 		self 
