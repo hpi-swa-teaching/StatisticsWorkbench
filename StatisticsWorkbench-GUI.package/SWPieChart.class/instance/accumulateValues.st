@@ -1,4 +1,4 @@
 geometry
 accumulateValues
 	
-	^ self data sumOfDimension: 2.
+	^ self data sum: 2.
