@@ -1,11 +1,6 @@
-as yet unclassified
+accessing
 selectDimension: aDimension
-	| values dimensionIndex |
-	aDimension isSymbol
-		ifTrue: [dimensionIndex := self indexOfAxis: aDimension]
-		ifFalse: [dimensionIndex := aDimension].
-	(self dimensions < dimensionIndex or: [dimensionIndex < 1])
-		ifTrue: [ SWInvalidDimensionError signal: 'Passed dimension is invalid.' ]. 
+	| values |
 	values := OrderedCollection new.
-	self do: [:each | values add: (each at: dimensionIndex)].
+	self do: [:each | values add: (each at: (self dimensionIndex: aDimension))].
 	^ values.

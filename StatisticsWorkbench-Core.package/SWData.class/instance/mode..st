@@ -1,10 +1,10 @@
-as yet unclassified
+statistics
 mode: aDimension
 	"mode returns array, because multiple modes are possible"
-	| occurences result |
-	occurences := Dictionary new.
-	occurences := self countingSort: aDimension.
-	result := (occurences select: [:each | each = (occurences values max)]) keys.
+	| occurrences result |
+	occurrences := Dictionary new.
+	occurrences := self countingSort: aDimension.
+	result := (occurrences select: [:each | each = (occurrences values max)]) keys.
 	result size = self size
 		ifTrue: [^ #noMode].
 	^ result.

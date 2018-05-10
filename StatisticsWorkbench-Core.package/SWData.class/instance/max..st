@@ -1,3 +1,3 @@
-as yet unclassified
+statistics
 max: aDimension
 	^ (self selectDimension: aDimension) max

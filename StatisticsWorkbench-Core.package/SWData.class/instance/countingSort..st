@@ -1,4 +1,4 @@
-as yet unclassified
+privateStatistics
 countingSort: aDimension
 	| buckets values |
 	values := self selectDimension: aDimension.

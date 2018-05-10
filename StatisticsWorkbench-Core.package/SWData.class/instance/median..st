@@ -1,4 +1,4 @@
-as yet unclassified
+statistics
 median: aDimension
 	"+1 is needed since smalltalk indices start at 1"
 	| index |

@@ -1,3 +1,3 @@
-as yet unclassified
+adding
 addMany: aCollection
 	aCollection do: [:item | self add: item]

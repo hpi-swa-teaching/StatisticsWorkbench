@@ -1,3 +1,3 @@
-as yet unclassified
+adding
 add: anObject
 	anObject addToSWData: self.
