@@ -1,3 +1,0 @@
-history
-lastStoredRun
-	^ ((Dictionary new) add: (#errors->((Set new))); add: (#passed->((Set new) add: #testSetInvalidMaxOrMin; add: #testMarkersAreNotDrawableWhenStartPointIsNull; add: #testMarkersAreNotDrawableWhenStepIntervalIsNegative; add: #testMarkersAreNotDrawableWhenMinIsNull; add: #testSetAxisColor; add: #testSetInvalidStepInterval; add: #testSetAxisTextColor; add: #testUpdateMarkers; add: #testMarkersAreDrawable; add: #testMarkersAreNotDrawableWhenMaxIsNull; add: #testMarkersAreNotDrawableWhenEndPointIsNull; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'8 May 2018 11:29:12 am' asTimeStamp); yourself)

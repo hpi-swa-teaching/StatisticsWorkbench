@@ -1,3 +1,0 @@
-history
-lastStoredRun
-	^ ((Dictionary new) add: (#errors->((Set new))); add: (#passed->((Set new) add: #testScatterPlotContainsTwoAxis; add: #testCollectionsGetInitialized; add: #testFunctionGraphContainsTwoAxis; add: #testBarGraphContainsTwoAxis; add: #testAddChartToDiagram; add: #testPieChartContainsNoAxis; add: #testVisualizeMultipleCharts; add: #testMultipleChartsDependOnOneDataSet; yourself)); add: (#failures->((Set new) add: #testIsInvisible; yourself)); add: (#timeStamp->'8 May 2018 11:29:12 am' asTimeStamp); yourself)

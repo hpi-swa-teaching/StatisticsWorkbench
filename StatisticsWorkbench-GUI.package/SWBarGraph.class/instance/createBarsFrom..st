@@ -1,19 +1,16 @@
 as yet unclassified
 createBarsFrom: aSWData
 	
-	| xOfBar height ownBarWidth|
+	| xOfBar height |
 	
 	self flag: #fishy.
 	
 	aSWData do: [:vector |
 		xOfBar := self barPositionFor: vector x.
 		height := self barBottom - (self coordinateSystem positionFor: 0 @ vector y) y.
-		vector elementSize  notNil
-		ifTrue: [ ownBarWidth := vector elementSize]
-		ifFalse: [ ownBarWidth := self barWidth].
 		self add:
 			(SWBar new
-						width: ownBarWidth;
+						width: self barWidth;
 						position: (xOfBar - self barWidth) @ (self barBottom - height);
 						value: vector y;
 						height: height;
