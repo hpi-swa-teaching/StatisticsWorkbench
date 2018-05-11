@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"lastStoredRun" : "JB 5/8/2018 11:30" },
 	"instance" : {
 		"testMarkersAreDrawable" : "maf 5/30/2017 17:15",
 		"testMarkersAreNotDrawableWhenEndPointIsNull" : "maf 6/8/2017 14:09",

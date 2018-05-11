@@ -1,0 +1,3 @@
+history
+lastStoredRun
+	^ ((Dictionary new) add: (#errors->((Set new))); add: (#passed->((Set new) add: #testDimensions; add: #testGreater; add: #testIdentity; add: #testY; add: #testFromPoint; add: #testGreaterEqual; add: #testLess; add: #testEqual; add: #testX; add: #testUpdate; add: #testAsPoint; add: #testAt; add: #testLessEqual; add: #testCreate; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'8 May 2018 11:29:12 am' asTimeStamp); yourself)

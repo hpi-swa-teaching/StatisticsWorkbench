@@ -3,6 +3,6 @@ setUp
 
 	super setUp.
 	self 
-		data: SWDataTest createSeeded;
+		data: SWDataTest createSeeded3;
 		barGraph: SWBarGraph new;
 		diagram: (SWDiagram new visualize: self data with: self barGraph)
