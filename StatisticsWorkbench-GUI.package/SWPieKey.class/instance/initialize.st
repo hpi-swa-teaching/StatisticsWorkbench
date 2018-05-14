@@ -4,7 +4,7 @@ initialize
 	super initialize.
 	
 	self 
-		pieslices: OrderedCollection new;
+		pieSlices: OrderedCollection new;
 		pieKeyColors: OrderedCollection new;
 		pieKeyNames: OrderedCollection new;
 		key: RectangleMorph new;

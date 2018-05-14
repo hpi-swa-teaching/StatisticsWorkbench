@@ -1,20 +1,19 @@
 as yet unclassified
 createBarsFrom: aSWData
-	| xOfBar height index |
+	
+	| xOfBar height |
 	
 	self flag: #fishy.
-	index := 1.
+	
 	aSWData do: [:vector |
-		xOfBar := self barPositionFor: index * (self barWidth/2.5). 
-		index := index + 1.
+		xOfBar := self barPositionFor: vector x.
 		height := self barBottom - (self coordinateSystem positionFor: 0 @ vector y) y.
 		self add:
 			(SWBar new
 						width: self barWidth;
-						position: (xOfBar - (self barWidth)) @ ("self coordinateSystem xAxis y + self coordinateSystem yAxis length"self barBottom - height);
-						caption: vector x asString;
-						height: height";"
-						"value: vector y;"
-						"date: vector;"			"-> Sind die 3 wichtig? Auf das Diagramm haben sie eigentlich keinen Einfluss..."
-						"bottom: self barBottom")
+						position: (xOfBar - self barWidth) @ (self barBottom - height);
+						height: height;
+						date: vector;
+						caption: vector x asString; 
+						bottom: self barBottom)
 		]

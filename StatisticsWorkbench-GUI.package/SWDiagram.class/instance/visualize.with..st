@@ -9,9 +9,6 @@ visualize: aSWData with: aChart
 	
 	aChart data: aSWData.
 		
-	(aChart isMemberOf: SWBarGraph) "needsXAxisSizing" 
-		ifTrue: ["self coordinateSystem xAxis delete."self coordinateSystem xAxis toggleTextVisibility. self coordinateSystem xAxis textColor: Color transparent.].
-		
 	aChart needsCoordinateSystem 
 		ifTrue: [self updateCoordinateSystem]
 		ifFalse: [self bounds: aChart bounds "self extent: aChart getMaxExtent" "self extent: 800@491"].

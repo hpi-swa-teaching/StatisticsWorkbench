@@ -1,4 +1,4 @@
 as yet unclassified
 removeFrom: aPieChart 
 	
-	aPieChart removePieslice: self
+	aPieChart removePieSlice: self

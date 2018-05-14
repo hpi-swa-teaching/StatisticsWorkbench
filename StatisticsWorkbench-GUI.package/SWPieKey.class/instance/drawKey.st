@@ -6,10 +6,10 @@ drawKey
 	self key bottomRight: self owner owner bottomRight.
 	"self key topLeft: self owner extent."
 	
-	self pieslices do: [:pieslice | 
+	self pieSlices do: [:pieSlice | 
 		self 
-			drawKeyPointOf: pieslice at: position;
-			drawColorSwatchOf: pieslice at: position.
+			drawKeyPointOf: pieSlice at: position;
+			drawColorSwatchOf: pieSlice at: position.
 		position := position + 1].
 	
 	self key extent: self computeKeyExtent.
