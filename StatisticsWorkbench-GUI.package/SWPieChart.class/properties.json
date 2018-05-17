@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "J.R. 7/29/2017 15:29",
 	"instvars" : [
-		"pieslices",
+		"pieSlices",
 		"radius",
 		"circleStartpoint",
-		"pieKey" ],
+		"pieKey",
+		"chartCenter" ],
 	"name" : "SWPieChart",
 	"pools" : [
 		 ],

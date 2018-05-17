@@ -1,4 +1,4 @@
 as yet unclassified
 defaultExtent
 
-	^ 100 @ 400
+	^ 200 @ 400
