@@ -7,7 +7,6 @@ create
 	
 	newPieChart := SWPieChart new.
 	newPieChart radius: self defaultRadius;
-						chartCenter: self defaultWorldPosition;
 						extent: self defaultExtent;
 						pieKey: SWPieKey create;
 						bounds: (0 @ 0 corner: self defaultWorldPosition + self defaultRadius).

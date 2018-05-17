@@ -1,5 +1,5 @@
 as yet unclassified
-drawKeyPointOf: aPieslice at: aPosition
+drawKeyPointOf: aPieSlice at: aPosition
 	| keyPoint |
 	
 	keyPoint := TextMorph new.
@@ -8,6 +8,6 @@ drawKeyPointOf: aPieslice at: aPosition
 	self pieKeyNames add: keyPoint.
 	
 	keyPoint 
-		contents: aPieslice name asString;
+		contents: aPieSlice name asString;
 		position: self key position + (self class defaultMargin * 2.5 @ (aPosition * self class defaultKeyPointHeight))
 			
