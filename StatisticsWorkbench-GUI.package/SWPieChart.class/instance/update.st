@@ -2,6 +2,6 @@ updating
 update
 	
 	self
-		updatePieSlices;
+		updatePieslices;
 		updatePieKey;
 		changed: self

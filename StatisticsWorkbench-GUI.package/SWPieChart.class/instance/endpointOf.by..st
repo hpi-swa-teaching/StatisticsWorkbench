@@ -1,5 +1,5 @@
 geometry
-endpointOf: aPieSlice by: aValue
+endpointOf: aPieslice by: aValue
 
-	aPieSlice endpoint: 
-		(aPieSlice startpoint rotateBy: (self computeRadianFrom: aValue) about: self center)
+	aPieslice endpoint: 
+		(aPieslice startpoint rotateBy: (self computeRadianFrom: aValue) about: self center)

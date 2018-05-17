@@ -4,5 +4,5 @@ updatePieKey
 	self flag: #fishy.
 	
 	self removePieKey.
-	self pieKey pieSlices: self pieSlices.
+	self pieKey pieslices: self pieslices.
 	self addPieKey

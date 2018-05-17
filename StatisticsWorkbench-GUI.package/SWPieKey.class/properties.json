@@ -8,7 +8,7 @@
 	"instvars" : [
 		"pieKeyNames",
 		"pieKeyColors",
-		"pieSlices",
+		"pieslices",
 		"key" ],
 	"name" : "SWPieKey",
 	"pools" : [

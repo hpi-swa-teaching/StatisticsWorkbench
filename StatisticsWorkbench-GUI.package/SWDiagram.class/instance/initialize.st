@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self 
-		color: MenuMorph menuColor; 
+		color: Color transparent; 
 		charts: OrderedCollection new.
 		
 			

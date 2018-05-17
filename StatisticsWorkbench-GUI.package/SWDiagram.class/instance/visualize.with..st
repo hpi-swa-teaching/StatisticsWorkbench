@@ -8,7 +8,7 @@ visualize: aSWData with: aChart
 	self add: aChart.
 	
 	aChart data: aSWData.
-		
+	
 	aChart needsCoordinateSystem 
 		ifTrue: [self updateCoordinateSystem]
 		ifFalse: [self bounds: aChart bounds "self extent: aChart getMaxExtent" "self extent: 800@491"].

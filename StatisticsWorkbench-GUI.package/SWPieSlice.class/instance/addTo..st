@@ -1,4 +1,4 @@
 as yet unclassified
 addTo: aPieChart
 
-	aPieChart addPieSlice: self
+	aPieChart addPieslice: self

@@ -6,10 +6,10 @@ drawKeyFor: aPieChart
 	self key topLeft: aPieChart topRight.
 	"self key bottomRight: self owner owner bottomRight."
 	
-	self pieSlices do: [:pieSlice | 
+	self pieslices do: [:pieslice | 
 		self 
-			drawKeyPointOf: pieSlice at: position;
-			drawColorSwatchOf: pieSlice at: position.
+			drawKeyPointOf: pieslice at: position;
+			drawColorSwatchOf: pieslice at: position.
 		position := position + 1].
 	
 	self key extent: self computeKeyExtent.

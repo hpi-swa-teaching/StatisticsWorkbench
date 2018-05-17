@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"create" : "KS 5/4/2018 10:21",
-		"defaultStepInterval" : "J.R. 6/29/2017 13:35" },
+		"defaultStepInterval" : "J.R. 6/29/2017 13:35",
+		"needsCoordinateSystem" : "J.R. 7/29/2017 16:30" },
 	"instance" : {
 		"add:" : "J.R. 7/29/2017 16:42",
 		"color:" : "J.R. 7/29/2017 16:45",
