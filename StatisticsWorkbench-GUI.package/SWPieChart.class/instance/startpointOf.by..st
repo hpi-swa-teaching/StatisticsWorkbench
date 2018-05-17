@@ -1,6 +1,6 @@
 geometry
-startpointOf: aPieslice by: aPosition
+startpointOf: aPieSlice by: aPosition
 
 	aPosition = 1
-		ifTrue: [ aPieslice startpoint: self circleStartpoint ]
-		ifFalse: [ aPieslice startpoint: (self pieslices at: aPosition - 1) endpoint ]
+		ifTrue: [ aPieSlice startpoint: self circleStartpoint ]
+		ifFalse: [ aPieSlice startpoint: (self pieSlices at: aPosition - 1) endpoint ]

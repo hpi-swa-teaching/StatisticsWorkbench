@@ -2,4 +2,4 @@ initialization
 initialize
 
 	super initialize.
-	self pieslices: OrderedCollection new
+	self pieSlices: OrderedCollection new

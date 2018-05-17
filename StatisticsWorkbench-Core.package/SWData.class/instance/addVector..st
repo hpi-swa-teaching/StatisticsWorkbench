@@ -1,4 +1,4 @@
-as yet unclassified
+adding
 addVector: aSWVector
 	(self size = 0)
 		ifTrue: [self dimensions: aSWVector dimensions].
