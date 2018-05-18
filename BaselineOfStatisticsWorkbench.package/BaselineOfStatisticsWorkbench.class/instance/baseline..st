@@ -5,7 +5,7 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec baseline: 'Pheno' with: [
-				spec repository: 'github://tom95/Pheno:master/repository'].
+				spec repository: 'github://tom95/Pheno:master/src'].
 			spec
 				package: 'StatisticsWorkbench-Exceptions';
 				package: 'StatisticsWorkbench-Core' with: [spec requires: #('StatisticsWorkbench-Exceptions')];
