@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"backend" ],
+	"name" : "SWGUIFrontend",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }
