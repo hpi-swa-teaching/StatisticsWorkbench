@@ -1,8 +1,10 @@
 updating
 update
 	
-	self removeAll;
-		   createBarsFrom: self data
+	self diagram updateCoordinateSystem.
+	self 
+		removeAll;
+		createBarsFrom: self data
 	
 	
 	

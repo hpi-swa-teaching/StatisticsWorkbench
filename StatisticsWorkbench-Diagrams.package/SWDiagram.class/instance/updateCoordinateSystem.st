@@ -1,15 +1,13 @@
 updating
 updateCoordinateSystem
-	| maximumx maximumy stepIntervalX temp |
+	| maximumx maximumy chartsMaxValues |
 	
 	maximumx := 0.
 	maximumy := 0.
-	stepIntervalX := 1.
-	self flag: #fishy. "Refactor to smaller methods"
-	self charts do: [:diagram | 	temp := (diagram data max: #x) @ (diagram data max: #y).
-								temp x > maximumx ifTrue: [maximumx := temp x].
-								temp y > maximumy ifTrue: [maximumy := temp y].
-								diagram class defaultStepInterval > stepIntervalX 
-									ifTrue: [stepIntervalX := diagram class defaultStepInterval]].
+	self flag: #fishy. "data should be the same in every chart, loop probably not needed"
+	self charts do: [:chart | 	chartsMaxValues := (chart data max: #x) @ (chart data max: #y).
+								chartsMaxValues x > maximumx ifTrue: [maximumx := chartsMaxValues x].
+								chartsMaxValues y > maximumy ifTrue: [maximumy := chartsMaxValues y]].
 
-	self flag: #fishy. " method doesnt do anything -> update max and stepinterval missing "
+	self coordinateSystem xAxis max: maximumx.
+	self coordinateSystem yAxis max: maximumy.

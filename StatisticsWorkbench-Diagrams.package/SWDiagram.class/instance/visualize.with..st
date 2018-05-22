@@ -1,16 +1,16 @@
 geometry
 visualize: aSWData with: aChart 
 	
-	self flag: #fishy. "nested if statement"
-	(aChart needsCoordinateSystem and: [self coordinateSystem isNil])
-		ifTrue: [self hasCoordinateSystem ifFalse: [self add: self createCoordinateSystem]].
+	(aChart needsCoordinateSystem and: [self hasCoordinateSystem not])
+		ifTrue: [self add: self createCoordinateSystem].
 	
 	self add: aChart.
-	
+	self halt.
+	aChart diagram: self.
 	aChart data: aSWData.
 		
 	aChart needsCoordinateSystem 
 		ifTrue: [self updateCoordinateSystem]
-		ifFalse: [self bounds: aChart bounds "self extent: aChart getMaxExtent" "self extent: 800@491"].
+		ifFalse: [self bounds: aChart bounds].
 		
 	self updateCharts
