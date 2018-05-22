@@ -1,0 +1,18 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "J.R. 7/29/2017 15:29",
+	"instvars" : [
+		"pieSlices",
+		"radius",
+		"circleStartpoint",
+		"pieKey",
+		"chartCenter" ],
+	"name" : "SWPieChart",
+	"pools" : [
+		 ],
+	"super" : "SWChart",
+	"type" : "normal" }

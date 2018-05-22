@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"create" : "J.R. 7/29/2017 15:05",
+		"defaultColor" : "maf 7/1/2017 18:38",
+		"defaultStepInterval" : "maf 7/1/2017 18:47" },
+	"instance" : {
+		"add:" : "maf 7/2/2017 10:47",
+		"barBottom" : "J.R. 7/29/2017 15:05",
+		"barPositionFor:" : "aj 5/22/2018 20:49",
+		"barWidth" : "aj 5/22/2018 20:49",
+		"barWidth:" : "JB 5/11/2018 21:13",
+		"bars" : "maf 7/1/2017 13:44",
+		"bars:" : "J.R. 7/29/2017 15:07",
+		"color:" : "aj 5/22/2018 20:50",
+		"createBarsFrom:" : "MS 5/14/2018 23:54",
+		"initialize" : "maf 7/3/2017 12:15",
+		"needsCoordinateSystem" : "J.R. 7/29/2017 14:55",
+		"remove:" : "maf 7/2/2017 10:47",
+		"removeAll" : "aj 5/22/2018 20:49",
+		"update" : "aj 5/22/2018 21:18" } }

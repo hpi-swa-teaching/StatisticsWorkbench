@@ -1,0 +1,26 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mp 7/27/2017 17:23",
+	"instvars" : [
+		"orientation",
+		"labelInterval",
+		"stepInterval",
+		"min",
+		"max",
+		"legend",
+		"startPoint",
+		"rasterLength",
+		"valueRange",
+		"textColor",
+		"textVisibility",
+		"rasterVisibility",
+		"markers" ],
+	"name" : "SWAxis",
+	"pools" : [
+		 ],
+	"super" : "PolygonMorph",
+	"type" : "normal" }

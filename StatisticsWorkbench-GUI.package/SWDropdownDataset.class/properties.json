@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"datasetIdentificationNumber" ],
+	"name" : "SWDropdownDataset",
+	"pools" : [
+		 ],
+	"super" : "PHDropdownItem",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pieKeyNames",
+		"pieKeyColors",
+		"pieSlices",
+		"key" ],
+	"name" : "SWPieKey",
+	"pools" : [
+		 ],
+	"super" : "SWChartElement",
+	"type" : "normal" }
