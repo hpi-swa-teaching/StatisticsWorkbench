@@ -5,4 +5,4 @@ data: anObject
 	data := anObject.
 	data addDependent: self.
 	self update;
-		   changed: self
+		changed: self

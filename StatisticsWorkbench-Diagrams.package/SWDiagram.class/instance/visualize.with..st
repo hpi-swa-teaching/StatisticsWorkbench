@@ -5,7 +5,7 @@ visualize: aSWData with: aChart
 		ifTrue: [self add: self createCoordinateSystem].
 	
 	self add: aChart.
-	self halt.
+	
 	aChart diagram: self.
 	aChart data: aSWData.
 		

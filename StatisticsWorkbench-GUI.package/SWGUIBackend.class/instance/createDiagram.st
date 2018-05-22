@@ -1,4 +1,5 @@
 accessing
 createDiagram
-"guten Fehler werfen wenn nichts ausgewählt ist"
-	(self diagrammCreationTypes at: self choosenDiagramType) value openInWindow. 
+	(choosenDiagramType isNil)
+		ifTrue: [SWInvalidArgumentError signal: 'Diagramtype must be select.']
+		ifFalse: [(self creationOfDiagramTypes at: self choosenDiagramType) value openInWindow]

@@ -1,15 +1,14 @@
 as yet unclassified
 showNewDatasetDialog
-	| newSetDialog dialogLayout newSetTextArea | "Name überprüfen (dialogLayout evtl. schlecht)"
+	| newSetDialog dialogLayout newSetTextArea | "Name überprüfen (dialogLayout evtl. schlecht) -> vllt. dialogWindow??"
 	
-	newSetDialog := PHDialog new .
+	newSetDialog := PHDialog new.
 	dialogLayout := PHPage new. 
-	newSetTextArea:= PHTextArea placeholder: 'Dataset'.
+	newSetTextArea := PHTextArea placeholder: 'Dataset'.
 	dialogLayout
 		withPadding;
 		add: newSetTextArea;
 		add: ((PHButton text: 'Accept') when: #clicked send: #accept: to: newSetDialog with: nil).
-		
 		
 	newSetDialog content: dialogLayout. 
 	
@@ -17,8 +16,4 @@ showNewDatasetDialog
 		then: [self backend createNewDatasetFrom: newSetTextArea text];
 		ifRejected: []
 		
-	
-
-	
-	
 	

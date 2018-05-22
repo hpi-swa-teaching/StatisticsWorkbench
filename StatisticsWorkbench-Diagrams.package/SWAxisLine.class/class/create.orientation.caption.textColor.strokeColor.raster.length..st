@@ -18,7 +18,7 @@ create: aPosition orientation: anOrientation caption: aText textColor: aColor1 s
 						color: aColor2
 						width: 1).
 			instance captionMorph: (TextMorph new contents: aText;
-					 position: aPosition x @ (aPosition y + 7))].
+					 position: (aPosition x - 4) @ (aPosition y + 7))].
 				
 	instance textColor: aColor1.
 	instance strokeColor: aColor2.

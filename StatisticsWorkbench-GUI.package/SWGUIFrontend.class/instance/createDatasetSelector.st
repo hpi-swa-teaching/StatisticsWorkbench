@@ -1,7 +1,7 @@
 as yet unclassified
 createDatasetSelector
 
-	^PHPage new
+	^ PHPage new
 		expand: true;
 		vertical: true;
 		add: self createDatasetDropdown;

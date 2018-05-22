@@ -5,7 +5,7 @@ createDatasetDisplay
 	displayLable := PHLabel text: 'no dataset choosen'.
 	self backend datasetDisplay: displayLable.
 	
-	^PHPage column
+	^ PHPage column
 		expand: true;
 		add: displayLable;
 		add: (PHButton label: 'Save');

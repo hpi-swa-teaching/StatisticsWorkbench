@@ -1,3 +1,4 @@
-accessing
+updating
 diagram: anObject
+
 	diagram := anObject

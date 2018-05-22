@@ -3,7 +3,7 @@ createLowerPage
 	| createDiagramButton |
 	
 	createDiagramButton := (PHButton label: 'Create') when: #clicked send: #createDiagram to: self backend.
-	^PHPage new
+	^ PHPage new
 		expand: true;
 		vertical: true;
 		addStyleClass: #withPadding;

@@ -1,7 +1,7 @@
 as yet unclassified
 createMainPage
 
-	 ^(PHPage new)
+	 ^ (PHPage new)
 		expand: true;
 		vertical: true;
 		add: self createUpperPage;

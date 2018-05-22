@@ -8,7 +8,7 @@ createDatasetSelectionButtons
 						when: #clicked send: #showNewDatasetDialog to: self;
 						yourself. 
 						
-	^PHPage new
+	^ PHPage new
 		expand: true;
 		vertical: false;
 		addStyleClass: #withPadding;

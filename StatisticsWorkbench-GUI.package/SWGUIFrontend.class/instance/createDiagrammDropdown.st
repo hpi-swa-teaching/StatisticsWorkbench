@@ -6,4 +6,4 @@ createDiagrammDropdown
 	dropdownButton color: Color gray.	
 	self addDiagrammDropdown: dropdownButton.
 			
-	^dropdownButton
+	^ dropdownButton
