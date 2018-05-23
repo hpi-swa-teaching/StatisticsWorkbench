@@ -2,12 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"calculateMinMaxOrMedian:" : "aj 5/23/2018 11:21",
 		"choosenDataset" : "MS 5/20/2018 00:13",
 		"choosenDataset:" : "MS 5/20/2018 00:13",
 		"choosenDiagramType" : "MS 5/20/2018 11:25",
 		"choosenDiagramType:" : "MS 5/20/2018 11:25",
 		"createDiagram" : "aj 5/22/2018 21:37",
-		"createNewDatasetFrom:" : "aj 5/22/2018 21:07",
+		"createNewDatasetFrom:" : "aj 5/23/2018 10:19",
 		"creationOfDiagramTypes" : "aj 5/22/2018 21:37",
 		"datasetCount" : "MS 5/20/2018 14:06",
 		"datasetCount:" : "MS 5/20/2018 14:06",

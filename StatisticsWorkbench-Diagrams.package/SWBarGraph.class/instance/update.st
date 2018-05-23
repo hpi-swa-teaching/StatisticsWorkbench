@@ -4,6 +4,7 @@ update
 	self diagram updateCoordinateSystem.
 	self 
 		removeAll;
-		createBarsFrom: self data.
+		createBarsFrom: self data
+	
 	
 	
