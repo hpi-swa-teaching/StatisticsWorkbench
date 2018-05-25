@@ -1,6 +1,5 @@
 as yet unclassified
 createSeeded3
-	
 	self flag: #fishy.  
 	" don't change! Multiple unit tests relying on that data "  
 	
@@ -9,5 +8,6 @@ createSeeded3
 		add: #(1 1);
 		add: #(1 3); 
 		add: #(3 0);
-		dimensionNames: #('Time' 'Value');
+		dimensionNameAt: 1 put: 'Time';
+		dimensionNameAt: 2 put: 'Value';
 		yourself
