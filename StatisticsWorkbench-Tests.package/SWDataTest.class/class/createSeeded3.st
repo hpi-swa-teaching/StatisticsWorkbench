@@ -9,4 +9,5 @@ createSeeded3
 		add: #(1 1);
 		add: #(1 3); 
 		add: #(3 0);
+		dimensionNames: #('Time' 'Value');
 		yourself
