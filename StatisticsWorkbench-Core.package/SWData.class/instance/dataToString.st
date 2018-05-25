@@ -1,6 +1,8 @@
 accessing
 dataToString
+
 	|outputString|
+	self flag: #changeName. "auch im Test --> name soll genau beschreiben, dass Strin zum ausgeben gegeben wird"
 	outputString := ''.
 	
 	self dimensionNames do: [:each | 

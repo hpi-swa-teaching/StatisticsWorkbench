@@ -1,13 +1,12 @@
 as yet unclassified
 createDatasetDisplay
-	| displayLable |
+
 	
-	displayLable := PHLabel text: 'no dataset choosen'.
-	self backend datasetDisplay: displayLable.
+	self datasetDisplay: (PHLabel text: 'no dataset choosen').
 	
 	^ PHPage column
 		expand: true;
-		add: displayLable;
+		add: self datasetDisplay;
 		add: (PHButton label: 'Save');
 		withLayout;
 		yourself.

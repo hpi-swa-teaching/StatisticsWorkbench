@@ -1,0 +1,11 @@
+accessing
+createNewDatasetFrom: aText named: aName "aName wird einfach wieder an das Frontend durchgereicht wollte aber dabei sichergehen, dass das Dataset auch wirklich erstellt wird"
+	
+	"evtl. ein Altert adden z.B.'created Dataset 2'  "
+	self datasets addLast: (SWData fromString: aText). 
+	self view createDatasetDropdownItem: self datasetCount named: aName.
+	self datasetCount: self datasetCount + 1.
+	
+	
+	
+	

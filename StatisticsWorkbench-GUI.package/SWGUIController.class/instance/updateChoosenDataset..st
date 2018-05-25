@@ -2,5 +2,5 @@ accessing
 updateChoosenDataset: aDatasetIdentificationNumber
 
 	self choosenDataset: aDatasetIdentificationNumber.
-	self datasetDisplay text: ((self datasets at: aDatasetIdentificationNumber) asString).
+	self view updateDatasetDisplay: ((self datasets at: aDatasetIdentificationNumber) dataToString).
 	

@@ -8,8 +8,8 @@ createSeeded3
 	tempData := SWData create     
 		add: #(0 1);
 		add: #(1 1);
-		add: #(1 3); 
-		add: #(3 0);
+		add: #(2 3); 
+		add: #(3 1);
 		yourself.
 		
 	tempData dimensionNames: #('Time' 'Value').

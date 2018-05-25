@@ -4,6 +4,6 @@ initialize
 	super initialize.
 	
 	self
-		extent: SWGUIFrontend size;
-		backend: SWGUIBackend new; 
+		extent: SWGUIView size;
+		controller: (SWGUIController new view: self); 
 		expand: true.

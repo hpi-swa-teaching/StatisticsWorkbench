@@ -1,8 +1,7 @@
 as yet unclassified
 showInformation: aValue
-	| info |
 	
-	info := (PHNotification text: 'The ', aValue, ' of the choosen dataset is: ', (self backend calculateMinMaxOrMedian: aValue))
+	(PHNotification text: 'The ', aValue, ' of the choosen dataset is: ', (self controller calculateMinMaxOrMedian: aValue))
 		displayFor: 3000
 		onDismiss: [];
 		addTo: self;

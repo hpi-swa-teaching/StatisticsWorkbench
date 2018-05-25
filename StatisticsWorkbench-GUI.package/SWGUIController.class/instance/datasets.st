@@ -1,3 +1,3 @@
 accessing
 datasets
-	^ Datasets
+	^ datasets

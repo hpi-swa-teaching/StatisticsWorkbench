@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"datasetIdentificationNumber" ],
-	"name" : "SWDropdownDataset",
+		"controller",
+		"datasetDropdown",
+		"datasetDropdownButton",
+		"datasetDisplay" ],
+	"name" : "SWGUIView",
 	"pools" : [
 		 ],
-	"super" : "PHDropdownItem",
+	"super" : "PHWidget",
 	"type" : "normal" }

@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"backend" ],
-	"name" : "SWGUIFrontend",
+		"datasets",
+		"choosenDataset",
+		"choosenDiagramType",
+		"datasetCount",
+		"view" ],
+	"name" : "SWGUIController",
 	"pools" : [
 		 ],
-	"super" : "PHWidget",
+	"super" : "Object",
 	"type" : "normal" }

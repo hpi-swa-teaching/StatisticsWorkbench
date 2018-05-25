@@ -2,7 +2,7 @@ as yet unclassified
 createLowerPage
 	| createDiagramButton |
 	
-	createDiagramButton := (PHButton label: 'Create') when: #clicked send: #createDiagram to: self backend.
+	createDiagramButton := (PHButton label: 'Create') when: #clicked send: #createDiagram to: self controller.
 	^ PHPage new
 		expand: true;
 		vertical: true;
