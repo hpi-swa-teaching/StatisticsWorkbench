@@ -8,7 +8,8 @@
 	"instvars" : [
 		"xAxis",
 		"yAxis",
-		"boundsThreshold" ],
+		"boundsThreshold",
+		"axisNames" ],
 	"name" : "SWCoordinateSystem",
 	"pools" : [
 		 ],

@@ -11,3 +11,5 @@ updateCoordinateSystem
 						
 	self coordinateSystem xAxis max: maximumx.
 	self coordinateSystem yAxis max: maximumy.
+	self coordinateSystem axisNames: (self charts at: 1) data dimensionNames.
+	self coordinateSystem update.
