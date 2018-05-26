@@ -12,6 +12,6 @@ createSeeded3
 		add: #(3 1);
 		yourself.
 		
-	tempData dimensionNames: #('Time' 'Value').
+	tempData setAllDimensionNames: #('Time' 'Value').
 	
 	^tempData

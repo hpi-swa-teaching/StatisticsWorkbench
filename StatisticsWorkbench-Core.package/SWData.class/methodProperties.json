@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"create" : "KS 5/4/2018 11:17",
-		"fromString:" : "aj 5/26/2018 22:21" },
+		"fromString:ofDataDimension:" : "Kenneth-Schroeder 5/27/2018 00:47" },
 	"instance" : {
 		"add:" : "KS 5/4/2018 11:58",
 		"addMany:" : "aj 5/26/2018 22:18",
@@ -13,7 +13,7 @@
 		"dataToString" : "aj 5/26/2018 22:17",
 		"differenceQuotientOf:between:and:" : "aj 5/26/2018 22:19",
 		"dimensionIndex:" : "aj 5/26/2018 22:19",
-		"dimensionNameAt:put:" : "Kenneth-Schroeder 5/25/2018 10:43",
+		"dimensionNameAt:put:" : "Kenneth-Schroeder 5/26/2018 23:57",
 		"dimensionNames" : "Kenneth-Schroeder 5/25/2018 10:16",
 		"dimensionNames:" : "Kenneth-Schroeder 5/25/2018 10:16",
 		"dimensions" : "KS 5/4/2018 19:01",
@@ -31,4 +31,5 @@
 		"mode:" : "aj 5/26/2018 22:18",
 		"removeArray:" : "aj 5/26/2018 22:18",
 		"selectDimension:" : "aj 5/26/2018 22:18",
+		"setAllDimensionNames:" : "Kenneth-Schroeder 5/26/2018 23:59",
 		"sum:" : "Kenneth-Schroeder 5/10/2018 12:25" } }
