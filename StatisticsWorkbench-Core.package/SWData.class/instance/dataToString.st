@@ -1,8 +1,8 @@
 accessing
 dataToString
-
-	|outputString|
-	self flag: #changeName. "auch im Test --> name soll genau beschreiben, dass Strin zum ausgeben gegeben wird"
+	| outputString |
+	
+	self flag: #changeName. "auch im Test --> name soll genau beschreiben, dass String zum Ausgeben gegeben wird"
 	outputString := ''.
 	
 	self dimensionNames do: [:each | 
@@ -12,4 +12,4 @@ dataToString
 	self do: [:each | 
 		each data do: [:item | outputString := outputString, item asString, '|'].
 		outputString := outputString allButLast, Character cr].
-	^outputString
+	^ outputString.

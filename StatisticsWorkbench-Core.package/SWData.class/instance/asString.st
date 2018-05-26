@@ -1,5 +1,5 @@
 adding
-asString
+asString  "-> Kann weg, oder?"
 	|outputString|
 	self flag:#justForTesting. "bitte nochmal ordentlich schreiben"
 	outputString := ''.

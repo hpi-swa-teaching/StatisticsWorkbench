@@ -1,7 +1,7 @@
 as yet unclassified
 fromString: aString
-
-	|newData segments dimensions individualSegment names|
+	| newData segments dimensions individualSegment names |
+	
 	newData := SWData create.
 	
 	segments := aString subStrings.
@@ -9,7 +9,6 @@ fromString: aString
 	dimensions := names size.
 	(dimensions = 0)
 		ifTrue: [SWInvalidDimensionError signal: 'Dimension of data cant be 0.'].
-
 		
 	segments := segments copyAfter: (segments at: 1).
 	
@@ -22,5 +21,5 @@ fromString: aString
 	newData dimensionNames: names.
 	
 	self flag: #justForTesting. "just to test the GUI pls write a proper method that takes a String an converts it into Data. String could look like 'Dimensions: 2;  [1,2] [2,3]' catch all errors so the user cant do messy stuff "
-	^newData. 
-	
+	^ newData. 
+	"^SWDataTest createSeeded2. "
