@@ -3,7 +3,7 @@ createDatasetDropdownItem: aDatasetIdentificationNumber named: aName
 	| dropdownDataset |
 
 	aName = ''
-		ifTrue: [	dropdownDataset := (PHDropdownItem label: 'dataset', aDatasetIdentificationNumber)]
+		ifTrue: [dropdownDataset := (PHDropdownItem label: 'dataset', aDatasetIdentificationNumber)]
 		ifFalse: [dropdownDataset := (PHDropdownItem label: aName)].
 		
 	dropdownDataset

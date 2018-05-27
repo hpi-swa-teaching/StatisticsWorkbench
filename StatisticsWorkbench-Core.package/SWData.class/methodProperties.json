@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"create" : "KS 5/4/2018 11:17",
-		"fromString:ofDataDimension:" : "Kenneth-Schroeder 5/27/2018 00:47" },
+		"fromString:ofDataDimension:" : "Kenneth-Schroeder 5/27/2018 19:14" },
 	"instance" : {
 		"add:" : "KS 5/4/2018 11:58",
 		"addMany:" : "aj 5/26/2018 22:18",
@@ -9,8 +9,9 @@
 		"allDerivations:" : "aj 5/26/2018 22:17",
 		"asString" : "aj 5/26/2018 22:17",
 		"atXValue:" : "aj 5/26/2018 22:20",
+		"copyFrom:" : "Kenneth-Schroeder 5/27/2018 20:42",
 		"countingSort:" : "aj 5/26/2018 22:19",
-		"dataToString" : "aj 5/26/2018 22:17",
+		"dataToString" : "Kenneth-Schroeder 5/27/2018 14:37",
 		"differenceQuotientOf:between:and:" : "aj 5/26/2018 22:19",
 		"dimensionIndex:" : "aj 5/26/2018 22:19",
 		"dimensionNameAt:put:" : "Kenneth-Schroeder 5/26/2018 23:57",
