@@ -5,11 +5,11 @@ updateCoordinateSystem
 	maximumx := 0.
 	maximumy := 0.
 	self flag: #fishy. "data should be the same in every chart"
-	self charts do: [:chart | chartsMaxValues := (SWDiagram coordinateSystemPadding: (chart data max: #x)) @ (SWDiagram coordinateSystemPadding: (chart data max: #y)).
+	self charts do: [:chart | chartsMaxValues := (chart data max: #x) @ (chart data max: #y).
 								chartsMaxValues x > maximumx ifTrue: [maximumx := chartsMaxValues x].
 								chartsMaxValues y > maximumy ifTrue: [maximumy := chartsMaxValues y]].
 						
-	self coordinateSystem xAxis max: maximumx.
-	self coordinateSystem yAxis max: maximumy.
+	self coordinateSystem xAxis max: (SWDiagram coordinateSystemPadding: maximumx).
+	self coordinateSystem yAxis max: (SWDiagram coordinateSystemPadding: maximumy).
 	self coordinateSystem axisNames: (self charts at: 1) data dimensionNames.
 	self coordinateSystem update.
