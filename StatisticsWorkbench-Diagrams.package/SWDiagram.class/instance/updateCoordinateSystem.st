@@ -5,7 +5,7 @@ updateCoordinateSystem
 	maximumx := 0.
 	maximumy := 0.
 	self flag: #fishy. "data should be the same in every chart"
-	self charts do: [:chart | chartsMaxValues := (chart data max: #x) @ (chart data max: #y).
+	self charts do: [:chart | chartsMaxValues := (SWDiagram coordinateSystemPadding: (chart data max: #x)) @ (SWDiagram coordinateSystemPadding: (chart data max: #y)).
 								chartsMaxValues x > maximumx ifTrue: [maximumx := chartsMaxValues x].
 								chartsMaxValues y > maximumy ifTrue: [maximumy := chartsMaxValues y]].
 						

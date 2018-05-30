@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"coordinateSystemPadding:" : "JB 5/29/2018 10:56" },
 	"instance" : {
 		"add:" : "J.R. 7/29/2017 17:49",
 		"addChart:" : "JB 5/11/2018 21:15",
@@ -23,7 +23,7 @@
 		"toggleRaster" : "aj 5/6/2018 13:41",
 		"update" : "J.R. 8/4/2017 20:53",
 		"updateCharts" : "aj 5/6/2018 13:41",
-		"updateCoordinateSystem" : "Kenneth-Schroeder 5/25/2018 11:37",
+		"updateCoordinateSystem" : "JB 5/29/2018 10:57",
 		"visualize:with:" : "aj 5/22/2018 20:55",
 		"visualize:with:and:" : "maf 6/15/2017 14:37",
 		"xAxisLegend:" : "aj 5/6/2018 13:38",
