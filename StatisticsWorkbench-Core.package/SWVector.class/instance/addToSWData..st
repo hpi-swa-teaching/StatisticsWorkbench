@@ -1,3 +1,3 @@
-converting
+as yet unclassified
 addToSWData: someSWData
-	someSWData addVector: self.
+	someSWData addVector: self

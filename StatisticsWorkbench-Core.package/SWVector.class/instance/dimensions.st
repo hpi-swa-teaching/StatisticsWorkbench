@@ -1,4 +1,3 @@
-testing
+as yet unclassified
 dimensions
-
-	^ self data size
+	^ self size

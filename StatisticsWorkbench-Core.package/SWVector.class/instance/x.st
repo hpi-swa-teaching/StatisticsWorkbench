@@ -1,3 +1,3 @@
-accessing
+as yet unclassified
 x
-	^ self data at: 1
+	^ self asPoint x.
