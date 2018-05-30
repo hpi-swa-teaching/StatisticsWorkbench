@@ -1,3 +1,3 @@
 defaults
 defaultMin
-	^0.
+	^ 0

@@ -1,14 +1,14 @@
 {
 	"class" : {
 		"create" : "J.R. 7/29/2017 17:26",
-		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:boundsThreshold:" : "J.R. 7/29/2017 17:17",
-		"defaultBounds" : "J.R. 7/29/2017 17:14",
-		"defaultBoundsThreshold" : "J.R. 7/29/2017 17:14",
-		"defaultLength" : "J.R. 7/29/2017 17:14",
-		"defaultMax" : "J.R. 7/29/2017 17:14",
-		"defaultMin" : "J.R. 7/29/2017 17:14",
-		"defaultStartPoint" : "J.R. 7/29/2017 17:14",
-		"defaultStep" : "J.R. 7/29/2017 17:14" },
+		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:boundsThreshold:" : "Kenneth-Schroeder 5/30/2018 21:53",
+		"defaultBounds" : "Kenneth-Schroeder 5/30/2018 21:34",
+		"defaultBoundsThreshold" : "Kenneth-Schroeder 5/30/2018 21:34",
+		"defaultLength" : "Kenneth-Schroeder 5/30/2018 21:34",
+		"defaultMax" : "Kenneth-Schroeder 5/30/2018 21:52",
+		"defaultMin" : "Kenneth-Schroeder 5/30/2018 21:34",
+		"defaultStartPoint" : "Kenneth-Schroeder 5/30/2018 21:34",
+		"defaultStep" : "Kenneth-Schroeder 5/30/2018 21:33" },
 	"instance" : {
 		"addAxis:dimension:" : "J.R. 7/29/2017 17:23",
 		"addTo:" : "J.R. 7/29/2017 17:45",

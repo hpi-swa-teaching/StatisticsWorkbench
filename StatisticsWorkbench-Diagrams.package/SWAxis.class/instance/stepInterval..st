@@ -6,6 +6,4 @@ stepInterval: anObject
 		ifTrue: [SWInvalidArgumentError signal: 'Step interval must be positive.'].
 	
 	stepInterval := anObject.
-	
-	anObject notNil
-		ifTrue: [self update]
+	self update

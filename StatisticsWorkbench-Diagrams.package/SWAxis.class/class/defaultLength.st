@@ -1,3 +1,3 @@
 defaults
 defaultLength
-	^400.
+	^ 400

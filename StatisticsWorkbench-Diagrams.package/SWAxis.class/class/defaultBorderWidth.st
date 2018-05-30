@@ -1,3 +1,3 @@
 defaults
 defaultBorderWidth
-	^ 1.
+	^ 1

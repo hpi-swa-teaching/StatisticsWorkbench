@@ -1,3 +1,3 @@
 defaults
 defaultOrientation
-	^#horizontal.
+	^ #horizontal

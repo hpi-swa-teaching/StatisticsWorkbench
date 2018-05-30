@@ -1,3 +1,3 @@
 defaults
 defaultColor
-	^ Color green.
+	^ Color green
