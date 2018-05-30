@@ -2,7 +2,7 @@ as yet unclassified
 createDatasetDisplay
 
 	
-	self datasetDisplay: (PHTextArea text: 'no dataset choosen').
+	self datasetDisplay: (PHTextArea text: 'no dataset chosen').
 	
 	^ PHPage column
 		expand: true;

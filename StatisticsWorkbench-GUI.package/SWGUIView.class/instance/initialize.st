@@ -5,5 +5,5 @@ initialize
 	
 	self
 		extent: SWGUIView size;
-		controller: (SWGUIController new view: self); 
+		controller: (SWGUIController new view: self); "evtl. newForView: aView"
 		expand: true.
