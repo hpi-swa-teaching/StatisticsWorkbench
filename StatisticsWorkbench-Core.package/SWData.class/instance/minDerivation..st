@@ -1,3 +1,3 @@
 statistics
 minDerivation: aDimension
-	^ (self allDerivations: aDimension) min.
+	^ (self allDerivations: aDimension) min

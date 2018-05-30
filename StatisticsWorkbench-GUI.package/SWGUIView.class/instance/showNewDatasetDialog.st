@@ -2,7 +2,7 @@ as yet unclassified
 showNewDatasetDialog
 	| newSetDialog dialogLayout valueTextArea nameTextArea | "Name überprüfen (dialogLayout evtl. schlecht) -> vllt. dialogWindow??"
 	
-	newSetDialog := PHDialog new title: 'Create a new dataset'.
+	newSetDialog := PHDialog new.
 	dialogLayout := PHPage new. 
 	valueTextArea := PHTextArea placeholder: 'Dataset value'.
 	nameTextArea := PHTextArea placeholder: 'Dataset name'.

@@ -1,3 +1,3 @@
 adding
 addMany: aCollection
-	aCollection do: [:item | self add: item].
+	aCollection do: [:item | self add: item]
