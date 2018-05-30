@@ -1,5 +1,5 @@
 accessing
 createDiagram
-	(chosenDiagramType isNil)
+	(choosenDiagramType isNil)
 		ifTrue: [SWInvalidArgumentError signal: 'Diagramtype must be selected.']
-		ifFalse: [(self creationOfDiagramTypes at: self chosenDiagramType) value openInWindow]
+		ifFalse: [(self creationOfDiagramTypes at: self choosenDiagramType) value openInWindow]

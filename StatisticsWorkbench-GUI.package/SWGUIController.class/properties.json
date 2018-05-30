@@ -7,10 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"datasets",
+		"choosenDataset",
+		"choosenDiagramType",
 		"datasetCount",
-		"view",
-		"chosenDiagramType",
-		"chosenDatasetIndex" ],
+		"view" ],
 	"name" : "SWGUIController",
 	"pools" : [
 		 ],
