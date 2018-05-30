@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 createLowerPage
 	| createDiagramButton |
 	
@@ -12,5 +12,4 @@ createLowerPage
 				add: createDiagramButton);
 		add: self createAdvancedComm;
 		withLayout;
-		yourself. 
-	
+		yourself

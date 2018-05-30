@@ -6,7 +6,3 @@ update
 		removeAll;
 		generateDataPoints;
 		renderDataPoints
-	
-	
-	
-	

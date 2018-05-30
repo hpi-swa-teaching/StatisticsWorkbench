@@ -1,4 +1,4 @@
-tests
+testing
 testRemoveAll
 	
 	self	scatterPlot removeAll. 

@@ -1,4 +1,4 @@
 accessing
 diagramPieChart: anObject
 	
-	diagramPieChart := anObject.
+	diagramPieChart := anObject

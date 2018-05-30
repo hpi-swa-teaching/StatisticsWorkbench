@@ -1,10 +1,9 @@
-as yet unclassified
+geometry
 drawKeyFor: aPieChart
 	| position |
 	
 	position := 0.5.
 	self key topLeft: aPieChart topRight.
-	"self key bottomRight: self owner owner bottomRight."
 	
 	self pieSlices do: [:pieSlice | 
 		self 
@@ -12,4 +11,4 @@ drawKeyFor: aPieChart
 			drawColorSwatchOf: pieSlice at: position.
 		position := position + 1].
 	
-	self key extent: self computeKeyExtent.
+	self key extent: self computeKeyExtent

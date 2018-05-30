@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 y
-	^ self asPoint y.
+
+	^ self asPoint y

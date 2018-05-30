@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 open 
 
-	self openInWindowLabeled: 'Statistics Workbench'.
+	self openInWindowLabeled: 'Statistics Workbench'

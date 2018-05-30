@@ -1,4 +1,4 @@
 accessing
 lineChart: anObject
 	
-	lineChart := anObject.
+	lineChart := anObject

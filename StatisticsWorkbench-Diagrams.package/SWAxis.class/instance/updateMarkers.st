@@ -1,5 +1,6 @@
-as yet unclassified
+updating
 updateMarkers
-	self areMarkersDrawable
+
+	(self areMarkersDrawable)
 		ifTrue: [	self removeAll.
 				self drawMarkers]

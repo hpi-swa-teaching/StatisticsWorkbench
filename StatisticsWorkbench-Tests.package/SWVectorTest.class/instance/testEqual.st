@@ -9,4 +9,4 @@ testEqual
 	self assert: vector2 = vector2.
 	self assert: vector3 = vector3.
 	
-	self assert: vector1 ~= vector4.
+	self assert: vector1 ~= vector4

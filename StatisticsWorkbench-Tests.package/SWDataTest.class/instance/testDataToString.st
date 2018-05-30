@@ -1,6 +1,7 @@
-tests
+testing
 testDataToString
-	|ownData|
+	| ownData |
+	
 	self flag: #changeName. 
 	ownData := SWDataTest createSeeded3.
 

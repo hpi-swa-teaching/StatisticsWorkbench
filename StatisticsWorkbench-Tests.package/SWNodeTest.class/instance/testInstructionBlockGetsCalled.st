@@ -1,9 +1,9 @@
-tests
-testInstructionBlockGetsCalled
-	
+testing
+testInstructionBlockGetsCalled	
 	| instructionBlock flag |
+	
 	flag := false.
-	instructionBlock := [ flag := true ].
+	instructionBlock := [flag := true].
 	
 	(SWNode createWith: instructionBlock labelled: 'Unit Testing') execute. 
 	

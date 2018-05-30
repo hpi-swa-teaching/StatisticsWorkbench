@@ -1,4 +1,4 @@
-tests
+testing
 testRemove
 
 	self data removeArray: #(1 1).

@@ -1,8 +1,8 @@
-tests
+testing
 testCreateWith
-
 	| instructionBlock node |
-	instructionBlock := [ true ]. 
+	
+	instructionBlock := [true]. 
 	node := SWNode createWith: instructionBlock labelled: 'Unit Testing'.
 	
 	self assert: node notNil.

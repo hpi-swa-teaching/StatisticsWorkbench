@@ -1,9 +1,9 @@
-accessing
-calculateMinMaxOrMedian: aOperation
+calculation
+calculateMinMaxOrMedian: anOperation
 
-	aOperation = #minimum
+	(anOperation = #minimum)
 		ifTrue: [^ self chosenDataset min: #x].
-	aOperation = #maximum
+	(anOperation = #maximum)
 		ifTrue: [^ self chosenDataset max: #x].
-	aOperation = #median
-		ifTrue: [^ self chosenDataset median: #x].
+	(anOperation = #median)
+		ifTrue: [^ self chosenDataset median: #x]

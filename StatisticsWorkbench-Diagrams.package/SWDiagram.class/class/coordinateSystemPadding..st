@@ -1,7 +1,6 @@
 as yet unclassified
 coordinateSystemPadding: aNumber
-
-	|temp paddingPercentage paddingStep|
+	| temp paddingPercentage paddingStep |
 	
 	paddingPercentage := 1 + 0.10.
 	paddingStep := 5.
@@ -11,4 +10,4 @@ coordinateSystemPadding: aNumber
 	temp := temp ceiling.
 	temp := temp * paddingStep.
 	
-	^temp
+	^ temp

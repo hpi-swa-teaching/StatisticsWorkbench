@@ -1,4 +1,4 @@
 testing
 testCollectionsGetInitialized 
 	
-	self assert: (self diagramEmpty charts notNil and: [ self diagramEmpty charts size = 0 ])
+	self assert: (self diagramEmpty charts notNil and: [self diagramEmpty charts size = 0])

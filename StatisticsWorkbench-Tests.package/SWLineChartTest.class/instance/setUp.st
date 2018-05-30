@@ -6,4 +6,3 @@ setUp
 		data: SWDataTest createSeeded;
 		lineChart: SWLineChart new;
 		diagram: (SWDiagram new visualize: self data with: self lineChart)
-	

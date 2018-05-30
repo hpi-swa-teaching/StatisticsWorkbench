@@ -1,4 +1,4 @@
 geometry
 accumulateValues
 	
-	^ self data sum: 2.
+	^ self data sum: 2

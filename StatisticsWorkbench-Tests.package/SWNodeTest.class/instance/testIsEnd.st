@@ -1,7 +1,7 @@
-tests
+testing
 testIsEnd
-
 	| node |
+	
 	node := SWNode new.
 	self assert: node isEnd.
 	

@@ -1,6 +1,5 @@
-as yet unclassified
-createBarsFrom: aSWData
-	
+creation
+createBarsFrom: aSWData	
 	| xOfBar height |
 	
 	self flag: #fishy.
@@ -15,5 +14,4 @@ createBarsFrom: aSWData
 						height: height;
 						date: vector;
 						caption: vector x asString; 
-						bottom: self barBottom)
-		]
+						bottom: self barBottom)]

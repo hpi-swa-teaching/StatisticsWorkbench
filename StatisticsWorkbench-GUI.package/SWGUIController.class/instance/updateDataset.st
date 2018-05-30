@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateDataset
 
-	self view datasetDisplay text: ((self datasets at: self chosenDatasetIndex) dataToString).
+	self view datasetDisplay text: ((self datasets at: self chosenDatasetIndex) dataToString)

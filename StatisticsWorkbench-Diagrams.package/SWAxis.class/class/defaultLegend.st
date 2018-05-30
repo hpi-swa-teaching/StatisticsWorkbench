@@ -1,3 +1,4 @@
 defaults
 defaultLegend
-	^'test123'.
+
+	^ 'test123'

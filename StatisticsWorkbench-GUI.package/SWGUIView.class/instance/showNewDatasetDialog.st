@@ -1,6 +1,6 @@
-as yet unclassified
+creation
 showNewDatasetDialog
-	| newSetDialog dialogLayout valueTextArea nameTextArea | "Name überprüfen (dialogLayout evtl. schlecht) -> vllt. dialogWindow??"
+	| newSetDialog dialogLayout valueTextArea nameTextArea |
 	
 	newSetDialog := PHDialog new title: 'Create a new dataset'.
 	dialogLayout := PHPage new. 
@@ -19,5 +19,3 @@ showNewDatasetDialog
 	(newSetDialog openFor: self)
 		then: [self controller createNewDatasetFrom: valueTextArea text named: nameTextArea text];
 		ifRejected: []
-		
-	

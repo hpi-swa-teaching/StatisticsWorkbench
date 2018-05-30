@@ -1,8 +1,8 @@
-tests
+testing
 testCreate
-
 	| instructionBlock node |
-	instructionBlock := [ true ]. 
+	
+	instructionBlock := [true]. 
 	node := SWNode createWith: instructionBlock.
 	
 	self assert: node notNil.

@@ -1,15 +1,15 @@
 {
 	"class" : {
 		"create:" : "Kenneth-Schroeder 5/30/2018 09:55",
-		"fromArray:" : "Kenneth-Schroeder 5/30/2018 10:07",
+		"fromArray:" : "aj 5/30/2018 17:52",
 		"fromPoint:" : "Kenneth-Schroeder 5/30/2018 09:55" },
 	"instance" : {
-		"<" : "Kenneth-Schroeder 5/30/2018 09:49",
-		"<=" : "Kenneth-Schroeder 5/30/2018 09:51",
+		"<" : "aj 5/30/2018 17:57",
+		"<=" : "aj 5/30/2018 17:55",
 		">" : "Kenneth-Schroeder 5/30/2018 09:51",
 		">=" : "Kenneth-Schroeder 5/30/2018 09:51",
-		"addToSWData:" : "Kenneth-Schroeder 5/30/2018 09:52",
-		"asPoint" : "Kenneth-Schroeder 5/30/2018 10:12",
-		"dimensions" : "Kenneth-Schroeder 5/30/2018 09:49",
-		"x" : "Kenneth-Schroeder 5/30/2018 10:23",
-		"y" : "Kenneth-Schroeder 5/30/2018 10:34" } }
+		"addToSWData:" : "aj 5/30/2018 17:55",
+		"asPoint" : "aj 5/30/2018 17:55",
+		"dimensions" : "aj 5/30/2018 17:55",
+		"x" : "aj 5/30/2018 17:55",
+		"y" : "aj 5/30/2018 17:54" } }

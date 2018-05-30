@@ -1,9 +1,8 @@
 as yet unclassified
 createSeeded3
-
 	|tempData|
-	self flag: #fishy.  
-	" don't change! Multiple unit tests relying on that data "  
+	
+	"Don't change! Multiple unit tests relying on that data."  
 	
 	tempData := SWData create     
 		add: #(0 1);
@@ -14,4 +13,4 @@ createSeeded3
 		
 	tempData setAllDimensionNames: #('Time' 'Value').
 	
-	^tempData
+	^ tempData

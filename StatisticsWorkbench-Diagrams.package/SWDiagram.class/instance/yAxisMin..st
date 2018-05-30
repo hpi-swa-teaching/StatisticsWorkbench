@@ -1,6 +1,6 @@
 as yet unclassified
 yAxisMin: aValue
 
-	self hasCoordinateSystem 
+	(self hasCoordinateSystem)
 		ifTrue: [self coordinateSystem yAxis min: aValue].
 	self updateCharts

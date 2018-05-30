@@ -1,3 +1,4 @@
-statistics
+math functions
 min: aDimension
-	^ (self selectDimension: aDimension) min.
+
+	^ (self selectDimension: aDimension) min

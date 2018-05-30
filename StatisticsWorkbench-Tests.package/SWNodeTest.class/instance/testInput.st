@@ -1,6 +1,5 @@
-tests
+testing
 testInput
-
 	| input node |
 	
 	input := 'test input'.
@@ -9,4 +8,4 @@ testInput
 	node predecessors add: (SWNode new output: input; yourself).
 	
 	self assert: node input size = 1.
-	self assert: (node input at: 1) = input 
+	self assert: (node input at: 1) = input

@@ -1,10 +1,10 @@
-as yet unclassified
+creation
 createMainPage
 
-	 ^ (PHPage new)
+	 ^ PHPage new
 		expand: true;
 		vertical: true;
 		add: self createUpperPage;
 		add: self createLowerPage;
 		withLayout; 
-		yourself. 
+		yourself

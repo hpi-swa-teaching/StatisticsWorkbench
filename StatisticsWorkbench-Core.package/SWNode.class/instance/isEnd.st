@@ -1,4 +1,4 @@
 testing
 isEnd
 
-	^ self successors isEmpty 
+	^ self successors isEmpty

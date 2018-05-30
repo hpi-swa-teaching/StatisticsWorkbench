@@ -1,6 +1,6 @@
-accessing
+initialization
 initialize 
 
 	super initialize. 
 	self datasets: OrderedCollection new. 
-	self datasetCount: 0. 
+	self datasetCount: 0

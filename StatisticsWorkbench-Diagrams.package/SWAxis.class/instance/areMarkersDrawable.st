@@ -1,5 +1,6 @@
-as yet unclassified
+testing
 areMarkersDrawable
+
 	(self max notNil
 		and: self min notNil
 		and: self stepInterval notNil
@@ -8,6 +9,3 @@ areMarkersDrawable
 			ifTrue: [	^ self max > self min
 						and: (self stepInterval negative) not]
 	 		ifFalse: [^ false]
-
-
-		

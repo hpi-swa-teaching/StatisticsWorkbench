@@ -1,4 +1,4 @@
 testing
 isStart
 
-	^ self predecessors isEmpty 
+	^ self predecessors isEmpty

@@ -1,4 +1,4 @@
 testing
 testVisualizeMultipleCharts
 	
-	self assert: [ self diagramLineScatter charts size = 2 ]
+	self assert: [self diagramLineScatter charts size = 2]

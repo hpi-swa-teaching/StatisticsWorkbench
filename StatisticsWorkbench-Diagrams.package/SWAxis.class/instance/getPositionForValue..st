@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getPositionForValue: aValue
 
 	^ self normedMarkerLength * aValue

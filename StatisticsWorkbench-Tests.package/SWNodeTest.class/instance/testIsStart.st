@@ -1,7 +1,7 @@
-tests
+testing
 testIsStart
-
 	| node |
+	
 	node := SWNode new.
 	self assert: node isStart.
 	

@@ -1,3 +1,4 @@
-statistics
+math functions
 sum: aDimension
-	^ (self selectDimension: aDimension) sum.
+
+	^ (self selectDimension: aDimension) sum

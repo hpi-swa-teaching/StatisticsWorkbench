@@ -1,6 +1,7 @@
-as yet unclassified
+testing
 testStrokeMorph
 	| axisLine |
+	
 	axisLine := SWAxisLine create.
 	
 	self assert: axisLine strokeMorph notNil.
@@ -13,5 +14,4 @@ testStrokeMorph
 	axisLine strokeColor: Color blue.
 	self assert: axisLine strokeMorph borderColor = Color blue.
 	
-	axisLine delete.
-	
+	axisLine delete
