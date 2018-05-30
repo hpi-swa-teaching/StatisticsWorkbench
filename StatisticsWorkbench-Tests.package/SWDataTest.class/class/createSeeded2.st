@@ -1,7 +1,6 @@
 as yet unclassified
 createSeeded2
-	self flag: #fishy.
-	" don't change! Multiple unit tests relying on that data "
+	"Don't change! Multiple unit tests relying on that data."
 	
 	^ SWData create
 				add: #(5 5);

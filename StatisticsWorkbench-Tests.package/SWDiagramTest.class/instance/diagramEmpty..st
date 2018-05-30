@@ -1,4 +1,4 @@
 accessing
 diagramEmpty: anObject
 	
-	diagramEmpty := anObject.
+	diagramEmpty := anObject

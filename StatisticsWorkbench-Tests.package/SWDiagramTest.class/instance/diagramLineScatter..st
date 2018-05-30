@@ -1,4 +1,4 @@
 accessing
 diagramLineScatter: anObject
 	
-	diagramLineScatter := anObject.
+	diagramLineScatter := anObject

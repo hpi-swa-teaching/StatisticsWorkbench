@@ -1,4 +1,5 @@
 accessing
 copyFrom: anotherSWData
+
 	super copyFrom: anotherSWData.
-	self changed.
+	self changed

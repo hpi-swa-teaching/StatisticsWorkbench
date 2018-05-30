@@ -1,9 +1,10 @@
 as yet unclassified
 create: aPosition orientation: anOrientation caption: aText textColor: aColor1 strokeColor: aColor2 raster: aBoolean length: aLength
 	| instance |
+	
 	self flag: #fishy.
 	instance := SWAxisLine new.
-	anOrientation = #horizontal
+	(anOrientation = #horizontal)
 		ifTrue: [instance
 						strokeMorph: (LineMorph
 						from: aPosition x - 5 @ aPosition y
@@ -27,15 +28,15 @@ create: aPosition orientation: anOrientation caption: aText textColor: aColor1 s
 	instance addMorph: instance captionMorph.
 	
 	aBoolean ifTrue:[
-		anOrientation = #horizontal
+		(anOrientation = #horizontal)
 			ifTrue: [	instance rasterMorph: (LineMorph
 						from: aPosition
-						to: aPosition+(aLength@0)
+						to: aPosition + (aLength @ 0)
 						color: Color gray
 						width: 1)]
 			ifFalse: [instance rasterMorph: (LineMorph
 						from: aPosition
-						to: aPosition-(0@aLength)
+						to: aPosition - (0 @ aLength)
 						color: Color gray
 						width: 1)].
 		instance rasterColor: Color gray.

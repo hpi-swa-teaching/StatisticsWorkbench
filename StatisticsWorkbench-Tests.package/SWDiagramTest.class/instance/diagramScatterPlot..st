@@ -1,4 +1,4 @@
 accessing
 diagramScatterPlot: anObject
 	
-	diagramScatterPlot := anObject.
+	diagramScatterPlot := anObject

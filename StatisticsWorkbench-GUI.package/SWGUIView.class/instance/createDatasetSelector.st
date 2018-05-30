@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 createDatasetSelector
 
 	^ PHPage new
@@ -8,4 +8,4 @@ createDatasetSelector
 		add: self createDatasetDisplay;
 		withLayout;
 		addStyleClass: #withPadding;
-		yourself. 
+		yourself

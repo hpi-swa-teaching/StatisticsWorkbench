@@ -8,4 +8,4 @@ testPositionFor
 	self coordinateSystem xAxis max: 100.
 	self coordinateSystem yAxis max: 100.
 	self assert: (self coordinateSystem positionFor: point1) = (100 @ 600).
-	self assert: (self coordinateSystem positionFor: point2) = (500 @ 200).
+	self assert: (self coordinateSystem positionFor: point2) = (500 @ 200)

@@ -1,4 +1,4 @@
 helper
 createDiagramWith: aChart
 
-	^ SWDiagram new visualize: self data with: aChart 
+	^ SWDiagram new visualize: self data with: aChart

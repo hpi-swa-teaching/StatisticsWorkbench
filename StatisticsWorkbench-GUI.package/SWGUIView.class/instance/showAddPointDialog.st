@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 showAddPointDialog
 	| addPointDialog dialogLayout PointX PointY | 
 	
@@ -8,7 +8,9 @@ showAddPointDialog
 	PointY := PHTextArea placeholder: 'y'.
 	dialogLayout
 		withPadding;
+		add: (PHLabel text: 'X-Value:'); 
 		add: PointX; 
+		add: (PHLabel text: 'Y-Value:'); 
 		add: PointY; 
 		add: ((PHButton text: 'Add') when: #clicked send: #accept: to: addPointDialog with: nil; when: #clicked send: #updateDataset to: self controller).
 		

@@ -1,4 +1,4 @@
 accessing
 originalDataSize: anObject
 	
-	originalDataSize := anObject.
+	originalDataSize := anObject

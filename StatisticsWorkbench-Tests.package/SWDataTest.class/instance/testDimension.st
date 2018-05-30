@@ -1,6 +1,5 @@
-tests
+testing
 testDimension
-
 	| d1 d2 d3 d5 |
 	
 	d1 := SWData create
@@ -25,13 +24,10 @@ testDimension
 					yourself.
 	self assert: d5 dimensions = 5.
 	
-	self should: [
-			SWData create
+	self should: [SWData create
 						add: #(1 2);
 						add: #(3 4);
 						add: #(5 6 7);
-						yourself
-		]
-		raise: SWInvalidDimensionError.
+						yourself] raise: SWInvalidDimensionError.
 		
-	self should: [ SWData create add: #() ] raise: SWInvalidDimensionError
+	self should: [SWData create add: #()] raise: SWInvalidDimensionError

@@ -1,3 +1,4 @@
 defaults
 defaultColor
+
 	^ Color green

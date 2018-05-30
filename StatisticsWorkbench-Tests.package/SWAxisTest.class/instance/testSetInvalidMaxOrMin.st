@@ -1,6 +1,7 @@
-tests
+testing
 testSetInvalidMaxOrMin
 	| axis |
+	
 	axis := SWAxis create.
 	
 	"check invalid max"
@@ -12,4 +13,4 @@ testSetInvalidMaxOrMin
 	axis min: -10.
 	axis max: 0.
 	self should: [axis min: 0] raise: SWInvalidArgumentError.
-	self should: [axis min: 1] raise: SWInvalidArgumentError.
+	self should: [axis min: 1] raise: SWInvalidArgumentError

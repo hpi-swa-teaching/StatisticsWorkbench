@@ -1,6 +1,7 @@
-tests
+testing
 testSetAxisTextColor
 	| axis color |
+	
 	axis := SWAxis create.
 	color := Color wheel: 2.
 	
@@ -16,4 +17,4 @@ testSetAxisTextColor
 	axis textVisibility: true.
 	axis submorphsDo: [:morph | self assert: morph captionMorph color = (color at: 2)].
 	
-	axis delete.
+	axis delete

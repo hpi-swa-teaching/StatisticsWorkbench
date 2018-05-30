@@ -1,6 +1,6 @@
 as yet unclassified
 yAxisMax: aValue
 
-	self hasCoordinateSystem 
+	(self hasCoordinateSystem)
 		ifTrue: [self coordinateSystem yAxis max: aValue].
 	self updateCharts

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 updateDatasetDisplay: aString
 
-	self datasetDisplay text: aString. 
+	self datasetDisplay text: aString

@@ -1,7 +1,7 @@
-tests
+testing
 testVisualizeWith
-
 	| node1 node2 |
+	
 	node1 := SWNode new 
 						output: SWDataTest createSeeded;
 						yourself.

@@ -1,5 +1,5 @@
-tests
+testing
 setUp 
 
 	super setUp.
-	self data: SWDataTest createSeeded 
+	self data: SWDataTest createSeeded

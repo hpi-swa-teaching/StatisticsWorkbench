@@ -7,4 +7,4 @@ initialize
 		slice: PolygonMorph new;
 		color: Color transparent.
 	
-	self addMorph: self slice.
+	self addMorph: self slice

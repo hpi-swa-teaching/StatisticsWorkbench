@@ -1,5 +1,5 @@
-as yet unclassified
+creation
 createAdvancedComm
 "für zukünftige änderungen --> entsprechenden Namen ausdenken"
-	
-	^ PHPage new.
+	self flag: #changeName.
+	^ PHPage new

@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 createLowerPage
 	| createDiagramButton |
 	
@@ -8,9 +8,8 @@ createLowerPage
 		vertical: true;
 		addStyleClass: #withPadding;
 		add: (PHPage row
-				add: self createDiagrammDropdown;
+				add: self createChartTypeDropdown;
 				add: createDiagramButton);
 		add: self createAdvancedComm;
 		withLayout;
-		yourself. 
-	
+		yourself

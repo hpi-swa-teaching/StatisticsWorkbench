@@ -1,4 +1,5 @@
-as yet unclassified
+updating
 updateLegend
-	self legend notNil 
+
+	(self legend notNil)
 		ifTrue: [self legend bottomLeft: self endPoint]

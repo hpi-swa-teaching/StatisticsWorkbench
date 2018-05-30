@@ -1,4 +1,4 @@
-as yet unclassified
+creation
 createUpperPage
 
 	^ PHPage new
@@ -9,4 +9,4 @@ createUpperPage
 					add: self createDatasetSelectionButtons;
 					add: self createFunctionSelector);
 		withLayout; 
-		yourself. 
+		yourself

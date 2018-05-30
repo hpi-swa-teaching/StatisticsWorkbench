@@ -1,5 +1,5 @@
 as yet unclassified
 yAxisLegend: aValue
 
-	self hasCoordinateSystem 
+	(self hasCoordinateSystem)
 		ifTrue: [self coordinateSystem yAxis setLegend: aValue].

@@ -1,4 +1,4 @@
-as yet unclassified
+adding/removing
 addKeyPoint: aKeyPoint
 
 	self addMorph: aKeyPoint

@@ -6,7 +6,7 @@ createAt: startPoint withMin: min length: length withMax: max step: step orienta
 		ifFalse: [endpoint := 0@(length negated)].
 	
 	^ (SWAxis 
-		vertices: (Array with: startPoint with: startPoint + endpoint) color: self defaultColor borderWidth: self defaultBorderWidth borderColor: self defaultBorderColor)
+			vertices: (Array with: startPoint with: startPoint + endpoint) color: self defaultColor borderWidth: self defaultBorderWidth borderColor: self defaultBorderColor)
 			textVisibility: self defaultTextVisibility;
 			rasterVisibility: self defaultRasterVisibility;
 			orientation: orientation;

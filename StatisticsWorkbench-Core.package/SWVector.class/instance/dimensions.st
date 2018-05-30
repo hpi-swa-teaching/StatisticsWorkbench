@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 dimensions
+
 	^ self size

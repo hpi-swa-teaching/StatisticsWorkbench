@@ -1,6 +1,7 @@
-tests
+testing
 testSetAxisColor
 	| axis color |
+	
 	axis := SWAxis create.
 	color := Color wheel: 2.
 	
@@ -12,4 +13,4 @@ testSetAxisColor
 	self assert: axis borderColor = (color at: 2).
 	axis markers do: [:marker | self assert: marker strokeMorph borderColor = (color at: 2)].
 	
-	axis delete.
+	axis delete

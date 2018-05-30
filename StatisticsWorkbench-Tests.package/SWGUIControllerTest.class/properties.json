@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SWBarTest",
+		"view",
+		"controller" ],
+	"name" : "SWGUIControllerTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

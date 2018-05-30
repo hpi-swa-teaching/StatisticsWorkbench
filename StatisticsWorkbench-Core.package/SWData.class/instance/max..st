@@ -1,3 +1,4 @@
-statistics
+math functions
 max: aDimension
-	^ (self selectDimension: aDimension) max.
+
+	^ (self selectDimension: aDimension) max

@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 rasterColor: aColor
+
 	self rasterMorph borderColor: aColor

@@ -2,5 +2,4 @@ testing
 setUp 
 
 	super setUp.
-	self
-		coordinateSystem: SWCoordinateSystem create
+	self coordinateSystem: SWCoordinateSystem create
