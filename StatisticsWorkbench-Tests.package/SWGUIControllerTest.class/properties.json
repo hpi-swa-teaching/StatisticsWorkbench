@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lineChart",
-		"data",
-		"diagram" ],
-	"name" : "SWLineChartTests",
+		"view",
+		"controller" ],
+	"name" : "SWGUIControllerTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

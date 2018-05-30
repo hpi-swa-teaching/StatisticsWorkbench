@@ -6,4 +6,6 @@ initialize
 	self
 		extent: SWGUIView size;
 		controller: (SWGUIController new view: self); 
-		expand: true.
+		expand: true; 
+		add: self createMainPage; 
+		withLayout.
