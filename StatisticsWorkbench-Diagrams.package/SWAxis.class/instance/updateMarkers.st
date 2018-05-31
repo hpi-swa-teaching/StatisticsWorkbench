@@ -1,7 +1,7 @@
-as yet unclassified
+updating
 updateMarkers
 		
-	self areMarkersDrawable
-		ifTrue: [self adjustStepInterval.
-			self removeAllMarkers.
-			self drawMarkers]
+	(self areMarkersDrawable)
+		ifTrue: [	self adjustStepInterval.
+				self removeAllMarkers.
+				self drawMarkers]

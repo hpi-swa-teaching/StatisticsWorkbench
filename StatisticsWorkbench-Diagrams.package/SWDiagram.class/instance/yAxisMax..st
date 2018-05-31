@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 yAxisMax: aValue
 
 	(self hasCoordinateSystem)

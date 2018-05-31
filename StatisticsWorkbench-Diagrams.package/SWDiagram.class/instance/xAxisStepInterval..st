@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 xAxisStepInterval: aValue
 
 	(self hasCoordinateSystem)

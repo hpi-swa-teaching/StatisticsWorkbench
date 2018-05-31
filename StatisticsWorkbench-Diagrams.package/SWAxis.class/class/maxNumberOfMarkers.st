@@ -1,3 +1,4 @@
 defaults
 maxNumberOfMarkers
+
 	^ 20

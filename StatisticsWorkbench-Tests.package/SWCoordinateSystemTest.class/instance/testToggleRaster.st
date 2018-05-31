@@ -1,6 +1,6 @@
 testing
 testToggleRaster	
-	| visibility1|
+	| visibility1 |
 	
 	visibility1 := coordinateSystem xAxis rasterVisibility.
 	coordinateSystem toggleRaster.

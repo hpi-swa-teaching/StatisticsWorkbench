@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 yAxisMin: aValue
 
 	(self hasCoordinateSystem)

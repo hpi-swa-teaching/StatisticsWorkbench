@@ -1,4 +1,4 @@
-geometry
+toggling
 toggleRaster
 
 	(self hasCoordinateSystem)
