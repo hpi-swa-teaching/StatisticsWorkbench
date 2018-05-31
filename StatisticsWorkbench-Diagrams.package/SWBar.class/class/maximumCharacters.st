@@ -1,4 +1,4 @@
 defaults
 maximumCharacters 
 
-	^ 2
+	^ 4
