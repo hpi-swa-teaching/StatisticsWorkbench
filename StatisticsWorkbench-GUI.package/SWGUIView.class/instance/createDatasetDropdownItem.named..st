@@ -2,10 +2,7 @@ creation
 createDatasetDropdownItem: aDatasetIdentificationNumber named: aName
 	| dropdownDataset |
 
-	(aName = '')
-		ifTrue: [dropdownDataset := (PHDropdownItem label: 'dataset', aDatasetIdentificationNumber)]
-		ifFalse: [dropdownDataset := (PHDropdownItem label: aName)].
-		
+	dropdownDataset:= PHDropdownItem label: aName.
 	dropdownDataset
 		when: #clicked send: #updateChosenDataset: to: self controller with: aDatasetIdentificationNumber;
 		when: #clicked send: #text: to: self datasetDropdownButton with: dropdownDataset label text.
