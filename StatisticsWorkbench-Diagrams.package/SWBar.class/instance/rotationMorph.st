@@ -1,3 +1,0 @@
-accessing
-rotationMorph
-	^ rotationMorph

@@ -5,7 +5,7 @@ createDatasetDisplay
 	^ PHPage column
 		expand: true;
 		add: self datasetDisplay;
-		add: ((PHButton label: 'Add Point') when: #clicked send: #showAddPointDialog to: self);
 		add: ((PHButton label: 'Save') when: #clicked send: #chosenDatasetChanged to: self controller);
+		add: ((PHButton label: 'Add Point') when: #clicked send: #showAddPointDialog to: self);
 		withLayout;
 		yourself
