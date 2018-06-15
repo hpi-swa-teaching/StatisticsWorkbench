@@ -1,3 +1,4 @@
 accessing
 isLabelHorizontal
+
 	^ isLabelHorizontal

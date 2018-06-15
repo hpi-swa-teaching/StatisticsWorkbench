@@ -1,4 +1,4 @@
 defaults
 rotationAngle
 
-	^ 3* (Float pi)/2
+	^ 3 * (Float pi) / 2

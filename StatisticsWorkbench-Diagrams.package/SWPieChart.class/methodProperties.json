@@ -15,7 +15,6 @@
 		"createPieSliceFrom:with:at:colored:" : "aj 5/30/2018 18:27",
 		"endpointOf:by:" : "MS 5/14/2018 23:35",
 		"generateOuterBorderOf:with:from:" : "aj 5/30/2018 18:27",
-		"getMaxExtent" : "aj 5/30/2018 18:27",
 		"initialize" : "MS 5/14/2018 23:17",
 		"needsCoordinateSystem" : "J.R. 7/29/2017 18:08",
 		"pieKey" : "J.R. 6/29/2017 12:47",
