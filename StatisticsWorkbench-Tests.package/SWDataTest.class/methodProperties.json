@@ -2,7 +2,8 @@
 	"class" : {
 		"createSeeded" : "aj 5/30/2018 17:07",
 		"createSeeded2" : "aj 5/30/2018 17:07",
-		"createSeeded3" : "aj 5/30/2018 17:07" },
+		"createSeeded3" : "aj 5/30/2018 17:07",
+		"createSeeded4" : "Kenneth-Schroeder 6/14/2018 14:16" },
 	"instance" : {
 		"data" : "aj 5/30/2018 17:14",
 		"data:" : "aj 5/30/2018 17:14",
@@ -18,6 +19,7 @@
 		"testDimension" : "aj 5/30/2018 18:50",
 		"testEqual" : "aj 5/30/2018 18:51",
 		"testFromString" : "aj 5/30/2018 17:18",
+		"testFromStringWithLabels" : "Kenneth-Schroeder 6/14/2018 14:19",
 		"testIsFunction" : "aj 5/30/2018 17:18",
 		"testMax" : "aj 5/30/2018 17:18",
 		"testMaxDerivation" : "aj 5/30/2018 17:18",

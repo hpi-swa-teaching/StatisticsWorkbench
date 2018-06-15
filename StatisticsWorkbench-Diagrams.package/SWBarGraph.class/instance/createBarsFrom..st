@@ -13,5 +13,5 @@ createBarsFrom: aSWData
 						position: (xOfBar - self barWidth) @ (self barBottom - height);
 						height: height;
 						date: vector;
-						caption: vector x asString; 
+						caption: vector labelName; 
 						bottom: self barBottom)]
