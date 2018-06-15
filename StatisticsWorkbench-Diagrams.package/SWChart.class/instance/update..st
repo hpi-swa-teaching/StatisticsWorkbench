@@ -1,4 +1,4 @@
 updating
 update: anObject
 
-	self update
+	anObject class = SWData ifTrue: [self update]
