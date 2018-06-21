@@ -6,11 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"datasets",
-		"datasetCount",
-		"view",
+		"chosenChartType",
 		"chosenDatasetIndex",
-		"chosenChartType" ],
+		"datasetCount",
+		"datasets",
+		"nameOfChosenDataset",
+		"view" ],
 	"name" : "SWGUIController",
 	"pools" : [
 		 ],

@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"controller",
+		"datasetDisplay",
 		"datasetDropdown",
-		"datasetDropdownButton",
-		"datasetDisplay" ],
+		"datasetDropdownButton" ],
 	"name" : "SWGUIView",
 	"pools" : [
 		 ],

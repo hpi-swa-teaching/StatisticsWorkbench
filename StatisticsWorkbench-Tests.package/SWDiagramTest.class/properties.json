@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"data",
-		"diagramLineChart",
 		"diagramBarChart",
 		"diagramEmpty",
+		"diagramLineChart",
 		"diagramLineScatter",
 		"diagramPieChart",
 		"diagramScatterPlot" ],

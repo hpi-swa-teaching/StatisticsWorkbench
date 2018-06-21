@@ -4,13 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JB 6/21/2018 10:06",
+	"commentStamp" : "aj 6/21/2018 10:40",
 	"instvars" : [
+		"label",
 		"instruction",
-		"predecessors",
-		"successors",
 		"output",
-		"label" ],
+		"predecessors",
+		"successors" ],
 	"name" : "SWNode",
 	"pools" : [
 		 ],

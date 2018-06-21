@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JB 6/21/2018 10:13",
+	"commentStamp" : "aj 6/21/2018 10:39",
 	"instvars" : [
-		"coordinateSystem",
-		"charts" ],
+		"charts",
+		"coordinateSystem" ],
 	"name" : "SWDiagram",
 	"pools" : [
 		 ],

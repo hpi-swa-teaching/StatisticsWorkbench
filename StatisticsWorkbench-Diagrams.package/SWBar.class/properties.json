@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JB 6/21/2018 10:10",
+	"commentStamp" : "aj 6/21/2018 10:35",
 	"instvars" : [
-		"bottom",
-		"rotationMorph",
 		"barLabelMorph",
-		"isLabelHorizontal" ],
+		"bottom",
+		"isLabelHorizontal",
+		"rotationMorph" ],
 	"name" : "SWBar",
 	"pools" : [
 		 ],

@@ -4,13 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JB 6/21/2018 10:09",
+	"commentStamp" : "aj 6/21/2018 10:37",
 	"instvars" : [
-		"pieSlices",
-		"radius",
+		"chartCenter",
 		"circleStartpoint",
 		"pieKey",
-		"chartCenter" ],
+		"pieSlices",
+		"radius" ],
 	"name" : "SWPieChart",
 	"pools" : [
 		 ],

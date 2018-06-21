@@ -4,14 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JB 6/21/2018 10:12",
+	"commentStamp" : "aj 6/21/2018 10:34",
 	"instvars" : [
-		"name",
-		"value",
 		"endpoint",
-		"startpoint",
+		"name",
 		"pointSet",
-		"slice" ],
+		"slice",
+		"startpoint",
+		"value" ],
 	"name" : "SWPieSlice",
 	"pools" : [
 		 ],

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JB 6/21/2018 10:16",
+	"commentStamp" : "aj 6/21/2018 10:41",
 	"instvars" : [
-		"dimensions",
 		"dimensionIndices",
-		"dimensionNames" ],
+		"dimensionNames",
+		"dimensions" ],
 	"name" : "SWData",
 	"pools" : [
 		 ],
