@@ -7,7 +7,7 @@ open
 	container bounds: (0 @ 0 corner:950 @ 500).
 	container openInWorld.
 	
-	data := SWData create     
+	data := SWDataUnlabeled create     
 		add: #(1 22);
 		add: #(2 110);
 		add: #(3 64); 

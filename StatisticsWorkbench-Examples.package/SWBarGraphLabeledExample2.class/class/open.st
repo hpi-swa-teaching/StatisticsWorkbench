@@ -3,7 +3,7 @@ open
 
 	|data|
 	
-	data := SWData create     
+	data := SWDataLabeled create     
 		add: #(1 22);
 		add: #(2 110);
 		add: #(3 64); 

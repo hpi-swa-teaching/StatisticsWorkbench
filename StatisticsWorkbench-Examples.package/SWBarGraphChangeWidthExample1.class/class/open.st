@@ -3,7 +3,7 @@ open
 
 	|data graph1 window|
 	
-	data := SWData create     
+	data := SWDataUnlabeled  create     
 		add: #(1 22);
 		add: #(2 110);
 		add: #(3 64); 

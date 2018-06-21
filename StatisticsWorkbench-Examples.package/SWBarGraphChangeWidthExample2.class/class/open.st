@@ -5,7 +5,7 @@ open
 	
 	dataString := 'x|y 1|22 2|110 3|64 4|211 5|35'.
 	
-	data :=  SWData fromString: dataString ofDataDimension: 2.
+	data :=  SWDataUnlabeled  fromString: dataString ofDataDimension: 2.
 		
 	
 	
