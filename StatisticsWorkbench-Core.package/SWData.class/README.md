@@ -1,1 +1,1 @@
-I am a wrapper for a singly linked list of SWDate objects
+A SWData is a wrapper for an ordered collection of SWVector objects

@@ -1,1 +1,1 @@
-I manage nodes and their predecessors and successors
+A SWWorkflow manages nodes and their predecessors and successors

@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "J.R. 7/29/2017 16:58",
+	"commentStamp" : "JB 6/21/2018 10:11",
 	"instvars" : [
 		"renderedPoint" ],
 	"name" : "SWDataPoint",
