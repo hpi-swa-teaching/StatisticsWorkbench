@@ -1,5 +1,4 @@
 accessing
-name: anObject
+name: aName
 
-	name := anObject.
-	self changed
+	name := aName

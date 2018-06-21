@@ -1,4 +1,4 @@
 updating
 update: anObject
 
-	anObject class = SWData ifTrue: [self update]
+	anObject class superclass = SWData ifTrue: [self update]

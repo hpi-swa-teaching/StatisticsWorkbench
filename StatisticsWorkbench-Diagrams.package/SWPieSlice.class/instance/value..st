@@ -1,5 +1,4 @@
 accessing
-value: anObject
+value: aValue
 
-	value := anObject.
-	self changed
+	value := aValue.

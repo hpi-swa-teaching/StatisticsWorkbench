@@ -2,7 +2,7 @@ as yet unclassified
 createSeeded2
 	"Don't change! Multiple unit tests relying on that data."
 	
-	^ SWData create
+	^ SWDataUnlabeled create
 				add: #(5 5);
 				add: #(20 10);
 				add: #(40 60);

@@ -1,8 +1,8 @@
 as yet unclassified
-fromStringWithLabels: aString ofDataDimension: aDimension
+fromString: aString ofDataDimension: aDimension
 	| newData date segments dimensionNames values |
 	
-	newData := SWData create.
+	newData := SWDataLabeled create.
 	
 	segments := aString findTokens: String cr, String tab, ' |()[]{},@#=&'.
 	dimensionNames := segments copyFrom: 1 to: aDimension.

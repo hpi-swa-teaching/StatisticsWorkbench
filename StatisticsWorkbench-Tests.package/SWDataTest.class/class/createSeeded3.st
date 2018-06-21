@@ -4,7 +4,7 @@ createSeeded3
 	
 	"Don't change! Multiple unit tests relying on that data."  
 	
-	tempData := SWData create     
+	tempData := SWDataUnlabeled create     
 		add: #(0 1);
 		add: #(1 1);
 		add: #(2 3); 

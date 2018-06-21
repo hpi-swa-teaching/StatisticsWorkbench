@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"createSeeded" : "aj 5/30/2018 17:07",
-		"createSeeded2" : "aj 5/30/2018 17:07",
-		"createSeeded3" : "aj 5/30/2018 17:07",
-		"createSeeded4" : "Kenneth-Schroeder 6/14/2018 14:16" },
+		"createSeeded" : "Kenneth-Schroeder 6/21/2018 10:13",
+		"createSeeded2" : "Kenneth-Schroeder 6/21/2018 10:13",
+		"createSeeded3" : "Kenneth-Schroeder 6/21/2018 10:13",
+		"createSeeded4" : "Kenneth-Schroeder 6/21/2018 10:24" },
 	"instance" : {
 		"data" : "aj 5/30/2018 17:14",
 		"data:" : "aj 5/30/2018 17:14",
@@ -18,8 +18,8 @@
 		"testDifferenceQuotient" : "aj 5/30/2018 17:15",
 		"testDimension" : "aj 5/30/2018 18:50",
 		"testEqual" : "aj 5/30/2018 18:51",
-		"testFromString" : "aj 5/30/2018 17:18",
-		"testFromStringWithLabels" : "Kenneth-Schroeder 6/14/2018 14:19",
+		"testFromString" : "Kenneth-Schroeder 6/21/2018 10:24",
+		"testFromStringWithLabels" : "Kenneth-Schroeder 6/21/2018 10:26",
 		"testIsFunction" : "aj 5/30/2018 17:18",
 		"testMax" : "aj 5/30/2018 17:18",
 		"testMaxDerivation" : "aj 5/30/2018 17:18",
