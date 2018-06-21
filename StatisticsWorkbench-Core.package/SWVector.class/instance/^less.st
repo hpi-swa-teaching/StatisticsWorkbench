@@ -5,7 +5,7 @@ comparing
 	(anotherSWVector isNil)
 		ifTrue: [^ false].
 	(self dimensions = anotherSWVector dimensions)
-		ifFalse: [SWInvalidDimensionError signal: 'You must compare equal sized vectors'].
+		ifFalse: [SWInvalidDimensionError signal: 'You must compare equal sized vectors.'].
 	index := 1.
 	[index <= self dimensions]
 		whileTrue: 

@@ -1,1 +1,1 @@
-I am a the key representation of a n-dimensional date object
+A SWVektor is a the key representation of a n-dimensional array

@@ -1,1 +1,1 @@
-I am able to manage multiple charts
+A SWDiagram is a managing object for multiple SWCharts

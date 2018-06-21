@@ -1,1 +1,1 @@
-I am a bar representation of a category in given data
+A SWBar is a bar representation of a category in given data

@@ -1,1 +1,1 @@
-I am a reference frame for chart visualizations
+A SWCoordinateSystem is a reference frame for chart visualizations

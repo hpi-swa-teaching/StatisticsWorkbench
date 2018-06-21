@@ -1,1 +1,1 @@
-I visualize categorical data with pie slices
+A SWPieChart visualizes categorical data with pie slices

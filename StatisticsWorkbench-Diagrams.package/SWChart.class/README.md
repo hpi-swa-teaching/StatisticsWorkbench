@@ -1,1 +1,1 @@
-I am an abstract chart with basic behavior
+A SWChart is an abstract chart with basic behavior
