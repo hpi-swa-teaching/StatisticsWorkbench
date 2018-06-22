@@ -1,7 +1,7 @@
 creation
-showInformation: aValue
+showInformation: aFunction
 	
-	(PHNotification text: 'The ', aValue, ' of the chosen dataset is: ', (self controller calculateMinMaxOrMedian: aValue))
+	(PHNotification text: 'The ', aFunction, ' of the chosen dataset is: ', (self controller calculateMinMaxOrMedian: aFunction))
 		displayFor: 2000 onDismiss: [];
 		addTo: self;
 		extent: 1 @ 1;

@@ -1,11 +1,7 @@
 creation
 createDatasetSelector
 
-	^ PHPage new
-		expand: true;
-		vertical: true;
+	^ self createDefaultPage 
 		add: self createDatasetDropdown;
 		add: self createDatasetDisplay;
-		withLayout;
-		addStyleClass: #withPadding;
 		yourself

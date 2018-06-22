@@ -1,5 +1,5 @@
 accessing
-min: anObject
+minimum: anObject
 
 	(self max notNil and: anObject notNil)
 		ifTrue: [(anObject >= self max)

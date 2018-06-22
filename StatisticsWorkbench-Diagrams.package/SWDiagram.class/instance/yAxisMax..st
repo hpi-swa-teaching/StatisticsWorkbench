@@ -2,5 +2,5 @@ geometry
 yAxisMax: aValue
 
 	(self hasCoordinateSystem)
-		ifTrue: [self coordinateSystem yAxis max: aValue].
+		ifTrue: [self coordinateSystem yAxis maximum: aValue].
 	self updateCharts

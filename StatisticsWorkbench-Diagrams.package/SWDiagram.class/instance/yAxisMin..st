@@ -2,5 +2,5 @@ geometry
 yAxisMin: aValue
 
 	(self hasCoordinateSystem)
-		ifTrue: [self coordinateSystem yAxis min: aValue].
+		ifTrue: [self coordinateSystem yAxis minimum: aValue].
 	self updateCharts

@@ -3,5 +3,5 @@ testMarkersAreNotDrawableWhenMaxIsNull
 	| axis |
 	
 	axis := SWAxis create.
-	axis max: nil.
+	axis maximum: nil.
 	self assert: axis areMarkersDrawable not

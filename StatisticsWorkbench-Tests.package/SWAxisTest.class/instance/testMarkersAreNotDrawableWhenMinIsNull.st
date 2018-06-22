@@ -3,5 +3,5 @@ testMarkersAreNotDrawableWhenMinIsNull
 	| axis |
 	
 	axis := SWAxis create.
-	axis min: nil.
+	axis minimum: nil.
 	self assert: axis areMarkersDrawable not

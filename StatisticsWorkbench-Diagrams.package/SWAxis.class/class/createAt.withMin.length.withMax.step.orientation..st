@@ -11,8 +11,8 @@ createAt: startPoint withMin: min length: length withMax: max step: step orienta
 			textVisibility: self defaultTextVisibility;
 			rasterVisibility: self defaultRasterVisibility;
 			orientation: orientation;
-			min: min;
-			max: max;
+			minimum: min;
+			maximum: max;
 			stepInterval: step;
 			makeForwardArrow;
 			updateMarkers;

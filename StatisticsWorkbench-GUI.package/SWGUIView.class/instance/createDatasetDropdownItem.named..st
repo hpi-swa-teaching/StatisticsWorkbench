@@ -6,4 +6,5 @@ createDatasetDropdownItem: aDatasetIdentificationNumber named: aName
 	dropdownDataset
 		when: #clicked send: #updateChosenDataset: to: self controller with: aDatasetIdentificationNumber;
 		when: #clicked send: #text: to: self datasetDropdownButton with: dropdownDataset label text.
-	self datasetDropdown add: dropdownDataset
+	self datasetDropdown add: dropdownDataset. 
+	self datasetDropdownButton text: aName.

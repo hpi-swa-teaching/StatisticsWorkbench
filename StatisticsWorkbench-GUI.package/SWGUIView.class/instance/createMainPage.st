@@ -1,10 +1,7 @@
 creation
 createMainPage
 
-	 ^ PHPage new
-		expand: true;
-		vertical: true;
+	 ^ self createDefaultPage
 		add: self createUpperPage;
 		add: self createLowerPage;
-		withLayout; 
 		yourself

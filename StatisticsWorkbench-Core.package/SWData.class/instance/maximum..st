@@ -1,4 +1,4 @@
 math functions
-max: aDimension
+maximum: aDimension
 
 	^ (self selectDimension: aDimension) max
