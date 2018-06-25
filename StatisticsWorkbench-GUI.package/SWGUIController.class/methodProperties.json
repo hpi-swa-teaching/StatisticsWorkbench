@@ -10,7 +10,7 @@
 		"chosenDatasetChanged" : "aj 5/30/2018 16:59",
 		"chosenDatasetIndex" : "aj 5/30/2018 16:59",
 		"chosenDatasetIndex:" : "aj 5/30/2018 16:59",
-		"createDatasetFrom:named:usingLabels:" : "Kenneth-Schroeder 6/22/2018 12:42",
+		"createDatasetFrom:named:usingLabels:" : "aj 6/25/2018 19:20",
 		"createDiagram" : "aj 6/21/2018 10:12",
 		"creationOfDiagramTypes" : "Kenneth-Schroeder 6/22/2018 10:40",
 		"datasetCount" : "aj 5/30/2018 16:59",
@@ -22,6 +22,7 @@
 		"nameOfChosenDataset:" : "aj 6/21/2018 10:10",
 		"updateChosenChartType:" : "aj 5/30/2018 17:00",
 		"updateChosenDataset:" : "aj 5/31/2018 10:12",
+		"updateChosenDataset:named:" : "aj 6/25/2018 19:19",
 		"updateDataset" : "aj 5/30/2018 17:00",
 		"view" : "aj 5/30/2018 17:01",
 		"view:" : "aj 5/30/2018 17:01" } }

@@ -20,5 +20,5 @@ showNewDatasetDialog
 	newSetDialog content: dialogLayout.
 	
 	(newSetDialog openFor: self)
-		then: [ self controller createDatasetFrom: valueTextArea text named: nameTextArea text usingLabels: labeledDataCheckbox checked ]
+		then: [self controller createDatasetFrom: valueTextArea text named: nameTextArea text usingLabels: labeledDataCheckbox checked]
 		ifRejected: []

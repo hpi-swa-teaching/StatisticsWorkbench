@@ -1,10 +1,9 @@
 as yet unclassified
 open
-
-	|container data graph1 graph2|
+	| container data graph1 graph2 |
 	
 	container := Morph new.
-	container bounds: (0 @ 0 corner:950 @ 500).
+	container bounds: (0 @ 0 corner: 950 @ 500).
 	container openInWorld.
 	
 	data := SWDataUnlabeled create     
@@ -14,8 +13,6 @@ open
 		add: #(4 211);
 		add: #(5 35);
 		yourself.
-		
-	
 	
 	graph1 := (SWDiagram new visualize: data with: SWBarGraph create).
 	graph2 := (SWDiagram new visualize: data with: SWLineChart create).
@@ -25,6 +22,6 @@ open
 	graph1 position: (container position + (10 @ 10)).
 	graph2 position: (container position + (graph1 width + 20 @ 10)).
 	
-	^container
+	^ container
 	
 

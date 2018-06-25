@@ -1,9 +1,8 @@
 accessing
 maxBarWidth
-
-	|maxSizeFactor differenceCollection|
+	| maxSizeFactor differenceCollection |
 	
 	maxSizeFactor := 0.9.
-	differenceCollection := (self data allDifferences: #x) reject: [:each| each = 0].
+	differenceCollection := (self data allDifferences: #x) reject: [:each | each = 0].
 	
-	^(self coordinateSystem xAxis normedMarkerLength)*(differenceCollection min)*maxSizeFactor
+	^ (self coordinateSystem xAxis normedMarkerLength) * (differenceCollection min) * maxSizeFactor
