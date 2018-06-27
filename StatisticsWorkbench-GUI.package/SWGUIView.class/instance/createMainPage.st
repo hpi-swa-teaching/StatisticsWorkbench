@@ -2,6 +2,8 @@ creation
 createMainPage
 
 	 ^ self createDefaultPage
-		add: self createUpperPage;
+		addStyleClass: #withPadding;
+		add: self createDatasetCreationButton;
+		add: self createMiddlePage;
 		add: self createLowerPage;
 		yourself

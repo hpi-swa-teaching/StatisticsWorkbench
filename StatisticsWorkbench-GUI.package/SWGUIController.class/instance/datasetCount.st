@@ -1,4 +1,4 @@
 accessing
 datasetCount
 
-	^ datasetCount
+	^ self datasets size.

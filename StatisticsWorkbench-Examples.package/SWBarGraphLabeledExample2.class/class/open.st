@@ -1,6 +1,7 @@
 as yet unclassified
 open
-	| data |
+
+	|data|
 	
 	data := SWDataLabeled create     
 		add: #(1 22);
@@ -18,4 +19,4 @@ open
 	(data at: 4) labelName: 'Erfurt'.
 	(data at: 5) labelName: 'Suhl'.
 	
-	^ (SWDiagram new visualize: data with: SWBarGraph create) openInWindow
+	^(SWDiagram new visualize: data with: SWBarGraph create) openInWindow

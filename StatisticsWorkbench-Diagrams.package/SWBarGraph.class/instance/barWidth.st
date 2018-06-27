@@ -3,6 +3,4 @@ barWidth
 
 	(barWidth notNil)
 		ifTrue: [^ barWidth]
-		ifFalse: [^ self dynamicBarWidth]
-		
-	
+		ifFalse: [^ self coordinateSystem xAxis length / self data size / 2]

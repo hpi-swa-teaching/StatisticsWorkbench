@@ -1,9 +1,11 @@
 creation
 createDiagram
 
-	(self chosenDatasetIndex isNil)
-		ifTrue: [SWInvalidArgumentError signal: 'Dataset must be selected.'].
+	(self datasets isEmpty)
+		ifTrue: [SWInvalidArgumentError signal: 'Dataset must be created.'].
 		
 	(self chosenChartType isNil)
-		ifTrue: [SWInvalidArgumentError signal: 'Chart-Type must be selected.']
-		ifFalse: [(self creationOfDiagramTypes at: self chosenChartType) value openInWindowLabeled: self nameOfChosenDataset]
+		ifTrue: [SWInvalidArgumentError signal: 'Chart-Type must be selected.'].
+		
+	
+	(self creationOfDiagramTypes at: self chosenChartType) value openInWindowLabeled: self nameOfChosenDataset

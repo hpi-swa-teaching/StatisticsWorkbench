@@ -1,13 +1,13 @@
 {
 	"class" : {
 		"create" : "aj 5/30/2018 17:51",
-		"fromString:ofDataDimension:" : "Kenneth-Schroeder 6/21/2018 09:58" },
+		"fromString:ofDataDimension:" : "Kenneth-Schroeder 6/27/2018 14:24",
+		"processStringData:ofDataDimension:" : "Kenneth-Schroeder 6/27/2018 14:14" },
 	"instance" : {
 		"add:" : "aj 5/30/2018 17:38",
 		"addMany:" : "aj 5/30/2018 17:42",
 		"addVector:" : "aj 6/15/2018 10:55",
 		"allDerivations:" : "aj 5/30/2018 17:48",
-		"allDifferences:" : "aj 6/25/2018 19:42",
 		"atXValue:" : "aj 5/30/2018 17:59",
 		"copyFrom:" : "aj 5/30/2018 17:45",
 		"countingSort:" : "aj 5/30/2018 17:48",
@@ -24,12 +24,10 @@
 		"initializeDimensionNamesOfSize:" : "aj 5/30/2018 17:59",
 		"isFunction" : "aj 5/30/2018 17:48",
 		"maxDerivation:" : "aj 5/30/2018 17:48",
-		"maxDifference:" : "JB 6/23/2018 21:11",
 		"maximum:" : "Kenneth-Schroeder 6/22/2018 12:18",
 		"mean:" : "aj 5/30/2018 17:49",
 		"median:" : "aj 5/30/2018 17:49",
 		"minDerivation:" : "aj 5/30/2018 17:49",
-		"minDifference:" : "JB 6/23/2018 21:11",
 		"minimum:" : "Kenneth-Schroeder 6/22/2018 12:17",
 		"mode:" : "aj 5/30/2018 18:00",
 		"removeArray:" : "RS 6/15/2018 11:23",
