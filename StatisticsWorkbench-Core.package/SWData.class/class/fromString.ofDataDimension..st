@@ -2,7 +2,7 @@ as yet unclassified
 fromString: aString ofDataDimension: aDimension
 	| segments dimensionNames values newData |
 	
-	aString size < 2 
+	(aString size < 2) 
 		ifTrue: [SWInvalidArgumentError signal: 'Creation of Datasets needs at least 2 values.'].
 		
 	segments := aString findTokens: String cr, String tab, ' |()[]{},@#=&'.
@@ -11,4 +11,4 @@ fromString: aString ofDataDimension: aDimension
 	
 	newData := self processStringData: values ofDataDimension: aDimension. 
 	newData setAllDimensionNames: dimensionNames.
-	^newData
+	^ newData

@@ -1,9 +1,8 @@
 as yet unclassified
 open
-
-	|data graph1|
+	| data graph |
 	
-	data := SWDataUnlabeled  create     
+	data := SWDataUnlabeled create     
 		add: #(1 22);
 		add: #(2 110);
 		add: #(3 64); 
@@ -11,6 +10,4 @@ open
 		add: #(5 35);
 		yourself.
 		
-	
-	
-	^graph1 := (SWDiagram new visualize: data with: SWPieChart create) openInWindow.
+	^ graph := (SWDiagram new visualize: data with: SWPieChart create) openInWindow

@@ -1,6 +1,6 @@
 as yet unclassified
 processStringData: aCollection ofDataDimension: aDimension
-	| newData values  |
+	| newData values |
 
 	values := aCollection collect: [:each | each asNumber].
 	newData := SWDataUnlabeled create.

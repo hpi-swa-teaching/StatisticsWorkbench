@@ -1,9 +1,7 @@
 calculation
 calculateMinMaxOrMedian: anOperation
 
-
-	(self datasets isEmpty)
-		ifTrue: [SWInvalidArgumentError signal: 'Dataset must be created.'].
+	self checkIfADatasetExists.
 	
 	(anOperation = #minimum)
 		ifTrue: [^ self chosenDataset minimum: #x].
