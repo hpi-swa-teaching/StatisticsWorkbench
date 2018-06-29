@@ -1,5 +1,4 @@
-# SWT18-Project-17 [![Build Status](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench)
- | 
+# SWT18-Project-17 [![Build Status](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=squeak_4_6_support)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench)
 
 
 ## Usage
