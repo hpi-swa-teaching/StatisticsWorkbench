@@ -1,4 +1,4 @@
-math functions
+privateStatistics
 differenceQuotientOf: aDimension between: xValue and: anotherXValue
 	| dimensionIndex |
 	

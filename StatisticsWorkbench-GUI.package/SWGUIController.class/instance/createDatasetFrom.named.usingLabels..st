@@ -5,11 +5,24 @@ createDatasetFrom: aText named: aName usingLabels: useLabels
 	useLabels 
 		ifTrue: [dataset := SWDataLabeled fromString: aText ofDataDimension: 2]
 		ifFalse: [dataset := SWDataUnlabeled fromString: aText ofDataDimension: 2].
-	self datasets addLast: dataset. 
-	datasetName := aName. 
-	(datasetName isEmpty) 
-		ifTrue: [datasetName := 'Dataset', self datasetCount]. 
+	self datasets add: dataset. 
+
+	(aName isEmpty) 
+		ifTrue: [datasetName :=  'Dataset', self datasetCount]
+		ifFalse: [datasetName := aName].
+
 	self updateChosenDataset: self datasetCount named: datasetName. 
 	self view 
 		createDatasetDropdownItem: self datasetCount named: datasetName; 
 		showDatasetCreationMessageFor: datasetName
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

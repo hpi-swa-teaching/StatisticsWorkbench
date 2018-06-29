@@ -10,7 +10,8 @@
 		"chosenDatasetIndex",
 		"datasets",
 		"nameOfChosenDataset",
-		"view" ],
+		"view",
+		"chosenDimension" ],
 	"name" : "SWGUIController",
 	"pools" : [
 		 ],
