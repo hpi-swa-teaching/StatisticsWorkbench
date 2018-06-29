@@ -8,21 +8,10 @@ createDatasetFrom: aText named: aName usingLabels: useLabels
 	self datasets add: dataset. 
 
 	(aName isEmpty) 
-		ifTrue: [datasetName :=  'Dataset', self datasetCount]
+		ifTrue: [datasetName := 'Dataset', self datasetCount]
 		ifFalse: [datasetName := aName].
 
 	self updateChosenDataset: self datasetCount named: datasetName. 
-	self view 
+	self view
 		createDatasetDropdownItem: self datasetCount named: datasetName; 
 		showDatasetCreationMessageFor: datasetName
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	

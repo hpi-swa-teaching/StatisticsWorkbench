@@ -1,7 +1,7 @@
 creation
 createDefaultPage
 
-	 ^ PHPage column
+	^ PHPage column
 		expand: true;
 		withLayout;
 		yourself

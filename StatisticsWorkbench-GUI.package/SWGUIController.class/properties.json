@@ -8,10 +8,10 @@
 	"instvars" : [
 		"chosenChartType",
 		"chosenDatasetIndex",
+		"chosenDimension",
 		"datasets",
 		"nameOfChosenDataset",
-		"view",
-		"chosenDimension" ],
+		"view" ],
 	"name" : "SWGUIController",
 	"pools" : [
 		 ],

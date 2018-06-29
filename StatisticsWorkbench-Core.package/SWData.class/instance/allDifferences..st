@@ -7,6 +7,6 @@ allDifferences: aDimension
 	1 to: xValues size - 1 do: [:index | 
 		differences add: ( (xValues at: index + 1) - (xValues at: index))].
 	(xValues size = 1)
-		ifTrue: [differences add: (xValues at: 1)*2].
+		ifTrue: [differences add: (xValues at: 1) * 2].
 		
 	^ differences
