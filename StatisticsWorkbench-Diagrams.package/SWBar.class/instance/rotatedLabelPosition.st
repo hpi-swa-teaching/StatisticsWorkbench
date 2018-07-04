@@ -1,4 +1,6 @@
 accessing
 rotatedLabelPosition 
+	| rotatedLabelOffset |
 	
-	^ self topLeft + SWBar rotatedLabelOffset
+	rotatedLabelOffset := 5 @ 50.
+	^ self topLeft + rotatedLabelOffset

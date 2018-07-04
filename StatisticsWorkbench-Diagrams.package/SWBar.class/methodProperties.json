@@ -2,9 +2,7 @@
 	"class" : {
 		"create" : "J.R. 7/29/2017 16:57",
 		"defaultColor" : "maf 7/2/2017 09:48",
-		"labelOffset" : "RSC 5/31/2018 23:17",
 		"maximumCharacters" : "RSC 5/31/2018 23:31",
-		"rotatedLabelOffset" : "RSC 5/31/2018 23:15",
 		"rotationAngle" : "aj 6/15/2018 12:27" },
 	"instance" : {
 		"barLabelMorph" : "J.R. 7/29/2017 16:54",
@@ -12,10 +10,10 @@
 		"bottom" : "J.R. 7/29/2017 16:51",
 		"bottom:" : "J.R. 7/29/2017 16:51",
 		"caption:" : "RSC 5/31/2018 23:05",
-		"initialize" : "RSC 5/31/2018 23:16",
+		"initialize" : "RSC 7/4/2018 23:00",
 		"isLabelHorizontal" : "aj 6/15/2018 12:01",
 		"isLabelHorizontal:" : "aj 6/15/2018 12:01",
 		"rotateLabel" : "RSC 5/31/2018 22:32",
-		"rotatedLabelPosition" : "RSC 5/31/2018 23:11",
+		"rotatedLabelPosition" : "RSC 7/4/2018 23:02",
 		"rotationMorph" : "aj 6/15/2018 12:01",
 		"rotationMorph:" : "aj 6/15/2018 12:01" } }
