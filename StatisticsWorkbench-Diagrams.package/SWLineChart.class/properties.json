@@ -8,7 +8,8 @@
 	"instvars" : [
 		"coordinateSystem",
 		"lineMorph",
-		"vertices" ],
+		"vertices",
+		"lineColor" ],
 	"name" : "SWLineChart",
 	"pools" : [
 		 ],

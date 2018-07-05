@@ -1,4 +1,9 @@
 creation
 createDataPoint: aSWVector
 
-	^ SWDataPoint create: aSWVector at: (self coordinateSystem positionFor: aSWVector asPoint)
+	| dataPoint |
+
+	dataPoint := SWDataPoint create: aSWVector at: (self coordinateSystem positionFor: aSWVector asPoint).
+	dataPoint color: self pointColor.
+
+	^ dataPoint

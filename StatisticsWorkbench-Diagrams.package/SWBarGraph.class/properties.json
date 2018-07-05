@@ -7,7 +7,8 @@
 	"commentStamp" : "JB 6/21/2018 10:09",
 	"instvars" : [
 		"bars",
-		"barWidth" ],
+		"barWidth",
+		"barColor" ],
 	"name" : "SWBarGraph",
 	"pools" : [
 		 ],

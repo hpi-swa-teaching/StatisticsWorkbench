@@ -7,7 +7,8 @@
 	"commentStamp" : "aj 6/21/2018 10:38",
 	"instvars" : [
 		"coordinateSystem",
-		"dataPoints" ],
+		"dataPoints",
+		"pointColor" ],
 	"name" : "SWScatterPlot",
 	"pools" : [
 		 ],
