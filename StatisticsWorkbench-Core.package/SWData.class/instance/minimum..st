@@ -1,4 +1,4 @@
 math functions
 minimum: aDimension
 
-	^ (self selectDimension: aDimension) min
+	^ (self selectDimension: aDimension) minimum

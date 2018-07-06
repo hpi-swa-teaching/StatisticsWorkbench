@@ -14,5 +14,5 @@ updateCoordinateSystem
 	self coordinateSystem xAxis maximum: maximumX.
 	self coordinateSystem yAxis maximum: maximumY.
 	self coordinateSystemPadding.
-	self coordinateSystem axisNames: (self charts at: 1) data dimensionNames.
+	self coordinateSystem axisNames: (self charts first) data dimensionNames.
 	self coordinateSystem update

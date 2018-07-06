@@ -1,8 +1,8 @@
 testing
 testRemoveChart
 		
-	diagramLineChart removeChart: (diagramLineChart charts at:1).
-	(diagramBarChart charts at:1) removeFrom: diagramBarChart.
+	diagramLineChart removeChart: (diagramLineChart charts first).
+	(diagramBarChart charts first) removeFrom: diagramBarChart.
 	
 	self assert: (diagramLineChart charts isEmpty).
 	self assert: (diagramBarChart charts isEmpty)

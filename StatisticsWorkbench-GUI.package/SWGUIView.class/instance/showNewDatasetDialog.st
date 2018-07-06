@@ -1,10 +1,10 @@
 creation
 showNewDatasetDialog
-	| newSetDialog dialogLayout valueTextArea nameTextArea labeledDataCheckbox |
+	| dialogLayout labeledDataCheckbox nameTextArea newSetDialog valueTextArea |
 	
 	newSetDialog := PHDialog new title: 'Create a new dataset'.
-	valueTextArea := PHTextArea placeholder: 'Dataset value'.
 	nameTextArea := PHTextArea placeholder: 'Dataset name'.
+	valueTextArea := PHTextArea placeholder: 'Dataset value'.
 	labeledDataCheckbox := PHCheckboxWithLabel label: 'use label for each datapoint'.
 	
 	dialogLayout := PHPage new. 
@@ -16,7 +16,8 @@ showNewDatasetDialog
 		add: (PHLabel text: 'Dataset value:'); 
 		add: valueTextArea;
 		add: labeledDataCheckbox; 
-		add: ((PHButton text: 'Accept') when: #clicked send: #accept: to: newSetDialog with: nil).
+		add: ((PHButton text: 'Accept') 
+			when: #clicked send: #accept: to: newSetDialog with: nil).
 		
 	newSetDialog content: dialogLayout.
 	

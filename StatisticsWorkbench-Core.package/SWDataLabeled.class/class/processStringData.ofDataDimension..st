@@ -8,5 +8,4 @@ processStringData: aCollection ofDataDimension: aDimension
 		date := SWVector fromArray: (group allButFirst collect: [:each | each asNumber]).
 		date labelName: group first.
 		newData add: date].
-	
 	^ newData

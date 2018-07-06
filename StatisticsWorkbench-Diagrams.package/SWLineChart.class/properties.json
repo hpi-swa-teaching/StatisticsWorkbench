@@ -7,9 +7,9 @@
 	"commentStamp" : "aj 6/21/2018 10:37",
 	"instvars" : [
 		"coordinateSystem",
+		"lineColor",
 		"lineMorph",
-		"vertices",
-		"lineColor" ],
+		"vertices" ],
 	"name" : "SWLineChart",
 	"pools" : [
 		 ],

@@ -13,10 +13,10 @@ testExecuteMeAndSuccessors
 	node4 := SWNode createWith: [:data | data add: (SWVector fromArray: #(5 2)). data].
 	workflow add: node4 after: node3.
 
-	self assert: node1 output = nil.
-	self assert: node2 output = nil.
-	self assert: node3 output = nil.
-	self assert: node4 output = nil.
+	self assert: node1 output isNil.
+	self assert: node2 output isNil.
+	self assert: node3 output isNil.
+	self assert: node4 output isNil.
 		
 	node1 executeMeAndSuccessors.
 	

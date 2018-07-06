@@ -13,4 +13,4 @@ testEqual
 	self assert: data3 = data3.
 	self assert: data1 = data3.
 	
-	self deny: data1 = data2.
+	self deny: data1 = data2

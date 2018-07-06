@@ -2,6 +2,6 @@ testing
 areMarkersDrawable
 
 	(self areMarkersInsideAxisBoundaries)
-			ifTrue: [	^ self max > self min
+			ifTrue: [	^ self maximum > self minimum
 						and: (self stepInterval negative) not]
 	 		ifFalse: [^ false]

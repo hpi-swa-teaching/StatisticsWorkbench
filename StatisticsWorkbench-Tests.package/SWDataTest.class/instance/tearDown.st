@@ -1,4 +1,0 @@
-testing
-tearDown
-
-	super tearDown

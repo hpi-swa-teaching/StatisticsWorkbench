@@ -3,8 +3,8 @@ coordinateSystemPadding
 	| tempX tempY paddingPercentage |
 
 	paddingPercentage := 1 + 0.10.
-	tempX := self coordinateSystem xAxis max.
-	tempY := self coordinateSystem yAxis max.
+	tempX := self coordinateSystem xAxis maximum.
+	tempY := self coordinateSystem yAxis maximum.
 	
 	tempX := (tempX * paddingPercentage) ceiling.
 	tempY := (tempY * paddingPercentage) ceiling.

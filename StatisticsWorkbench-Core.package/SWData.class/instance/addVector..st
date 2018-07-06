@@ -1,7 +1,7 @@
 adding/removing
 addVector: aSWVector
 
-	(self size = 0)
+	(self isEmpty)
 		ifTrue: [	self dimensions: aSWVector dimensions.
 				self dimensionNames: (Array new: self dimensions).
 				self initializeDimensionNamesOfSize: self dimensions].

@@ -1,9 +1,9 @@
 accessing
 maximum: anObject 
 
-	(self min notNil and: anObject notNil)
-		ifTrue: [(anObject <= self min)
+	(self minimum notNil and: anObject notNil)
+		ifTrue: [(anObject <= self minimum)
 					ifTrue: [SWInvalidArgumentError signal]
-					ifFalse: [max := anObject.
+					ifFalse: [maximum := anObject.
 							 self update]]
-		ifFalse: [max := anObject]
+		ifFalse: [maximum := anObject]

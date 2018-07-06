@@ -10,7 +10,7 @@ open
 		add: #(5 35);
 		yourself.
 		
-	data setAllDimensionNames: #('City' 'PopulationInThousand').
+	data setAllDimensionNames: #('City' 'PopulationInThousands').
 	
 	(data at: 1) labelName: 'Apolda'.
 	(data at: 2) labelName: 'Jena'.

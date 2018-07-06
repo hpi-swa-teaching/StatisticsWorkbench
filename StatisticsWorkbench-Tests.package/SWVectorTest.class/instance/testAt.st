@@ -1,7 +1,7 @@
 testing
 testAt
 	
-	self assert: (self vector3 at: 1) = 1.
-	self assert: (self vector3 at: 2) = 1.
-	self assert: (self vector4 at: 2) = 2.
-	self assert: (self vector4 at: 3) = 3
+	self assert: (self vector3 first) = 1.
+	self assert: (self vector3 second) = 1.
+	self assert: (self vector4 second) = 2.
+	self assert: (self vector4 third) = 3

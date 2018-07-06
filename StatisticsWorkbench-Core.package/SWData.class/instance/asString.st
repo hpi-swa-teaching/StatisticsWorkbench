@@ -1,4 +1,4 @@
 accessing
-dataToString
+asString
 
 	self subclassResponsibility
