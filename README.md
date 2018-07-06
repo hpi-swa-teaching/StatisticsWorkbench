@@ -1,35 +1,25 @@
-# SWT18-Project-17 [![Build Status](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench)
- | 
+# Statistics Workbench [![Build Status](https://api.travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=submission)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench)
+(SWT18-Project-17)
 
+Statistics Workbench is a tool for the visualization and analyzation of data. It offers multiple mathematical functions for finding the maximum, minimum, mean, mode, maximal derivation and so on of a dataset, as well as multiple chart types, like bargraphs and piecharts.
 
-## Usage
+## Getting Started
 
-Create data or use example data "seeded2" with...
+If you want to use our tool, make sure you have installed Pheno.
+https://github.com/tom95/Pheno
 
+We created multiple examples, in order to get you started with our project.
+You can use examples by calling: 
 ```
-dataset := SWDataTest createSeeded2.
+[ExampleName] open.
 ```
-
-... then display data with a scatter plot (class SWScatterPlot) or bar chart (class SWBarGraph) or function graph (class SWLineChart) or pie chart (class SWPieChart) with... 
-
+E.g.
 ```
-(SWDiagram new visualize: dataset with: SWScatterPlot create) openInWorld 
-```
-
-... or display data with multiple plots by using following code..
-
-```
-(SWDiagram new visualize: dataset with: SWScatterPlot create and: SWLineChart create) openInWorld 
+SWCreateChartExample open.
 ```
 
-Manipulate dataset individually by adding data point with...
-
+We also created a User Interface for users that don't want to use our code directly.
+You can open the UI by calling:
 ```
-dataset add: #(70 30).
-```
-
-... or deleting data points with...
-
-```
-dataset remove: #(70 30).
+SWGUIView new open.
 ```
