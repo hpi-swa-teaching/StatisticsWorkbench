@@ -1,4 +1,4 @@
-accessing
+creation
 chartFromChosenChartType
 
-	^ (Environment current at: self chosenChartType) create
+	^ self classOfChosenChart create

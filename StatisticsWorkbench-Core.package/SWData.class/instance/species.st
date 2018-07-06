@@ -1,4 +1,4 @@
-math functions
+accessing
 species
 
 	^ self class

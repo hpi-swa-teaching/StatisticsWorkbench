@@ -7,4 +7,4 @@ createDiagram
 	(self chosenChartType isNil)
 		ifTrue: [SWInvalidArgumentError signal: 'Chart-Type must be selected.'].
 	
-	(SWDiagram new visualize: self chosenDataset with: self chartFromChosenChartType) openInWindowLabeled: self nameOfChosenDataset
+	^SWDiagram new visualize: self chosenDataset with: self chartFromChosenChartType

@@ -10,7 +10,7 @@ showNewDatasetDialog
 	dialogLayout := PHPage new. 
 	dialogLayout
 		withPadding;
-		add: ((PHButton text: 'Fill with example data') when: #clicked send: #createExampleContentFor:and:usingLabels: to: self withArguments: {nameTextArea. valueTextArea. labeledDataCheckbox});
+		add: (self createExampleDataButtonWithArguments: {nameTextArea. valueTextArea. labeledDataCheckbox});
 		add: (PHLabel text: 'Dataset name:'); 
 		add: nameTextArea; 
 		add: (PHLabel text: 'Dataset value:'); 
