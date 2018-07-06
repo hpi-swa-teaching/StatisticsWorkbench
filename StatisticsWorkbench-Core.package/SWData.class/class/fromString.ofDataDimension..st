@@ -2,10 +2,11 @@ as yet unclassified
 fromString: aString ofDataDimension: aDimension
 	| segments dimensionNames values newData |
 	
-	(aString size < 2) 
-		ifTrue: [SWInvalidArgumentError signal: 'Creation of Datasets needs at least 2 values.'].
-		
 	segments := aString findTokens: String cr, String tab, ' |()[]{},@#=&'.
+	
+	(segments size < 4) 
+		ifTrue: [SWInvalidArgumentError signal: 'Creation of Datasets needs at least 2 axis names and 2s values.'].
+		
 	dimensionNames := segments copyFrom: 1 to: aDimension.
 	values := segments copyFrom: aDimension + 1 to: segments size.
 	
