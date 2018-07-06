@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SWChangeColorExample",
+	"name" : "SWCreateTwoChartsInDiagramExample",
 	"pools" : [
 		 ],
 	"super" : "SWExample",

@@ -2,9 +2,7 @@ as yet unclassified
 open
 	| container data graph1 graph2 |
 	
-	container := Morph new.
-	container bounds: (0 @ 0 corner: 950 @ 500).
-	container openInWorld.
+	container := (Morph newBounds:(0 @ 0 corner: 950 @ 500)) openInWorld.
 	
 	data := SWDataUnlabeled create     
 		add: #(1 22);

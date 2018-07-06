@@ -11,7 +11,8 @@ updateCoordinateSystem
 							(chartsMaxValues y > maximumY) 
 								ifTrue: [maximumY := chartsMaxValues y]].
 						
-	self coordinateSystem xAxis maximum: (SWDiagram coordinateSystemPadding: maximumX).
-	self coordinateSystem yAxis maximum: (SWDiagram coordinateSystemPadding: maximumY).
+	self coordinateSystem xAxis maximum: maximumX.
+	self coordinateSystem yAxis maximum: maximumY.
+	self coordinateSystemPadding.
 	self coordinateSystem axisNames: (self charts at: 1) data dimensionNames.
 	self coordinateSystem update

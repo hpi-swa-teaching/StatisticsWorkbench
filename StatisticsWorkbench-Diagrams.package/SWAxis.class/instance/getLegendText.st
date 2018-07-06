@@ -1,4 +1,4 @@
 accessing
-getLegend
+getLegendText
 
 	^ self legend text

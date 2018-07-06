@@ -11,8 +11,9 @@ open
 		yourself.
 		
 	graph := (SWDiagram new visualize: data with: SWBarGraph create).
+	
 	window := graph openInWindow.
 	graph chartsColor: Color green.
-	graph axisColor: Color red.
+	graph axisColor: Color red.	
 	
 	^ window
