@@ -1,4 +1,4 @@
 math functions
 minDerivation: aDimension
 
-	^ (self allDerivations: aDimension) minimum
+	^ (self allDerivations: aDimension) min

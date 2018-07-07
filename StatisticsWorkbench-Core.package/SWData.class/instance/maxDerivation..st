@@ -1,4 +1,4 @@
 math functions
 maxDerivation: aDimension
 
-	^ (self allDerivations: aDimension) maximum
+	^ (self allDerivations: aDimension) max
