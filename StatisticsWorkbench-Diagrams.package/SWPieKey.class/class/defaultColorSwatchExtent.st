@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 defaultColorSwatchExtent
 
 	^ 20 @ 20

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromString: aString ofDataDimension: aDimension
 	| segments dimensionNames values newData |
 	

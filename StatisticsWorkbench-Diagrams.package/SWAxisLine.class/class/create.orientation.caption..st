@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 create: aPosition orientation: anOrientation caption: aText
 
-	^ (SWAxisLine create: aPosition orientation: anOrientation caption: aText textColor: Color black strokeColor: Color green)
+	^ (SWAxisLine create: aPosition orientation: anOrientation caption: aText textColor: SWAxisLine defaultTextColor strokeColor: SWAxisLine defaultStrokeColor)

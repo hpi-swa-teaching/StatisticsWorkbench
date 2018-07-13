@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 create: aPosition orientation: anOrientation caption: aText textColor: aColor1 strokeColor: aColor2 raster: aBoolean length: aLength
 	| instance |
 	

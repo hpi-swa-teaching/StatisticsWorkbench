@@ -1,4 +1,4 @@
-as yet unclassified
+enumerating
 mathFunctions
 
 	^ self organization listAtCategoryNamed: 'math functions'

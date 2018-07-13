@@ -1,4 +1,4 @@
-defaults
+instance creation
 createAt: startPoint withMin: min length: length withMax: max step: step orientation: orientation
 	| endpoint |
 	
