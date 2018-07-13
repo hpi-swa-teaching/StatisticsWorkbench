@@ -1,4 +1,4 @@
 geometry
 computeKeyExtent
 
-	^ self class defaultExtent x @ (self calculateYValueForKeyExtent)
+	^ (self class defaultExtent x @ (self calculateYValueForKeyExtent))

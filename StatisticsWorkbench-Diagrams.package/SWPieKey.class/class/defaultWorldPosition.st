@@ -1,4 +1,4 @@
 defaults
 defaultWorldPosition
 
-	^ 700 @ 200
+	^ (700 @ 200)

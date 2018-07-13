@@ -1,4 +1,4 @@
 defaults
 defaultColorSwatchExtent
 
-	^ 20 @ 20
+	^ (20 @ 20)
