@@ -13,4 +13,4 @@ open
 	graph := (SWDiagram new visualize: data with: SWBarGraph create).
 	graph toggleRaster.
 	
-	^graph openInWindow
+	^ graph openInWindow

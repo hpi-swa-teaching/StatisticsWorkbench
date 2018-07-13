@@ -9,5 +9,5 @@ drawColorSwatchOf: aPieslice at: aPosition
 	
 	colorSwatch 
 			color: aPieslice slice color;
-			position: self key position + ((self class defaultMargin @ (aPosition * self class defaultKeyPointHeight)));
+			position: self key position + (self class defaultMargin @ (aPosition * self class defaultKeyPointHeight));
 			extent: self class defaultColorSwatchExtent

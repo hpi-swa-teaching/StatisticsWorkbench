@@ -1,6 +1,6 @@
 as yet unclassified
 open
-	| data graph |
+	| data |
 	
 	data := SWDataUnlabeled create     
 		add: #(1 22);
@@ -10,4 +10,4 @@ open
 		add: #(5 35);
 		yourself.
 		
-	^ graph := (SWDiagram new visualize: data with: SWLineChart create and: SWBarGraph create) openInWindow
+	^ (SWDiagram new visualize: data with: SWLineChart create and: SWBarGraph create) openInWindow

@@ -1,0 +1,1 @@
+A SWDataUnlabeled contains SWData objects without labels

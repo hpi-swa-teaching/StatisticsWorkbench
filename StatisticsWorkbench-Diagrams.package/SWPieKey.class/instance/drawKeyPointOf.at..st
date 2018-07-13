@@ -9,4 +9,4 @@ drawKeyPointOf: aPieSlice at: aPosition
 	
 	keyPoint 
 		contents: aPieSlice name asString;
-		position: self key position + ((self class defaultMargin * 2.5 @ (aPosition * self class defaultKeyPointHeight)))
+		position: self key position + (self class defaultMargin * 2.5 @ (aPosition * self class defaultKeyPointHeight))

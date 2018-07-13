@@ -18,8 +18,6 @@ open
 	container addMorph: graph1.
 	container addMorph: graph2.
 	graph1 position: (container position + (10 @ 10)).
-	graph2 position: (container position + (graph1 width + (20 @ 10))).
+	graph2 position: (container position + ((graph1 width + 20) @ 10)).
 	
 	^ container
-	
-

@@ -12,10 +12,6 @@ open
 		
 	data setAllDimensionNames: #('City' 'PopulationInThousands').
 	
-	(data at: 1) labelName: 'Apolda'.
-	(data at: 2) labelName: 'Jena'.
-	(data at: 3) labelName: 'Weimar'.
-	(data at: 4) labelName: 'Erfurt'.
-	(data at: 5) labelName: 'Suhl'.
+	data setLabels: {'Apolda' . 'Jena' . 'Weimar' . 'Erfurt' . 'Suhl'}.
 	
 	^ (SWDiagram new visualize: data with: SWBarGraph create) openInWindow

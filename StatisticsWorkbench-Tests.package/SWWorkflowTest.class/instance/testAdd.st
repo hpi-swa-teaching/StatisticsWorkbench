@@ -13,5 +13,5 @@ testAdd
 	self assert: self workflow size = 2.
 	self assert: (self workflow at: 2) = self node2.
 	
-	" Error if node does not have any predecessors or successors "
+	"Error if node does not have any predecessors or successors"
 	self should: [self workflow add: SWNode new] raise: SWInvalidArgumentError

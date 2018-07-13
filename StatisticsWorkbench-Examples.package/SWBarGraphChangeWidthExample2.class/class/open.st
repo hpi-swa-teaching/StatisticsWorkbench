@@ -8,6 +8,6 @@ open
 	
 	graph := (SWDiagram new visualize: data with: SWBarGraph create).
 	window := graph openInWindow.
-	(graph charts at: 1) barWidth: 40.
+	(graph charts first) barWidth: 40.
 	
 	^ window

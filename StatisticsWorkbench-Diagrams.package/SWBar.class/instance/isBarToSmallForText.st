@@ -1,4 +1,4 @@
 accessing
 isBarToSmallForText
 	
-	^ (self height <  self barLabelMorph bottomLeft y)
+	^ (self height < self barLabelMorph bottomLeft y)

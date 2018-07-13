@@ -1,0 +1,1 @@
+A SWDataLabeled contains SWData objects with labels
