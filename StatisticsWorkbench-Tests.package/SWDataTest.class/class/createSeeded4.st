@@ -12,10 +12,6 @@ createSeeded4
 		yourself.
 		
 	tempData setAllDimensionNames: #('Time' 'Value').
-	
-	(tempData at: 1) labelName: 'one'.
-	(tempData at: 2) labelName: 'two'.
-	(tempData at: 3) labelName: 'three'.
-	(tempData at: 4) labelName: 'four'.
+	tempData setLabels: {'one' . 'two' . 'three' . 'four'}.
 	
 	^ tempData
