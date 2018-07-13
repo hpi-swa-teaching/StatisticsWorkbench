@@ -1,7 +1,9 @@
-accessing
+testing
 setUp 
 
 	super setUp. 
 	self 
-		view: SWGUIView new; 
-		controller: self view controller
+		controller: SWGUIController new; 
+		logString: ''. 
+	self controller view: self. 
+	

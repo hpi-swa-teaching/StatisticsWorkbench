@@ -1,4 +1,4 @@
 accessing
 createDatasetFromDatasetDisplay
 
-	^ self chosenDataset species fromString: (self view datasetDisplay text) ofDataDimension: 2
+	^ self chosenDataset species fromString: (self view datasetDisplayText) ofDataDimension: 2

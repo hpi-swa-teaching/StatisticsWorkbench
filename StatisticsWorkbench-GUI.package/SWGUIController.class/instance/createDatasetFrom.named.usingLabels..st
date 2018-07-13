@@ -11,7 +11,4 @@ createDatasetFrom: aText named: aName usingLabels: useLabels
 		ifTrue: [datasetName := 'Dataset', self datasetCount]
 		ifFalse: [datasetName := aName].
 
-	self updateChosenDataset: self datasetCount named: datasetName. 
-	self view
-		createDatasetDropdownItem: self datasetCount named: datasetName; 
-		showDatasetCreationMessageFor: datasetName
+	self processNewDataset: aName
