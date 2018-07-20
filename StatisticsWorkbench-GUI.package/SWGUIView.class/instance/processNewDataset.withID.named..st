@@ -1,4 +1,4 @@
-creation
+processing
 processNewDataset: aDatasetString withID: aDatasetIdentificationNumber named: aName
 
 	self 

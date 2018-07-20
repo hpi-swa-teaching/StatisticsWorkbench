@@ -1,6 +1,6 @@
 accessing
 isLabelToLong
-	"textWidth = 40 needs to be checked extra since every textLabel's width is at least 40"
+	"textWidth = 40 needs to be checked extra since every textLabel's width is at least 40."
 	| charWidth textWidth |
 	
 	charWidth := 10.

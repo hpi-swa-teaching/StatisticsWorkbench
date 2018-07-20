@@ -1,4 +1,4 @@
-privateStatistics
+private statistics
 allDerivations: aDimension
 	| xValues derivations |
 	

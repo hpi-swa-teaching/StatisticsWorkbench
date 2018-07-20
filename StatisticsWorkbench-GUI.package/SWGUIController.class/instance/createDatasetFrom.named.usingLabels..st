@@ -8,7 +8,7 @@ createDatasetFrom: aText named: aName usingLabels: useLabels
 	self datasets add: dataset. 
 
 	(aName isEmpty) 
-		ifTrue: [datasetName := 'Dataset', self datasetCount]
+		ifTrue: [datasetName := 'Dataset ', self datasetCount]
 		ifFalse: [datasetName := aName].
 
 	self processNewDataset: datasetName

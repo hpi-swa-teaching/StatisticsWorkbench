@@ -1,4 +1,4 @@
-privateStatistics
+private statistics
 countingSort: aDimension
 	| buckets values |
 	

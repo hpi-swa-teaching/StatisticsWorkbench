@@ -1,4 +1,4 @@
-creation
+showing
 showDatasetCreationMessageFor: aDatasetName
 
 	(PHNotification text: 'The dataset: ', aDatasetName, ' was created')

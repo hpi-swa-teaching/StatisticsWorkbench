@@ -1,4 +1,4 @@
-creation
+showing
 showNewDatasetDialog
 	| dialogLayout labeledDataCheckbox nameTextArea newSetDialog valueTextArea |
 	

@@ -2,8 +2,6 @@ instance creation
 create
 	| newPieChart |
 	
-	self flag: #fishy.
-	
 	newPieChart := SWPieChart new.
 	newPieChart
 		radius: self defaultRadius;

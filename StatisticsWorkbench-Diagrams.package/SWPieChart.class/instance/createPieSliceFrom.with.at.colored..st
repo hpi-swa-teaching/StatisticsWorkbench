@@ -2,8 +2,6 @@ creation
 createPieSliceFrom: aKey with: aValue at: aPosition colored: aColor
 	| newPieSlice pointSet |
 	
-	self flag: #fishy.
-	
 	newPieSlice := SWPieSlice new.
 	pointSet := OrderedCollection new.
 	

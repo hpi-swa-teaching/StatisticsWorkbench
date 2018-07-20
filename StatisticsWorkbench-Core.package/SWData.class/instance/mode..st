@@ -1,6 +1,6 @@
 math functions
 mode: aDimension
-	"mode returns array, because multiple modes are possible"
+	"Mode returns an array, because multiple modes are possible."
 	| occurrences result |
 	
 	occurrences := Dictionary new.
