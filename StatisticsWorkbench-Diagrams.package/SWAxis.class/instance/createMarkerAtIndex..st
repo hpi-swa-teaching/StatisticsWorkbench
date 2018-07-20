@@ -12,5 +12,5 @@ createMarkerAtIndex: aIndex
 			caption: (self minimum + (aIndex * self stepInterval)) printString
 			textColor: self textColor
 			strokeColor: self borderColor
-			raster: (self rasterVisibility and: self rasterLength notNil)
+			raster: (self rasterVisibility and: self rasterLength notNil and: aIndex ~= 0)
 			length: self rasterLength 

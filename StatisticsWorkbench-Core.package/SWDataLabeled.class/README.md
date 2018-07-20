@@ -1,1 +1,1 @@
-A SWDataLabeled contains SWData objects with labels
+A SWDataLabeled contains SWVector objects with labels
