@@ -1,28 +1,28 @@
 testing
 testDimension
-	| d1 d2 d3 d5 |
+	| data1D data2D data3D data5D |
 	
-	d1 := SWData create
+	data1D := SWData create
 					add: #(1);
 					add: #(2);
 					add: #(3);
 					yourself.			
-	self assert: d1 dimensions = 1.
+	self assert: data1D dimensions = 1.
 	
-	d2 := self data.
-	self assert: d2 dimensions = 2.
+	data2D := self data.
+	self assert: data2D dimensions = 2.
 	
-	d3 := SWData create
+	data3D := SWData create
 					add: #(1 2 3);
 					add: #(3 2 1);
 					add: #(3 3 3);
 					yourself.
-	self assert: d3 dimensions = 3.
+	self assert: data3D dimensions = 3.
 	
-	d5 := SWData create
+	data5D := SWData create
 					add: #(1 2 3 4 5);
 					yourself.
-	self assert: d5 dimensions = 5.
+	self assert: data5D dimensions = 5.
 	
 	self should: [SWData create
 						add: #(1 2);

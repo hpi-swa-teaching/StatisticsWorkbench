@@ -1,10 +1,10 @@
 testing
 testAsString
-	| ownData |
+	| comparisonData |
 	
-	ownData := SWDataTest createSeeded3.
+	comparisonData := SWDataTest createSeeded3.
 
-	self assert: (ownData asString = 'Time|Value
+	self assert: (comparisonData asString = 'Time|Value
 0|1
 1|1
 2|3

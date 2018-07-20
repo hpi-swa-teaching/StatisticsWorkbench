@@ -1,5 +1,5 @@
 testing
-testEqual
+testEquality
 	| data1 data2 data3 |
 	
 	data1 := self data.
