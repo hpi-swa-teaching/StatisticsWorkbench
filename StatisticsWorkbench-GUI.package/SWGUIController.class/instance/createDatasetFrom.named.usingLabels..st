@@ -11,4 +11,4 @@ createDatasetFrom: aText named: aName usingLabels: useLabels
 		ifTrue: [datasetName := 'Dataset', self datasetCount]
 		ifFalse: [datasetName := aName].
 
-	self processNewDataset: aName
+	self processNewDataset: datasetName
