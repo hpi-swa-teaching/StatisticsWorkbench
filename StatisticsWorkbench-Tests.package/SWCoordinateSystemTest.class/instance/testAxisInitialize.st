@@ -1,5 +1,5 @@
 testing
 testAxisInitialize
 
-	self assert: self coordinateSystem axisNames first = #x.
-	self assert: self coordinateSystem axisNames second = #y
+	self assert: #x equals: self coordinateSystem axisNames first.
+	self assert: #y equals: self coordinateSystem axisNames second

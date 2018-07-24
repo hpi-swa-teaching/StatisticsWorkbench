@@ -25,7 +25,7 @@ testExecuteMeAndSuccessors
 		
 	node1 executeMeAndSuccessors.
 	
-	self assert: node1 output = testData.
-	self assert: node2 output size = (testData size - 1).
-	self assert: node3 output size = (testData size + 2).
-	self assert: node4 output size = (testData size + 3)
+	self assert: testData equals: node1 output.
+	self assert: (testData size - 1) equals: node2 output size.
+	self assert: (testData size + 2) equals: node3 output size.
+	self assert: (testData size + 3) equals: node4 output size

@@ -1,7 +1,7 @@
 testing
 testMode
 
-	self assert: (self data mode: 1) = #(1).
-	self assert: (self data mode: 2) = #(1).
+	self assert: #(1) equals: (self data mode: 1).
+	self assert: #(1) equals: (self data mode: 2).
 	self data removeArray: #(1 1).
-	self assert: (self data mode: 1) = #noMode
+	self assert: #noMode equals: (self data mode: 1)

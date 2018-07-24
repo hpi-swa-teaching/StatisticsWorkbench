@@ -6,4 +6,4 @@ testCreate
 	node := SWNode createWith: instructionBlock.
 	
 	self assert: node notNil.
-	self assert: node instruction = instructionBlock
+	self assert: instructionBlock equals: node instruction

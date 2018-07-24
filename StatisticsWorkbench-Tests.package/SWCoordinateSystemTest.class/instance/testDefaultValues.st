@@ -3,5 +3,5 @@ testDefaultValues
 	
 	self deny: self coordinateSystem xAxis isNil.
 	self deny: self coordinateSystem yAxis isNil.
-	self assert: self coordinateSystem boundsThreshold = SWCoordinateSystem defaultBoundsThreshold.
-	self assert: self coordinateSystem color = Color white
+	self assert: SWCoordinateSystem defaultBoundsThreshold equals: self coordinateSystem boundsThreshold.
+	self assert: Color white equals: self coordinateSystem color

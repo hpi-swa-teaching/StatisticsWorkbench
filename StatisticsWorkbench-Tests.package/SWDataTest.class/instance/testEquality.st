@@ -8,9 +8,9 @@ testEquality
 						yourself.
 	data3 := self data copy.
 	
-	self assert: data1 = data1.
-	self assert: data2 = data2.
-	self assert: data3 = data3.
-	self assert: data1 = data3.
+	self assert: data1 equals: data1.
+	self assert: data2 equals: data2.
+	self assert: data3 equals: data3.
+	self assert: data1 equals: data3.
 	
 	self deny: data1 = data2

@@ -8,4 +8,4 @@ testAddMany
 	extraData add: (20 @ 35).
 	self data addMany: extraData.
 	
-	self assert: self data size = (self originalDataSize + 3)
+	self assert: (self originalDataSize + 3) equals: self data size

@@ -7,4 +7,4 @@ testCountingSort
 	expectedResult at: 1 put: 2.
 	expectedResult at: 3 put: 1.
 	
-	self assert: (self data countingSort: 2) = expectedResult
+	self assert: expectedResult equals: (self data countingSort: 2)

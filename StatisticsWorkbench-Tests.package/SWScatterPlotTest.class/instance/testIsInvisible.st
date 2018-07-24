@@ -1,4 +1,4 @@
 testing
 testIsInvisible 
 
-	self assert: self scatterPlot color = Color transparent
+	self assert: Color transparent equals: self scatterPlot color

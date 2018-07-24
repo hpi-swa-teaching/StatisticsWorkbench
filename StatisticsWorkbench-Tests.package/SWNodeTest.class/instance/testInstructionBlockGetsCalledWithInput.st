@@ -10,4 +10,4 @@ testInstructionBlockGetsCalledWithInput
 	
 	node execute.
 	
-	self assert: c = 8
+	self assert: 8 equals: c

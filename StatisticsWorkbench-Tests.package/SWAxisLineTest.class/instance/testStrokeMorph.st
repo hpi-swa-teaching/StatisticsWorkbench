@@ -6,12 +6,12 @@ testStrokeMorph
 	
 	self assert: axisLine strokeMorph notNil.
 	
-	self assert: axisLine strokeMorph totalLength = 10.
+	self assert: 10 equals: axisLine strokeMorph totalLength.
 	
 	axisLine strokeColor: Color red.
-	self assert: axisLine strokeMorph borderColor = Color red.
+	self assert: Color red equals: axisLine strokeMorph borderColor.
 	
 	axisLine strokeColor: Color blue.
-	self assert: axisLine strokeMorph borderColor = Color blue.
+	self assert: Color blue equals: axisLine strokeMorph borderColor.
 	
 	axisLine delete

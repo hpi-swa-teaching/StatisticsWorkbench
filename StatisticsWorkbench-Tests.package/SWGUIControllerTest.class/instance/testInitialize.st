@@ -1,6 +1,5 @@
 testing
 testInitialize 
 
-	self 
-		assert: self controller datasetCount equals: 0; 
-		assert: self controller datasets notNil
+	self assert: 0 equals: self controller datasetCount.
+	self assert: self controller datasets notNil

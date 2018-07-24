@@ -6,15 +6,15 @@ testSetAxisTextColor
 	color := Color wheel: 2.
 	
 	axis textColor: (color first).
-	axis markers do: [:marker | self assert: marker captionMorph color = (color first)].
+	axis markers do: [:marker | self assert: (color first) equals: marker captionMorph color].
 	
 	axis textColor: (color second).
-	axis markers do: [:marker | self assert: marker captionMorph color = (color second)].
+	axis markers do: [:marker | self assert: (color second) equals: marker captionMorph color].
 	
 	axis textVisibility: false.
-	axis markers do: [:marker | self assert: marker captionMorph color = Color transparent].
+	axis markers do: [:marker | self assert: Color transparent equals: marker captionMorph color].
 	
 	axis textVisibility: true.
-	axis submorphsDo: [:morph | self assert: morph captionMorph color = (color second)].
+	axis submorphsDo: [:morph | self assert: (color second) equals: morph captionMorph color].
 	
 	axis delete

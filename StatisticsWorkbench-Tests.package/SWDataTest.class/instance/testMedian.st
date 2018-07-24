@@ -1,5 +1,5 @@
 testing
 testMedian
 
-	self assert: (self data median: 1) = 1.
-	self assert: (self data median: 2) = 1
+	self assert: 1 equals: (self data median: 1).
+	self assert: 1 equals: (self data median: 2)

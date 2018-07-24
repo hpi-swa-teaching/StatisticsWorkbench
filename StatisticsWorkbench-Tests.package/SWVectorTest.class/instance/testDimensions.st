@@ -4,6 +4,6 @@ testDimensions
 	
 	vector5 := SWVector create: #(1 2 3 4).
 	
-	self assert: self vector1 dimensions = 2.
-	self assert: self vector4 dimensions = 3.
-	self assert: vector5 dimensions = 4
+	self assert: 2 equals: self vector1 dimensions.
+	self assert: 3 equals: self vector4 dimensions.
+	self assert: 4 equals: vector5 dimensions

@@ -1,4 +1,4 @@
 testing
 testBarCount
 	
-	self assert: self barGraph bars size = self data size
+	self assert: self data size equals: self barGraph bars size
