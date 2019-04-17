@@ -1,1 +1,1 @@
-I am an abstract chart element
+A SWChartElement is an abstract chart element

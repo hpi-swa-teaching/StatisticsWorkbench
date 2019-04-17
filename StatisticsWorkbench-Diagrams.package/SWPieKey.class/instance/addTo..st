@@ -1,4 +1,4 @@
-as yet unclassified
+adding/removing
 addTo: aPieChart
 
 	aPieChart addPieKey: self

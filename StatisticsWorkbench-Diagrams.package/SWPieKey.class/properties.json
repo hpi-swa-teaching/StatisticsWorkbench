@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "aj 6/21/2018 10:37",
 	"instvars" : [
-		"pieKeyNames",
+		"key",
 		"pieKeyColors",
-		"pieSlices",
-		"key" ],
+		"pieKeyNames",
+		"pieSlices" ],
 	"name" : "SWPieKey",
 	"pools" : [
 		 ],

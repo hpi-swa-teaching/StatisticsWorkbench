@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 textColor: aColor
 	
-	self captionMorph color: aColor.
+	self captionMorph color: aColor

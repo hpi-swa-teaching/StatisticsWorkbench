@@ -7,4 +7,3 @@ createLineMorph
 						borderColor: self class defaultBorderColor;
 						makeOpen;
 						yourself
-						

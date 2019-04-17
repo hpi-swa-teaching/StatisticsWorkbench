@@ -1,6 +1,4 @@
 testing
 testIsInvisible 
 	
-	self assert: self lineChart color = Color transparent
-	
-	
+	self assert: Color transparent equals: self lineChart color

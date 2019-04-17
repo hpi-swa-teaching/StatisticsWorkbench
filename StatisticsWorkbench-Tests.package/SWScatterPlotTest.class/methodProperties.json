@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"data" : "maf 8/4/2017 20:39",
-		"data:" : "maf 8/4/2017 20:39",
-		"diagram" : "maf 8/4/2017 20:39",
-		"diagram:" : "maf 8/4/2017 20:39",
-		"scatterPlot" : "maf 8/4/2017 20:39",
-		"scatterPlot:" : "maf 8/4/2017 20:39",
+		"data" : "aj 5/30/2018 17:30",
+		"data:" : "aj 5/30/2018 17:30",
+		"diagram" : "aj 5/30/2018 17:30",
+		"diagram:" : "aj 5/30/2018 17:30",
+		"scatterPlot" : "aj 5/30/2018 17:30",
+		"scatterPlot:" : "aj 5/30/2018 17:30",
 		"setUp" : "maf 8/4/2017 22:21",
-		"testAdd" : "KS 5/4/2018 21:15",
-		"testCollectionsGetInitialized" : "maf 8/4/2017 20:40",
-		"testIsInvisible" : "maf 8/4/2017 20:41",
-		"testRemove" : "KS 5/4/2018 21:15",
-		"testRemoveAll" : "maf 8/4/2017 20:43",
-		"testScatterPlotVisualisation" : "maf 8/4/2017 20:43" } }
+		"testAdd" : "aj 7/13/2018 11:34",
+		"testCollectionsGetInitialized" : "aj 5/30/2018 17:31",
+		"testIsInvisible" : "aj 7/24/2018 15:06",
+		"testRemove" : "aj 7/24/2018 15:06",
+		"testRemoveAll" : "aj 7/6/2018 14:14",
+		"testScatterPlotVisualisation" : "aj 7/24/2018 15:07" } }

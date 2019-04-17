@@ -1,4 +1,4 @@
 accessing
 diagramBarChart: anObject
 	
-	diagramBarChart := anObject.
+	diagramBarChart := anObject

@@ -1,13 +1,18 @@
 updating
 updateCoordinateSystem
-	| maximumx maximumy chartsMaxValues |
+	| maximumX maximumY chartsMaxValues |
 	
-	maximumx := 0.
-	maximumy := 0.
-	self flag: #fishy. "data should be the same in every chart"
-	self charts do: [:chart | chartsMaxValues := (chart data max: #x) @ (chart data max: #y).
-								chartsMaxValues x > maximumx ifTrue: [maximumx := chartsMaxValues x].
-								chartsMaxValues y > maximumy ifTrue: [maximumy := chartsMaxValues y]].
+	maximumX := 0.
+	maximumY := 0.
+	
+	self charts do: [:chart | chartsMaxValues := ((chart data maximum: #x) @ (chart data maximum: #y)).
+							(chartsMaxValues x > maximumX) 
+								ifTrue: [maximumX := chartsMaxValues x].
+							(chartsMaxValues y > maximumY) 
+								ifTrue: [maximumY := chartsMaxValues y]].
 						
-	self coordinateSystem xAxis max: maximumx.
-	self coordinateSystem yAxis max: maximumy.
+	self coordinateSystem xAxis maximum: maximumX.
+	self coordinateSystem yAxis maximum: maximumY.
+	self coordinateSystemPadding.
+	self coordinateSystem axisNames: (self charts first) data dimensionNames.
+	self coordinateSystem update

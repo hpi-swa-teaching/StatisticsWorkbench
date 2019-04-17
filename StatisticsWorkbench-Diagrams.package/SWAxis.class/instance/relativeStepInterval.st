@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 relativeStepInterval
 	
 	^ self valueRange / self stepInterval

@@ -1,6 +1,4 @@
 comparing
 = anotherSWVector
 	
-	self dimensions = anotherSWVector dimensions
-		ifFalse: [ SWInvalidDimensionError signal: 'Compared vectors must have same dimensions!' ].
-	^ anotherSWVector notNil and: [ self data literalEqual: anotherSWVector data ]
+	^ super = anotherSWVector and: [self hasSameLabelName: anotherSWVector]

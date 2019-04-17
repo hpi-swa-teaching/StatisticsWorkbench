@@ -1,4 +1,5 @@
 accessing
 color: aColor
 
-	self lineMorph borderColor: aColor
+	self lineColor: aColor.
+	self update

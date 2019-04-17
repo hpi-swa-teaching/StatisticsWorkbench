@@ -1,6 +1,6 @@
 testing
 testMultipleChartsDependOnOneDataSet
 	
-	self assert: (self diagramLineScatter charts at: 1) data = (self diagramLineScatter charts at: 2) data.
-	(self diagramLineScatter charts at: 1) data removeArray: #(1 1).
-	self assert: (self diagramLineScatter charts at: 1) data size = (self diagramLineScatter charts at: 2) data size
+	self assert: (self diagramLineScatter charts second) data equals: (self diagramLineScatter charts first) data.
+	(self diagramLineScatter charts first) data removeArray: #(1 1).
+	self assert: (self diagramLineScatter charts second) data size equals: (self diagramLineScatter charts first) data size

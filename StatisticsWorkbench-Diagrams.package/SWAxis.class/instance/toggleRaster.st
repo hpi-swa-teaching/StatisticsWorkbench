@@ -1,3 +1,4 @@
-as yet unclassified
+toggling
 toggleRaster
-	self rasterVisibility: self rasterVisibility not.
+
+	self rasterVisibility: self rasterVisibility not

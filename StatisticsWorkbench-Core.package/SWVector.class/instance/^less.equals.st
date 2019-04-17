@@ -1,5 +1,4 @@
 comparing
 <= anotherSWVector
 		
-	^ self < anotherSWVector or: [ self = anotherSWVector ]
-	
+	^ self < anotherSWVector or: [self = anotherSWVector]

@@ -1,5 +1,5 @@
 testing
 testAdd
 	
-	self data add: (SWVector fromPoint: 0 @ 0).
-	self assert: (self diagram charts at: 1) lineMorph vertices size = self data size
+	self data add: (SWVector fromPoint: (0 @ 0)).
+	self assert: self data size equals: (self diagram charts first) lineMorph vertices size

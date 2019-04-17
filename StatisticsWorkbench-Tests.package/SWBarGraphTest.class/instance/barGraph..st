@@ -1,4 +1,4 @@
 accessing
 barGraph: anObject
 	
-	barGraph := anObject.
+	barGraph := anObject

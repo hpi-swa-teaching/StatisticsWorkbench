@@ -1,7 +1,7 @@
 testing
 testDefaultValues
 	
-	self deny: self coordinateSystem xAxis  == nil.
-	self deny: self coordinateSystem yAxis  == nil.
-	self assert: coordinateSystem boundsThreshold = SWCoordinateSystem defaultBoundsThreshold.
-	self assert: coordinateSystem color = Color white
+	self deny: self coordinateSystem xAxis isNil.
+	self deny: self coordinateSystem yAxis isNil.
+	self assert: SWCoordinateSystem defaultBoundsThreshold equals: self coordinateSystem boundsThreshold.
+	self assert: Color white equals: self coordinateSystem color

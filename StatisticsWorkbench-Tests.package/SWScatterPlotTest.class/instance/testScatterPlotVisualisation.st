@@ -1,4 +1,4 @@
-tests
+testing
 testScatterPlotVisualisation
 	
-	self assert: self scatterPlot dataPoints size = self data size
+	self assert: self data size equals: self scatterPlot dataPoints size

@@ -1,6 +1,5 @@
-tests
+testing
 testInput
-
 	| input node |
 	
 	input := 'test input'.
@@ -8,5 +7,5 @@ testInput
 	node := SWNode createWith: [] labelled: 'Unit Testing'.
 	node predecessors add: (SWNode new output: input; yourself).
 	
-	self assert: node input size = 1.
-	self assert: (node input at: 1) = input 
+	self assert: 1 equals: node input size.
+	self assert: input equals: (node input first)

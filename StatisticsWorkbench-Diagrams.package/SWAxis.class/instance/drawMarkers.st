@@ -1,7 +1,8 @@
 initialization
 drawMarkers
-	| i |
-	i := 0.
-	[i - 1 < self relativeStepInterval]
-		whileTrue: [	self add: (self createMarkerAtIndex: i).
-					i := i + 1]
+	| index |
+	
+	index := 0.
+	[index < self relativeStepInterval]
+		whileTrue: [	self add: (self createMarkerAtIndex: index).
+					index := index + 1]

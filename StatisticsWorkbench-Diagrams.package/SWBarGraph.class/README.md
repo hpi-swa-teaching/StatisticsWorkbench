@@ -1,1 +1,1 @@
-I visualize categorical data with bars
+A SWBarGraph visualizes categorical data with bars

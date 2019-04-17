@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "aj 6/21/2018 10:36",
 	"instvars" : [
 		"captionMorph",
-		"strokeMorph",
-		"rasterMorph" ],
+		"rasterMorph",
+		"strokeMorph" ],
 	"name" : "SWAxisLine",
 	"pools" : [
 		 ],

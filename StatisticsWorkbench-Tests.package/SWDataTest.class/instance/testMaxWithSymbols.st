@@ -1,7 +1,7 @@
-tests
+testing
 testMaxWithSymbols
 	
-	self assert: (self data max: #x) = 3.
-	self assert: (self data max: #y) = 3.
-	self should: [self data max: #z] raise: SWInvalidDimensionError.
-	self should: [self data max: #a] raise: SWInvalidDimensionError.
+	self assert: 3 equals: (self data maximum: #x).
+	self assert: 3 equals: (self data maximum: #y).
+	self should: [self data maximum: #z] raise: SWInvalidDimensionError.
+	self should: [self data maximum: #a] raise: SWInvalidDimensionError

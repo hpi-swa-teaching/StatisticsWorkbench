@@ -1,3 +1,4 @@
-tests
+testing
 testIsFunction
-	self assert: self data isFunction = false
+
+	self assert: false equals: self data isFunction

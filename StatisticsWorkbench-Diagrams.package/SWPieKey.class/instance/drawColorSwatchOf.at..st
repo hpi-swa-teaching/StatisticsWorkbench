@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 drawColorSwatchOf: aPieslice at: aPosition
 	| colorSwatch |
 	
@@ -7,6 +7,7 @@ drawColorSwatchOf: aPieslice at: aPosition
 	self addColorSwatch: colorSwatch.
 	self pieKeyColors add: colorSwatch. 
 	
-	colorSwatch color: aPieslice slice color;
-						position: self key position + (self class defaultMargin @ (aPosition * self class defaultKeyPointHeight));
-						extent: self class defaultColorSwatchExtent
+	colorSwatch 
+			color: aPieslice slice color;
+			position: self key position + (self class defaultMargin @ (aPosition * self class defaultKeyPointHeight));
+			extent: self class defaultColorSwatchExtent

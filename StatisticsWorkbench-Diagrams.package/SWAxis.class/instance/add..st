@@ -1,4 +1,5 @@
-as yet unclassified
+adding/removing
 add: aMarker
+
 	self markers add: aMarker.
-	self addMorph: aMarker.
+	self addMorph: aMarker

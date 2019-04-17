@@ -1,4 +1,5 @@
-geometry
+toggling
 toggleRaster
 
-	self hasCoordinateSystem ifTrue: [self coordinateSystem toggleRaster]
+	(self hasCoordinateSystem)
+		ifTrue: [self coordinateSystem toggleRaster]

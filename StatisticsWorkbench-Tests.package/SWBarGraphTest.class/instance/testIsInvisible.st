@@ -1,4 +1,4 @@
 testing
 testIsInvisible 
 
-	self assert: self barGraph color = Color transparent
+	self assert: Color transparent equals: self barGraph color

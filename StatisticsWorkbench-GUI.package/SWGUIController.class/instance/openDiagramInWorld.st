@@ -1,0 +1,4 @@
+creation
+openDiagramInWorld
+
+	self createDiagram openInWorld

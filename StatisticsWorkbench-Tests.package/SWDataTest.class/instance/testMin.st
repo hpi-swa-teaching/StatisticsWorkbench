@@ -1,6 +1,7 @@
-tests
+testing
 testMin
-	self assert: (self data min: 1) = 0.
-	self assert: (self data min: 2) = 0.
-	self should: [ self data min: 3 ] raise: SWInvalidDimensionError.
-	self should: [ self data min: 0 ] raise: SWInvalidDimensionError
+
+	self assert: 0 equals: (self data minimum: 1).
+	self assert: 0 equals: (self data minimum: 2).
+	self should: [self data minimum: 3] raise: SWInvalidDimensionError.
+	self should: [self data minimum: 0] raise: SWInvalidDimensionError

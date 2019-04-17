@@ -1,3 +1,4 @@
-as yet unclassified
-vertices: verts color: c borderWidth: bw borderColor: bc
-	^ self new beStraightSegments vertices: verts color: c borderWidth: bw borderColor: bc
+instance creation
+vertices: verts color: aColor borderWidth: aBorderWidth borderColor: aBorderColor
+
+	^ self new beStraightSegments vertices: verts color: aColor borderWidth: aBorderWidth borderColor: aBorderColor

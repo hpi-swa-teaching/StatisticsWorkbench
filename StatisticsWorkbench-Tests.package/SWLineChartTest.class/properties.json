@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lineChart",
 		"data",
-		"diagram" ],
+		"diagram",
+		"lineChart" ],
 	"name" : "SWLineChartTest",
 	"pools" : [
 		 ],

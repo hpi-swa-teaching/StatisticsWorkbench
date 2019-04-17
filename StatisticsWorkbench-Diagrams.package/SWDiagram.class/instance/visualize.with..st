@@ -5,11 +5,10 @@ visualize: aSWData with: aChart
 		ifTrue: [self add: self createCoordinateSystem].
 	
 	self add: aChart.
-	
 	aChart diagram: self.
 	aChart data: aSWData.
-		
-	aChart needsCoordinateSystem 
+	
+	(aChart needsCoordinateSystem)
 		ifTrue: [self updateCoordinateSystem]
 		ifFalse: [self bounds: aChart bounds].
 		

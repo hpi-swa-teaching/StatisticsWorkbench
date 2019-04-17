@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JB 7/20/2018 10:24",
+	"instvars" : [
+		 ],
+	"name" : "SWGUI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

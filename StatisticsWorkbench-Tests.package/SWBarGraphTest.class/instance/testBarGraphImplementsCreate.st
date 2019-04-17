@@ -1,4 +1,4 @@
 testing
 testBarGraphImplementsCreate
 	
-	self deny: SWBarGraph create = nil
+	self deny: SWBarGraph create isNil

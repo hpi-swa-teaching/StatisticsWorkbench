@@ -1,10 +1,7 @@
 testing
 testBoundsThreshold
-
 	| oldBounds |
 	
-	oldBounds := coordinateSystem boundsThreshold.
-	coordinateSystem boundsThreshold: oldBounds + SWCoordinateSystem defaultBoundsThreshold.
-	self deny: oldBounds = coordinateSystem boundsThreshold
-	
-	
+	oldBounds := self coordinateSystem boundsThreshold.
+	self coordinateSystem boundsThreshold: oldBounds + SWCoordinateSystem defaultBoundsThreshold.
+	self deny: oldBounds = self coordinateSystem boundsThreshold

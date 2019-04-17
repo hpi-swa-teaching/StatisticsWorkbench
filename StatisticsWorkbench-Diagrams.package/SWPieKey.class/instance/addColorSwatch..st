@@ -1,4 +1,4 @@
-as yet unclassified
+adding/removing
 addColorSwatch: aColorSwatch
 
 	self addMorph: aColorSwatch

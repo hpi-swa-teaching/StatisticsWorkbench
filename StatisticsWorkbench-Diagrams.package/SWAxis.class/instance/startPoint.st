@@ -1,4 +1,4 @@
 accessing
 startPoint
 	
-	^ self vertices at: 1
+	^ self vertices first

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 create
 
-	^ self new initialize.
+	^ self new initialize

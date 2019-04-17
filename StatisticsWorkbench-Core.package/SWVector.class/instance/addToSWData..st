@@ -1,3 +1,4 @@
-converting
+adding
 addToSWData: someSWData
-	someSWData addVector: self.
+
+	someSWData addVector: self

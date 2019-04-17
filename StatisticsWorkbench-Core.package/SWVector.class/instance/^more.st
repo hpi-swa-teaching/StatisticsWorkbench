@@ -2,4 +2,3 @@ comparing
 > anotherSWVector
 	
 	^ anotherSWVector < self
-	

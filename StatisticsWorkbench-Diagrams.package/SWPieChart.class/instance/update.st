@@ -3,5 +3,4 @@ update
 	
 	self
 		updatePieSlices;
-		updatePieKey;
-		changed: self
+		updatePieKey

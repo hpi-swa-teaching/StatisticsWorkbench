@@ -1,4 +1,4 @@
 accessing
 workflow: anObject
 	
-	workflow := anObject.
+	workflow := anObject

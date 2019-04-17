@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "J.R. 7/29/2017 17:12",
+	"commentStamp" : "aj 6/21/2018 10:36",
 	"instvars" : [
+		"axisNames",
+		"boundsThreshold",
 		"xAxis",
-		"yAxis",
-		"boundsThreshold" ],
+		"yAxis" ],
 	"name" : "SWCoordinateSystem",
 	"pools" : [
 		 ],

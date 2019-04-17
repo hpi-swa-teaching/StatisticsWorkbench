@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "J.R. 7/29/2017 16:32",
+	"commentStamp" : "aj 6/21/2018 10:38",
 	"instvars" : [
+		"coordinateSystem",
 		"dataPoints",
-		"coordinateSystem" ],
+		"pointColor" ],
 	"name" : "SWScatterPlot",
 	"pools" : [
 		 ],

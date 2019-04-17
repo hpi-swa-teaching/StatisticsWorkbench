@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 defaultWorldPosition
 
-	^ 700 @ 200
+	^ (700 @ 200)

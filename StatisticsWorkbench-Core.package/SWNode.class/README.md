@@ -1,1 +1,1 @@
-I cache the result of my set instruction 
+A SWNode caches the result of its set instruction 

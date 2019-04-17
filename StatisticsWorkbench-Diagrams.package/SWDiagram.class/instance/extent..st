@@ -1,9 +1,9 @@
-as yet unclassified
+geometry
 extent: aPoint
 
 	super extent: aPoint.
 	self resizeCharts.
-	self hasCoordinateSystem
+	(self hasCoordinateSystem)
 		ifTrue: [self coordinateSystem extent: aPoint].
-	self hasChart
+	(self hasChart)
 		ifTrue: [self updateCharts]

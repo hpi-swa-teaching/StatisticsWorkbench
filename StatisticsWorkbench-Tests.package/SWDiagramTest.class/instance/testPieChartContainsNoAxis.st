@@ -1,5 +1,4 @@
 testing
 testPieChartContainsNoAxis
 	
-	self should: [ (self diagramPieChart charts at: 1) coordinateSystem ] raise: Exception 
-	
+	self should: [(self diagramPieChart charts first) coordinateSystem] raise: Exception 

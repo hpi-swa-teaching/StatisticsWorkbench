@@ -1,3 +1,4 @@
 accessing
 labelInterval
-	^ labelInterval.
+
+	^ labelInterval

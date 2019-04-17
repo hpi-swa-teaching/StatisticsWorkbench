@@ -1,4 +1,4 @@
-testing
+accessing
 dimensions
 
-	^ self data size
+	^ self size

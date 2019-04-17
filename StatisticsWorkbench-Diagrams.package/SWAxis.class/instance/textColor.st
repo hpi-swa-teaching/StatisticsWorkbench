@@ -1,7 +1,8 @@
 accessing
 textColor
-	textColor isNil
+
+	(textColor isNil)
 		ifTrue: [self textColor: self class defaultTextColor].
-	self textVisibility
+	(self textVisibility)
 		ifTrue: [^ textColor]
 		ifFalse: [^ Color transparent]

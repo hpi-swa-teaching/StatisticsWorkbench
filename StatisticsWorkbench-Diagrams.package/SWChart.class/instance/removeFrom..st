@@ -1,4 +1,4 @@
-as yet unclassified
+adding/removing
 removeFrom: aDiagram
 
 	aDiagram removeChart: self
