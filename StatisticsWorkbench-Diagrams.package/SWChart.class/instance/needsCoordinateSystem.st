@@ -1,4 +1,0 @@
-testing
-needsCoordinateSystem 
-
-	^ self subclassResponsibility 

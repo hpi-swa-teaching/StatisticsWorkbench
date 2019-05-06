@@ -1,1 +1,0 @@
-A SWAxisLine is the axis labeling of a SWAxis

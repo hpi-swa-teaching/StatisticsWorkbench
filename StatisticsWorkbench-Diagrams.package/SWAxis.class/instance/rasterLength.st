@@ -1,4 +1,0 @@
-accessing
-rasterLength
-
-	^ rasterLength
