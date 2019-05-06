@@ -1,4 +1,0 @@
-defaults
-defaultTextVisibility
-
-	^ true

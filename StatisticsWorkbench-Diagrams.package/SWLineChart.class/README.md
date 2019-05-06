@@ -1,1 +1,0 @@
-A SWLineChart visualizes continuous data with a line 

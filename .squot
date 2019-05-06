@@ -1,10 +1,4 @@
 OrderedDictionary {
 	'BaselineOfStatisticsWorkbench.package' : #SquotCypressCodeSerializer,
-	'StatisticsWorkbench.package' : #SquotCypressCodeSerializer,
-	'StatisticsWorkbench-GUI.package' : #SquotCypressCodeSerializer,
-	'StatisticsWorkbench-Core.package' : #SquotCypressCodeSerializer,
-	'StatisticsWorkbench-Examples.package' : #SquotCypressCodeSerializer,
-	'StatisticsWorkbench-Exceptions.package' : #SquotCypressCodeSerializer,
-	'StatisticsWorkbench-Diagrams.package' : #SquotCypressCodeSerializer,
-	'StatisticsWorkbench-Tests.package' : #SquotCypressCodeSerializer
+	'StatisticsWorkbench.package' : #SquotCypressCodeSerializer
 }

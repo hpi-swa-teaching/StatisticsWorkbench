@@ -1,1 +1,0 @@
-A SWBarGraphChangeWidthExample1 shows how to change the barWidth of a SWBarGraph
