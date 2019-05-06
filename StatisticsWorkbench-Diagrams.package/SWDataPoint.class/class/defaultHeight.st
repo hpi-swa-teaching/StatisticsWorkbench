@@ -1,4 +1,0 @@
-defaults
-defaultHeight
-
-	^ 10

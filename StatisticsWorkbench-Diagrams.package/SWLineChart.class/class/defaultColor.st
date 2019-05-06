@@ -1,4 +1,0 @@
-defaults
-defaultColor
-
-	^ Color orange
