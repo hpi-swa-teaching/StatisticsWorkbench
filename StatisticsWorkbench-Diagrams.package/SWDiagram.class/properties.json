@@ -1,0 +1,15 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "aj 6/21/2018 10:39",
+	"instvars" : [
+		"charts",
+		"coordinateSystem" ],
+	"name" : "SWDiagram",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

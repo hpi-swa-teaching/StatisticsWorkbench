@@ -1,0 +1,19 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "aj 6/21/2018 10:34",
+	"instvars" : [
+		"endpoint",
+		"name",
+		"pointSet",
+		"slice",
+		"startpoint",
+		"value" ],
+	"name" : "SWPieSlice",
+	"pools" : [
+		 ],
+	"super" : "SWChartElement",
+	"type" : "normal" }

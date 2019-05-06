@@ -1,0 +1,1 @@
+A SWPieSlice is a pie slice representation of a category in given data
