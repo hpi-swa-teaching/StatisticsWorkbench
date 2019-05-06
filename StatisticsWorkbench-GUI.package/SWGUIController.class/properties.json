@@ -1,0 +1,19 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"chosenChartType",
+		"chosenDatasetIndex",
+		"chosenDimension",
+		"datasets",
+		"nameOfChosenDataset",
+		"view" ],
+	"name" : "SWGUIController",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

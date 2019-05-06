@@ -1,0 +1,4 @@
+accessing
+logString
+
+	^ logString

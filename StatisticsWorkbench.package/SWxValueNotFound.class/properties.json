@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SWxValueNotFound",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

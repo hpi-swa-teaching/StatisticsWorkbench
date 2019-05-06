@@ -1,3 +1,0 @@
-defaults
-defaultStepInterval 
-	^50.

@@ -1,0 +1,17 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "aj 6/21/2018 10:37",
+	"instvars" : [
+		"coordinateSystem",
+		"lineColor",
+		"lineMorph",
+		"vertices" ],
+	"name" : "SWLineChart",
+	"pools" : [
+		 ],
+	"super" : "AnObsoleteSWChart",
+	"type" : "normal" }

@@ -1,3 +1,0 @@
-defaults
-defaultLength
-	^400.

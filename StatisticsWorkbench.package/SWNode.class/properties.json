@@ -1,0 +1,18 @@
+{
+	"category" : "StatisticsWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "aj 6/21/2018 10:40",
+	"instvars" : [
+		"label",
+		"instruction",
+		"output",
+		"predecessors",
+		"successors" ],
+	"name" : "SWNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
