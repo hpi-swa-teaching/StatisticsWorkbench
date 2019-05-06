@@ -5,7 +5,7 @@ axis: aDimension stepInterval: aValue
 		ifTrue: [self coordinateSystem xAxis stepInterval: aValue].
 		
 	(self hasCoordinateSystem and: aDimension = #y) 
-		ifTrue: [self coordinateSystem xAxis stepInterval: aValue].
+		ifTrue: [self coordinateSystem yAxis stepInterval: aValue].
 		
 	self updateCharts.
 		
