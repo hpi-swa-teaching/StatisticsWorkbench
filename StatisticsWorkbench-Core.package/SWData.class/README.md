@@ -1,0 +1,1 @@
+A SWData is a wrapper for an ordered collection of SWVector objects

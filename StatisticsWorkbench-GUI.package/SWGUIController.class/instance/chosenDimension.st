@@ -1,0 +1,4 @@
+accessing
+chosenDimension
+
+	^ chosenDimension
