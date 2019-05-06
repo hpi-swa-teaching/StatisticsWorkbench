@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"create" : "KS 5/4/2018 10:21",
+		"defaultColor" : "FG 5/6/2019 15:34",
 		"defaultStepInterval" : "J.R. 6/29/2017 13:35" },
 	"instance" : {
 		"add:" : "J.R. 7/29/2017 16:42",
@@ -9,7 +10,7 @@
 		"dataPoints" : "J.R. 7/1/2017 16:48",
 		"dataPoints:" : "J.R. 7/1/2017 16:49",
 		"generateDataPoints" : "aj 5/30/2018 18:30",
-		"initialize" : "FG 5/6/2019 13:54",
+		"initialize" : "FG 5/6/2019 15:33",
 		"needsCoordinateSystem" : "J.R. 7/29/2017 16:29",
 		"pointColor" : "aj 7/6/2018 09:50",
 		"pointColor:" : "aj 7/6/2018 09:50",

@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"create" : "aj 7/20/2018 10:09",
+		"defaultColorArray" : "FG 5/6/2019 16:50",
 		"defaultExtent" : "aj 5/4/2018 15:45",
 		"defaultRadius" : "aj 5/4/2018 10:40",
 		"defaultWorldPosition" : "RS 7/13/2018 11:52" },
@@ -31,4 +32,4 @@
 		"startpointOf:by:" : "aj 5/30/2018 18:28",
 		"update" : "Kenneth-Schroeder 6/15/2018 12:12",
 		"updatePieKey" : "RSC 6/27/2018 22:22",
-		"updatePieSlices" : "aj 5/30/2018 18:29" } }
+		"updatePieSlices" : "FG 5/6/2019 16:45" } }
