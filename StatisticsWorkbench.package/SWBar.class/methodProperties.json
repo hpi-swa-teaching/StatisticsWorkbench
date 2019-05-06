@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"create" : "maf 7/2/2017 09:49",
+		"defaultColor" : "maf 7/2/2017 09:48" },
+	"instance" : {
+		"bottom" : "TB 6/1/2017 14:36",
+		"bottom:" : "TB 6/1/2017 14:36",
+		"caption:" : "maf 7/1/2017 18:20",
+		"initialize" : "maf 7/1/2017 18:20",
+		"textmorph" : "mp 5/16/2017 16:21",
+		"textmorph:" : "mp 5/16/2017 16:21",
+		"value" : "TB 6/1/2017 12:33",
+		"value:" : "TB 6/1/2017 12:33" } }

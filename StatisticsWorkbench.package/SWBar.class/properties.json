@@ -1,0 +1,17 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"show_val",
+		"textmorph",
+		"value",
+		"bottom" ],
+	"name" : "SWBar",
+	"pools" : [
+		 ],
+	"super" : "SWChartElement",
+	"type" : "normal" }

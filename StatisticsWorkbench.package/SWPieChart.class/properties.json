@@ -1,0 +1,18 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pieslices",
+		"radius",
+		"center",
+		"circleStartpoint",
+		"pieKey" ],
+	"name" : "SWPieChart",
+	"pools" : [
+		 ],
+	"super" : "SWChart",
+	"type" : "normal" }

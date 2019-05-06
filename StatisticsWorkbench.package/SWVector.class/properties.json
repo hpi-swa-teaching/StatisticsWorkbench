@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data" ],
+	"name" : "SWVector",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "variable" }

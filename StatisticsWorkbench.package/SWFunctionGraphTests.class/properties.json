@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SWFunctionGraphTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAdd" : "J.R. 7/4/2017 04:22",
+		"testCollectionsGetInitialized" : "J.R. 7/3/2017 23:21",
+		"testFunctionGraphVisualisation" : "maf 7/4/2017 02:01",
+		"testInitialize" : "maf 7/2/2017 12:10",
+		"testIsInvisible" : "maf 7/2/2017 12:12",
+		"testRemove" : "J.R. 7/4/2017 04:25",
+		"testRemoveAll" : "J.R. 7/4/2017 02:11",
+		"testVerticesComparator" : "maf 7/2/2017 14:26" } }

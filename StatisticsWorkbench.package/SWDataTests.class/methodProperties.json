@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"createSeeded" : "maf 7/4/2017 00:52",
+		"createSeeded2" : "J.R. 7/4/2017 03:34" },
+	"instance" : {
+		"testAdd" : "maf 7/4/2017 01:09",
+		"testAddCorrectPosition" : "maf 7/4/2017 00:58",
+		"testAddFirst" : "maf 7/4/2017 01:10",
+		"testAt" : "maf 7/3/2017 10:32",
+		"testDimension" : "maf 7/4/2017 01:11",
+		"testFirst" : "maf 7/4/2017 01:12",
+		"testLast" : "maf 7/4/2017 01:12",
+		"testMax" : "maf 7/3/2017 12:33",
+		"testMaxAcceptsXandY" : "maf 7/3/2017 12:32",
+		"testMin" : "maf 7/3/2017 12:33",
+		"testRemove" : "maf 7/3/2017 10:53",
+		"testRemoveFirst" : "maf 7/4/2017 01:15",
+		"testRemoveLast" : "maf 7/4/2017 01:15" } }

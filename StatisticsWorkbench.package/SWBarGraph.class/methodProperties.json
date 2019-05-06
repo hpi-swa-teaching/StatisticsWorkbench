@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"create" : "maf 7/4/2017 05:56",
+		"defaultColor" : "maf 7/1/2017 18:38",
+		"defaultStepInterval" : "maf 7/1/2017 18:47",
+		"needsCoordinateSystem" : "mp 6/10/2017 12:38" },
+	"instance" : {
+		"AxisPosition" : "maf 7/1/2017 18:48",
+		"AxisPosition:" : "maf 7/1/2017 18:48",
+		"add:" : "maf 7/2/2017 10:47",
+		"barBottom" : "maf 7/1/2017 19:00",
+		"barPositionFor:" : "maf 7/4/2017 06:13",
+		"barWidth" : "maf 7/4/2017 00:19",
+		"barWidth:" : "maf 7/1/2017 18:48",
+		"bars" : "maf 7/1/2017 13:44",
+		"bars:" : "maf 7/1/2017 13:44",
+		"createBarsFrom:" : "maf 7/4/2017 06:18",
+		"drawChart" : "maf 7/1/2017 18:48",
+		"initialize" : "maf 7/3/2017 12:15",
+		"remove:" : "maf 7/2/2017 10:47",
+		"removeAll" : "maf 7/2/2017 10:47",
+		"update" : "maf 7/4/2017 00:19" } }

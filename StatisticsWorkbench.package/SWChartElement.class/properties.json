@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"date" ],
+	"name" : "SWChartElement",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"category" : "StatisticsWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"key",
+		"value",
+		"caption",
+		"group",
+		"previous",
+		"next",
+		"aBlock" ],
+	"name" : "SWDate",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testAdd" : "maf 7/4/2017 01:33",
+		"testBarCount" : "maf 7/4/2017 01:33",
+		"testBarGraphImplementsCreate" : "maf 7/2/2017 10:11",
+		"testCollectionsGetInitialized" : "maf 7/2/2017 10:54",
+		"testIsInvisible" : "maf 7/2/2017 11:21",
+		"testRemove" : "maf 7/4/2017 01:35",
+		"testRemoveAll" : "maf 7/4/2017 01:55" } }

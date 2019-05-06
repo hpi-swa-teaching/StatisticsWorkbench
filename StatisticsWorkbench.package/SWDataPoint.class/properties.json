@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"renderedPoint" ],
+	"name" : "SWDataPoint",
+	"pools" : [
+		 ],
+	"super" : "SWChartElement",
+	"type" : "normal" }
