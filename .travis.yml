@@ -1,4 +1,12 @@
+language: smalltalk
 sudo: false
+
+# Select operating system(s)
+os:
+  - linux
+  - osx
+
+# Select compatible Smalltalk image(s)
 smalltalk:
   - Squeak-trunk
   - Squeak-5.2
@@ -7,6 +15,8 @@ smalltalk:
 
 matrix:
     allow_failures:
-        - smalltalk: Squeak-5.1
-        - smalltalk: Squeak-5.0
-        - smalltalk: Squeak-5.0 
+      - smalltalk: Squeak-5.1
+      - smalltalk: Squeak-5.0
+      - smalltalk: Squeak-5.0
+
+
