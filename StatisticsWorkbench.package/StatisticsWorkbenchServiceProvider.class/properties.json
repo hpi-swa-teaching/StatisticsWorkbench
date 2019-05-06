@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "StatisticsWorkbenchServiceProvider",
+	"pools" : [
+		 ],
+	"super" : "ServiceProvider",
+	"type" : "normal" }

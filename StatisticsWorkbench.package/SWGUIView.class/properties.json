@@ -1,0 +1,17 @@
+{
+	"category" : "StatisticsWorkbench-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"controller",
+		"datasetDisplay",
+		"datasetDropdown",
+		"datasetDropdownButton" ],
+	"name" : "SWGUIView",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }
