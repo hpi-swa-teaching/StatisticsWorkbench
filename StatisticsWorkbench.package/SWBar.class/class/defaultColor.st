@@ -1,4 +1,4 @@
 defaults
 defaultColor 
 
-	^ Color red
+	^ Color blue

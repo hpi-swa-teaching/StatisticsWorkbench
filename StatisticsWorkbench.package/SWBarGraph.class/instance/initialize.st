@@ -2,5 +2,5 @@ initialization
 initialize
 
 	super initialize.
-	self barColor: Color blue.
+	self barColor: self class defaultColor.
 	self bars: OrderedCollection new

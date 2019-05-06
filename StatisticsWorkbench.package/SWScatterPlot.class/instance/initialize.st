@@ -2,5 +2,5 @@ initialization
 initialize
 
 	super initialize.
-	self pointColor: Color orange.
+	self pointColor: self class defaultColor.
 	self dataPoints: OrderedCollection new

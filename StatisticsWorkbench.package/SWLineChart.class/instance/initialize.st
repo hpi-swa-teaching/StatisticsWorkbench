@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self lineMorph: self createLineMorph.
-	self lineColor: Color orange.
+	self lineColor: self class defaultColor.
 	vertices := OrderedCollection new
