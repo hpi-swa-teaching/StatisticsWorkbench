@@ -1,0 +1,1 @@
+A SWDataPoint is a representation of a key value pair in given data

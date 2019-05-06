@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"controller" : "aj 5/30/2018 17:22",
+		"controller:" : "aj 5/30/2018 17:22",
+		"logString" : "MS 7/13/2018 11:29",
+		"logString:" : "MS 7/13/2018 11:29",
+		"processNewDataset:withID:named:" : "MS 7/13/2018 12:08",
+		"setUp" : "MS 7/13/2018 11:36",
+		"testInitialize" : "aj 7/24/2018 15:32",
+		"testLabeledDatasetCreation" : "aj 7/24/2018 15:32",
+		"testUnlabeledDatasetCreation" : "aj 7/24/2018 15:32",
+		"updateDatasetDisplay:" : "MS 7/13/2018 11:40" } }

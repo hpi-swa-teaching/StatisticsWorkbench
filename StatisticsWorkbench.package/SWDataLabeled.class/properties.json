@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JB 7/20/2018 10:16",
+	"instvars" : [
+		 ],
+	"name" : "SWDataLabeled",
+	"pools" : [
+		 ],
+	"super" : "SWData",
+	"type" : "normal" }

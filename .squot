@@ -1,0 +1,4 @@
+OrderedDictionary {
+	'BaselineOfStatisticsWorkbench.package' : #SquotCypressCodeSerializer,
+	'StatisticsWorkbench.package' : #SquotCypressCodeSerializer
+}

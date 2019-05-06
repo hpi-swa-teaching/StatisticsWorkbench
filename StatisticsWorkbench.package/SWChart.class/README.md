@@ -1,0 +1,1 @@
+A SWChart is an abstract chart with basic behavior

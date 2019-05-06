@@ -1,0 +1,1 @@
+A SWVector is a the key representation of a n-dimensional array

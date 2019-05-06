@@ -1,0 +1,1 @@
+A SWBarGraphChangeWidthExample2 shows how to change the barWidth of a SWBarGraph while reading the data from a String
