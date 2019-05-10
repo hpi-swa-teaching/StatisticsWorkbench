@@ -21,7 +21,7 @@
 		"vertices:color:borderWidth:borderColor:" : "aj 5/30/2018 18:06" },
 	"instance" : {
 		"add:" : "aj 5/30/2018 18:11",
-		"adjustStepInterval" : "FG 5/10/2019 14:40",
+		"adjustStepInterval" : "FG 5/10/2019 19:59",
 		"areMarkersDrawable" : "Kenneth-Schroeder 7/13/2018 11:02",
 		"areMarkersInsideAxisBoundaries" : "aj 7/6/2018 12:11",
 		"color:" : "JB 6/29/2018 10:46",
@@ -38,6 +38,7 @@
 		"legend:" : "aj 5/30/2018 18:16",
 		"length" : "aj 5/30/2018 18:16",
 		"length:" : "aj 5/30/2018 18:16",
+		"markerDistance" : "FG 5/10/2019 19:54",
 		"markers" : "aj 5/30/2018 18:16",
 		"markers:" : "aj 5/30/2018 18:16",
 		"maximum" : "aj 7/6/2018 12:10",
