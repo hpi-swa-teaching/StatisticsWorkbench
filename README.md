@@ -1,12 +1,11 @@
 # Statistics Workbench [![Build Status](https://api.travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=submission)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench)
 (SWT18-Project-17)
 
-Statistics Workbench is a tool for the visualization and analyzation of data. It offers multiple mathematical functions for finding the maximum, minimum, mean, mode, maximal derivation and so on of a dataset, as well as multiple chart types, like bargraphs and piecharts.
+Statistics Workbench is a tool for the visualization and analyzation of data. 
+It offers multiple mathematical functions for finding the maximum, minimum, mean, mode, maximal derivation and so on of a dataset, as well as multiple chart types, like bargraphs and piecharts.
 
 ## Getting Started
 
-If you want to use our tool, make sure you have installed Pheno.
-https://github.com/tom95/Pheno
 
 We created multiple examples, in order to get you started with our project.
 You can find them in the StatisticsWorkbench-Examples package.
@@ -18,14 +17,36 @@ E.g.
 ```
 SWCreateChartExample open.
 ```
+If you want to create your own diagramm, based on your data, you can do that as follows: 
 
-We also created a User Interface for users that don't want to use our code directly.
-You can open the UI by calling:
+First you create your data with the help of our SWVector:
+
 ```
-SWGUI open.
+dataString := 'x|y 1|22 2|110 3|64 4|211 5|35'.
+data := SWDataUnlabeled fromString: dataString ofDataDimension: 2.
+
 ```
-In the UI you can create new datasets by clicking the "new" button.
-Another dialog will open, where you will be asked to set a name and the values of your dataset.
-The values can be seperated by multiple characters, like: " |()[]{},@#=&".
-The first two words of the value-text-field will be used as axis labels.
-If you need an example, just push the "Fill with example data" button on top.
+
+Then, you can set the dimensions and - if you want to - label your data.
+
+```
+data setAllDimensionNames: #('City' 'PopulationInThousands').
+data setLabels: {'Apolda' . 'Jena' . 'Weimar' . 'Erfurt' . 'Suhl'}.
+
+```
+Afterwards you can visualize it as LineGraph/BarChart/PieChart/etc:
+
+```
+SWDiagram new visualize: data with: SWBarGraph create. 
+SWDiagram new visualize: data with: SWLineChart create.
+SWDiagram new visualize: data with: SWPieChart create.
+```
+
+If you want to adjust your diagram, you can do that as follows: 
+
+```
+(graph charts first) barWidth: 40.
+graph chartsColor: Color green.
+graph axisColor: Color red.
+```
+
