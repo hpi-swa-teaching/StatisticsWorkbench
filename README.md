@@ -42,6 +42,12 @@ SWDiagram new visualize: data with: SWLineChart create.
 SWDiagram new visualize: data with: SWPieChart create.
 ```
 
+And you can open your chart in a window with 
+
+```
+openInWindow
+```
+
 If you want to adjust your diagram, you can do that as follows: 
 
 ```
