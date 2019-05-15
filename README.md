@@ -23,7 +23,6 @@ First you create your data with the help of our SWVector:
 
 ```
 dataString := 'x|y 1|22 2|110 3|64 4|211 5|35'.
-data := SWDataUnlabeled fromString: dataString ofDataDimension: 2.
 
 ```
 
