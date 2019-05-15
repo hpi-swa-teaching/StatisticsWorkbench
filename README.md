@@ -26,19 +26,18 @@ dataString := 'x|y 1|22 2|110 3|64 4|211 5|35'.
 
 ```
 
-Then, you can set the dimensions and - if you want to - label your data.
+Then, you can set the dimensions.
 
 ```
 data setAllDimensionNames: #('City' 'PopulationInThousands').
-data setLabels: {'Apolda' . 'Jena' . 'Weimar' . 'Erfurt' . 'Suhl'}.
 
 ```
 Afterwards you can visualize it as LineGraph/BarChart/PieChart/etc:
 
 ```
-SWDiagram new visualize: data with: SWBarGraph create. 
-SWDiagram new visualize: data with: SWLineChart create.
-SWDiagram new visualize: data with: SWPieChart create.
+graph := (SWDiagram new visualize: data with: SWBarGraph create.) 
+graph := (SWDiagram new visualize: data with: SWLineChart create.)
+graph := (SWDiagram new visualize: data with: SWPieChart create.)
 ```
 
 And you can open your chart in a window with 
