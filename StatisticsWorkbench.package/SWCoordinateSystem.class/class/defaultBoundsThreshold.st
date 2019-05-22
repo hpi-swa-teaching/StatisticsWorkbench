@@ -1,4 +1,4 @@
 defaults
 defaultBoundsThreshold
 
-	^ (60 @ 60)
+	^ (100 @ 60)
