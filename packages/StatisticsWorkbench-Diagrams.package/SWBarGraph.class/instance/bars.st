@@ -1,0 +1,4 @@
+accessing
+bars
+	
+	^ bars

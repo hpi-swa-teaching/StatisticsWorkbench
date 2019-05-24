@@ -1,0 +1,1 @@
+A SWChartElement is an abstract chart element

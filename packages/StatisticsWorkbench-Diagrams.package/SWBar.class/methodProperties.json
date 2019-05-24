@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"create" : "J.R. 7/29/2017 16:57",
+		"defaultColor" : "FG 5/6/2019 15:19" },
+	"instance" : {
+		"barLabelMorph" : "J.R. 7/29/2017 16:54",
+		"barLabelMorph:" : "RSC 5/31/2018 01:44",
+		"bottom" : "J.R. 7/29/2017 16:51",
+		"bottom:" : "J.R. 7/29/2017 16:51",
+		"caption:" : "aj 7/24/2018 14:23",
+		"initialize" : "RS 7/13/2018 11:39",
+		"isLabelHorizontal" : "aj 6/15/2018 12:01",
+		"isLabelHorizontal:" : "aj 6/15/2018 12:01",
+		"isLabelToLong" : "aj 7/20/2018 11:11",
+		"isTextHigherThanBar" : "RS 7/20/2018 11:29",
+		"raiseBarLabel" : "RS 7/13/2018 11:40",
+		"rotateLabel" : "aj 7/13/2018 12:29",
+		"rotatedLabelPosition" : "RS 7/13/2018 11:41",
+		"rotationMorph" : "aj 6/15/2018 12:01",
+		"rotationMorph:" : "aj 6/15/2018 12:01" } }
