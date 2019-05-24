@@ -1,0 +1,1 @@
+A SWDiagram is a managing object for multiple SWCharts

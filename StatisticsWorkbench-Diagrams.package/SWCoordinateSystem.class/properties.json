@@ -1,0 +1,17 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "aj 6/21/2018 10:36",
+	"instvars" : [
+		"axisNames",
+		"boundsThreshold",
+		"xAxis",
+		"yAxis" ],
+	"name" : "SWCoordinateSystem",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

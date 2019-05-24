@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"data" : "aj 5/30/2018 17:30",
+		"data:" : "aj 5/30/2018 17:30",
+		"diagram" : "aj 5/30/2018 17:30",
+		"diagram:" : "aj 5/30/2018 17:30",
+		"scatterPlot" : "aj 5/30/2018 17:30",
+		"scatterPlot:" : "aj 5/30/2018 17:30",
+		"setUp" : "maf 8/4/2017 22:21",
+		"testAdd" : "aj 7/13/2018 11:34",
+		"testCollectionsGetInitialized" : "aj 5/30/2018 17:31",
+		"testIsInvisible" : "aj 7/24/2018 15:06",
+		"testRemove" : "aj 7/24/2018 15:06",
+		"testRemoveAll" : "aj 7/6/2018 14:14",
+		"testScatterPlotVisualisation" : "aj 7/24/2018 15:07" } }

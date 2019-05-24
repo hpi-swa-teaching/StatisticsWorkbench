@@ -1,0 +1,4 @@
+defaults
+defaultLabelInterval
+
+	^ 100

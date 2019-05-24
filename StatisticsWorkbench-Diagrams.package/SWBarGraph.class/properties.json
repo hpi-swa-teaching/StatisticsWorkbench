@@ -1,0 +1,16 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JB 6/21/2018 10:09",
+	"instvars" : [
+		"barColor",
+		"bars",
+		"barWidth" ],
+	"name" : "SWBarGraph",
+	"pools" : [
+		 ],
+	"super" : "SWChart",
+	"type" : "normal" }
