@@ -1,4 +1,0 @@
-defaults
-maxNumberOfMarkers
-
-	^ 20

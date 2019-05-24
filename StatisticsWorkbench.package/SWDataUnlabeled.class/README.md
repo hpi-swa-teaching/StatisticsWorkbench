@@ -1,1 +1,0 @@
-A SWDataUnlabeled contains SWVector objects without labels

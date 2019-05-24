@@ -1,4 +1,0 @@
-accessing
-species
-
-	^ self class

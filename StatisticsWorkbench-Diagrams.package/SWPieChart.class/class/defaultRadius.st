@@ -1,4 +1,0 @@
-defaults
-defaultRadius
-
-	^ 200

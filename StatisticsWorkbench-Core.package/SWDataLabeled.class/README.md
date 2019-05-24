@@ -1,1 +1,0 @@
-A SWDataLabeled contains SWVector objects with labels

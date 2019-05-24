@@ -1,1 +1,0 @@
-A SWCoordinateSystem is a reference frame for chart visualizations

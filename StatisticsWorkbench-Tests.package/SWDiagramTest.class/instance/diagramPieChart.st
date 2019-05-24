@@ -1,4 +1,0 @@
-accessing
-diagramPieChart
-	
-	^ diagramPieChart

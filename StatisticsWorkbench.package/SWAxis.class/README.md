@@ -1,1 +1,0 @@
-A SWAxis represents a dimension for a vector space used by SWCoordinateSystem

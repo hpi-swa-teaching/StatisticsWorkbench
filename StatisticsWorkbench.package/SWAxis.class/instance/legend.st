@@ -1,4 +1,0 @@
-accessing
-legend
-
-	^ legend
