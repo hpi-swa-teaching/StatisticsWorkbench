@@ -12,6 +12,6 @@ baseline: spec
 				package: 'StatisticsWorkbench-Examples' with: [spec requires: #('StatisticsWorkbench-Core' 'StatisticsWorkbench-Exceptions' 'StatisticsWorkbench-Diagrams')];
 				yourself.
 			spec
-				group: 'default' with: #('StatisticsWorkbench-Core'  'StatisticsWorkbench-Exceptions');
+				group: 'default' with: #('StatisticsWorkbench-Core'  'StatisticsWorkbench-Exceptions' 'StatisticsWorkbench-Diagrams');
 				group: 'tests' with: #('StatisticsWorkbench-Tests')];
 				yourself
