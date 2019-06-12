@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"create" : "aj 7/20/2018 10:09",
-		"defaultColorArray" : "FG 5/6/2019 16:50",
+		"defaultColorArray" : "FG 6/12/2019 08:37",
 		"defaultExtent" : "aj 5/4/2018 15:45",
 		"defaultRadius" : "aj 5/4/2018 10:40",
 		"defaultWorldPosition" : "RS 7/13/2018 11:52" },
@@ -11,12 +11,15 @@
 		"addPieKey" : "RSC 6/27/2018 22:42",
 		"addPieKey:" : "aj 5/7/2018 11:37",
 		"addPieSlice:" : "MS 5/14/2018 23:22",
+		"applyTheme:" : "FG 6/12/2019 08:34",
 		"circleStartpoint" : "RS 7/13/2018 11:51",
+		"colorArray" : "js 6/11/2019 23:07",
+		"colorArray:" : "js 6/11/2019 23:07",
 		"computeRadianFrom:" : "J.R. 7/29/2017 15:57",
 		"createPieSliceFrom:with:at:colored:" : "aj 7/20/2018 11:11",
 		"endpointOf:by:" : "MS 5/14/2018 23:35",
 		"generateOuterBorderOf:with:from:" : "aj 7/20/2018 11:11",
-		"initialize" : "MS 5/14/2018 23:17",
+		"initialize" : "js 6/11/2019 23:08",
 		"needsCoordinateSystem" : "J.R. 7/29/2017 18:08",
 		"pieKey" : "J.R. 6/29/2017 12:47",
 		"pieKey:" : "J.R. 6/29/2017 12:48",
@@ -32,4 +35,4 @@
 		"startpointOf:by:" : "aj 5/30/2018 18:28",
 		"update" : "Kenneth-Schroeder 6/15/2018 12:12",
 		"updatePieKey" : "RSC 6/27/2018 22:22",
-		"updatePieSlices" : "FG 5/6/2019 16:45" } }
+		"updatePieSlices" : "js 6/12/2019 05:39" } }

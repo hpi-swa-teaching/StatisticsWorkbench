@@ -3,5 +3,5 @@ create
 	| newPieKey |
 	
 	newPieKey := SWPieKey new.
-	newPieKey key color: Color white.
+	newPieKey key color: SWPieKey defaultPieKeyBackgroundColor.
 	^ newPieKey

@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SWHPITheme",
+	"pools" : [
+		 ],
+	"super" : "SWColorTheme",
+	"type" : "normal" }

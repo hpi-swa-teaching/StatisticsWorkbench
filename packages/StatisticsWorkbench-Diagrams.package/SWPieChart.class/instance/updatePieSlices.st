@@ -7,7 +7,7 @@ updatePieSlices
 	self removeAllPieSlices.
 	self data do: [:vector | 
 		self createPieSliceFrom: vector x with: vector y at: position colored: (
-		(position > self class defaultColorArray size) 
-			ifFalse: [self class defaultColorArray at: position] 
+		(position > self colorArray size) 
+			ifFalse: [self colorArray at: position] 
 			ifTrue:[wheelColors at: position]).
 		position := position + 1]

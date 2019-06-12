@@ -11,5 +11,5 @@ createAt: startPoint xMin: xMin xMax: xMax xStep: xStep xLength: xLength yMin: y
 		position: yAxis endPoint - (boundsThreshold / 2);
 		addAxis: xAxis dimension: #x;
 		addAxis: yAxis dimension: #y;
-		color: Color white;
+		color: SWCoordinateSystem defaultColor;
 		yourself

@@ -8,7 +8,8 @@
 	"instvars" : [
 		"barColor",
 		"bars",
-		"barWidth" ],
+		"barWidth",
+		"barLabelColor" ],
 	"name" : "SWBarGraph",
 	"pools" : [
 		 ],

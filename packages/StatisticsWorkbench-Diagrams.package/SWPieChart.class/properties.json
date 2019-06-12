@@ -10,7 +10,8 @@
 		"circleStartpoint",
 		"pieKey",
 		"pieSlices",
-		"radius" ],
+		"radius",
+		"colorArray" ],
 	"name" : "SWPieChart",
 	"pools" : [
 		 ],

@@ -8,7 +8,9 @@ initialize
 		pieKeyColors: OrderedCollection new;
 		pieKeyNames: OrderedCollection new;
 		key: RectangleMorph new;
-		color: Color transparent.
+		color: Color transparent;
+		textColor: Color black.
 	
 	self addMorph: self key.
-	self key color: Color white. 
+	self pieKeyBackgroundColor: self class defaultPieKeyBackgroundColor.
+	self key color: self pieKeyBackgroundColor. 

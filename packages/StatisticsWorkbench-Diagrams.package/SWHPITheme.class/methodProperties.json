@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"axisBorderColor" : "FG 6/5/2019 08:28",
+		"axisColor" : "FG 6/5/2019 08:24",
+		"axisLineStrokeColor" : "FG 6/12/2019 08:42",
+		"axisLineTextColor" : "FG 6/5/2019 08:25",
+		"axisTextColor" : "FG 6/5/2019 08:26",
+		"backgroundColor" : "FG 6/11/2019 07:59",
+		"barColor" : "FG 6/12/2019 08:43",
+		"barGraphColor" : "FG 6/12/2019 08:40",
+		"barLabelColor" : "FG 6/12/2019 08:41",
+		"coordinateSystemColor" : "FG 6/12/2019 08:43",
+		"dataPointColor" : "FG 6/12/2019 08:41",
+		"lineChartBorderColor" : "FG 6/12/2019 08:43",
+		"lineChartColor" : "FG 6/12/2019 08:43",
+		"pieChartColorArray" : "FG 6/12/2019 08:39",
+		"windowColor" : "FG 6/5/2019 13:06" },
+	"instance" : {
+		 } }

@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FG 6/5/2019 08:03",
+	"instvars" : [
+		 ],
+	"name" : "SWColorTheme",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

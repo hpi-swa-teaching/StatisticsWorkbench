@@ -1,9 +1,10 @@
 {
 	"class" : {
 		"create" : "J.R. 7/29/2017 17:26",
-		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:boundsThreshold:" : "aj 7/20/2018 11:14",
+		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:boundsThreshold:" : "FG 6/5/2019 08:35",
 		"defaultBounds" : "RS 7/13/2018 11:48",
 		"defaultBoundsThreshold" : "FG 5/22/2019 11:30",
+		"defaultColor" : "FG 6/11/2019 08:03",
 		"defaultLength" : "aj 5/31/2018 10:08",
 		"defaultMax" : "aj 5/31/2018 10:08",
 		"defaultMin" : "aj 5/31/2018 10:09",
@@ -12,6 +13,8 @@
 	"instance" : {
 		"addAxis:dimension:" : "aj 5/30/2018 18:35",
 		"addTo:" : "J.R. 7/29/2017 17:45",
+		"applyTheme:" : "FG 6/11/2019 08:05",
+		"axisColor:" : "FG 6/5/2019 12:37",
 		"axisNames" : "aj 5/30/2018 18:35",
 		"axisNames:" : "aj 5/30/2018 18:35",
 		"boundsThreshold" : "aj 5/30/2018 18:35",
@@ -25,7 +28,7 @@
 		"positionFor:" : "J.R. 7/29/2017 17:29",
 		"removeFrom:" : "J.R. 7/29/2017 17:52",
 		"toggleRaster" : "mp 7/27/2017 19:10",
-		"update" : "Kenneth-Schroeder 6/15/2018 12:26",
+		"update" : "FG 6/11/2019 07:44",
 		"update:" : "aj 5/30/2018 18:37",
 		"updateRasterSize" : "J.R. 7/29/2017 17:29",
 		"xAxis" : "aj 5/30/2018 18:37",

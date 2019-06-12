@@ -3,6 +3,7 @@ drawKeyPointOf: aPieSlice at: aPosition
 	| keyPoint |
 	
 	keyPoint := TextMorph new.
+	keyPoint color: self textColor.
 	
 	self addKeyPoint: keyPoint.
 	self pieKeyNames add: keyPoint.

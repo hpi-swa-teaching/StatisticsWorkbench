@@ -9,4 +9,4 @@ shortenNumbers: anObject
  (number size > 6)
  ifTrue: [shortNumber := ((number copyFrom: 1 to: (number size - 6)), ',', (number copyFrom: (number size - 4) to: (number  size - 4)), 'mio') ].
 
- ^shortNumber
+ ^shortNumber asString

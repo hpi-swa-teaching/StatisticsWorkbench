@@ -9,7 +9,9 @@
 		"key",
 		"pieKeyColors",
 		"pieKeyNames",
-		"pieSlices" ],
+		"pieSlices",
+		"pieKeyBackgroundColor",
+		"textColor" ],
 	"name" : "SWPieKey",
 	"pools" : [
 		 ],
