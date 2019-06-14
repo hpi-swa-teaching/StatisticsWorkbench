@@ -1,4 +1,0 @@
-accessing
-handlesMouseDown: anEvent
-
-^true
