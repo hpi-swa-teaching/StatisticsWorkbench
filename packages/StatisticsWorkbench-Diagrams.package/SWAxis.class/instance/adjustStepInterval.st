@@ -10,7 +10,7 @@ adjustStepInterval
 		newStepInterval := (self valueRange * SWAxis minMarkerDistance / self length) ceiling].
 	
 	self markerDistance > SWAxis maxMarkerDistance ifTrue:[
-		newStepInterval := 1].
+		newStepInterval := (self valueRange * SWAxis maxMarkerDistance / self length) ceiling].
 
 	(self valueRange / newStepInterval) > SWAxis maxNumberOfMarkers ifTrue: [
 		newStepInterval := (self valueRange / SWAxis maxNumberOfMarkers) ceiling].
