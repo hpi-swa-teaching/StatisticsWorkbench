@@ -1,4 +1,4 @@
-adding/removing
+accessing
 handlesMouseDown: anEvent
 
 	^ true

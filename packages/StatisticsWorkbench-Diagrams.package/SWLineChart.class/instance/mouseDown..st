@@ -1,4 +1,5 @@
 accessing
 mouseDown: anEvent
 
-	anEvent hand waitForClicksOrDrag: self event: anEvent
+	anEvent hand waitForClicksOrDrag: self event: anEvent.
+	self update
