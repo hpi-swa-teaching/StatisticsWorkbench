@@ -1,0 +1,2 @@
+initialization
+mouseDown: anEvent

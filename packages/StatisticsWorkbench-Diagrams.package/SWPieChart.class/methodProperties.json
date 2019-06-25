@@ -16,7 +16,7 @@
 		"colorArray" : "js 6/11/2019 23:07",
 		"colorArray:" : "js 6/11/2019 23:07",
 		"computeRadianFrom:" : "J.R. 7/29/2017 15:57",
-		"createPieSliceFrom:with:at:colored:" : "aj 7/20/2018 11:11",
+		"createPieSliceFrom:at:colored:" : "FG 6/25/2019 14:55",
 		"endpointOf:by:" : "MS 5/14/2018 23:35",
 		"generateOuterBorderOf:with:from:" : "aj 7/20/2018 11:11",
 		"initialize" : "js 6/11/2019 23:08",
@@ -35,4 +35,4 @@
 		"startpointOf:by:" : "aj 5/30/2018 18:28",
 		"update" : "Kenneth-Schroeder 6/15/2018 12:12",
 		"updatePieKey" : "RSC 6/27/2018 22:22",
-		"updatePieSlices" : "js 6/12/2019 05:39" } }
+		"updatePieSlices" : "FG 6/25/2019 14:54" } }

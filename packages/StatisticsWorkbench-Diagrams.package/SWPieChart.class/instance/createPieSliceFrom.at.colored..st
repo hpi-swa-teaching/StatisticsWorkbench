@@ -1,8 +1,12 @@
 creation
-createPieSliceFrom: aKey with: aValue at: aPosition colored: aColor
-	| newPieSlice pointSet |
+createPieSliceFrom: aVector at: aPosition colored: aColor
+	| newPieSlice pointSet aKey aValue|
+	
+	aKey := aVector x.
+	aValue := aVector y.
 	
 	newPieSlice := SWPieSlice new.
+	newPieSlice date: aVector.
 	pointSet := OrderedCollection new.
 	
 	self add: newPieSlice.
