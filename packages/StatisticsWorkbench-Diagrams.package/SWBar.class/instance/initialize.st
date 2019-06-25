@@ -11,4 +11,3 @@ initialize
 	self addMorph: self rotationMorph.
 	self isLabelHorizontal: true
 	
-	

@@ -3,4 +3,7 @@
 		 },
 	"instance" : {
 		"date" : "aj 5/30/2018 18:30",
-		"date:" : "aj 5/30/2018 18:30" } }
+		"date:" : "aj 5/30/2018 18:30",
+		"doubleClick:" : "FG 6/25/2019 13:03",
+		"handlesMouseDown:" : "FG 6/25/2019 13:00",
+		"mouseDown:" : "FG 6/25/2019 13:01" } }
