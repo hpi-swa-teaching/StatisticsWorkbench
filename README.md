@@ -11,7 +11,7 @@ It offers multiple mathematical functions for finding the maximum, minimum, mean
 
 ## How to Install
 
-First install metacello using this guide. Then run the following in a workspace in your Squeak image.
+First install metacello using [this guide](https://github.com/Metacello/metacello#squeak). Then run the following in a workspace in your Squeak image.
 
 ```
 Metacello new
