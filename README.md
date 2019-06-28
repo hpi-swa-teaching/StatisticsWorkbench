@@ -13,10 +13,13 @@ It offers multiple mathematical functions for finding the maximum, minimum, mean
 
 First install metacello using this guide. Then run the following in a workspace in your Squeak image.
 
+```
 Metacello new
   baseline: 'StatisticsWorkbench';
   repository: 'github://hpi-swa-teaching/StatisticsWorkbench:dev/packages';
   load.
+``` 
+ 
 After that you are good to go.
 
 
