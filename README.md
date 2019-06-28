@@ -8,6 +8,18 @@ submission: [![Build Status](https://api.travis-ci.org/hpi-swa-teaching/Statisti
 Statistics Workbench is a tool for the visualization and analyzation of data. 
 It offers multiple mathematical functions for finding the maximum, minimum, mean, mode, maximal derivation and so on of a dataset, as well as multiple chart types, like bargraphs and piecharts.
 
+
+## How to Install
+
+First install metacello using this guide. Then run the following in a workspace in your Squeak image.
+
+Metacello new
+  baseline: 'StatisticsWorkbench';
+  repository: 'github://hpi-swa-teaching/StatisticsWorkbench:dev/packages';
+  load.
+After that you are good to go.
+
+
 ## Getting Started
 
 
