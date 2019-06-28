@@ -27,6 +27,7 @@ First you create your data with the help of our SWVector:
 
 ```
 dataString := 'x|y 1|22 2|110 3|64 4|211 5|35'.
+data := SWDataUnlabeled fromString: dataString ofDataDimension: 2.
 
 ```
 
@@ -44,10 +45,11 @@ graph := (SWDiagram new visualize: data with: SWLineChart create.)
 graph := (SWDiagram new visualize: data with: SWPieChart create.)
 ```
 
-And you can open your chart in a window with 
+And you can open your chart in a window - that can also be labelled - with 
 
 ```
-openInWindow
+graph openInWindow.
+graph openInWindowLabeled: 'My Diagram'
 ```
 
 If you want to adjust your diagram, you can do that as follows: 
@@ -58,3 +60,13 @@ graph chartsColor: Color green.
 graph axisColor: Color red.
 ```
 
+You can also choose another SWColorTheme by inspecting the diagramm and calling:
+```
+self applyColorTheme: SWDarkTheme new.
+self applyColorTheme: SWHPITheme new.
+```
+
+Furthermore, you can display the mean value of your data:
+```
+self showMean.
+```
