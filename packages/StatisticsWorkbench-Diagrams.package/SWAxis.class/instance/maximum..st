@@ -5,5 +5,5 @@ maximum: anObject
 		ifTrue: [(anObject <= self minimum)
 					ifTrue: [SWInvalidArgumentError signal]
 					ifFalse: [maximum := anObject.
-							 self update]]
+								self update]]
 		ifFalse: [maximum := anObject]

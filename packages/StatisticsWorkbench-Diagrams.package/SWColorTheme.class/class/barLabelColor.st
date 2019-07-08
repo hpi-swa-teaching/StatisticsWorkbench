@@ -1,4 +1,4 @@
 as yet unclassified
 barLabelColor
 
-	^ self subclassResponsibility
+	self subclassResponsibility

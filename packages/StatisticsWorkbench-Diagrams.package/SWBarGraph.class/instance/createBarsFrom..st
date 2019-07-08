@@ -1,6 +1,6 @@
 creation
 createBarsFrom: aSWData	
-	| xOfBar height bar|
+	| xOfBar height bar |
 	
 	self flag: #fishy.
 	

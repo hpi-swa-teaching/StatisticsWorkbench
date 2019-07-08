@@ -1,3 +1,4 @@
 as yet unclassified
 barGraphColor
+
 	self subclassResponsibility

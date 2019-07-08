@@ -1,3 +1,4 @@
 as yet unclassified
 lineChartBorderColor
+
 	self subclassResponsibility

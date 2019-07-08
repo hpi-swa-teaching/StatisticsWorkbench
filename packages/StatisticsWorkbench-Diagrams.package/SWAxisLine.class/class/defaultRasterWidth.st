@@ -1,0 +1,5 @@
+defaults
+defaultRasterWidth
+
+	^ 1
+	

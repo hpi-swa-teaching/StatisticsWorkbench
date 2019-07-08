@@ -1,4 +1,4 @@
 as yet unclassified
 windowColor
 
-	^ self subclassResponsibility
+	self subclassResponsibility

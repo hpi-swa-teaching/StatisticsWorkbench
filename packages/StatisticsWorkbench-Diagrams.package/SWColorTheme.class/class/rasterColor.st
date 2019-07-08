@@ -1,4 +1,4 @@
 as yet unclassified
-axisBorderColor
-	
+rasterColor
+
 	self subclassResponsibility
