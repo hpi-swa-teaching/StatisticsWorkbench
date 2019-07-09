@@ -1,4 +1,4 @@
 defaults
 maxMarkerDistance
 
-	^ 30
+	^ 35

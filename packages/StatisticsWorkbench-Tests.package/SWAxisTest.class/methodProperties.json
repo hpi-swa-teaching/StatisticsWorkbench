@@ -12,5 +12,6 @@
 		"testSetAxisTextColor" : "aj 7/24/2018 14:41",
 		"testSetInvalidMaxOrMin" : "aj 7/13/2018 10:48",
 		"testSetInvalidStepInterval" : "aj 7/13/2018 10:48",
-		"testShortenNumbers" : "FG 7/8/2019 17:01",
-		"testUpdateMarkers" : "aj 7/24/2018 14:30" } }
+		"testShortenNumbers" : "FG 7/9/2019 12:36",
+		"testUpdateMarkers" : "FG 7/9/2019 12:34",
+		"testadjustStepInterval" : "FG 7/9/2019 12:26" } }
