@@ -1,0 +1,1 @@
+A SWDataTest tests if the given methods on SWData work correctly.

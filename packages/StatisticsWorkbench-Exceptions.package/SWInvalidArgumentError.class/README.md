@@ -1,0 +1,1 @@
+The Error SWInvalidArgumentError comes into being when the given argument is invalid.

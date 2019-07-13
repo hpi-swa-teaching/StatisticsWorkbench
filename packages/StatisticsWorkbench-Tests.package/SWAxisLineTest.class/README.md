@@ -1,0 +1,1 @@
+A SWAxisLineTest tests if aspects of aSWaxisLine.

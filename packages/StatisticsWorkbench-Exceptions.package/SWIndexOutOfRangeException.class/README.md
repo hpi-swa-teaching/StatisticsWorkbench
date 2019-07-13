@@ -1,0 +1,1 @@
+The Exception SWIndexOutOfRange gets thrown when the given index is out of range.

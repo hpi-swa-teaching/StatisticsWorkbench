@@ -1,0 +1,1 @@
+The Exception SWDataIsNotUnambigious gets thrown when the given data is ambiguous.

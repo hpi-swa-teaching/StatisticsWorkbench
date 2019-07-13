@@ -1,0 +1,1 @@
+A SWWorkflowTest tests if aSWWorkflow works correctly.

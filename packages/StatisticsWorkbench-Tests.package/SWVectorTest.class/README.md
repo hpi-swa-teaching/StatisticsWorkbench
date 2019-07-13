@@ -1,0 +1,1 @@
+A SWVectorTest tests if aSWVector works as expected.
