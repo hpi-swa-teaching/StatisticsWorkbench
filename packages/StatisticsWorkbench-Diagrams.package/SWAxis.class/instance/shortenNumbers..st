@@ -2,9 +2,10 @@ accessing
 shortenNumbers: anObject
 
  | number shortNumber |
+
 number := anObject printString.
 shortNumber := number.
- (number size > 3) ifTrue: [
+(number size > 3) ifTrue: [
 	shortNumber := self createShortNumber: number powerOfTen: 3 abbreviation: 'K'].
 (number size > 6) ifTrue: [
 	shortNumber := self createShortNumber: number powerOfTen: 6 abbreviation: 'M'].
@@ -19,4 +20,4 @@ shortNumber := number.
 (number size > 21) ifTrue: [
 	shortNumber := self createShortNumber: number powerOfTen: 21 abbreviation: 'Sx'].
 
- ^shortNumber asString
+ ^ shortNumber asString
