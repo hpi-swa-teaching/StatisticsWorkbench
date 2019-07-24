@@ -1,6 +1,7 @@
-as yet unclassified
+defaults
 pieChartColorArray
 	| arr |
+	
 	arr := OrderedCollection new.	
 	arr add: (Color r: 39/255  g: 232/255  b: 167/255).
 	arr add: (Color r: 50/255  g: 174/255  b: 66/255).

@@ -1,4 +1,4 @@
-geometry
+visualization
 axisColor: aColor
 
 	self xAxis color: aColor.

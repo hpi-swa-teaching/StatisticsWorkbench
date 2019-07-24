@@ -1,4 +1,4 @@
-accessing
+visualization
 axis: aDimension color: aColor
 	
 	(aDimension = #x)

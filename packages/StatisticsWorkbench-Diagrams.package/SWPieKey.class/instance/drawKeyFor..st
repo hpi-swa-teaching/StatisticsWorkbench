@@ -1,13 +1,13 @@
 geometry
 drawKeyFor: aPieChart
-	| position |
+	| positionFactor |
 	
-	position := 0.5.
+	positionFactor := self class defaultKeyPositionFactor.
 	self key topLeft: aPieChart topRight.
 	self pieSlices do: [:pieSlice |
 		self 
-			drawKeyPointOf: pieSlice at: position;
-			drawColorSwatchOf: pieSlice at: position.
-		position := position + 1].
+			drawKeyPointOf: pieSlice at: positionFactor;
+			drawColorSwatchOf: pieSlice at: positionFactor.
+			positionFactor := positionFactor + 1].
 	
 	self key extent: self computeKeyExtent

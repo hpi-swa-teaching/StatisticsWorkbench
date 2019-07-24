@@ -3,7 +3,7 @@ createMarkerAtIndex: aIndex
 	| orientation | 
 			
 	(self orientation = #horizontal)
-		ifTrue: [	orientation := #vertical]
+		ifTrue: [orientation := #vertical]
 		ifFalse: [orientation := #horizontal].
 	 
 	^ SWAxisLine 	

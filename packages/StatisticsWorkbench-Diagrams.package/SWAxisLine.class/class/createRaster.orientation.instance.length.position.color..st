@@ -3,7 +3,7 @@ createRaster: aBoolean orientation: anOrientation instance: instance length: aLe
 
 	aBoolean ifTrue:[
 		(anOrientation = #horizontal)
-			ifTrue: [	instance rasterMorph: (LineMorph
+			ifTrue: [instance rasterMorph: (LineMorph
 						from: aPosition
 						to: aPosition + (aLength @ 0)
 						color: SWAxisLine defaultRasterColor

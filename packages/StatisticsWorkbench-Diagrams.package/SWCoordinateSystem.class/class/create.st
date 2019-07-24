@@ -1,8 +1,6 @@
 instance creation
 create
-	"set default bounds"
 	
-	self flag: #fishy.
 	^ SWCoordinateSystem createAt: self defaultStartPoint 
 									xMin: self defaultMin 
 									xMax: self defaultMax 

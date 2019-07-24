@@ -2,7 +2,7 @@ initialization
 initialize
 	| labelOffset |
 	
-	labelOffset := (3 @ 5).
+	labelOffset := self defaultLabelOffset.
 	super initialize.
 	self barLabelMorph: TextMorph new.
 	self barLabelMorph center: self barLabelMorph center + labelOffset.

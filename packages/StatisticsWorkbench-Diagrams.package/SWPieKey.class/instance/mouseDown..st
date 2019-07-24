@@ -1,2 +1,0 @@
-initialization
-mouseDown: anEvent

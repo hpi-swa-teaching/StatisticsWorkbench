@@ -1,4 +1,4 @@
 testing
 hasChart
 
-	^ self charts size > 0
+	^ self charts notEmpty

@@ -1,4 +1,4 @@
-updating
+visualization
 toggleRaster
 
 	self xAxis toggleRaster.

@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 backgroundColor
 
 	^ Color white

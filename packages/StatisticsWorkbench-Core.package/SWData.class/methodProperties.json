@@ -1,13 +1,13 @@
 {
 	"class" : {
 		"create" : "aj 5/30/2018 17:51",
-		"fromString:ofDataDimension:" : "aj 7/6/2018 14:57",
+		"fromString:ofDataDimension:" : "FG 7/24/2019 10:33",
 		"mathFunctions" : "Kenneth-Schroeder 6/28/2018 18:48",
 		"processStringData:ofDataDimension:" : "Kenneth-Schroeder 6/27/2018 14:14" },
 	"instance" : {
 		"add:" : "FG 7/5/2019 10:08",
 		"addMany:" : "aj 5/30/2018 17:42",
-		"addVector:" : "FG 7/5/2019 10:21",
+		"addVector:" : "FG 7/24/2019 10:22",
 		"allDerivations:" : "aj 5/30/2018 17:48",
 		"allDifferences:" : "aj 7/6/2018 12:19",
 		"asString" : "aj 7/6/2018 10:51",

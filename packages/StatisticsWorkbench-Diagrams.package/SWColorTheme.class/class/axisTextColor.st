@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 axisTextColor
 
 	self subclassResponsibility

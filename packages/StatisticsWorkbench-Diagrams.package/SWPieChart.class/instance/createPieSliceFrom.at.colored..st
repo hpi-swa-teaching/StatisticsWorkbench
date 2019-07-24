@@ -1,6 +1,6 @@
 creation
 createPieSliceFrom: aVector at: aPosition colored: aColor
-	| newPieSlice pointSet aKey aValue|
+	| newPieSlice pointSet aKey aValue |
 	
 	aKey := aVector x.
 	aValue := aVector y.

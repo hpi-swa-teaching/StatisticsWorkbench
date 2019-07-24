@@ -1,5 +1,5 @@
 geometry
-drawColorSwatchOf: aPieslice at: aPosition
+drawColorSwatchOf: aPieslice at: aPositionFactor
 	| colorSwatch |
 	
 	colorSwatch := RectangleMorph new.
@@ -9,5 +9,5 @@ drawColorSwatchOf: aPieslice at: aPosition
 	
 	colorSwatch 
 			color: aPieslice slice color;
-			position: self key position + (self class defaultMargin @ (aPosition * self class defaultKeyPointHeight));
+			position: self key position + (self class defaultMargin @ (aPositionFactor * self class defaultKeyPointHeight));
 			extent: self class defaultColorSwatchExtent

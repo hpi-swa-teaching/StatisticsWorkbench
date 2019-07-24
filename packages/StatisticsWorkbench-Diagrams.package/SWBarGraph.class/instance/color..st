@@ -1,4 +1,4 @@
-accessing
+visualization
 color: aColor
 
 	self barColor: aColor.

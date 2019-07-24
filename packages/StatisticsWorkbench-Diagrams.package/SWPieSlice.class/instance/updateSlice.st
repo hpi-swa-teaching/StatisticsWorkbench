@@ -1,4 +1,4 @@
-geometry
+updating
 updateSlice
 	
 	self slice setVertices: self 

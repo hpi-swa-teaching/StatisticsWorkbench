@@ -1,5 +1,5 @@
 geometry
-drawKeyPointOf: aPieSlice at: aPosition
+drawKeyPointOf: aPieSlice at: aPositionFactor
 	| keyPoint |
 	
 	keyPoint := TextMorph new.
@@ -10,4 +10,4 @@ drawKeyPointOf: aPieSlice at: aPosition
 	
 	keyPoint 
 		contents: aPieSlice name asString;
-		position: self key position + (self class defaultMargin * 2.5 @ (aPosition * self class defaultKeyPointHeight))
+		position: self key position + (self class defaultKeyTextMargin @ (aPositionFactor * self class defaultKeyPointHeight))

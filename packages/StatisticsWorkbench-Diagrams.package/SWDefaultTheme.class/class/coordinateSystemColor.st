@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 coordinateSystemColor
 
-		^ Color white
+	^ Color white

@@ -1,4 +1,4 @@
-as yet unclassified
+defaults
 barColor
 
-	^ Color r: 86/255  g: 180/255  b: 233/255 "light blue"
+	^ Color r: 86/255  g: 180/255  b: 233/255

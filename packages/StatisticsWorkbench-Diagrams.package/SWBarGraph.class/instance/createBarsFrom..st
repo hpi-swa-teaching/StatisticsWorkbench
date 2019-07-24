@@ -2,8 +2,6 @@ creation
 createBarsFrom: aSWData	
 	| xOfBar height bar |
 	
-	self flag: #fishy.
-	
 	aSWData do: [:vector |
 		xOfBar := self barPositionFor: vector x.
 		height := self barBottom - (self coordinateSystem positionFor: (0 @ vector y)) y.

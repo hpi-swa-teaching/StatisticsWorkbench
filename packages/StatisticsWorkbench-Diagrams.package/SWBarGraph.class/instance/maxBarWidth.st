@@ -1,4 +1,4 @@
-accessing
+geometry
 maxBarWidth
 	| calculatetMaxBarWidth differenceCollection first maxSizeFactor |
 	

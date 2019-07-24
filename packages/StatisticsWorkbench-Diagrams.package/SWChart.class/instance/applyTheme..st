@@ -1,4 +1,4 @@
-accessing
+visualization
 applyTheme: aColorTheme
 	
 	self subclassResponsibility

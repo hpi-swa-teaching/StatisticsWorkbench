@@ -1,5 +1,6 @@
-adding/removing
+event handling
 doubleClick: anEvent
-	| e |
-	e := ToolBuilder build: (ObjectExplorer explore: self data).
-	e openInHand
+	| explorer |
+	
+	explorer := ToolBuilder build: (ObjectExplorer explore: self data).
+	explorer openInHand

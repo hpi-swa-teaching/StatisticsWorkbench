@@ -1,4 +1,4 @@
-geometry
+visualization
 visualize: aSWData with: aChart 
 	
 	(aChart needsCoordinateSystem and: [self hasCoordinateSystem not])
