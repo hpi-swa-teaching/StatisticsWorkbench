@@ -2,7 +2,6 @@ initialization
 initialize
 
 	super initialize.
-	self 
-		color: MenuMorph menuColor; 
+	self
 		charts: OrderedCollection new;
 		applyColorTheme: SWDefaultTheme new.
