@@ -1,3 +1,4 @@
+
 # Statistics Workbench
 
 dev: [![Build Status](https://api.travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench) 
@@ -84,4 +85,3 @@ self applyColorTheme: SWHPITheme new.
 Furthermore, you can display the mean value of your data:
 ```
 self showMean.
-```
