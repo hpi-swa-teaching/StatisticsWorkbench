@@ -9,7 +9,7 @@ Statistics Workbench is a tool for the visualization and analyzation of data.
 It offers multiple mathematical functions for finding the maximum, minimum, mean, mode, maximal derivation and so on of a dataset, as well as multiple chart types, like bargraphs and piecharts.
 
 
-## How to Install
+## Installation
 
 First install metacello using [this guide](https://github.com/Metacello/metacello#squeak). Then run the following in a workspace in your Squeak image.
 
@@ -23,7 +23,7 @@ Metacello new
 After that you are good to go.
 
 
-## Getting Started
+## Usage
 
 
 We created multiple examples, in order to get you started with our project.
