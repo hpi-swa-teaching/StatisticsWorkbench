@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"create:" : "Kenneth-Schroeder 5/30/2018 09:55",
+		"fromArray:" : "aj 6/28/2018 09:34",
+		"fromPoint:" : "Kenneth-Schroeder 5/30/2018 09:55" },
+	"instance" : {
+		"<" : "aj 6/15/2018 11:26",
+		"<=" : "aj 5/30/2018 17:55",
+		"=" : "Kenneth-Schroeder 6/14/2018 14:11",
+		">" : "Kenneth-Schroeder 5/30/2018 09:51",
+		">=" : "Kenneth-Schroeder 5/30/2018 09:51",
+		"addToSWData:" : "aj 5/30/2018 17:55",
+		"asPoint" : "RS 7/13/2018 11:54",
+		"at:put:" : "FG 7/5/2019 10:32",
+		"dimensions" : "aj 5/30/2018 17:55",
+		"hasSameLabelName:" : "Kenneth-Schroeder 6/14/2018 14:02",
+		"labelName" : "aj 6/15/2018 11:27",
+		"labelName:" : "aj 6/15/2018 11:27",
+		"x" : "aj 5/30/2018 17:55",
+		"y" : "aj 5/30/2018 17:54" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cm 7/13/2019 15:03",
+	"instvars" : [
+		 ],
+	"name" : "SWInvalidArgumentError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

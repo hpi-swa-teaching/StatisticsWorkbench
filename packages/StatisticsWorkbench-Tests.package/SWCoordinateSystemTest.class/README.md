@@ -1,0 +1,1 @@
+A SWCoordinateSystemTest tests if aSWCoordinateSystem is created correctly.

@@ -1,0 +1,1 @@
+A SWAxisTest tests if aSWAxis works correctly and if the markers are right.

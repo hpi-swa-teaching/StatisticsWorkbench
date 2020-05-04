@@ -1,0 +1,4 @@
+defaults
+rasterColor
+
+	^ Color gray

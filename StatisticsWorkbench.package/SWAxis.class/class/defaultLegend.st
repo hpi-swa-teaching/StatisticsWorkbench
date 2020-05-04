@@ -1,3 +1,0 @@
-defaults
-defaultLegend
-	^'test123'.

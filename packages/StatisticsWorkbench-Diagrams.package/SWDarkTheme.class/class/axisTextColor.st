@@ -1,0 +1,4 @@
+defaults
+axisTextColor
+
+	^ Color black

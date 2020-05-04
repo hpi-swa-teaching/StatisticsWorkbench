@@ -1,35 +1,87 @@
-# SWT18-Project-17 [![Build Status](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=master)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench)
 
-Statistics Workbench
+# Statistics Workbench
+
+dev: [![Build Status](https://api.travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench) 
+submission: [![Build Status](https://api.travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=submission)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench) 
+
+(SWT20-Project-05)
+
+Statistics Workbench is a tool for the visualization and analyzation of data. 
+It offers multiple mathematical functions for finding the maximum, minimum, mean, mode, maximal derivation and so on of a dataset, as well as multiple chart types, like bargraphs and piecharts.
+
+
+## Installation
+
+First install metacello using [this guide](https://github.com/Metacello/metacello#squeak). Then run the following in a workspace in your Squeak image.
+
+```
+Metacello new
+  baseline: 'StatisticsWorkbench';
+  repository: 'github://hpi-swa-teaching/StatisticsWorkbench:dev/packages';
+  load.
+``` 
+ 
+After that you are good to go.
+
 
 ## Usage
 
-Create data or use example data "seeded2" with...
 
-```Smalltalk
-dataset := SWDataTests createSeeded2.
-````
+We created multiple examples, in order to get you started with our project.
+You can find them in the StatisticsWorkbench-Examples package.
+They can be used by calling:
+```
+[ExampleName] open.
+```
+E.g.
+```
+SWCreateChartExample open.
+```
+If you want to create your own diagramm, based on your data, you can do that as follows: 
 
-... then display data with a scatter plot (class SWScatterPlot) or bar chart (class SWBarGraph) or function graph (class SWLineChart) or pie chart (class SWPieChart) with... 
+First you create your data with the help of our SWVector:
 
-```Smalltalk
-(SWDiagram new visualize: dataset with: SWScatterPlot) openInWorld 
+```
+dataString := 'x|y 1|22 2|110 3|64 4|211 5|35'.
+data := SWDataUnlabeled fromString: dataString ofDataDimension: 2.
+
 ```
 
-... or display data with multiple plots by using following code..
+Then, you can set the dimensions.
 
-```Smalltalk
-(SWDiagram new visualize: dataset with: SWScatterPlot create and: SWLineChart) openInWorld 
+```
+data setAllDimensionNames: #('City' 'PopulationInThousands').
+
+```
+Afterwards you can visualize it as LineGraph/BarChart/PieChart/etc:
+
+```
+graph := (SWDiagram new visualize: data with: SWBarGraph create.) 
+graph := (SWDiagram new visualize: data with: SWLineChart create.)
+graph := (SWDiagram new visualize: data with: SWPieChart create.)
 ```
 
-Manipulate dataset individually by adding data point with:
+And you can open your chart in a window - that can also be labelled - with 
 
-```Smalltalk
-dataset add: #(70 30).
+```
+graph openInWindow.
+graph openInWindowLabeled: 'My Diagram'
 ```
 
-... or deleting datapoints with...
+If you want to adjust your diagram, you can do that as follows: 
 
-```Smalltalk
-dataset remove: #(70 30).
 ```
+(graph charts first) barWidth: 40.
+graph chartsColor: Color green.
+graph axisColor: Color red.
+```
+
+You can also choose another SWColorTheme by inspecting the diagramm and calling:
+```
+self applyColorTheme: SWDarkTheme new.
+self applyColorTheme: SWHPITheme new.
+```
+
+Furthermore, you can display the mean value of your data:
+```
+self showMean.

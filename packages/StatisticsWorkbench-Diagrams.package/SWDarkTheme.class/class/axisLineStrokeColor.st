@@ -1,0 +1,4 @@
+defaults
+axisLineStrokeColor
+
+	^ Color green

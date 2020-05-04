@@ -1,0 +1,1 @@
+The Error SWInvalidDimensionError comes into being when the given dimension is invalid.

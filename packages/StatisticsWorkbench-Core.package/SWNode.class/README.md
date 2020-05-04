@@ -1,0 +1,1 @@
+A SWNode caches the result of its set instruction 

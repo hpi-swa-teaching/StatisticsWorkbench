@@ -1,0 +1,1 @@
+A SWdiagramTest tests if aSWDiagramm works as expected.

@@ -1,0 +1,4 @@
+defaults
+windowColor
+
+	^ Color black

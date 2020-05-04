@@ -1,4 +1,0 @@
-nil
-create
-	^ SWBarGraph new
-	

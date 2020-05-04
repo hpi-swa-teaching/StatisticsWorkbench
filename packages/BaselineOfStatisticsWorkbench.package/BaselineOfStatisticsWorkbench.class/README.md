@@ -1,0 +1,1 @@
+This class is the Baseline of the StatisticsWorkbench.

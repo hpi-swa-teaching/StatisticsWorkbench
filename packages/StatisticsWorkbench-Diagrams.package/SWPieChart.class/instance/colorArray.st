@@ -1,0 +1,4 @@
+accessing
+colorArray
+
+	^ colorArray

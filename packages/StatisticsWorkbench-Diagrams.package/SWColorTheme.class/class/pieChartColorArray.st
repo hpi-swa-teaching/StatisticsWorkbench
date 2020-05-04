@@ -1,0 +1,4 @@
+defaults
+pieChartColorArray
+
+	self subclassResponsibility

@@ -1,0 +1,1 @@
+A SWNodeTest checks if aSWNode works correctly.

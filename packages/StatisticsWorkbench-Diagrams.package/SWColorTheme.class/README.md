@@ -1,0 +1,1 @@
+SWColorTheme is a dictionary of preferred diagram colors.

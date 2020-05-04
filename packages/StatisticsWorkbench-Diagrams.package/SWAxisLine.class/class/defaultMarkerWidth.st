@@ -1,0 +1,5 @@
+defaults
+defaultMarkerWidth
+
+	^ 1
+	

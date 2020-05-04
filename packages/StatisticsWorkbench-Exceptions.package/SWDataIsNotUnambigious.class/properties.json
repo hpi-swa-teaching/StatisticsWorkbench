@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cm 7/13/2019 15:01",
+	"instvars" : [
+		 ],
+	"name" : "SWDataIsNotUnambigious",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

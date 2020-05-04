@@ -1,0 +1,17 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cm 7/13/2019 14:57",
+	"instvars" : [
+		"vector1",
+		"vector2",
+		"vector3",
+		"vector4" ],
+	"name" : "SWVectorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

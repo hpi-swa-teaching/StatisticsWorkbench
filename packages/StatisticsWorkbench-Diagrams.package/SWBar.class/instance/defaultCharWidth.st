@@ -1,0 +1,4 @@
+defaults
+defaultCharWidth
+
+	^ 10

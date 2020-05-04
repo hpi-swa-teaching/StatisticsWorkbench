@@ -1,0 +1,16 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cm 7/13/2019 14:55",
+	"instvars" : [
+		"data",
+		"diagram",
+		"lineChart" ],
+	"name" : "SWLineChartTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

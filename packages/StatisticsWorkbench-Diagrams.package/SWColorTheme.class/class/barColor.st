@@ -1,0 +1,4 @@
+defaults
+barColor
+
+	self subclassResponsibility

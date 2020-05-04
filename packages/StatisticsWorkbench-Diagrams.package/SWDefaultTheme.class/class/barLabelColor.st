@@ -1,0 +1,4 @@
+defaults
+barLabelColor
+
+	^ Color black

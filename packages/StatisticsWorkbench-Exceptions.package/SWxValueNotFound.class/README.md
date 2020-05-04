@@ -1,0 +1,1 @@
+The Error SWxValueNotFound comes into being when an xValue is needed but not found.

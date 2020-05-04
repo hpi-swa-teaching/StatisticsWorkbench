@@ -1,0 +1,4 @@
+defaults
+lineChartColor
+
+	self subclassResponsibility

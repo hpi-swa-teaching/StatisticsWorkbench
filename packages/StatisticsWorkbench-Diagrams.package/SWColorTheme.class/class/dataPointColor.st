@@ -1,0 +1,4 @@
+defaults
+dataPointColor
+
+	self subclassResponsibility

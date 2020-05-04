@@ -1,0 +1,4 @@
+comparing
+>= anotherSWVector
+	
+	^ anotherSWVector <= self

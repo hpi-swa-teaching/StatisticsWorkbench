@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cm 7/13/2019 14:51",
+	"instvars" : [
+		 ],
+	"name" : "SWAxisTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

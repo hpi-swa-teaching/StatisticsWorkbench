@@ -1,0 +1,17 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cm 7/13/2019 14:57",
+	"instvars" : [
+		"node1",
+		"node2",
+		"node3",
+		"workflow" ],
+	"name" : "SWWorkflowTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
