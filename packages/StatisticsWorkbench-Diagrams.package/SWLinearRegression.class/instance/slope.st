@@ -1,0 +1,3 @@
+accessing
+slope
+	^ slope
