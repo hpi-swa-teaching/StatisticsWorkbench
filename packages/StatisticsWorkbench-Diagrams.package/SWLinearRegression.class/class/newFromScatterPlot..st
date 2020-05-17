@@ -1,5 +1,5 @@
 as yet unclassified
-newFrom: aScatterPlot
+newFromScatterPlot: aScatterPlot
 	| data xValues yValues |
 	data := aScatterPlot data.
 	xValues := OrderedCollection new.
