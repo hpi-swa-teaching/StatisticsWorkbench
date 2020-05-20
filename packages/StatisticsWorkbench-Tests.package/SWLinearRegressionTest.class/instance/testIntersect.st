@@ -7,4 +7,4 @@ testIntersect
 	
 	xValues := self mediumData first.
 	yValues := self mediumData second.
-	self assert: 83.29061 equals: (linearRegression calculateIntersectFromXValues: xValues andYValues: yValues)
+	self assert: 3081.5581 equals: (linearRegression calculateIntersectFromXValues: xValues andYValues: yValues)

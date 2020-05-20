@@ -7,4 +7,4 @@ testSlope
 	
 	xValues := self mediumData first.
 	yValues := self mediumData second.
-	self assert: 0.0025 equals: (linearRegression calculateSlopeFromXValues: xValues andYValues: yValues) 
+	self assert: -2.78052 equals: (linearRegression calculateSlopeFromXValues: xValues andYValues: yValues) 

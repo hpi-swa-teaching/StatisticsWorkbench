@@ -6,3 +6,5 @@ plotRange: anInterval
 		add: {anInterval min . self predict: anInterval min};
 		add: {anInterval max . self predict: anInterval max};
 		yourself.
+		
+	self plot: data.
