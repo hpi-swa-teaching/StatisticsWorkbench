@@ -1,4 +1,4 @@
-accessing
+initialization
 initializeFromXValues: xCollection andYValues: yCollection
 	
 	| lowerX higherX |
@@ -8,4 +8,4 @@ initializeFromXValues: xCollection andYValues: yCollection
 	lowerX := xCollection min.
 	higherX := xCollection max.
 	
-	self plotRange: (lowerX to: higherX)
+	self plotrange: (lowerX to: higherX)

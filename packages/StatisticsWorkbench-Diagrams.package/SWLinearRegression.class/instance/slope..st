@@ -1,3 +1,3 @@
 accessing
-slope: anObject
-	slope := anObject
+slope: aNumber
+	slope := aNumber

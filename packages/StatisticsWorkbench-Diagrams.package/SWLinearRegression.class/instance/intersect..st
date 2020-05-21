@@ -1,3 +1,3 @@
 accessing
-intersect: anObject
-	intersect := anObject
+intersect: aNumber
+	intersect := aNumber

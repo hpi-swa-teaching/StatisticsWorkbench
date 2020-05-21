@@ -1,2 +1,2 @@
-accessing
+initialization
 initialize
