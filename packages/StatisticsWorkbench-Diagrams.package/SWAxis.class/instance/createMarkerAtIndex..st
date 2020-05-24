@@ -6,7 +6,7 @@ createMarkerAtIndex: aIndex
 		ifTrue: [orientation := #vertical]
 		ifFalse: [orientation := #horizontal].
 	 
-	^ SWAxisLine 	
+	^ SWAxisMarker 	
 			create: (self newMarkerPosition: aIndex)
 			orientation: orientation
 			caption: (self shortenNumbers: (self minimum + (aIndex * self stepInterval)))

@@ -32,7 +32,9 @@
 		"toggleRaster" : "aj 5/30/2018 18:40",
 		"updateCharts" : "FG 6/11/2019 07:58",
 		"updateColors" : "FG 6/5/2019 13:35",
-		"updateCoordinateSystem" : "FG 7/24/2019 11:18",
+		"updateCoordinateSystem" : "jk 5/24/2020 11:25",
+		"updateMaximumValuesWithAxisNames:" : "jk 5/24/2020 11:27",
+		"updateMinimumValuesWithAxisNames:" : "jk 5/24/2020 11:28",
 		"visualize:and:with:and:" : "FG 5/21/2019 08:23",
 		"visualize:with:" : "aj 6/15/2018 12:25",
 		"visualize:with:and:" : "aj 5/30/2018 18:42" } }
