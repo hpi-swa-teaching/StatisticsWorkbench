@@ -1,5 +1,7 @@
 as yet unclassified
-newFromXValues: xCollection andYValues: yCollection 
+newFromXValues: xValues andYValues: yValues 
+
 	^ SWLinearRegression new 
-		 initializeFromXValues: xCollection andYValues: yCollection;
+		 initializeFromXValues: xValues andYValues: yValues;
 		 yourself
+		

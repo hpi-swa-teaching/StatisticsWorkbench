@@ -1,4 +1,5 @@
 calculation
-calculateIntersectFromXValues: xCollection andYValues: yCollection
+calculateIntersectFromXValues: xValues andYValues: yValues
  
-	^(self calculateMean: yCollection) - ((self calculateSlopeFromXValues: xCollection andYValues: yCollection ) * (self calculateMean: xCollection)).
+	^ (self calculateMean: yValues) - ((self calculateSlopeFromXValues: xValues andYValues: yValues ) * (self calculateMean: xValues)).
+	

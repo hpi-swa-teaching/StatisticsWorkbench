@@ -3,12 +3,12 @@
 		 },
 	"instance" : {
 		"easyData" : "jvm 5/21/2020 14:12",
-		"executeTest:" : "jvm 5/21/2020 19:59",
-		"hardData" : "jvm 5/21/2020 19:52",
-		"linearRegression" : "sjs 5/17/2020 10:25",
-		"linearRegression:" : "sjs 5/17/2020 10:25",
-		"mediumData" : "jvm 5/21/2020 15:51",
-		"testEasyData" : "jvm 5/21/2020 19:55",
-		"testHardData" : "jvm 5/21/2020 20:01",
-		"testMediumData" : "jvm 5/21/2020 20:02",
-		"tolerance" : "jvm 5/21/2020 14:15" } }
+		"executeTest:" : "sjs 5/25/2020 11:20",
+		"hardData" : "sjs 5/25/2020 11:20",
+		"linearRegression" : "sjs 5/25/2020 11:21",
+		"linearRegression:" : "sjs 5/25/2020 11:21",
+		"mediumData" : "sjs 5/25/2020 11:22",
+		"testEasyData" : "sjs 5/25/2020 11:22",
+		"testHardData" : "sjs 5/25/2020 11:22",
+		"testMediumData" : "sjs 5/25/2020 11:22",
+		"tolerance" : "sjs 5/25/2020 11:22" } }

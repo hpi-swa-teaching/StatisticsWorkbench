@@ -1,11 +1,11 @@
 initialization
-initializeFromXValues: xCollection andYValues: yCollection
+initializeFromXValues: xValues andYValues: yValues
 	
 	| lowerX higherX |
-	self slope: (self calculateSlopeFromXValues: xCollection andYValues: yCollection).
-	self intersect: (self calculateIntersectFromXValues: xCollection andYValues: yCollection).
+	self slope: (self calculateSlopeFromXValues: xValues andYValues: yValues).
+	self intersect: (self calculateIntersectFromXValues: xValues andYValues: yValues).
 
-	lowerX := xCollection min.
-	higherX := xCollection max.
+	lowerX := xValues min.
+	higherX := xValues max.
 	
-	self plotrange: (lowerX to: higherX)
+	self plotrange: (lowerX to: higherX).

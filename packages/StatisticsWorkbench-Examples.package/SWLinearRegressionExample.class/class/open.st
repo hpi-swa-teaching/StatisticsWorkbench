@@ -1,6 +1,7 @@
 as yet unclassified
 open
-	| data graph window scatterPlot|
+
+	| data graph linearRegression scatterPlot|
 	
 	data := SWDataUnlabeled create     
 		add: #(1 22);
@@ -10,10 +11,12 @@ open
 		add: #(5 35);
 		yourself.
 		
-	graph := (SWDiagram new visualize: data with: SWScatterPlot create).
-	graph	 openInWindow.
+	graph := (SWDiagram new visualize: data with: SWScatterPlot create)
+		openInWindow;
+		yourself.
 	
 	scatterPlot :=  graph submorphs at: 1.
-	window := SWLinearRegression newFromScatterPlot: scatterPlot.
+	linearRegression := SWLinearRegression newFromScatterPlot: scatterPlot.
 	
-	^ window
+	^ linearRegression plot
+	

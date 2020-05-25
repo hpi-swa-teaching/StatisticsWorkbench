@@ -1,23 +1,25 @@
 calculation
-calculateCorrelationFromXValues: xCollection andYValues: yCollection 
-	| meanX stddevX meanY stddevY sum |
+calculateCorrelationFromXValues: xValues andYValues: yValues
+
+	| meanX standardDeviationX meanY standardDeviationY sum |
 	
-	meanX := self calculateMean: xCollection.
-	meanY := self calculateMean: yCollection.
-	stddevX := self calculateStandardDeviation: xCollection.
-	stddevY := self calculateStandardDeviation: yCollection.
+	meanX := self calculateMean: xValues.
+	meanY := self calculateMean: yValues.
+	standardDeviationX := self calculateStandardDeviation: xValues.
+	standardDeviationY := self calculateStandardDeviation: yValues.
 	
-	(stddevX = 0 and: stddevY) = 0 
+	(standardDeviationX = 0 and: standardDeviationY = 0)
 		ifTrue: [^ 0].
 	
 	sum := 0.
-	(1 to: xCollection size)
+	(1 to: xValues size)
 		do: [:i | 
 			| demeanX demeanY |
-			demeanX := (xCollection at: i) - meanX.
-			demeanY := (yCollection at: i) - meanY.
+			demeanX := (xValues at: i) - meanX.
+			demeanY := (yValues at: i) - meanY.
 			sum := sum + (demeanX * demeanY)
 		].
 	
-	sum := sum / (stddevX * stddevY).
-	^ sum / (xCollection size)
+	sum := sum / (standardDeviationX * standardDeviationY).
+	^ sum / (xValues size)
+	

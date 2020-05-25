@@ -1,3 +1,5 @@
 calculation
-calculateSlopeFromXValues: xCollection andYValues: yCollection
-	^ (self calculateCorrelationFromXValues: xCollection andYValues: yCollection) * (self calculateStandardDeviation: yCollection) / (self calculateStandardDeviation: xCollection)
+calculateSlopeFromXValues: xValues andYValues: yValues
+
+	^ (self calculateCorrelationFromXValues: xValues andYValues: yValues) * (self calculateStandardDeviation: yValues) / (self calculateStandardDeviation: xValues)
+	

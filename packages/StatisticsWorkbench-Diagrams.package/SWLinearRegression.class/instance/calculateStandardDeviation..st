@@ -1,7 +1,9 @@
 calculation
-calculateStandardDeviation: anOrderedCollection
+calculateStandardDeviation: valuesCollection
+
 	| sum mean |
-	mean := self calculateMean: anOrderedCollection.
-	sum := anOrderedCollection inject: 0 into: [:agg :current | agg := agg + ((current - mean) squared)].
-	^ (sum / anOrderedCollection size) sqrt
 	
+	mean := self calculateMean: valuesCollection.
+	sum := valuesCollection inject: 0 into: [:agg :current | agg := agg + ((current - mean) squared)].
+	^ (sum / valuesCollection size) sqrt
+		

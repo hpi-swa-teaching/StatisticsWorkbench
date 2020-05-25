@@ -1,4 +1,5 @@
 calculation
 calculateMean: anOrderedCollection
 	
-	^ anOrderedCollection sum / anOrderedCollection size 
+	^ anOrderedCollection sum / anOrderedCollection size
+	
