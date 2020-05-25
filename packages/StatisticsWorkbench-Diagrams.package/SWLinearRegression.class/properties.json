@@ -1,0 +1,16 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"slope",
+		"intersect",
+		"plotrange" ],
+	"name" : "SWLinearRegression",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
