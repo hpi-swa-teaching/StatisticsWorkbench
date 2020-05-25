@@ -5,7 +5,6 @@ SmalltalkCISpec {
       #directory : 'packages',
       #platforms : [ #squeak ],
       #load : [ 'tests' ],
-      #useLatestMetacello : true
     }
   ]
 }
