@@ -1,0 +1,17 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"easyData",
+		"mediumData",
+		"hardData",
+		"linearRegression" ],
+	"name" : "SWLinearRegressionTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
