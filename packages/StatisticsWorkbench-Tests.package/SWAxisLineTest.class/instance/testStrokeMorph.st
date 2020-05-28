@@ -4,7 +4,6 @@ testStrokeMorph
 	
 	axisLine := SWAxisMarker create.
 	
-	self assert: #true equals: #false.
 	self assert: axisLine strokeMorph notNil.
 	
 	self assert: 10 equals: axisLine strokeMorph totalLength.
