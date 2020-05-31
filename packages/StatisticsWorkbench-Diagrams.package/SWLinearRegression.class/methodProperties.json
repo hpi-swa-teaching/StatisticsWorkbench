@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"newFrom:" : "sjs 5/25/2020 11:06",
-		"newFromScatterPlot:" : "sjs 5/25/2020 11:06",
+		"newFromScatterPlot:" : "sjs 5/31/2020 11:11",
+		"newFromScatterPlot:plotOn:" : "sjs 5/31/2020 11:25",
 		"newFromXValues:andYValues:" : "sjs 5/25/2020 11:07" },
 	"instance" : {
 		"calculateCorrelationFromXValues:andYValues:" : "sjs 5/25/2020 11:29",
@@ -9,11 +10,12 @@
 		"calculateMean:" : "sjs 5/25/2020 11:09",
 		"calculateSlopeFromXValues:andYValues:" : "sjs 5/25/2020 11:10",
 		"calculateStandardDeviation:" : "sjs 5/25/2020 11:32",
+		"data" : "sjs 5/31/2020 11:19",
 		"initialize" : "sjs 5/11/2020 17:29",
 		"initializeFromXValues:andYValues:" : "sjs 5/25/2020 11:24",
 		"intersect" : "sjs 5/25/2020 11:11",
 		"intersect:" : "sjs 5/25/2020 11:11",
-		"plot" : "jvm 5/21/2020 14:28",
+		"plotOn:" : "sjs 5/31/2020 11:19",
 		"plotrange" : "sjs 5/25/2020 11:11",
 		"plotrange:" : "sjs 5/25/2020 11:11",
 		"predict:" : "sjs 5/25/2020 11:11",
