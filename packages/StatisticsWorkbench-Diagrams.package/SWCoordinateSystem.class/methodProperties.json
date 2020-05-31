@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"create" : "FG 7/24/2019 10:30",
-		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:boundsThreshold:" : "FG 6/5/2019 08:35",
+		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:boundsThreshold:" : "jk 5/30/2020 16:06",
 		"defaultBounds" : "RS 7/13/2018 11:48",
 		"defaultBoundsThreshold" : "FG 5/22/2019 11:30",
 		"defaultColor" : "FG 6/11/2019 08:03",
@@ -22,10 +22,10 @@
 		"calculateXCoordinateForPoint:" : "aj 6/15/2018 12:18",
 		"calculateYCoordinateForPoint:" : "aj 6/15/2018 12:21",
 		"defaultAxisValuePaddingFactor" : "FG 7/24/2019 11:11",
-		"extent:" : "aj 5/30/2018 19:16",
+		"extent:" : "jk 5/30/2020 16:50",
 		"initialize" : "Kenneth-Schroeder 6/15/2018 10:25",
 		"newLengthAfterExtent:forAxis:" : "aj 6/15/2018 12:36",
-		"newXAxisHeightAfterExtent:" : "RS 7/13/2018 11:45",
+		"newXAxisHeightAfterExtent:" : "jk 5/30/2020 16:51",
 		"positionFor:" : "J.R. 7/29/2017 17:29",
 		"removeFrom:" : "J.R. 7/29/2017 17:52",
 		"setAxisPadding" : "FG 7/24/2019 11:18",
