@@ -16,7 +16,4 @@ open
 		yourself.
 	
 	scatterPlot :=  graph submorphs at: 1.
-	linearRegression := SWLinearRegression newFromScatterPlot: scatterPlot.
-	
-	^ linearRegression plot
-	
+	linearRegression := SWLinearRegression newFromScatterPlot: scatterPlot plotOn: graph.
