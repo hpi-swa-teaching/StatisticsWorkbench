@@ -1,4 +1,4 @@
 defaults
 defaultColorSwatchExtent
 
-	^ (20 @ 20)
+	^ self defaultColorSwatchWidth @ (self defaultColorSwatchWidth)

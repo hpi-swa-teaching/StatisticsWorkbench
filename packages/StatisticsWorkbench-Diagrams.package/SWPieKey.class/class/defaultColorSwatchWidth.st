@@ -1,0 +1,4 @@
+defaults
+defaultColorSwatchWidth
+
+	^ 20
