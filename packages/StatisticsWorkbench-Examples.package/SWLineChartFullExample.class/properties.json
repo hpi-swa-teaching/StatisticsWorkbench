@@ -7,7 +7,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "SWLineChartExample",
+	"name" : "SWLineChartFullExample",
 	"pools" : [
 		 ],
 	"super" : "SWExample",
