@@ -1,7 +1,6 @@
 geometry
 extent: aPoint
 
-	
 	super extent: aPoint.
 	
 	(self xAxis isNil or: [self yAxis isNil])
@@ -12,3 +11,4 @@ extent: aPoint
 				self update.
 				
 				self updateRasterSize]
+			
