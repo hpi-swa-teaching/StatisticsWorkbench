@@ -12,3 +12,4 @@ drawKeyPointOf: aPieSlice at: aPositionFactor
 	keyPoint 
 		contents: aPieSlice date labelName asString;
 		position: self key position + (self class defaultKeyTextMargin @ (aPositionFactor * self class defaultKeyPointHeight))
+

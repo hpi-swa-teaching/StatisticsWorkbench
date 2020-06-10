@@ -1,8 +1,8 @@
 {
 	"class" : {
 		"create" : "FG 6/12/2019 07:58",
-		"defaultColorSwatchExtent" : "jvm 6/3/2020 15:38",
-		"defaultColorSwatchWidth" : "jvm 6/3/2020 15:37",
+		"defaultColorSwatchExtent" : "jvm 6/10/2020 09:27",
+		"defaultColorSwatchWidth" : "jvm 6/10/2020 09:21",
 		"defaultExtent" : "RS 7/13/2018 11:54",
 		"defaultKeyPointHeight" : "aj 5/4/2018 12:17",
 		"defaultKeyPositionFactor" : "FG 7/24/2019 11:01",
@@ -14,10 +14,10 @@
 		"addColorSwatch:" : "J.R. 7/1/2017 17:39",
 		"addKeyPoint:" : "J.R. 7/1/2017 17:39",
 		"addTo:" : "aj 5/7/2018 10:58",
-		"computeKeyExtent" : "jvm 6/3/2020 15:41",
+		"computeKeyExtent" : "jvm 6/10/2020 09:41",
 		"drawColorSwatchOf:at:" : "FG 7/24/2019 11:00",
 		"drawKeyFor:" : "FG 7/24/2019 11:01",
-		"drawKeyPointOf:at:" : "jvm 6/3/2020 15:20",
+		"drawKeyPointOf:at:" : "jvm 6/10/2020 09:41",
 		"initialize" : "FG 7/24/2019 11:02",
 		"key" : "aj 5/7/2018 09:45",
 		"key:" : "aj 5/7/2018 09:45",
