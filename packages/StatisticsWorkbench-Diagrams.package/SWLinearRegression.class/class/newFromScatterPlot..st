@@ -10,4 +10,5 @@ newFromScatterPlot: aScatterPlot
 		do: [:each | 
 			xValues add: each x.
 			yValues add: each y].
-	^ self newFromXValues: xValues andYValues: yValues	
+	^ self newFromXValues: xValues andYValues: yValues
+
