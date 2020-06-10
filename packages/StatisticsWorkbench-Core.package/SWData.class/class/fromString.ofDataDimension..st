@@ -1,5 +1,6 @@
 instance creation
 fromString: aString ofDataDimension: aDimension
+
 	| segments dimensionNames values newData |
 	
 	segments := aString findTokens: String cr, String tab, ' |()[]{},@#=&'.

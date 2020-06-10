@@ -1,8 +1,10 @@
 {
 	"class" : {
 		"create" : "aj 5/30/2018 17:51",
-		"fromString:ofDataDimension:" : "FG 7/24/2019 10:33",
+		"fromString:ofDataDimension:" : "sjs 5/30/2020 14:49",
+		"fromXValues:versusYValues:" : "sjs 5/30/2020 14:49",
 		"mathFunctions" : "Kenneth-Schroeder 6/28/2018 18:48",
+		"processDatafromXValues:versusYValues:" : "sjs 5/30/2020 14:49",
 		"processStringData:ofDataDimension:" : "Kenneth-Schroeder 6/27/2018 14:14" },
 	"instance" : {
 		"add:" : "FG 7/5/2019 10:08",

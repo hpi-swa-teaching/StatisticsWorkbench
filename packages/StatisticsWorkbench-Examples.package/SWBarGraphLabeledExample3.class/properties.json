@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SWBarGraphLabeledExample3",
+	"pools" : [
+		 ],
+	"super" : "SWExample",
+	"type" : "normal" }
