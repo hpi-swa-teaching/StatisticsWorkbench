@@ -4,13 +4,13 @@ testadjustStepInterval
 	
 	axis := SWAxis create.
 	
-	axis length: 100.
+	axis endPoint: (axis startPoint x + 100) @ axis startPoint y.
 	axis adjustStepInterval.
 	markerDistance := (axis stepInterval * axis length / axis valueRange).
 	self assert: [markerDistance >= SWAxis minMarkerDistance]
 		description: markerDistance printString, ' should be greater than ', SWAxis minMarkerDistance.
 	
-	axis length: 1000.
+	axis endPoint: (axis startPoint x + 1000) @ axis startPoint y.
 	axis adjustStepInterval.
 	markerDistance := (axis stepInterval * axis length / axis valueRange).
 	self assert: [markerDistance <= SWAxis maxMarkerDistance]
