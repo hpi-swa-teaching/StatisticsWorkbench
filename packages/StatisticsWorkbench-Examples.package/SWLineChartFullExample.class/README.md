@@ -1,1 +1,1 @@
-A SWBarGraphChangeWidthExample1 shows how to change the barWidth of a SWBarGraph
+A SWLineChartFullExample shows data in all four quadrants

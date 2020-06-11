@@ -1,1 +1,1 @@
-A SWBarGraphChangeWidthExample1 shows how to change the barWidth of a SWBarGraph
+A SWLineChartPositiveYExample shows data in first and second quadrant

@@ -5,9 +5,9 @@ testVisualizeWith
 	node1 := SWNode new 
 						output: SWDataTest createSeeded;
 						yourself.
-	self assert: SWDiagram equals: (node1 visualizeWith: SWBarGraph new) class.
+	self assert: SWDiagram equals: (node1 visualizeWith: SWBarChart new) class.
 	
 	node2 := SWNode new 
 						output: 5; 
 						yourself.
-	self assert: node2 output equals: (node2 visualizeWith: SWBarGraph new)
+	self assert: node2 output equals: (node2 visualizeWith: SWBarChart new)

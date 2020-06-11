@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "sjs 6/11/2020 15:56",
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],
-	"name" : "SWLineChartPositiveXYExample",
+	"name" : "SWBarChartLabeledExample3",
 	"pools" : [
 		 ],
 	"super" : "SWExample",
