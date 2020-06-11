@@ -2,8 +2,9 @@
 	"class" : {
 		"createSeeded" : "Kenneth-Schroeder 6/21/2018 10:13",
 		"createSeeded2" : "aj 7/6/2018 10:17",
-		"createSeeded3" : "aj 7/6/2018 10:17",
-		"createSeeded4" : "Kenneth-Schroeder 7/13/2018 12:06",
+		"createSeeded3" : "sjs 6/11/2020 15:37",
+		"createSeeded4" : "sjs 6/11/2020 15:37",
+		"createSeeded5" : "sjs 6/11/2020 15:39",
 		"createSeededNegative" : "jk 6/4/2020 14:41",
 		"createSeededRandom" : "jk 6/9/2020 21:34" },
 	"instance" : {
@@ -21,6 +22,7 @@
 		"testEquality" : "aj 7/24/2018 14:52",
 		"testFromOrderedCollectionWithLabels" : "sjs 5/30/2020 14:51",
 		"testFromOrderedCollectionWithoutLabels" : "sjs 5/30/2020 14:51",
+		"testFromSingleOrderedCollection" : "sjs 6/11/2020 15:39",
 		"testFromStringWithLabels" : "aj 7/24/2018 14:52",
 		"testFromStringWithoutLabels" : "aj 7/24/2018 14:52",
 		"testIsFunction" : "aj 7/24/2018 14:53",
