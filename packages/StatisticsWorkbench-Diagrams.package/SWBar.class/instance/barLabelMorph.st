@@ -2,3 +2,4 @@ accessing
 barLabelMorph
 
 	^ barLabelMorph
+	

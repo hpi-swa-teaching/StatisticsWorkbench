@@ -1,12 +1,12 @@
 creation
-createPieSliceFrom: aVector at: aPosition colored: aColor
+createPieSliceFrom: aSWVector at: aPosition colored: aColor
 	| newPieSlice pointSet aKey aValue |
 	
-	aKey := aVector x.
-	aValue := aVector y.
+	aKey := aSWVector x.
+	aValue := aSWVector y.
 	
 	newPieSlice := SWPieSlice new.
-	newPieSlice date: aVector.
+	newPieSlice vector: aSWVector.
 	pointSet := OrderedCollection new.
 	
 	self add: newPieSlice.
@@ -22,13 +22,13 @@ createPieSliceFrom: aVector at: aPosition colored: aColor
 	
 	pointSet 
 			add: newPieSlice center; 
-			add: newPieSlice startpoint; 
+			add: newPieSlice startPoint; 
 			yourself.
 			
 	self generateOuterBorderOf: newPieSlice with: aValue from: pointSet.
 	
 	pointSet 
-			add: newPieSlice endpoint; 
+			add: newPieSlice endPoint; 
 			yourself.
 	
 	newPieSlice 

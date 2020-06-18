@@ -1,6 +1,5 @@
 geometry
 rotatedLabelPosition 
-	| rotatedLabelOffset |
+
+	^ self topLeft + self rotatedLabelOffset
 	
-	rotatedLabelOffset := (5 @ 55).
-	^ self topLeft + rotatedLabelOffset

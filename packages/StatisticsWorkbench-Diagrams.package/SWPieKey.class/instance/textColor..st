@@ -1,4 +1,5 @@
 accessing
-textColor: anObject
+textColor: aColor
 
-	textColor := anObject
+	textColor := aColor
+	

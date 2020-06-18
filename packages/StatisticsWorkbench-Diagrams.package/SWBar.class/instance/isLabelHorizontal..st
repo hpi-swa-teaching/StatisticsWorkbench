@@ -1,4 +1,5 @@
-accessing
-isLabelHorizontal: anObject
+geometry
+isLabelHorizontal: aBoolean
 
-	isLabelHorizontal := anObject
+	isLabelHorizontal := aBoolean
+	

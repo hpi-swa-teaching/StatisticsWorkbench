@@ -4,3 +4,4 @@ create
 	^ SWBar new 
 					color: self defaultColor;
 					yourself
+					

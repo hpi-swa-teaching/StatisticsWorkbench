@@ -9,7 +9,7 @@ createBarsFrom: aSWData
 						width: self barWidth;
 						position: ((xOfBar - self barWidth) @ (self barBottom - height));
 						height: height;
-						date: vector;
+						vector: vector;
 						color: self barColor;
 						caption: vector labelName; 
 						bottom: self barBottom).

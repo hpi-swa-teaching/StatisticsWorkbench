@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"create" : "aj 7/20/2018 10:09",
-		"defaultColorArray" : "FG 7/24/2019 10:35",
+		"create" : "jk 6/18/2020 17:44",
+		"defaultColorArray" : "jk 6/18/2020 17:39",
 		"defaultExtent" : "aj 5/4/2018 15:45",
 		"defaultRadius" : "aj 5/4/2018 10:40",
 		"defaultWorldPosition" : "RS 7/13/2018 11:52" },
@@ -16,9 +16,9 @@
 		"colorArray" : "FG 7/24/2019 13:38",
 		"colorArray:" : "FG 7/24/2019 13:38",
 		"computeRadianFrom:" : "J.R. 7/29/2017 15:57",
-		"createPieSliceFrom:at:colored:" : "FG 7/24/2019 09:43",
-		"endpointOf:by:" : "MS 5/14/2018 23:35",
-		"generateOuterBorderOf:with:from:" : "aj 7/20/2018 11:11",
+		"createPieSliceFrom:at:colored:" : "jk 6/18/2020 19:01",
+		"endpointOf:by:" : "jk 6/18/2020 18:34",
+		"generateOuterBorderOf:with:from:" : "jk 6/18/2020 18:34",
 		"initialize" : "js 6/11/2019 23:08",
 		"needsCoordinateSystem" : "J.R. 7/29/2017 18:08",
 		"pieKey" : "J.R. 6/29/2017 12:47",
@@ -33,7 +33,7 @@
 		"removePieKey" : "RS 6/27/2018 23:24",
 		"removePieKey:" : "aj 5/30/2018 18:28",
 		"removePieSlice:" : "Kenneth-Schroeder 6/15/2018 12:16",
-		"startpointOf:by:" : "aj 5/30/2018 18:28",
+		"startpointOf:by:" : "jk 6/18/2020 18:34",
 		"update" : "Kenneth-Schroeder 6/15/2018 12:12",
 		"updatePieKey" : "RSC 6/27/2018 22:22",
 		"updatePieSlices" : "FG 6/25/2019 14:54" } }

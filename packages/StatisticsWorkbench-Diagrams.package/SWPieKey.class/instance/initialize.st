@@ -14,3 +14,4 @@ initialize
 	self addMorph: self key.
 	self pieKeyBackgroundColor: self class defaultPieKeyBackgroundColor.
 	self key color: self pieKeyBackgroundColor
+	

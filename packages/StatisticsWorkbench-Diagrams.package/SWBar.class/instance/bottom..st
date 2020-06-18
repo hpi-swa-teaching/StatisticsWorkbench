@@ -1,4 +1,5 @@
-accessing
-bottom: anObject
+geometry
+bottom: aYValue
 
-	bottom := anObject
+	bottom := aYValue
+	

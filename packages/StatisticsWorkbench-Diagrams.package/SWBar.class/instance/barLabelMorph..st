@@ -1,4 +1,5 @@
 accessing
-barLabelMorph: anObject
+barLabelMorph: aTextMorph
 
-	barLabelMorph := anObject
+	barLabelMorph := aTextMorph
+	
