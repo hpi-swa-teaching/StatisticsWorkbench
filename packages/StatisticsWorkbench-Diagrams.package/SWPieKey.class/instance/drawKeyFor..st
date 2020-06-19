@@ -11,4 +11,3 @@ drawKeyFor: aPieChart
 									positionFactor := positionFactor + 1].
 	
 	self key extent: self computeKeyExtent
-	

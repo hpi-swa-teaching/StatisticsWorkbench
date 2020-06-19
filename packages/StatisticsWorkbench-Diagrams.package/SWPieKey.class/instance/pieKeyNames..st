@@ -1,5 +1,4 @@
 accessing
-pieKeyNames: anOrderedCollectionOfTextMorphs
+pieKeyNames: aTextMorphCollection
 
-	pieKeyNames := anOrderedCollectionOfTextMorphs
-	
+	pieKeyNames := aTextMorphCollection

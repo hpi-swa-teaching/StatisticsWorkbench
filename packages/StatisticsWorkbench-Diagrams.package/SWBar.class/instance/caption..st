@@ -7,4 +7,3 @@ caption: aString
 		ifTrue: [self rotateLabel].
 	(self isLabelHorizontal and: self isTextHigherThanBar) 
 		ifTrue: [self raiseBarLabel]
-		

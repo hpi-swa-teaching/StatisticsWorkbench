@@ -1,4 +1,4 @@
 accessing
-barColor: anObject
+barColor: aColor
 
-	barColor := anObject
+	barColor := aColor

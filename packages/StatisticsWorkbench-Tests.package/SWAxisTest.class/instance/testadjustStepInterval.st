@@ -1,5 +1,6 @@
 testing
 testadjustStepInterval
+
 	| axis markerDistance |
 	
 	axis := SWAxis create.

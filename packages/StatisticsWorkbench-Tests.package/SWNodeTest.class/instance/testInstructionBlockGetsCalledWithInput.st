@@ -1,5 +1,6 @@
 testing
-testInstructionBlockGetsCalledWithInput	
+testInstructionBlockGetsCalledWithInput
+
 	| instructionBlock c node |
 	
 	instructionBlock := [:a :b | c := a + b].

@@ -1,5 +1,4 @@
 accessing
-pieKeyColors: anOrderedCollectionOfColors
+pieKeyColors: aColorCollection
 
-	pieKeyColors := anOrderedCollectionOfColors
-	
+	pieKeyColors := aColorCollection

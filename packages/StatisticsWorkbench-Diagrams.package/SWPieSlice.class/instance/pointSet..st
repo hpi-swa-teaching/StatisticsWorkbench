@@ -1,5 +1,4 @@
 accessing
-pointSet: anOrderedCollectionOfPoints
+pointSet: aPointCollection
 
-	pointSet := anOrderedCollectionOfPoints
-	
+	pointSet := aPointCollection

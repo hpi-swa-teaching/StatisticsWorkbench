@@ -2,4 +2,3 @@ defaults
 defaultCaptionMorphXShiftXAxis
 
 	^ 4
-	

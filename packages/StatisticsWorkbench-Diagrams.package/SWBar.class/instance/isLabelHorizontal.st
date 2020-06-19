@@ -2,4 +2,3 @@ geometry
 isLabelHorizontal
 
 	^ isLabelHorizontal
-	

@@ -2,4 +2,3 @@ defaults
 defaultKeyPointHeight
 
 	^ 50
-	

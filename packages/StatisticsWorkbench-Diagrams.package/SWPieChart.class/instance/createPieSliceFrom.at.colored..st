@@ -1,5 +1,6 @@
 creation
 createPieSliceFrom: aSWVector at: aPosition colored: aColor
+
 	| newPieSlice pointSet aKey aValue |
 	
 	aKey := aSWVector x.

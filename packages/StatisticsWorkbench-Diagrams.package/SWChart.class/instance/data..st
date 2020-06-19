@@ -1,8 +1,8 @@
 accessing
-data: anObject
+data: dataSet
 	
 	data removeDependent: self.
-	data := anObject.
+	data := dataSet.
 	data addDependent: self.
 	self update;
 		changed: self

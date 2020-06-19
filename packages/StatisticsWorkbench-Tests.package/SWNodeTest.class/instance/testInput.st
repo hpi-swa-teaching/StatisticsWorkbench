@@ -1,5 +1,6 @@
 testing
 testInput
+
 	| input node |
 	
 	input := 'test input'.

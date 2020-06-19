@@ -1,4 +1,4 @@
 accessing
-dimensionNames: anObject
+dimensionNames: anArray
 
-	dimensionNames := anObject
+	dimensionNames := anArray

@@ -1,5 +1,6 @@
 as yet unclassified
 open
+
 	| container data graph1 graph2 |
 	
 	container := (Morph newBounds:((0 @ 0) corner: (950 @ 500))) openInWorld.

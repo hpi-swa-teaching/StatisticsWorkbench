@@ -7,4 +7,3 @@ create
 	newPieKey key color: SWPieKey defaultPieKeyBackgroundColor.
 
 	^ newPieKey
-	

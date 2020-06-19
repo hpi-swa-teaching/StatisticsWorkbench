@@ -1,5 +1,6 @@
 initialization
 drawMarkers
+
 	| index |
 	
 	index := 0.

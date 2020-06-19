@@ -1,4 +1,4 @@
 accessing
-boundsThreshold: anObject
+boundsThreshold: aValue
 
-	boundsThreshold := anObject
+	boundsThreshold := aValue

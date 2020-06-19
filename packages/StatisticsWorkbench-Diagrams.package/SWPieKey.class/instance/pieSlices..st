@@ -1,5 +1,4 @@
 accessing
-pieSlices: anOrderedCollectionOfPieSlices
+pieSlices: aPieSliceCollection
 
-	pieSlices := anOrderedCollectionOfPieSlices
-	
+	pieSlices := aPieSliceCollection

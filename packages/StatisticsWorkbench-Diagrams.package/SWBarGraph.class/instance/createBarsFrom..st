@@ -1,5 +1,6 @@
 creation
-createBarsFrom: aSWData	
+createBarsFrom: aSWData
+
 	| xOfBar height bar |
 	
 	aSWData do: [:vector |

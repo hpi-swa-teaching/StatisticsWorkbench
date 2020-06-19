@@ -11,4 +11,3 @@ newFrom: aScatterPlot
 			xValues add: each x.
 			yValues add: each y].
 	^ self newFromXValues: xValues andYValues: yValues
-	

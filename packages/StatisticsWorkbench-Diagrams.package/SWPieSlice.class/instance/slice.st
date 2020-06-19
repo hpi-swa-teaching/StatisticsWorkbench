@@ -2,4 +2,3 @@ accessing
 slice
 
 	^ slice
-	

@@ -1,4 +1,4 @@
 accessing
-diagramLineChart: anObject
+diagramLineChart: aLineChart
 	
-	diagramLineChart := anObject
+	diagramLineChart := aLineChart

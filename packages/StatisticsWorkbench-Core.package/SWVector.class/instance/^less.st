@@ -1,5 +1,6 @@
 comparing
 < anotherSWVector
+
 	| index |
 	
 	(anotherSWVector isNil)
@@ -14,4 +15,5 @@ comparing
 			 (self at: index) < (anotherSWVector at: index)
 				ifTrue: [^ true].
 			index := index + 1].
+
 	^ false

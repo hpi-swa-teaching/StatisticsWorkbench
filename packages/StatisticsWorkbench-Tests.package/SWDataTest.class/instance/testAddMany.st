@@ -1,5 +1,6 @@
 testing
 testAddMany
+
 	| extraData |
 	
 	extraData := OrderedCollection new.

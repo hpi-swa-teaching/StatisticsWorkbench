@@ -1,4 +1,4 @@
 defaults
 backgroundColor
 
-	^  Color black
+	^ Color black

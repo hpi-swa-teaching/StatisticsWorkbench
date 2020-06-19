@@ -1,4 +1,4 @@
 accessing
-radius: anObject
+radius: aValue
 
-	radius := anObject
+	radius := aValue

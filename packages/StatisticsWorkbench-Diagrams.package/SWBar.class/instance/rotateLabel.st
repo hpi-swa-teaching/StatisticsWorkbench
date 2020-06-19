@@ -8,4 +8,3 @@ rotateLabel
 	self rotationMorph
 		angle: rotationAngle;
 		bottomLeft: self rotatedLabelPosition
-		

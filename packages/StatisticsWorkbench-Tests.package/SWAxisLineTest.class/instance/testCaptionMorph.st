@@ -1,5 +1,6 @@
 testing
 testCaptionMorph
+
 	| axisLine |
 	
 	axisLine := SWAxisLine create.

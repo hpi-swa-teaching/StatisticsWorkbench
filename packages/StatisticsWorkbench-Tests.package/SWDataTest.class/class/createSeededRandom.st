@@ -15,4 +15,3 @@ createSeededRandom
 								data add: point].
 	
 	^ data
-	

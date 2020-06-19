@@ -1,5 +1,6 @@
 instance creation
 processStringData: aCollection ofDataDimension: aDimension
+
 	| newData date |
 
 	newData := SWDataLabeled create.
@@ -8,4 +9,5 @@ processStringData: aCollection ofDataDimension: aDimension
 		date := SWVector fromArray: (group allButFirst collect: [:each | each asNumber]).
 		date labelName: group first.
 		newData add: date].
+
 	^ newData

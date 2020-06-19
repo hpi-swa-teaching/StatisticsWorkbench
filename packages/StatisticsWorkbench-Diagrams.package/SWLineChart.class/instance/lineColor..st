@@ -1,4 +1,4 @@
 accessing
-lineColor: anObject
+lineColor: aColor
 
-	lineColor := anObject
+	lineColor := aColor

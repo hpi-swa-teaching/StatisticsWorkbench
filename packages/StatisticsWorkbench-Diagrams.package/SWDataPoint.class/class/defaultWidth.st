@@ -2,4 +2,3 @@ defaults
 defaultWidth
 
 	^ 10
-	

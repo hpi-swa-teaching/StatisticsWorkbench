@@ -7,4 +7,3 @@ mediumData
 		at: #correctSlope put: 0 - 1.4230466815479281;
 		at: #correctIntersect put: 106.01707701047395;
 		yourself
-		

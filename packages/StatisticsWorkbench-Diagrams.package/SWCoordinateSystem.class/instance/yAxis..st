@@ -1,4 +1,4 @@
 accessing
-yAxis: anObject
+yAxis: anAxis
 
-	yAxis := anObject
+	yAxis := anAxis

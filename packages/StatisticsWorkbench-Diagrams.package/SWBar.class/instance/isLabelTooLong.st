@@ -10,4 +10,3 @@ isLabelTooLong
 		ifTrue: [textWidth := self barLabelMorph text size * charWidth].
 		
 	^ textWidth > self width
-	

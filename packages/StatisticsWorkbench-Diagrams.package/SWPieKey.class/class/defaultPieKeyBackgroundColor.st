@@ -2,4 +2,3 @@ defaults
 defaultPieKeyBackgroundColor
 
 	^ Color white
-	

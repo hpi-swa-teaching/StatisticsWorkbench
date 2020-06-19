@@ -2,4 +2,3 @@ defaults
 defaultCharWidth
 
 	^ 10
-	

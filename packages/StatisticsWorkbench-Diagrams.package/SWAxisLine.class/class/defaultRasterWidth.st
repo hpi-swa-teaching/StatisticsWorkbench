@@ -2,4 +2,3 @@ defaults
 defaultRasterWidth
 
 	^ 1
-	

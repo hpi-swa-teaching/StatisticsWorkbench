@@ -2,4 +2,3 @@ defaults
 defaultHeight
 
 	^ 10
-	

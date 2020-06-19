@@ -2,4 +2,3 @@ defaults
 minimumLabelWidth
 
 	^ 40
-	

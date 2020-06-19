@@ -1,5 +1,5 @@
 accessing
-lineMorph: anObject
+lineMorph: aMorph
 	
-	lineMorph := anObject.
-	self addMorph: anObject
+	lineMorph := aMorph.
+	self addMorph: aMorph

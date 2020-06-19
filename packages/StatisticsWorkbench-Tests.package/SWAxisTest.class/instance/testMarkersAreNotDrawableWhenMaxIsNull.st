@@ -1,5 +1,6 @@
 testing
 testMarkersAreNotDrawableWhenMaxIsNull
+
 	| axis |
 	
 	axis := SWAxis create.
