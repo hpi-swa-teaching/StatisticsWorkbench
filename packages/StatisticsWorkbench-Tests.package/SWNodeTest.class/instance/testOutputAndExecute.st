@@ -1,5 +1,6 @@
 testing
 testOutputAndExecute
+
 	| node |
 	
 	node := SWNode createWith: [true].

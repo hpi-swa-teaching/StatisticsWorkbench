@@ -11,4 +11,3 @@ axis: aDimension max: aValue
 		
 	(aDimension ~= #x and: aDimension ~= #y)
 		ifTrue: [SWInvalidArgumentError signal: 'This dimension is not supported.']
-	

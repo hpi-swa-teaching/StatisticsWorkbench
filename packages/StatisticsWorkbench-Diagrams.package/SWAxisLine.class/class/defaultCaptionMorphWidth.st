@@ -2,4 +2,3 @@ defaults
 defaultCaptionMorphWidth
 
 	^ 16
-	

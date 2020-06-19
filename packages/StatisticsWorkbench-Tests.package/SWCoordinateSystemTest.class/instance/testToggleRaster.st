@@ -1,5 +1,6 @@
 testing
 testToggleRaster	
+	
 	| visibility1 |
 	
 	visibility1 := self coordinateSystem xAxis rasterVisibility.

@@ -1,4 +1,4 @@
 defaults
 defaultStepInterval
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

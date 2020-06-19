@@ -1,5 +1,6 @@
 defaults
 defaultColorArray
+
 	| arr |
 	
 	arr := OrderedCollection new.	
@@ -11,4 +12,5 @@ defaultColorArray
 	arr add: (Color r: 0  g: 114/255  b: 178/255).
 	arr add: (Color r: 213/255  g: 94/255  b: 0).
 	arr add: (Color r: 204/255 g: 121/255  b: 167/255).
+	
 	^ arr

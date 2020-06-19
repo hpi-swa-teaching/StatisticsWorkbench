@@ -1,5 +1,6 @@
 testing
 testFromStringWithoutLabels
+
 	| expectedData |
 	
 	expectedData := SWDataTest createSeeded3.

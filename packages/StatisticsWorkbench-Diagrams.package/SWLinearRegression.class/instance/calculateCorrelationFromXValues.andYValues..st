@@ -22,4 +22,3 @@ calculateCorrelationFromXValues: xValues andYValues: yValues
 	
 	sum := sum / (standardDeviationX * standardDeviationY).
 	^ sum / (xValues size)
-	

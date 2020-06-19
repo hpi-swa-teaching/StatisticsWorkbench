@@ -2,4 +2,3 @@ defaults
 defaultMarkerWidth
 
 	^ 1
-	

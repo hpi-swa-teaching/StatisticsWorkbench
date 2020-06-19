@@ -1,4 +1,4 @@
 accessing
-barPositionFor: x
+barPositionFor: xValue
 	
-	^ (self coordinateSystem positionFor: (x @ 0)) x + (self barWidth / 2)
+	^ (self coordinateSystem positionFor: (xValue @ 0)) x + (self barWidth / 2)

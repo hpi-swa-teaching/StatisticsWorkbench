@@ -1,8 +1,9 @@
 adjusting
-shortenNumbers: anObject
+shortenNumbers: aNumber
+
 	| number shortNumber abbreaviation powerOfTen numberSize |
 	
-	number := anObject printString.
+	number := aNumber printString.
 	numberSize := number size.
 	shortNumber := number.
 	abbreaviation := self abbreviationForPower: numberSize.

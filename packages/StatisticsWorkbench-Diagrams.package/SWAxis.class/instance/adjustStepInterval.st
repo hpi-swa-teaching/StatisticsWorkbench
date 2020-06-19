@@ -1,5 +1,6 @@
 adjusting
 adjustStepInterval
+
 	| newStepInterval |
 	
 	newStepInterval := self stepInterval.

@@ -1,5 +1,5 @@
 accessing
-barWidth: anObject
+barWidth: width
 
-	barWidth := anObject.
+	barWidth := width.
 	self update

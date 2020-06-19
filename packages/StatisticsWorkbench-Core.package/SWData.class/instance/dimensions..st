@@ -1,4 +1,4 @@
 accessing
-dimensions: anObject
+dimensions: aValue
 
-	dimensions := anObject
+	dimensions := aValue

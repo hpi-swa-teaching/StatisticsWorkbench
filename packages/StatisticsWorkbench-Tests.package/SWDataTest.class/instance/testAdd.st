@@ -1,5 +1,6 @@
 testing
 testAdd
+
 	| newVector |
 	
 	newVector := SWVector fromArray: #(5 5).

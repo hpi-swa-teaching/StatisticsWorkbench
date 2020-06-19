@@ -1,4 +1,4 @@
 accessing
-pieKeyColors: anObject
+pieKeyColors: aColorCollection
 
-	pieKeyColors := anObject
+	pieKeyColors := aColorCollection

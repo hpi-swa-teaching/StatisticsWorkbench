@@ -1,5 +1,4 @@
 accessing
-linearRegression: anObject
+linearRegression: aLinearRegression
 
-	linearRegression := anObject
-	
+	linearRegression := aLinearRegression

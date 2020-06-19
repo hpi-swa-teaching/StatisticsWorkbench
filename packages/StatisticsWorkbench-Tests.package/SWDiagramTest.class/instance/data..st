@@ -1,4 +1,4 @@
 accessing
-data: anObject
+data: aDataSet
 	
-	data := anObject
+	data := aDataSet

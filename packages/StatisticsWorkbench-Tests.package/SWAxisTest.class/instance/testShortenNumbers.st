@@ -1,11 +1,11 @@
 testing
 testShortenNumbers
 
- | number axis |
+	| number axis |
  
- axis := SWAxis create.
- number := (axis shortenNumbers: 1000).
- self assert: number equals: '1,0K'.
+ 	axis := SWAxis create.
+	number := (axis shortenNumbers: 1000).
+	self assert: number equals: '1,0K'.
 
-number := (axis shortenNumbers: 1230000).
- self assert: number equals: '1,2M'
+	number := (axis shortenNumbers: 1230000).
+	self assert: number equals: '1,2M'

@@ -1,5 +1,6 @@
 testing
 testDimensions
+
 	| vector5 |
 	
 	vector5 := SWVector create: #(1 2 3 4).

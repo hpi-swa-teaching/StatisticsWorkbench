@@ -1,5 +1,6 @@
 testing
 testMarkersAreNotDrawableWhenStepIntervalIsNegative
+
 	| axis |
 	
 	axis := SWAxis create.

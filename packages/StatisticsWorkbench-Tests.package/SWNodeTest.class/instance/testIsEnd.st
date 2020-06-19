@@ -1,5 +1,6 @@
 testing
 testIsEnd
+
 	| node |
 	
 	node := SWNode new.

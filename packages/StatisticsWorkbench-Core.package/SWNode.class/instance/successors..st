@@ -1,4 +1,4 @@
 accessing
-successors: anObject
+successors: aCollection
 	
-	successors := anObject
+	successors := aCollection

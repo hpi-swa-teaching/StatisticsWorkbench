@@ -1,5 +1,6 @@
 testing
 testInstructionBlockWithInvalidArgumentCount
+
 	| noArgument |
 	
 	noArgument := SWNode createWith: [true].

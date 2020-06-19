@@ -1,5 +1,6 @@
 testing
 testAddChartToDiagram
+
 	| chartCountBeforeInsert |	
 		
 	chartCountBeforeInsert := self diagramLineChart charts size.

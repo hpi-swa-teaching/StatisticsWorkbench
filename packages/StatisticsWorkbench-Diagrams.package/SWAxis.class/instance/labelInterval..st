@@ -1,4 +1,4 @@
 accessing
-labelInterval: anObject
+labelInterval: aValue
 
-	labelInterval := anObject
+	labelInterval := aValue

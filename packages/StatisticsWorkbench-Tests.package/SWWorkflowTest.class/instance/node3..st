@@ -1,4 +1,4 @@
 accessing
-node3: anObject
+node3: aNode
 	
-	node3 := anObject
+	node3 := aNode

@@ -1,4 +1,4 @@
 accessing
-strokeMorph: anObject
+strokeMorph: aMorph
 
-	strokeMorph := anObject
+	strokeMorph := aMorph

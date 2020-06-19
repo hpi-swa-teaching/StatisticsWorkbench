@@ -1,5 +1,6 @@
 testing
 testInstructionBlockGetsCalled	
+	
 	| instructionBlock flag |
 	
 	flag := false.

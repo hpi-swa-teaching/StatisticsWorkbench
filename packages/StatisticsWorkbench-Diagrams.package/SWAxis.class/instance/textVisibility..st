@@ -1,7 +1,7 @@
 accessing
-textVisibility: anObject
+textVisibility: aBoolean
 
-	textVisibility := anObject.
+	textVisibility := aBoolean.
 	(self textVisibility)
 		ifTrue: [self markers do: [:marker | marker textColor: self textColor]]
 		ifFalse: [self markers do: [:marker | marker textColor: Color transparent]]

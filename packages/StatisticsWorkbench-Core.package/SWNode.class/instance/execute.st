@@ -1,5 +1,6 @@
 workflow execution
 execute
+
 	| input |
 	
 	input := self input.

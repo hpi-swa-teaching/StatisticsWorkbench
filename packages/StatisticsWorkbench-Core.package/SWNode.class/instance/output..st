@@ -1,4 +1,4 @@
 accessing
-output: anObject
+output: aValue
 	
-	output := anObject
+	output := aValue
