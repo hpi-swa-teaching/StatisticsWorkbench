@@ -1,5 +1,6 @@
 instance creation
 create
+
 	| newPieChart |
 	
 	newPieChart := SWPieChart new.

@@ -1,5 +1,6 @@
 defaults
 defaultColorArray
+
 	| arr |
 	
 	arr := OrderedCollection new.	

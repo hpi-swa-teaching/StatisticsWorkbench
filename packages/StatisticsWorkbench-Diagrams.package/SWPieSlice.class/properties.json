@@ -8,10 +8,12 @@
 	"instvars" : [
 		"endpoint",
 		"name",
-		"pointSet",
+		"centerPoint",
 		"slice",
 		"startpoint",
-		"value" ],
+		"value",
+		"edgePoints",
+		"label" ],
 	"name" : "SWPieSlice",
 	"pools" : [
 		 ],

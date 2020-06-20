@@ -1,4 +1,4 @@
 accessing
-startpoint: anObject
+startpoint: aPoint
 
-	startpoint := anObject
+	startpoint := aPoint
