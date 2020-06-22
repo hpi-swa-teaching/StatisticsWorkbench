@@ -3,7 +3,6 @@ fromYValues: yValues
 
 	| xValues |
 
-	xValues := OrderedCollection new.
-	(1 to: yValues size) do: [:i | xValues add: i]. 
+	xValues := (1 to: yValues size) asOrderedCollection.
 
 	^ self fromXValues: xValues versusYValues: yValues
