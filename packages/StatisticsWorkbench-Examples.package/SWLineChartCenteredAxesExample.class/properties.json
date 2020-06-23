@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jk 6/23/2020 22:11",
+	"commentStamp" : "jk 6/23/2020 22:09",
 	"instvars" : [
 		 ],
-	"name" : "SWLineChartWithMultipleDataSetsExample",
+	"name" : "SWLineChartCenteredAxesExample",
 	"pools" : [
 		 ],
 	"super" : "SWExample",

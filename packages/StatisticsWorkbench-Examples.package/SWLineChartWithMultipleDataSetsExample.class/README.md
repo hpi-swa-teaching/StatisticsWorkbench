@@ -1,0 +1,1 @@
+A SWLineChartFullExample shows a line chart with more than one data set.
