@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"fromXValues:versusYValues:withLabels:" : "ds 6/19/2020 18:32",
+		"fromNamedColumns:" : "mv 6/24/2020 10:29",
+		"fromXValues:versusYValues:withLabels:" : "mv 6/23/2020 23:03",
 		"processDatafromXValues:versusYValues:" : "ds 6/19/2020 18:32",
 		"processStringData:ofDataDimension:" : "ds 6/19/2020 18:32" },
 	"instance" : {
