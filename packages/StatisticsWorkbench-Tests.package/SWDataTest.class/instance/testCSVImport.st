@@ -21,4 +21,4 @@ testCSVImport
 	
 	self assert: labeledData equals: seededData.
 	
-	FileSystem disk delete: fileName.
+	"FileSystem disk delete: fileName."
