@@ -1,7 +1,7 @@
 initialization
 addValueLabel: aString
 	
-	| labelPosition |
+	| labelPosition|
 	
 	self edgePoints size > 3
 		ifTrue: [			
@@ -10,7 +10,7 @@ addValueLabel: aString
 		ifFalse: [
 			labelPosition := self positionOfOutsideLabel
 		].
-	
-	self label: (TextMorph string: aString, '%' size: 20).
+
+	self label: (TextMorph new contents: (aString, '%') asText).
 	self label center: labelPosition.
 	self addMorph: self label.
