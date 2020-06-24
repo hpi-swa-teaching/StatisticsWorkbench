@@ -1,4 +1,4 @@
 accessing
-slice: anObject
+slice: aPolygonMorph
 
-	slice := anObject
+	slice := aPolygonMorph

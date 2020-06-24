@@ -1,5 +1,6 @@
 testing
-testInitialize 
+testInitialize
+
 	| node |
 	
 	node := SWNode new.

@@ -1,5 +1,6 @@
 testing
 testSetInvalidStepInterval
+
 	| axis |
 	
 	axis := SWAxis create.

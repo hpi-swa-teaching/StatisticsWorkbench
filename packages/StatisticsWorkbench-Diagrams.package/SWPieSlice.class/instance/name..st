@@ -1,4 +1,4 @@
 accessing
-name: aName
+name: aNumber
 
-	name := aName
+	name := aNumber

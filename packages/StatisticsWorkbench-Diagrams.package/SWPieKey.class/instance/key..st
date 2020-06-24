@@ -1,4 +1,4 @@
 accessing
-key: anObject
+key: aRectangleMorph
 
-	key := anObject
+	key := aRectangleMorph

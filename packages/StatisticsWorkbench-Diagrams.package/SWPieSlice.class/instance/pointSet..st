@@ -1,4 +1,4 @@
 accessing
-pointSet: anObject
+pointSet: aPointCollection
 
-	pointSet := anObject
+	pointSet := aPointCollection

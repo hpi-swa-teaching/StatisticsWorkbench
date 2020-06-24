@@ -1,5 +1,6 @@
 as yet unclassified
 open
+
 	| data graph dataString window |
 	
 	dataString := 'x|y 1|22 2|110 3|64 4|211 5|35'.

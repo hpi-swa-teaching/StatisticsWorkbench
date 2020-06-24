@@ -1,4 +1,4 @@
 accessing
-renderedPoint: anObject
+renderedPoint: aPoint
 
-	renderedPoint := anObject.
+	renderedPoint := aPoint

@@ -1,5 +1,6 @@
 testing
 testAsString
+
 	| comparisonData |
 	
 	comparisonData := SWDataTest createSeeded3.

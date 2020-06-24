@@ -1,5 +1,6 @@
 as yet unclassified
 open
+
 	| data graph window |
 	
 	data := SWDataUnlabeled create     

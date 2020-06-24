@@ -23,4 +23,3 @@ testVerticesComparator
 	self deny: before = expected.
 	before sort: SWLineChart new verticesComparator.
 	self assert: expected equals: before
-	

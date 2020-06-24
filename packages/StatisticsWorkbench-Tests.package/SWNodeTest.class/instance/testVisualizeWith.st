@@ -1,5 +1,6 @@
 testing
 testVisualizeWith
+
 	| node1 node2 |
 	
 	node1 := SWNode new 
@@ -11,3 +12,4 @@ testVisualizeWith
 						output: 5; 
 						yourself.
 	self assert: node2 output equals: (node2 visualizeWith: SWBarChart new)
+

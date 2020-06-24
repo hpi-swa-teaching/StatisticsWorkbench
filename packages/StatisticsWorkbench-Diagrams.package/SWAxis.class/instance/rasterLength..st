@@ -1,4 +1,4 @@
 accessing
-rasterLength: anObject
+rasterLength: aValue
 
-	rasterLength := anObject
+	rasterLength := aValue

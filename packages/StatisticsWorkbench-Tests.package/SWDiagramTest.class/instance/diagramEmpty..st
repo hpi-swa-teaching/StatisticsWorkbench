@@ -1,4 +1,4 @@
 accessing
-diagramEmpty: anObject
+diagramEmpty: aBoolean
 	
-	diagramEmpty := anObject
+	diagramEmpty := aBoolean

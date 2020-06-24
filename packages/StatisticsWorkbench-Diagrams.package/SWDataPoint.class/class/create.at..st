@@ -1,11 +1,11 @@
 instance creation
-create: aSWDate at: aRenderPoint
+create: aSWVector at: aRenderedPoint
 
 	^ SWDataPoint new 
-						date: aSWDate;
-						renderedPoint: aRenderPoint;
-						width: self defaultWidth;
-						height: self defaultHeight;
-						color: self defaultColor;
-						borderColor: self defaultColor;
-						yourself
+				vector: aSWVector;
+				renderedPoint: aRenderedPoint;
+				width: self defaultWidth;
+				height: self defaultHeight;
+				color: self defaultColor;
+				borderColor: self defaultColor;
+				yourself

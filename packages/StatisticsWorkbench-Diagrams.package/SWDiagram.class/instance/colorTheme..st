@@ -1,4 +1,4 @@
 accessing
 colorTheme: aColorTheme
 
-	colorTheme := aColorTheme.
+	colorTheme := aColorTheme

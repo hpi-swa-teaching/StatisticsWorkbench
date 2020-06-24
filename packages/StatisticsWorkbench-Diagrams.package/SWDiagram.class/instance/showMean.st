@@ -1,5 +1,6 @@
 visualization
 showMean
+
 	|meanValue meanData|
 
 	(self charts first isKindOf: SWPieChart) 

@@ -1,4 +1,4 @@
 accessing
-axisNames: anObject
+axisNames: aStringArray
 
-	axisNames := anObject
+	axisNames := aStringArray

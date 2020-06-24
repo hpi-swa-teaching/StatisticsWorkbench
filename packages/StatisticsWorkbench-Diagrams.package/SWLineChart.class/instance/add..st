@@ -1,5 +1,5 @@
 adding/removing
-add: aSWDate
+add: aSWVector
 	
-	self vertices add: aSWDate key asPoint.
+	self vertices add: aSWVector key asPoint.
 	self changed: self

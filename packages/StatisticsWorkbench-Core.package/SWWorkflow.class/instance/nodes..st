@@ -1,4 +1,4 @@
 accessing
-nodes: anObject
+nodes: aCollection
 	
-	nodes := anObject
+	nodes := aCollection

@@ -1,5 +1,6 @@
 as yet unclassified
 open
+
 	| data |
 	
 	data := SWDataLabeled create     
@@ -15,3 +16,4 @@ open
 	data setLabels: {'Apolda' . 'Jena' . 'Weimar' . 'Erfurt' . 'Suhl'}.
 	
 	^ (SWDiagram new visualize: data with: SWBarChart create) openInWindow
+

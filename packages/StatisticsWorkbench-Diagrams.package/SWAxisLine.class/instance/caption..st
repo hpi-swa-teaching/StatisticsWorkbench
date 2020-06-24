@@ -1,4 +1,4 @@
 accessing
-caption: anObject
+caption: aCaption
 	
-	self captionMorph contents: anObject.
+	self captionMorph contents: aCaption.

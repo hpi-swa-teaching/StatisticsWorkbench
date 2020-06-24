@@ -1,4 +1,4 @@
 testing
 needsCoordinateSystem 
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility
