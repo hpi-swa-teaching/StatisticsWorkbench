@@ -1,0 +1,1 @@
+A SWBarChart visualizes categorical data with bars
