@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAdjustStepInterval" : "jk 6/25/2020 13:57",
+		"testAdjustStepInterval" : "jk 6/25/2020 14:53",
 		"testMarkersAreDrawable" : "ds 6/19/2020 20:13",
 		"testMarkersAreNotDrawableWhenEndPointIsNull" : "ds 6/19/2020 20:13",
 		"testMarkersAreNotDrawableWhenMaxIsNull" : "ds 6/19/2020 20:14",
