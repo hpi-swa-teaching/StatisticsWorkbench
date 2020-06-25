@@ -14,3 +14,4 @@ defaultColorArray
 	arr add: (Color r: 204/255 g: 121/255  b: 167/255).
 	
 	^ arr
+

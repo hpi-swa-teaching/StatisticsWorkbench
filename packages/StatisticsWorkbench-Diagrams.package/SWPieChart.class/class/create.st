@@ -13,3 +13,4 @@ create
 	newPieChart addPieKey: newPieChart pieKey.
 	
 	^ newPieChart
+
