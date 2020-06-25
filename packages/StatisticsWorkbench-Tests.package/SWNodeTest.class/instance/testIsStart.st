@@ -1,5 +1,6 @@
 testing
 testIsStart
+
 	| node |
 	
 	node := SWNode new.

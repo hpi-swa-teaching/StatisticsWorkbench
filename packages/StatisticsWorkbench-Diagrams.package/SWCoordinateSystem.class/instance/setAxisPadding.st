@@ -1,5 +1,6 @@
 geometry
 setAxisPadding
+
 	| tempX tempY |
 
 	tempX := self xAxis maximum.
@@ -10,4 +11,3 @@ setAxisPadding
 
 	self xAxis maximum: tempX.
 	self yAxis maximum: tempY
-

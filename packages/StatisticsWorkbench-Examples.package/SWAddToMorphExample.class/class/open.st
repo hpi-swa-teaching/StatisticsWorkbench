@@ -1,5 +1,6 @@
 as yet unclassified
 open
+
 	| container data graph1 graph2 |
 	
 	container := (Morph newBounds:((0 @ 0) corner: (950 @ 500))) openInWorld.
@@ -12,7 +13,7 @@ open
 		add: #(5 35);
 		yourself.
 	
-	graph1 := (SWDiagram new visualize: data with: SWBarGraph create).
+	graph1 := (SWDiagram new visualize: data with: SWBarChart create).
 	graph2 := (SWDiagram new visualize: data with: SWLineChart create).
 	
 	container addMorph: graph1.

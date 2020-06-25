@@ -1,5 +1,6 @@
 as yet unclassified
 open
+
 	| data |
 	
 	data := SWDataUnlabeled create     
@@ -10,4 +11,5 @@ open
 		add: #(5 35);
 		yourself.
 		
-	^ (SWDiagram new visualize: data with: SWLineChart create and: SWBarGraph create) openInWindow
+	^ (SWDiagram new visualize: data with: SWLineChart create and: SWBarChart create) openInWindow
+

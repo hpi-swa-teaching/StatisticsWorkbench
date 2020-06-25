@@ -1,4 +1,4 @@
 accessing
-markers: anObject
+markers: aCollection
 
-	markers := anObject
+	markers := aCollection

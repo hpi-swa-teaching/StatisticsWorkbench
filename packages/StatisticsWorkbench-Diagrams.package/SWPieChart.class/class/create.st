@@ -11,4 +11,6 @@ create
 		bounds: ((0 @ 0) corner: self defaultWorldPosition + self defaultRadius).
 		
 	newPieChart addPieKey: newPieChart pieKey.
+	
 	^ newPieChart
+

@@ -13,4 +13,5 @@ fromString: aString ofDataDimension: aDimension
 	
 	newData := self processStringData: values ofDataDimension: aDimension. 
 	newData setAllDimensionNames: dimensionNames.
+
 	^ newData

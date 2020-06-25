@@ -1,4 +1,4 @@
 accessing
-legend: anObject
+legend: aTextMorph
 
-	legend := anObject
+	legend := aTextMorph

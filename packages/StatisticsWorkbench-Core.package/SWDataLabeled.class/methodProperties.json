@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"fromXValues:versusYValues:withLabels:" : "sjs 5/30/2020 14:49",
-		"processDatafromXValues:versusYValues:" : "sjs 5/30/2020 14:49",
-		"processStringData:ofDataDimension:" : "aj 7/6/2018 14:58" },
+		"fromXValues:versusYValues:withLabels:" : "ds 6/19/2020 18:32",
+		"processDatafromXValues:versusYValues:" : "ds 6/19/2020 18:32",
+		"processStringData:ofDataDimension:" : "ds 6/19/2020 18:32" },
 	"instance" : {
-		"asString" : "aj 7/6/2018 10:51",
+		"asString" : "ds 6/19/2020 18:33",
 		"setLabels:" : "aj 7/13/2018 12:08" } }

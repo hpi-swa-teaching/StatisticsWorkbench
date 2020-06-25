@@ -6,4 +6,3 @@ hardData
 		 at: #correctSlope put: 0 - 999.4927118875933;
 		 at: #correctIntersect put: 0 - 91.26707894651244;
 		 yourself
-		

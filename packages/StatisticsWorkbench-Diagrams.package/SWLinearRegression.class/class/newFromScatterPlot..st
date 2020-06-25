@@ -6,8 +6,7 @@ newFromScatterPlot: aScatterPlot
 	data := aScatterPlot data.
 	xValues := OrderedCollection new.
 	yValues := OrderedCollection new.
-	data
-		do: [:each | 
+	data do: [:each | 
 			xValues add: each x.
 			yValues add: each y].
-	^ self newFromXValues: xValues andYValues: yValues	
+	^ self newFromXValues: xValues andYValues: yValues

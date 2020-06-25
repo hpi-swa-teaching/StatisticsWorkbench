@@ -1,5 +1,6 @@
 adjusting
 abbreviationForPower: aPowerOfTen
+
 	| returnAbbreviation |
 	
 	returnAbbreviation := aPowerOfTen printString.

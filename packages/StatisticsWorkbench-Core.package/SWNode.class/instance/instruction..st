@@ -1,4 +1,4 @@
 accessing
-instruction: anObject
+instruction: aBlockClosure
 	
-	instruction := anObject
+	instruction := aBlockClosure

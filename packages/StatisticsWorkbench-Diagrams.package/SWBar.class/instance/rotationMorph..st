@@ -1,4 +1,4 @@
-accessing
-rotationMorph: anObject
+geometry
+rotationMorph: aTransformationMorph
 
-	rotationMorph := anObject
+	rotationMorph := aTransformationMorph

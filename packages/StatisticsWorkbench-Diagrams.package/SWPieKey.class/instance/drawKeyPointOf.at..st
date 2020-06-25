@@ -1,5 +1,6 @@
 geometry
 drawKeyPointOf: aPieSlice at: aPositionFactor
+	
 	| keyPoint |
 	
 	keyPoint := TextMorph new.
@@ -9,5 +10,5 @@ drawKeyPointOf: aPieSlice at: aPositionFactor
 	self pieKeyNames add: keyPoint.
 	
 	keyPoint 
-		contents: aPieSlice name asString;
+		contents: aPieSlice vector labelName asString;
 		position: self key position + (self class defaultKeyTextMargin @ (aPositionFactor * self class defaultKeyPointHeight))

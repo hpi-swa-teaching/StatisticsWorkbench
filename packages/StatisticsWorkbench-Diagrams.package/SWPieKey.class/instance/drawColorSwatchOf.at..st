@@ -1,5 +1,6 @@
 geometry
 drawColorSwatchOf: aPieslice at: aPositionFactor
+
 	| colorSwatch |
 	
 	colorSwatch := RectangleMorph new.

@@ -1,4 +1,4 @@
 accessing
-coordinateSystem: anObject
+coordinateSystem: aCoordinateSystem
 	
-	coordinateSystem := anObject
+	coordinateSystem := aCoordinateSystem

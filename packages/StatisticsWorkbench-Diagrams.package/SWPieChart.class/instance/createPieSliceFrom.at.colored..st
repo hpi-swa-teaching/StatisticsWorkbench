@@ -1,13 +1,14 @@
 creation
-createPieSliceFrom: aVector at: aPosition colored: aColor
+<<<<<<< HEAD
+createPieSliceFrom: aSWVector at: aPosition colored: aColor
 	
 	| newPieSlice edgePoints aKey aValue startPoint endPoint|
 	
-	aKey := aVector x.
-	aValue := aVector y.
+	aKey := aSWVector x.
+	aValue := aSWVector y.
 	
 	newPieSlice := SWPieSlice new.
-	newPieSlice date: aVector.
+	newPieSlice vector: aVector.
 	edgePoints := OrderedCollection new.
 	
 	self add: newPieSlice.
@@ -25,7 +26,7 @@ createPieSliceFrom: aVector at: aPosition colored: aColor
 	edgePoints
 			add: startPoint.
 			
-	edgePoints := edgePoints , (self generateOuterBorderFromStartPoint: startPoint withValue: aValue).
+	edgePoints := edgePoints, (self generateOuterBorderFromStartPoint: startPoint withValue: aValue).
 
 	edgePoints
 			add: endPoint;
@@ -34,3 +35,4 @@ createPieSliceFrom: aVector at: aPosition colored: aColor
 	newPieSlice 
 			edgePoints: edgePoints;
 			updateSlice
+

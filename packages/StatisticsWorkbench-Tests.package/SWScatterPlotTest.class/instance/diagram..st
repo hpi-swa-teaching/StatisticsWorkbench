@@ -1,4 +1,4 @@
 accessing
-diagram: anObject
+diagram: aDiagram
 	
-	diagram := anObject
+	diagram := aDiagram

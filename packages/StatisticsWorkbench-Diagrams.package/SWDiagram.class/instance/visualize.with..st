@@ -10,6 +10,4 @@ visualize: aSWData with: aChart
 	
 	(aChart needsCoordinateSystem)
 		ifTrue: [self updateCoordinateSystem]
-		ifFalse: [self bounds: aChart bounds].
-		
-	self updateCharts
+		ifFalse: [self bounds: aChart bounds]

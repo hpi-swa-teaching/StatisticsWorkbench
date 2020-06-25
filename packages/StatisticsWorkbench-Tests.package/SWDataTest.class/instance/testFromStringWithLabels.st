@@ -1,5 +1,6 @@
 testing
 testFromStringWithLabels
+
 	| seededData labeledData |
 	
 	seededData := SWDataTest createSeeded4.

@@ -1,4 +1,4 @@
 accessing
-diagramScatterPlot: anObject
+diagramScatterPlot: aScatterPlot
 	
-	diagramScatterPlot := anObject
+	diagramScatterPlot := aScatterPlot

@@ -1,5 +1,6 @@
 testing
 testExecuteMeAndSuccessors	
+	
 	| workflow node1 node2 node3 node4 testData |
 	
 	testData := SWDataTest createSeeded.

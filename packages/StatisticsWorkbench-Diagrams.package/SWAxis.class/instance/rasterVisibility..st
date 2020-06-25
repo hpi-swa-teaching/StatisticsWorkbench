@@ -1,4 +1,4 @@
 accessing
-rasterVisibility: anObject
+rasterVisibility: aBoolean
 
-	rasterVisibility := anObject
+	rasterVisibility := aBoolean

@@ -1,4 +1,4 @@
 accessing
-vector3: anObject
+vector3: aVector
 	
-	vector3 := anObject
+	vector3 := aVector

@@ -1,4 +1,4 @@
 accessing
-workflow: anObject
+workflow: aSWWorkflow
 	
-	workflow := anObject
+	workflow := aSWWorkflow

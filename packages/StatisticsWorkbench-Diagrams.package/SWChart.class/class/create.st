@@ -1,4 +1,4 @@
 instance creation
 create
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

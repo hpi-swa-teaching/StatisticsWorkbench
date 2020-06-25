@@ -1,5 +1,6 @@
 testing
 testPositionFor
+
 	| point1 point2 |
 	
 	point1 := (0 @ 0).

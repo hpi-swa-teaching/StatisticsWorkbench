@@ -1,5 +1,6 @@
 testing
 testBoundsThreshold
+
 	| oldBounds |
 	
 	oldBounds := self coordinateSystem boundsThreshold.

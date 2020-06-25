@@ -1,4 +1,4 @@
 adding/removing
 add: aVisualElement
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

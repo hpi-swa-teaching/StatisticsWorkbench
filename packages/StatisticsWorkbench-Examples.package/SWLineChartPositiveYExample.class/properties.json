@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sjs 6/11/2020 15:55",
+	"instvars" : [
+		 ],
+	"name" : "SWLineChartPositiveYExample",
+	"pools" : [
+		 ],
+	"super" : "SWExample",
+	"type" : "normal" }

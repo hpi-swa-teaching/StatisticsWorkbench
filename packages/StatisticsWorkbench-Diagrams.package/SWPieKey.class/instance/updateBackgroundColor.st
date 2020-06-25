@@ -1,4 +1,4 @@
 updating
 updateBackgroundColor
 
-	self key color: self pieKeyBackgroundColor.
+	self key color: self pieKeyBackgroundColor

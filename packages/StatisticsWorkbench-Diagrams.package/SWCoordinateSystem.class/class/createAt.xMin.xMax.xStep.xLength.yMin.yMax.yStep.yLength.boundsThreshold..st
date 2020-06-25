@@ -1,5 +1,6 @@
 instance creation
-createAt: startPoint xMin: xMin xMax: xMax xStep: xStep xLength: xLength yMin: yMin yMax: yMax yStep: yStep yLength: yLength boundsThreshold: boundsThreshold 
+createAt: startPoint xMin: xMin xMax: xMax xStep: xStep xLength: xLength yMin: yMin yMax: yMax yStep: yStep yLength: yLength boundsThreshold: boundsThreshold
+
 	| xAxis yAxis |
 	
 	xAxis := SWAxis createAt: startPoint withMin: xMin length: xLength withMax: xMax step: xStep orientation: #horizontal.

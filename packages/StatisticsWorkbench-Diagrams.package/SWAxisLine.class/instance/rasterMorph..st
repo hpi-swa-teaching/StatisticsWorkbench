@@ -1,4 +1,4 @@
 accessing
-rasterMorph: anObject
+rasterMorph: aMorph
 
-	rasterMorph := anObject
+	rasterMorph := aMorph

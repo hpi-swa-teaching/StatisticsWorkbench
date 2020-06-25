@@ -1,5 +1,5 @@
 adding/removing
-remove: aVertice
+remove: aVertex
 	
-	self vertices remove: aVertice.
+	self vertices remove: aVertex.
 	self changed: self

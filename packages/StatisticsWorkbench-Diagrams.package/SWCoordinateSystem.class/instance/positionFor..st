@@ -1,4 +1,8 @@
 geometry
 positionFor: aPoint
 	
-	^ self xAxis startPoint + ((self xAxis getPositionForValue: aPoint x) @ ((self yAxis getPositionForValue: aPoint y) negated))
+	| origin |
+	
+	origin := ((self startPoint x - self minimumOffsetX) @ (self startPoint y + self minimumOffsetY)).
+	
+	^ origin + ((self xAxis getPositionForValue: aPoint x) @ ((self yAxis getPositionForValue: aPoint y) negated))
