@@ -1,7 +1,7 @@
 accessing
 axisNames
 
-	(self charts isEmpty)
+	(self diagram charts isEmpty)
 		ifTrue: [^ #('x' 'y')].
 		
-	^ self charts first data dimensionNames
+	^ self diagram charts first data dimensionNames

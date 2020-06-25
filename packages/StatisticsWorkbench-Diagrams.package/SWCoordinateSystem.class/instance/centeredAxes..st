@@ -2,4 +2,4 @@ accessing
 centeredAxes: aBoolean
 
 	centeredAxes := aBoolean.
-	self update
+	self diagram update

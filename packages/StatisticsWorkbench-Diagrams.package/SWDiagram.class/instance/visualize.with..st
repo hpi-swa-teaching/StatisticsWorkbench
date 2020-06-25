@@ -9,7 +9,7 @@ visualize: aSWData with: aChart
 	aChart data: aSWData.
 		
 	(aChart needsCoordinateSystem)
-		ifTrue: [self coordinateSystem charts: self charts.
+		ifTrue: [	self coordinateSystem diagram: self.
 				self coordinateSystem update]
 		ifFalse: [self bounds: aChart bounds].
 
