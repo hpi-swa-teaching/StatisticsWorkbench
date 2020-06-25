@@ -7,7 +7,7 @@ createPieSliceFrom: aSWVector at: aPosition colored: aColor
 	aValue := aSWVector y.
 	
 	newPieSlice := SWPieSlice new.
-	newPieSlice vector: aVector.
+	newPieSlice vector: aSWVector.
 	edgePoints := OrderedCollection new.
 	
 	self add: newPieSlice.
