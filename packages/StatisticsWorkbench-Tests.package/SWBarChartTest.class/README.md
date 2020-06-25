@@ -1,0 +1,1 @@
+A SWBarChartTest tests if the SWBarGraph is working as expected.

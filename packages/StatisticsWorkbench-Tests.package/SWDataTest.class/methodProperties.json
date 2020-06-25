@@ -21,6 +21,8 @@
 		"testEquality" : "ds 6/19/2020 20:20",
 		"testFromOrderedCollectionWithLabels" : "sjs 5/30/2020 14:51",
 		"testFromOrderedCollectionWithoutLabels" : "sjs 5/30/2020 14:51",
+		"testFromSingleOrderedCollection" : "sjs 6/11/2020 15:39",
+		"testFromStringWithLabels" : "aj 7/24/2018 14:52",
 		"testFromStringWithLabels" : "ds 6/19/2020 20:20",
 		"testFromStringWithoutLabels" : "ds 6/19/2020 20:20",
 		"testIsFunction" : "ds 6/19/2020 20:20",
