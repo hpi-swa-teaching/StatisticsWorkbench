@@ -9,3 +9,4 @@ fromXValues: xValues versusYValues: yValues withLabels: labels
 	data setLabels: labels.
 
 	^ data
+

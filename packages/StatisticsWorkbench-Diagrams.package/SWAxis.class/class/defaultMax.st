@@ -1,4 +1,4 @@
 defaults
 defaultMax
 
-	^ 400
+	^ 20

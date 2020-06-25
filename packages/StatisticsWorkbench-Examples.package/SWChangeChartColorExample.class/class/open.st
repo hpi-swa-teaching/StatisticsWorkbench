@@ -11,7 +11,7 @@ open
 		add: #(5 35);
 		yourself.
 		
-	graph := (SWDiagram new visualize: data with: SWBarGraph create).
+	graph := (SWDiagram new visualize: data with: SWBarChart create).
 	
 	window := graph openInWindow.
 	graph chartsColor: Color green.

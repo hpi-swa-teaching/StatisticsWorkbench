@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAdjustStepInterval" : "jk 6/25/2020 13:57",
 		"testMarkersAreDrawable" : "ds 6/19/2020 20:13",
 		"testMarkersAreNotDrawableWhenEndPointIsNull" : "ds 6/19/2020 20:13",
 		"testMarkersAreNotDrawableWhenMaxIsNull" : "ds 6/19/2020 20:14",
@@ -13,5 +14,4 @@
 		"testSetInvalidMaxOrMin" : "ds 6/19/2020 20:14",
 		"testSetInvalidStepInterval" : "ds 6/19/2020 20:14",
 		"testShortenNumbers" : "ds 6/19/2020 20:15",
-		"testUpdateMarkers" : "ds 6/19/2020 20:15",
-		"testadjustStepInterval" : "ds 6/19/2020 20:15" } }
+		"testUpdateMarkers" : "jk 6/24/2020 18:33" } }

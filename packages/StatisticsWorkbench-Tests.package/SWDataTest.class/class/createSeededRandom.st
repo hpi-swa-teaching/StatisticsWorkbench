@@ -3,8 +3,8 @@ createSeededRandom
 	
 	| data maximum minimum point pointCount |
 	
-	pointCount := 50.
-	minimum := -100.
+	pointCount := 7.
+	minimum := -60.
 	maximum := 100.
 	
 	data := SWDataUnlabeled create.

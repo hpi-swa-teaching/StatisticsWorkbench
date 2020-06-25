@@ -1,7 +1,7 @@
 updating
 update
 	
-	self diagram updateCoordinateSystem.
+	self diagram coordinateSystem update.
 	self 
 		removeAll;
 		generateDataPoints;

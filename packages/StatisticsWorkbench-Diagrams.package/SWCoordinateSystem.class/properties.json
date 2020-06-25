@@ -6,6 +6,8 @@
 		 ],
 	"commentStamp" : "aj 6/21/2018 10:36",
 	"instvars" : [
+		"charts",
+		"centeredAxes",
 		"axisNames",
 		"boundsThreshold",
 		"xAxis",

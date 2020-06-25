@@ -1,1 +1,1 @@
-A SWLineChartFullExample shows a line chart with data points in quadrant I and II.
+A SWLineChartPositiveYExample shows data in first and second quadrant

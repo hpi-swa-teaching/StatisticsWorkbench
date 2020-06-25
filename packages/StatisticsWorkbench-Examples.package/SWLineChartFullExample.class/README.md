@@ -1,1 +1,1 @@
-A SWLineChartFullExample shows a line chart with data points in all four quadrants.
+A SWLineChartFullExample shows data in all four quadrants
