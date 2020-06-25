@@ -4,6 +4,7 @@
 		"createSeeded2" : "ds 6/19/2020 20:16",
 		"createSeeded3" : "ds 6/19/2020 20:16",
 		"createSeeded4" : "ds 6/19/2020 20:16",
+		"createSeeded5" : " 6/25/2020 22:38:33",
 		"createSeededNegative" : "jk 6/25/2020 15:15",
 		"createSeededRandom" : "jk 6/24/2020 16:13" },
 	"instance" : {
@@ -21,6 +22,7 @@
 		"testEquality" : "ds 6/19/2020 20:20",
 		"testFromOrderedCollectionWithLabels" : "sjs 5/30/2020 14:51",
 		"testFromOrderedCollectionWithoutLabels" : "sjs 5/30/2020 14:51",
+		"testFromSingleOrderedCollection" : "sjs 6/11/2020 15:39",
 		"testFromStringWithLabels" : "ds 6/19/2020 20:20",
 		"testFromStringWithoutLabels" : "ds 6/19/2020 20:20",
 		"testIsFunction" : "ds 6/19/2020 20:20",
