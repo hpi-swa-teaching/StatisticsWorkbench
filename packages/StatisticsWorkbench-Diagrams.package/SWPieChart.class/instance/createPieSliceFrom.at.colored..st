@@ -1,5 +1,4 @@
 creation
-<<<<<<< HEAD
 createPieSliceFrom: aSWVector at: aPosition colored: aColor
 	
 	| newPieSlice edgePoints aKey aValue startPoint endPoint|
