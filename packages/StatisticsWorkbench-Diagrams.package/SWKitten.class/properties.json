@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SWKitten",
+	"pools" : [
+		 ],
+	"super" : "SWChartElement",
+	"type" : "normal" }
