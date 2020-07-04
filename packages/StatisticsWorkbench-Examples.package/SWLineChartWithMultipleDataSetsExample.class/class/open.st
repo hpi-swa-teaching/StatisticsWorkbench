@@ -11,7 +11,7 @@ open
 		add: #(5 35);
 		yourself.
 		
-	data2 := data2 := SWDataUnlabeled create     
+	data2 := SWDataUnlabeled create     
 		add: #(1 3);
 		add: #(2 6);
 		add: #(3 41); 
