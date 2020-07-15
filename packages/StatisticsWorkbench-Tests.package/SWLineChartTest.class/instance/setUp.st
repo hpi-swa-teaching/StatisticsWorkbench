@@ -7,4 +7,4 @@ setUp
 		lineChart: SWLineChart new;
 		diagram: (SWDiagram new visualize: self data with: self lineChart).
 		
-	self diagram coordinateSystem centeredAxes: true.
+	self diagram centerAxes

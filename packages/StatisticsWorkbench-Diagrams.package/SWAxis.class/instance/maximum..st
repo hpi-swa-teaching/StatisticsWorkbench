@@ -1,9 +1,10 @@
 accessing
-maximum: aValue 
+maximum: aValue
 
-	(self minimum notNil and: aValue notNil)
-		ifTrue: [(aValue <= self minimum) "Minimum range of 1 required for normedMarkerLength."
-					ifTrue: [SWInvalidArgumentError signal]
-					ifFalse: [maximum := aValue.
-								self update]]
-		ifFalse: [maximum := aValue]
+	(aValue notNil)
+		ifFalse: [(SWInvalidArgumentError new messageText: 'New maximum must not be nil.') signal].
+
+	(self minimum notNil and: [aValue <= self minimum])
+		ifTrue: [(SWInvalidArgumentError new messageText: 'Cannot set maximum Must be at least 1 less than maximum (required for normedMarkerLength).') signal]
+		ifFalse: [maximum := aValue.
+				self update]

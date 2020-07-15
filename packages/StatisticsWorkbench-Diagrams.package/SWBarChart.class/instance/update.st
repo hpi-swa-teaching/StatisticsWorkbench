@@ -1,7 +1,7 @@
 updating
 update
 	
-	self diagram coordinateSystem update.
+	self diagram updateCoordinateSystem.
 	self
 		removeAll;
 		createBarsFrom: self data

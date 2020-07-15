@@ -1,4 +1,4 @@
-accessing
+visualization
 centeredAxes: aBoolean
 
 	centeredAxes := aBoolean.

@@ -4,9 +4,9 @@
 	"instance" : {
 		"testAdjustStepInterval" : "jk 6/25/2020 14:53",
 		"testMarkersAreDrawable" : "ds 6/19/2020 20:13",
-		"testMarkersAreNotDrawableWhenEndPointIsNull" : "ds 6/19/2020 20:13",
-		"testMarkersAreNotDrawableWhenMaxIsNull" : "ds 6/19/2020 20:14",
-		"testMarkersAreNotDrawableWhenMinIsNull" : "ds 6/19/2020 20:14",
+		"testMarkersAreNotDrawableWhenEndPointIsNil" : "jk 7/15/2020 18:18",
+		"testMarkersAreNotDrawableWhenMaximumIsNil" : "jk 7/15/2020 18:19",
+		"testMarkersAreNotDrawableWhenMinimumIsNil" : "jk 7/15/2020 18:19",
 		"testMarkersAreNotDrawableWhenStartPointIsNull" : "ds 6/19/2020 20:14",
 		"testMarkersAreNotDrawableWhenStepIntervalIsNegative" : "ds 6/19/2020 20:14",
 		"testSetAxisColor" : "ds 6/19/2020 20:14",
