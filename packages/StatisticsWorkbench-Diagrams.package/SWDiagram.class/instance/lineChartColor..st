@@ -3,5 +3,4 @@ lineChartColor: aColor
 
 	self charts do: [:chart |
 		(chart isKindOf: SWLineChart)
-			ifTrue: [chart color: aColor]
-			]
+			ifTrue: [chart color: aColor]]
