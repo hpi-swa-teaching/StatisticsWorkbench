@@ -1,5 +1,5 @@
 testing
-testMarkersAreNotDrawableWhenEndPointIsNull
+testMarkersAreNotDrawableWhenEndPointIsNil
 
 	| axis |
 	

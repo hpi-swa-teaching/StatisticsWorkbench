@@ -1,4 +1,4 @@
 accessing
 axisNames: aStringArray
 
-	axisNames := aStringArray
+	self shouldNotImplement

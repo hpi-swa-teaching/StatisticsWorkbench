@@ -7,7 +7,7 @@ createAt: startPoint xMin: xMin xMax: xMax xStep: xStep xLength: xLength yMin: y
 	yAxis := SWAxis createAt: startPoint withMin: yMin length: yLength withMax: yMax step: yStep orientation: #vertical.
 	
 	^ SWCoordinateSystem new
-		boundsThreshold: boundsThreshold ;
+		boundsThreshold: boundsThreshold;
 		bounds: (yAxis endPoint corner: xAxis endPoint + boundsThreshold);
 		position: yAxis endPoint - (boundsThreshold / 2);
 		addAxis: xAxis dimension: #x;

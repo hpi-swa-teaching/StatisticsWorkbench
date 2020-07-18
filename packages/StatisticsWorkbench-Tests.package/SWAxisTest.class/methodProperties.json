@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAdjustStepInterval" : "jk 6/25/2020 14:53",
 		"testMarkersAreDrawable" : "ds 6/19/2020 20:13",
-		"testMarkersAreNotDrawableWhenEndPointIsNull" : "ds 6/19/2020 20:13",
-		"testMarkersAreNotDrawableWhenMaxIsNull" : "ds 6/19/2020 20:14",
-		"testMarkersAreNotDrawableWhenMinIsNull" : "ds 6/19/2020 20:14",
+		"testMarkersAreNotDrawableWhenEndPointIsNil" : "jk 7/15/2020 18:18",
+		"testMarkersAreNotDrawableWhenMaximumIsNil" : "jk 7/15/2020 18:19",
+		"testMarkersAreNotDrawableWhenMinimumIsNil" : "jk 7/15/2020 18:19",
 		"testMarkersAreNotDrawableWhenStartPointIsNull" : "ds 6/19/2020 20:14",
 		"testMarkersAreNotDrawableWhenStepIntervalIsNegative" : "ds 6/19/2020 20:14",
 		"testSetAxisColor" : "ds 6/19/2020 20:14",
@@ -13,5 +14,4 @@
 		"testSetInvalidMaxOrMin" : "ds 6/19/2020 20:14",
 		"testSetInvalidStepInterval" : "ds 6/19/2020 20:14",
 		"testShortenNumbers" : "ds 6/19/2020 20:15",
-		"testUpdateMarkers" : "ds 6/19/2020 20:15",
-		"testadjustStepInterval" : "ds 6/19/2020 20:15" } }
+		"testUpdateMarkers" : "jk 6/24/2020 18:33" } }
