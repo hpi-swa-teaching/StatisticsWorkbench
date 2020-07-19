@@ -5,7 +5,7 @@
 		"createSeeded3" : "ds 6/19/2020 20:16",
 		"createSeeded4" : "ds 6/19/2020 20:16",
 		"createSeeded5" : "6/25/2020 22:38:33",
-    "createSeeded6" : "sjs 6/25/2020 16:56",
+		"createSeeded6" : "sjs 6/25/2020 16:56",
 		"createSeededNegative" : "jk 6/25/2020 15:15",
 		"createSeededRandom" : "jk 6/24/2020 16:13" },
 	"instance" : {
@@ -21,6 +21,7 @@
 		"testDifferenceQuotient" : "ds 6/19/2020 20:19",
 		"testDimension" : "ds 6/19/2020 20:19",
 		"testEquality" : "ds 6/19/2020 20:20",
+		"testFromDataPointCollections" : "sjs 7/19/2020 11:37",
 		"testFromOrderedCollectionWithLabels" : "sjs 5/30/2020 14:51",
 		"testFromOrderedCollectionWithoutLabels" : "sjs 5/30/2020 14:51",
 		"testFromSingleOrderedCollection" : "sjs 6/11/2020 15:39",
