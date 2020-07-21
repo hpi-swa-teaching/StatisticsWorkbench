@@ -7,10 +7,12 @@
 		"defaultStepInterval" : "ds 6/19/2020 19:01" },
 	"instance" : {
 		"add:" : "ds 6/19/2020 19:01",
+		"applyDataColor" : "ds 7/21/2020 11:16",
 		"applyTheme:" : "FG 6/11/2019 08:13",
 		"color:" : "ds 6/19/2020 19:01",
 		"createLineMorph" : "ds 6/19/2020 19:01",
 		"createVertices" : "ds 6/19/2020 19:01",
+		"data:" : "ds 7/21/2020 11:15",
 		"doubleClick:" : "ds 6/19/2020 19:01",
 		"initialize" : "ds 6/19/2020 19:03",
 		"lineColor" : "ds 6/19/2020 19:03",
