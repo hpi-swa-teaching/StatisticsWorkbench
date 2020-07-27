@@ -1,15 +1,5 @@
 instance creation
 fromDataPointCollections: aSequencableCollection
 
-	| data labels inputDataOrderedCollection inputDataArrays |
-	
-	data := self create.
-	
-	inputDataOrderedCollection := (aSequencableCollection collect: [:each | each asOrderedCollection]).
-	labels := inputDataOrderedCollection collect: [:each | each removeLast].
-	inputDataArrays := inputDataOrderedCollection collect: [:each | each asArray].
-	inputDataArrays do: [:each | data add: each].
-	
-	data setLabels: labels.
-
-	^ data
+	"Data format of each subcollection should be { xValue . yValue . label}"
+	^ self fromXValues: (aSequencableCollection collect: [:each | each first]) versusYValues: (aSequencableCollection collect: [:each | each second]) withLabels: (aSequencableCollection collect: [:each | each at: 3])

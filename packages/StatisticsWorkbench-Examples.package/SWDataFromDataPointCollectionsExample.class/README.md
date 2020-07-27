@@ -1,0 +1,1 @@
+A SWDataFromDataPointCollectionsExample creates a LineChart from DataPoints
