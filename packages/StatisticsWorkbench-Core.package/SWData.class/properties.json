@@ -9,6 +9,7 @@
 		"dimensionIndices",
 		"dimensionNames",
 		"dimensions",
+		"dataColor",
 		"dataName" ],
 	"name" : "SWData",
 	"pools" : [
