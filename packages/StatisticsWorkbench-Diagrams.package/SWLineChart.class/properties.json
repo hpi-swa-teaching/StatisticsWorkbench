@@ -9,7 +9,9 @@
 		"coordinateSystem",
 		"lineColor",
 		"lineMorph",
-		"vertices" ],
+		"vertices",
+		"dataName",
+		"dataNameMorph" ],
 	"name" : "SWLineChart",
 	"pools" : [
 		 ],
