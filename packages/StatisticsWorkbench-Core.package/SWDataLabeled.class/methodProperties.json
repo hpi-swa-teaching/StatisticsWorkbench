@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"fromDataPointCollections:" : "sjs 7/28/2020 10:36",
 		"fromXValues:versusYValues:withLabels:" : "ds 6/19/2020 18:32",
 		"fromYValues:withLabels:" : "sjs 6/25/2020 16:45",
 		"processDatafromXValues:versusYValues:" : "ds 6/19/2020 18:32",
