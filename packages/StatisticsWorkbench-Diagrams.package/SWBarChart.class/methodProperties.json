@@ -3,7 +3,8 @@
 		"create" : "ds 6/19/2020 18:55",
 		"defaultBarLabelColor" : "ds 6/19/2020 18:55",
 		"defaultColor" : "ds 6/19/2020 18:55",
-		"defaultStepInterval" : "ds 6/19/2020 18:55" },
+		"defaultStepInterval" : "ds 6/19/2020 18:55",
+		"maximumSizeFactor" : "jk 7/31/2020 12:18" },
 	"instance" : {
 		"add:" : "ds 6/19/2020 18:53",
 		"applyTheme:" : "FG 6/11/2019 08:48",
@@ -21,7 +22,7 @@
 		"createBarsFrom:" : "ds 6/19/2020 18:54",
 		"dynamicBarWidth" : "ds 6/19/2020 18:55",
 		"initialize" : "ds 6/19/2020 18:55",
-		"maxBarWidth" : "ds 6/19/2020 18:55",
+		"maxBarWidth" : "jk 7/31/2020 12:18",
 		"needsCoordinateSystem" : "ds 6/19/2020 18:55",
 		"remove:" : "ds 6/19/2020 18:55",
 		"removeAll" : "ds 6/19/2020 18:55",
