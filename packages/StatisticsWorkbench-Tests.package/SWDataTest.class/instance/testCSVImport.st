@@ -1,11 +1,9 @@
 testing
 testCSVImport
 
-	| seededData labeledData fileName fileStream lines |
+	| seededData csvString csvStream labeledData lines |
 	
 	seededData := SWDataTest createSeeded4.
-	fileName :=  'sampleDataForCSVImport.csv'.
-	fileStream := FileStream newFileNamed: fileName.
 	lines :={
 		'X,Y,Labels' .
 		'0,1,one' .
@@ -13,12 +11,10 @@ testCSVImport
 		'2,3,three' .
 		'3,1,four'
 	}.
-	lines do: [:line | fileStream nextPutAll: line; cr].
-	fileStream close.
+	csvString := lines inject: '' into: [:agg :current | agg, current, String cr].
+	csvStream := ReadStream on: csvString from: 1 to: csvString size.
 	
-	labeledData := SWDataLabeled fromCSVFileNamed: fileName.
+	labeledData := SWDataLabeled fromCSVStream: csvStream.
 	labeledData setAllDimensionNames: #('Time' 'Value').
 	
 	self assert: labeledData equals: seededData.
-	
-	"FileSystem disk delete: fileName."

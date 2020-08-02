@@ -1,4 +1,0 @@
-CSV parsing
-defaultEscapeChar
-
-	^ $"
