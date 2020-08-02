@@ -1,4 +1,4 @@
 adjusting
 markerDistance
 
-	^ self stepInterval * self length / self valueRange
+	^ self stepInterval * self normedMarkerLength

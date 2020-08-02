@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sjs 7/27/2020 14:19",
+	"instvars" : [
+		 ],
+	"name" : "SWDataFromDataPointCollectionsExample",
+	"pools" : [
+		 ],
+	"super" : "SWExample",
+	"type" : "normal" }

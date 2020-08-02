@@ -2,6 +2,6 @@ updating
 update
 
 	self updateCharts.
-	
+
 	(self hasCoordinateSystem)
-		ifTrue: [self updateCoordinateSystem]
+		ifTrue: [self coordinateSystem update]

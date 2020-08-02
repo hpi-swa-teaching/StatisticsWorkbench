@@ -8,7 +8,9 @@
 	"instvars" : [
 		"dimensionIndices",
 		"dimensionNames",
-		"dimensions" ],
+		"dimensions",
+		"dataColor",
+		"dataName" ],
 	"name" : "SWData",
 	"pools" : [
 		 ],
