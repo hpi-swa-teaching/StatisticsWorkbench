@@ -1,12 +1,19 @@
 {
 	"class" : {
 		"create" : "ds 6/19/2020 18:31",
+		"defaultDelimeter" : "mv 6/24/2020 08:42",
+		"defaultEscapeCharacter" : "jvm 8/2/2020 13:00",
+		"fromCSVStream:" : "jvm 8/2/2020 13:00",
+		"fromCSVStream:delimeter:escapeWith:" : "jvm 8/2/2020 13:00",
+		"fromNamedColumns:" : "mv 6/24/2020 09:39",
 		"fromString:ofDataDimension:" : "ds 6/19/2020 18:31",
-		"fromXValues:versusYValues:" : "ds 6/19/2020 18:31",
+		"fromXValues:versusYValues:" : "jvm 8/2/2020 13:01",
 		"fromYValues:" : "sjs 6/22/2020 17:51",
 		"mathFunctions" : "Kenneth-Schroeder 6/28/2018 18:48",
+		"namedColumnsFromMatrix:" : "mv 6/24/2020 10:24",
 		"processDatafromXValues:versusYValues:" : "sjs 5/30/2020 14:49",
-		"processStringData:ofDataDimension:" : "Kenneth-Schroeder 6/27/2018 14:14" },
+		"processStringData:ofDataDimension:" : "Kenneth-Schroeder 6/27/2018 14:14",
+		"tokenize:delimeter:escapeWith:" : "mv 6/24/2020 10:19" },
 	"instance" : {
 		"add:" : "ds 6/19/2020 18:26",
 		"addMany:" : "ds 6/19/2020 18:26",
