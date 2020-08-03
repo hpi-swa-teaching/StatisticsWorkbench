@@ -1,0 +1,17 @@
+{
+	"category" : "CSV",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "topa 12/4/2017 15:34",
+	"instvars" : [
+		"stream",
+		"delimiter",
+		"quote",
+		"rowClass" ],
+	"name" : "CSVParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

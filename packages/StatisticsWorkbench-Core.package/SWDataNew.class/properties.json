@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jk 8/3/2020 13:34",
+	"instvars" : [
+		"dimensionNames" ],
+	"name" : "SWDataNew",
+	"pools" : [
+		 ],
+	"super" : "Matrix",
+	"type" : "normal" }

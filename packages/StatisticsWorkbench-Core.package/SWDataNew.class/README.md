@@ -1,0 +1,1 @@
+Internal helper to create data as a Matrix.

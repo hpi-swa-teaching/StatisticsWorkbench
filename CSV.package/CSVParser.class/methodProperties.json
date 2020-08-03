@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"on:" : "topa 12/4/2017 15:33",
+		"onString:" : "LaurentLaffont 8/26/2011 10:48",
+		"parse:" : "LaurentLaffont 8/26/2011 10:48",
+		"parseString:" : "avi 7/4/2005 22:08" },
+	"instance" : {
+		"asJSONWithHeader:" : "topa 12/4/2017 16:10",
+		"atEndOfLine" : "topa 12/4/2017 15:31",
+		"initialize" : "topa 12/4/2017 15:39",
+		"nextInLine" : "topa 12/4/2017 15:27",
+		"nextQuotedValue" : "topa 12/4/2017 15:41",
+		"nextRow" : "topa 12/4/2017 16:03",
+		"nextValue" : "topa 12/4/2017 16:03",
+		"rowClass" : "JohnnyT 4/13/2012 17:07",
+		"rows" : "avi 7/4/2005 22:08",
+		"rowsDo:" : "topa 12/4/2017 15:31",
+		"setStream:" : "topa 12/4/2017 15:33",
+		"useDelimiter:" : "Damir 9/2/2011 21:17",
+		"useQuote:" : "topa 12/4/2017 15:39",
+		"useRowClass:" : "JohnnyT 4/13/2012 17:16" } }

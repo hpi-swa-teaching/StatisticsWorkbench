@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"fromCSVStream:" : "jk 8/3/2020 13:18",
+		"fromDatapoints:" : "jk 8/3/2020 11:15",
+		"fromDatapoints:withDimensionNames:" : "jk 8/3/2020 11:13",
+		"fromDimensions:" : "jk 8/3/2020 12:15" },
+	"instance" : {
+		"dimensionNames" : "jk 8/3/2020 09:52",
+		"dimensionNames:" : "jk 8/3/2020 09:52" } }
