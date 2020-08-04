@@ -1,4 +1,4 @@
 adding/removing
-removeCoordinateSystem
+deleteCoordinateSystem
 	
 	self coordinateSystem delete

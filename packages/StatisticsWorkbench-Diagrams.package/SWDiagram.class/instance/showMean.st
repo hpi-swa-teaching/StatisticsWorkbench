@@ -1,12 +1,12 @@
 visualization
 showMean
 
-	|meanValue meanData|
+	| meanValue meanData |
 
-	(self charts first isKindOf: SWPieChart) 
-		ifTrue:[Exception signal: 'This chart does not support showMean functionality.'].
+	(self charts first supportsShowMean) 
+		ifFalse: [Exception signal: 'This chart does not support showMean functionality.'].
 	
-	meanValue := self charts first data mean: 2.
+	meanValue := self charts first data meanY.
 	meanData := SWDataUnlabeled create.
 	
 	0 to: (self charts first data size) do: [:i | meanData add: (Array with: i with: meanValue)].

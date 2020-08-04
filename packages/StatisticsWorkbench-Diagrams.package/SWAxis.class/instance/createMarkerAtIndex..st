@@ -1,17 +1,17 @@
 creation
 createMarkerAtIndex: aIndex
 
-	| orientation | 
+	| markerOrientation | 
 			
 	(self orientation = #horizontal)
-		ifTrue: [orientation := #vertical]
-		ifFalse: [orientation := #horizontal].
+		ifTrue: [markerOrientation := #vertical]
+		ifFalse: [markerOrientation := #horizontal].
 	 
-	^ SWAxisLine
+	^ SWAxisMarker
 			create: (self newMarkerPosition: aIndex)
-			orientation: orientation
+			orientation: markerOrientation
 			caption: (self shortenNumbers: (self minimum + (aIndex * self stepInterval)))
 			textColor: self textColor
 			strokeColor: self borderColor
-			raster: (self rasterVisibility and: self rasterLength notNil and: aIndex ~= 0)
+			raster: (self rasterVisibility and: [self rasterLength notNil and: [aIndex ~= 0]])
 			length: self rasterLength

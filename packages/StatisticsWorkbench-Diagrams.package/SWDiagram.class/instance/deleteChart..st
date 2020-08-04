@@ -1,5 +1,5 @@
 adding/removing
-removeChart: aSWChart
+deleteChart: aSWChart
 
 	self charts remove: aSWChart.
 	aSWChart delete

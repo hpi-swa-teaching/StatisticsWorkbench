@@ -9,7 +9,7 @@
 		"captionMorph",
 		"rasterMorph",
 		"strokeMorph" ],
-	"name" : "SWAxisLine",
+	"name" : "SWAxisMarker",
 	"pools" : [
 		 ],
 	"super" : "Morph",

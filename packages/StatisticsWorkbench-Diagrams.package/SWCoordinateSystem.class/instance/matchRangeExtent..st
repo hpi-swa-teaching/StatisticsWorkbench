@@ -7,6 +7,6 @@ matchRangeExtent: aRange
 	max := aRange second.
 	
 	(min abs < max abs)
-		ifTrue: [^ (Array with: max negated with: max)].
+		ifTrue: [^ Array with: max negated with: max].
 		
-	^ (Array with: min with: min negated)
+	^ Array with: min with: min negated

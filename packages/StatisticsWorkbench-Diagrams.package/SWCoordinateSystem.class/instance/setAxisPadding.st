@@ -1,13 +1,10 @@
 geometry
 setAxisPadding
 
-	| tempX tempY |
-
-	tempX := self xAxis maximum.
-	tempY := self yAxis maximum.
+	| paddedMaximumX paddedMaximumY |
 	
-	tempX := (tempX * self class defaultAxisValuePaddingFactor) ceiling.
-	tempY := (tempY * self class defaultAxisValuePaddingFactor) ceiling.
+	paddedMaximumX := (self xAxis maximum * self class defaultAxisValuePaddingFactor) ceiling.
+	paddedMaximumY := ( self yAxis maximum * self class defaultAxisValuePaddingFactor) ceiling.
 
-	self xAxis maximum: tempX.
-	self yAxis maximum: tempY
+	self xAxis maximum: paddedMaximumX.
+	self yAxis maximum: paddedMaximumY

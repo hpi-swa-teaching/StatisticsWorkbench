@@ -25,6 +25,6 @@
 		"testFunctionGraphContainsTwoAxis" : "ds 6/19/2020 20:26",
 		"testMultipleChartsDependOnOneDataSet" : "jk 6/25/2020 22:27",
 		"testPieChartContainsNoAxis" : "jk 6/25/2020 22:45",
-		"testRemoveChart" : "jk 6/25/2020 22:28",
+		"testRemoveChart" : "jk 8/4/2020 18:12",
 		"testScatterPlotContainsTwoAxis" : "ds 6/19/2020 20:26",
 		"testVisualizeMultipleCharts" : "jk 6/25/2020 22:28" } }

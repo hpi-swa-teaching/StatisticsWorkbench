@@ -1,4 +1,4 @@
 adding/removing
 removeFrom: aDiagram
 
-	aDiagram removeCoordinateSystem
+	aDiagram deleteCoordinateSystem

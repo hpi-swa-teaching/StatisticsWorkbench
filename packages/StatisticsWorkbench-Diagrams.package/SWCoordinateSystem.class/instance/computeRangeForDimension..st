@@ -1,12 +1,14 @@
 computing
 computeRangeForDimension: aDimension
 
-	| range |
+	| range globalMax globalMin |
 
 	(self diagram charts)
-		ifEmpty: [^ (Array with: (SWAxis defaultMin) with: (SWAxis defaultMax))].
+		ifEmpty: [^ Array with: SWAxis defaultMin with: SWAxis defaultMax].
 	
-	range := Array with: (self diagram minimumOfAllChartsForDimension: aDimension) with: (self diagram maximumOfAllChartsForDimension: aDimension).
+	globalMin := self diagram minimumOfAllChartsForDimension: aDimension.
+	globalMax := self diagram maximumOfAllChartsForDimension: aDimension.
+	range := Array with: globalMin with: globalMax.
 	
 	range := self includeZeroInRange: range.
 	
