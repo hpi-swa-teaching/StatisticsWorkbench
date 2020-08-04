@@ -1,10 +1,9 @@
 {
 	"class" : {
-		"fromDataPointCollections:" : "sjs 7/28/2020 10:36",
+		"fromDataPointCollections:" : "sjs 8/4/2020 16:20",
 		"fromNamedColumns:" : "mv 6/24/2020 10:29",
 		"fromXValues:versusYValues:withLabels:" : "jvm 8/2/2020 13:46",
 		"fromYValues:withLabels:" : "sjs 6/25/2020 16:45",
-		"processDatafromXValues:versusYValues:" : "ds 6/19/2020 18:32",
 		"processStringData:ofDataDimension:" : "ds 6/19/2020 18:32" },
 	"instance" : {
 		"asString" : "ds 6/19/2020 18:33",

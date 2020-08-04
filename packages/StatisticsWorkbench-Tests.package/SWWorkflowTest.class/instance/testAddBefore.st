@@ -4,7 +4,7 @@ testAddBefore
 	self workflow add: self node1.
 	self workflow add: self node2 before: self node1.
 	
-	self assert: self node2 equals: (self workflow at: 2).
+	self assert: self node2 equals: (self workflow nodes second).
 	self assert: 1 equals: self node1 predecessors size.
 	self assert: self node2 equals: (self node1 predecessors first).
 	self assert: self node1 equals: (self node2 successors first).

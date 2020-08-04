@@ -1,4 +1,4 @@
 testing
 testEasyData
 
-	self executeTest: self easyData
+	self executeTest: self class createEasyData

@@ -1,8 +1,7 @@
 {
 	"class" : {
-		"fromDataPointCollections:" : "sjs 7/28/2020 10:36",
+		"fromDataPointCollections:" : "sjs 8/4/2020 16:19",
 		"fromNamedColumns:" : "mv 6/24/2020 10:30",
-		"processDatafromXValues:versusYValues:" : "ds 6/19/2020 18:32",
 		"processStringData:ofDataDimension:" : "ds 6/19/2020 18:33" },
 	"instance" : {
 		"asString" : "ds 6/19/2020 18:33" } }
