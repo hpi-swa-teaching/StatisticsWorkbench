@@ -7,7 +7,7 @@
 	"commentStamp" : "sjs 6/11/2020 15:54",
 	"instvars" : [
 		 ],
-	"name" : "SWLineChartFullExample",
+	"name" : "SWLineChartFullXYExample",
 	"pools" : [
 		 ],
 	"super" : "SWExample",

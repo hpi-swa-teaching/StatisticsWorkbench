@@ -7,7 +7,7 @@ createMarkerAtIndex: aIndex
 		ifTrue: [markerOrientation := #vertical]
 		ifFalse: [markerOrientation := #horizontal].
 	 
-	shortenedNumber := (SWNumberShortener new) shortenNumber: (self minimum + (aIndex * self stepInterval)).
+	shortenedNumber := SWNumberShortener new shortenNumber: (self minimum + (aIndex * self stepInterval)).
 	
 	^ SWAxisMarker
 			create: (self newMarkerPosition: aIndex)
