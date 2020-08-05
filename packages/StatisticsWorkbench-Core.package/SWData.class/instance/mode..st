@@ -1,6 +1,5 @@
 math functions
 mode: aDimension
-	"Mode returns an array, because multiple modes are possible."
 
 	| occurrences result |
 

@@ -1,4 +1,4 @@
 CSV parsing
 fromNamedColumns: aDictionary
 
-	^ self subclassResponsibility.
+	^ self subclassResponsibility
