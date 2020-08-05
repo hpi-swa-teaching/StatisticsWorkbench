@@ -1,18 +1,8 @@
-as yet unclassified
+instance creation
 open
 
-	| data graph window |
+	| data |
 	
-	data := SWDataUnlabeled create     
-		add: #(-2 0);
-		add: #(-10 10);
-		add: #(8 -3); 
-		add: #(-20 3);
-		add: #(-16 4);
-		add: #(5 -17);
-		yourself.
-		
-	graph := (SWDiagram new visualize: data with: SWLineChart create).
-	window := graph openInWindow.
+	data := SWDataUnlabeled fromXValues: {-2 . -10 . 8 . -20 . -16 . 5} versusYValues: {0 . 10 . -3 . 3 . 4 . -17}.
 	
-	^ window
+	^ (SWDiagram new visualize: data with: SWLineChart create) openInWindow

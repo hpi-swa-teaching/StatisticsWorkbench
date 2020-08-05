@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ds 8/5/2020 19:21",
+	"instvars" : [
+		 ],
+	"name" : "SWBarChartChangeWidthExample",
+	"pools" : [
+		 ],
+	"super" : "SWExample",
+	"type" : "normal" }

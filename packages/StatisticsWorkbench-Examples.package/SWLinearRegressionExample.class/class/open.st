@@ -1,19 +1,11 @@
-as yet unclassified
+instance creation
 open
 
-	| data graph linearRegression scatterPlot|
-	
-	data := SWDataUnlabeled create     
-		add: #(1 22);
-		add: #(2 110);
-		add: #(3 64); 
-		add: #(4 211);
-		add: #(5 35);
-		yourself.
+	| graph scatterPlot|
 		
-	graph := (SWDiagram new visualize: data with: SWScatterPlot create)
-		openInWindow;
-		yourself.
+	graph := (SWDiagram new visualize: self data with: SWScatterPlot create).
 	
-	scatterPlot :=  graph submorphs at: 1.
-	linearRegression := SWLinearRegression newFromScatterPlot: scatterPlot plotOn: graph.
+	scatterPlot := graph submorphs at: 1.
+	SWLinearRegression newFromScatterPlot: scatterPlot plotOn: graph.
+
+	^ graph openInWindow
