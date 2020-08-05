@@ -1,4 +1,4 @@
 adjusting
-getPositionForValue: aValue
+positionForValue: aValue
 
 	^ self normedMarkerLength * aValue

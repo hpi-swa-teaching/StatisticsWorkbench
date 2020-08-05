@@ -1,1 +1,1 @@
-A SWAxisLine is the axis labeling of a SWAxis
+A SWAxisMarker is the axis labeling of a SWAxis.

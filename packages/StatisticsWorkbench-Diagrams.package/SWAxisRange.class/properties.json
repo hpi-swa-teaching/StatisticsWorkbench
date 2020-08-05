@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "jk 8/5/2020 20:04",
+	"commentStamp" : "",
 	"instvars" : [
-		"captionMorph",
-		"rasterMorph",
-		"strokeMorph" ],
-	"name" : "SWAxisMarker",
+		 ],
+	"name" : "SWAxisRange",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Interval",
 	"type" : "normal" }

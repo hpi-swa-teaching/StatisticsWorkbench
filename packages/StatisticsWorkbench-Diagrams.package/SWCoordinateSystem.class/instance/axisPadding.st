@@ -1,5 +1,5 @@
 geometry
-setAxisPadding
+axisPadding
 
 	| paddedMaximumX paddedMaximumY |
 	

@@ -1,15 +1,10 @@
 updating
 updateRanges
 	
-	| maxX maxY minX minY rangeX rangeY |
+	| rangeX rangeY |
 		
-	rangeX := self computeRangeForDimension: #x.
-	minX := rangeX first.
-	maxX := rangeX second.
+	rangeX := self rangeForDimension: #x.
+	rangeY := self rangeForDimension: #y.
 	
-	rangeY := self computeRangeForDimension: #y.
-	minY := rangeY first.
-	maxY := rangeY second.
-		
-	self updateMinX: minX minY: minY.
-	self updateMaxX:  maxX maxY: maxY
+	self updateMinX: rangeX min minY: rangeY min.
+	self updateMaxX:  rangeX max maxY: rangeY max
