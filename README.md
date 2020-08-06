@@ -31,7 +31,7 @@ We created multiple examples, in order to get you started with our project.
 You can find them in the StatisticsWorkbench-Examples package.
 They can be used by calling:
 ```
-[ExampleName] open.
+<ExampleName> open.
 ```
 E.g.
 ```
@@ -56,9 +56,9 @@ data setAllDimensionNames: #('City' 'PopulationInThousands').
 Afterwards you can visualize it as LineGraph/BarChart/PieChart/etc:
 
 ```
-graph := (SWDiagram new visualize: data with: SWBarGraph create.) 
-graph := (SWDiagram new visualize: data with: SWLineChart create.)
-graph := (SWDiagram new visualize: data with: SWPieChart create.)
+graph := SWDiagram new visualize: data with: SWBarGraph create. 
+graph := SWDiagram new visualize: data with: SWLineChart create.
+graph := SWDiagram new visualize: data with: SWPieChart create.
 ```
 
 And you can open your chart in a window - that can also be labelled - with 

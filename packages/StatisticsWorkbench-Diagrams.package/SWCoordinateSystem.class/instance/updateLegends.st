@@ -1,5 +1,5 @@
 updating
 updateLegends
 
-	self xAxis setLegend: (self axisNames first).
-	self yAxis setLegend: (self axisNames second)
+	self xAxis legend: (self axisNames first).
+	self yAxis legend: (self axisNames second)

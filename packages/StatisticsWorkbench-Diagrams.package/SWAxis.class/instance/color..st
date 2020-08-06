@@ -1,4 +1,4 @@
-visualization
+accessing
 color: aColor
 
 	color := aColor.

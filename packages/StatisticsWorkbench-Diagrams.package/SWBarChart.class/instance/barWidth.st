@@ -1,6 +1,6 @@
 accessing
 barWidth
 
-	(barWidth notNil)
-		ifTrue: [^ barWidth]
-		ifFalse: [^ self dynamicBarWidth]
+	barWidth
+		ifNotNil: [^ barWidth]
+		ifNil: [^ self dynamicBarWidth]

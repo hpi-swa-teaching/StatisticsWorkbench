@@ -13,6 +13,7 @@ createBarsFrom: aSWData
 						vector: vector;
 						color: self barColor;
 						caption: vector labelName; 
-						bottom: self barBottom).
+						bottom: self barBottom;
+						yourself).
 		bar barLabelMorph color: self barLabelColor.
 		self add: bar]

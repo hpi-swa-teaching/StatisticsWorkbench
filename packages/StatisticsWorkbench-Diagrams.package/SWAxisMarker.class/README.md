@@ -1,0 +1,1 @@
+A SWAxisMarker is the axis labeling of a SWAxis.

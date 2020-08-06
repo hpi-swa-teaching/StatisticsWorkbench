@@ -1,4 +1,4 @@
 accessing
 dimensionNames
 
-	^ self charts first data dimensionNames
+	^ self charts first dimensionNames

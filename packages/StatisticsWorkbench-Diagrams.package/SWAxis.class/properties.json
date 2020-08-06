@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "aj 6/21/2018 10:36",
 	"instvars" : [
-		"labelInterval",
 		"legend",
 		"markers",
 		"maximum",
@@ -16,8 +15,7 @@
 		"rasterVisibility",
 		"stepInterval",
 		"textColor",
-		"textVisibility",
-		"valueRange" ],
+		"textVisibility" ],
 	"name" : "SWAxis",
 	"pools" : [
 		 ],

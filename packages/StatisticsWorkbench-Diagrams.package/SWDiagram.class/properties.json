@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "aj 6/21/2018 10:39",
+	"commentStamp" : "jk 8/4/2020 18:12",
 	"instvars" : [
 		"charts",
 		"coordinateSystem",
-		"colorTheme",
-		"centeredAxes" ],
+		"colorTheme" ],
 	"name" : "SWDiagram",
 	"pools" : [
 		 ],

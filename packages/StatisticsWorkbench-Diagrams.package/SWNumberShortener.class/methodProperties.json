@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"defaultAbbreviations" : "jk 8/5/2020 17:57",
+		"defaultDigitCountRange" : "jk 8/5/2020 18:05" },
+	"instance" : {
+		"abbreviationForNumber:" : "jk 8/5/2020 18:03",
+		"computeMagnitude:" : "jk 8/5/2020 17:37",
+		"digitCount:" : "jk 8/5/2020 17:52",
+		"formatShortenedNumber:" : "jk 8/5/2020 18:18",
+		"powerOfTenForNumber:" : "jk 8/5/2020 17:54",
+		"shortenNumber:" : "jk 8/5/2020 18:10" } }
