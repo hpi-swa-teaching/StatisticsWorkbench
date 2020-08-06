@@ -7,7 +7,6 @@
 	"commentStamp" : "aj 6/21/2018 10:36",
 	"instvars" : [
 		"centeredAxes",
-		"axisNames",
 		"boundsThreshold",
 		"xAxis",
 		"yAxis",

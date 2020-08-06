@@ -1,10 +1,10 @@
 accessing
 minimum: aValue
 
-	(aValue notNil)
-		ifFalse: [(SWInvalidArgumentError new messageText: 'New minimum must not be nil.') signal].
+	(aValue)
+		ifNil: [SWInvalidArgumentError signal: 'New minimum must not be nil.'].
 
 	(self maximum notNil and: [aValue >= self maximum])
-		ifTrue: [(SWInvalidArgumentError new messageText: 'Cannot set minimum: Must be at least 1 less than maximum (required for normedMarkerLength).') signal]
+		ifTrue: [SWInvalidArgumentError signal: 'Minimum must be smaller than maximum.']
 		ifFalse: [minimum := aValue.
 				self update]

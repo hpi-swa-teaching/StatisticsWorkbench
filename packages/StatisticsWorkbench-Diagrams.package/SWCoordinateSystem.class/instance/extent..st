@@ -3,5 +3,5 @@ extent: aPoint
 
 	super extent: aPoint.
 
-	(self xAxis isNil or: [self yAxis isNil])
-			ifFalse: [self update]
+	(self xAxis notNil and: [self yAxis notNil])
+			ifTrue: [self update]
