@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"addTo:" : "ds 6/19/2020 19:43",
-		"addValueLabel:" : "jk 6/25/2020 21:19",
+		"addValueLabel:" : "jvm 8/6/2020 11:17",
 		"centerPoint" : "sjs 6/20/2020 10:19",
 		"centerPoint:" : "sjs 6/20/2020 12:15",
 		"edgePoints" : "6/25/2020 18:15:18",
@@ -23,7 +23,7 @@
 		"slice:" : "sjs 6/20/2020 12:16",
 		"startPoint" : "6/25/2020 18:15:18",
 		"startPoint:" : "6/25/2020 18:15:18",
-		"toggleValueVisibility" : "sjs 6/20/2020 12:16",
+		"toggleValueVisibility" : "jvm 8/6/2020 11:16",
 		"updateSlice" : "sjs 6/20/2020 12:16",
 		"value" : "6/25/2020 18:15:18",
 		"value:" : "sjs 6/20/2020 12:16" } }

@@ -48,7 +48,7 @@
 		"minimum:" : "ds 6/19/2020 18:30",
 		"mode:" : "jvm 8/5/2020 09:32",
 		"removeArray:" : "ds 6/19/2020 18:30",
-		"selectDimension:" : "ds 6/19/2020 18:30",
+		"selectDimension:" : "jvm 8/6/2020 10:53",
 		"setAllDimensionNames:" : "jvm 8/5/2020 09:28",
 		"species" : "ds 6/19/2020 18:30",
 		"substract:and:with:" : "ds 6/19/2020 18:31",

@@ -1,5 +1,5 @@
 creation
 createVertices
 
-	^ self data collect: [:vector | self coordinateSystem positionFor: vector asPoint].
+	^ self data collect: [:vector | self coordinateSystem positionFor: vector asPoint]
 	
