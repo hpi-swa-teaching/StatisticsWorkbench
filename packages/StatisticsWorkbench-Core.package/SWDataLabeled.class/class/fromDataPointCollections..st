@@ -1,5 +1,10 @@
 instance creation
 fromDataPointCollections: aSequencableCollection
-
-	"Data format of each subcollection should be { xValue . yValue . label}"
-	^ self fromXValues: (aSequencableCollection collect: [:each | each at: 1]) versusYValues: (aSequencableCollection collect: [:each | each at: 2]) withLabels: (aSequencableCollection collect: [:each | each at: 3])
+	
+	| xValues yValues labels |
+	
+	xValues := aSequencableCollection collect: [:each | each first].
+	yValues := aSequencableCollection collect: [:each | each second].
+	labels := aSequencableCollection collect: [:each | each third].
+	
+	^ self fromXValues: xValues versusYValues: yValues withLabels: labels

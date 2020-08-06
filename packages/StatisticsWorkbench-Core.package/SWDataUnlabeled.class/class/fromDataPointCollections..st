@@ -1,4 +1,9 @@
 instance creation
 fromDataPointCollections: aSequencableCollection
 
-	^ self processDatafromXValues: (aSequencableCollection collect: [:each | each at: 1]) versusYValues: (aSequencableCollection collect: [:each | each at: 2])
+	| xValues yValues |
+	
+	xValues := aSequencableCollection collect: [:each | each first].
+	yValues := aSequencableCollection collect: [:each | each second].
+
+	^ self processDatafromXValues: xValues versusYValues: yValues

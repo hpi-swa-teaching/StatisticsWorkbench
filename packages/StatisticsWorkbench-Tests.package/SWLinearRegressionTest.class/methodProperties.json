@@ -1,14 +1,11 @@
 {
 	"class" : {
-		 },
+		"createEasyData" : "sjs 8/4/2020 15:43",
+		"createHardData" : "sjs 8/4/2020 15:42",
+		"createMediumData" : "sjs 8/4/2020 15:42" },
 	"instance" : {
-		"easyData" : "ds 6/19/2020 20:29",
-		"executeTest:" : "ds 6/19/2020 20:29",
-		"hardData" : "ds 6/19/2020 20:29",
-		"linearRegression" : "ds 6/19/2020 20:29",
-		"linearRegression:" : "ds 6/19/2020 20:30",
-		"mediumData" : "ds 6/19/2020 20:30",
-		"testEasyData" : "ds 6/19/2020 20:30",
-		"testHardData" : "ds 6/19/2020 20:30",
-		"testMediumData" : "ds 6/19/2020 20:30",
+		"executeTest:" : "sjs 8/4/2020 15:41",
+		"testEasyData" : "sjs 8/4/2020 15:44",
+		"testHardData" : "sjs 8/4/2020 15:44",
+		"testMediumData" : "sjs 8/4/2020 15:43",
 		"tolerance" : "ds 6/19/2020 20:31" } }

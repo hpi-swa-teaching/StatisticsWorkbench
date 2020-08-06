@@ -1,4 +1,4 @@
 testing
 testMediumData
 
-	self executeTest: self mediumData.
+	self executeTest: self class createMediumData.

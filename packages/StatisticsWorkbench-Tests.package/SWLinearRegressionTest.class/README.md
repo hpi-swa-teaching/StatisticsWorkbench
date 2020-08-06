@@ -1,0 +1,1 @@
+A SWLinearRegressionTest tests if aSWLinearRegression works as expected.

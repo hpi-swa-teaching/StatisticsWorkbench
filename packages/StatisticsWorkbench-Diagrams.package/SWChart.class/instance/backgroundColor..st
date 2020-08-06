@@ -1,4 +1,4 @@
 accessing
 backgroundColor: aColor
 
-	color := aColor
+	self color: aColor

@@ -27,9 +27,7 @@ createPieSliceFrom: aSWVector at: aPosition colored: aColor
 			
 	edgePoints := edgePoints, (self generateOuterBorderFromStartPoint: startPoint withValue: aValue).
 
-	edgePoints
-			add: endPoint;
-			yourself.
+	edgePoints add: endPoint.
 
 	newPieSlice 
 			edgePoints: edgePoints;

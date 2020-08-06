@@ -3,7 +3,7 @@ testFromOrderedCollectionWithoutLabels
 
 	| seededData expectedData |
 	
-	seededData := SWDataTest createSeeded3.
+	seededData := self class createSeeded3.
 	expectedData := SWDataUnlabeled fromXValues: {0 . 1 . 2 . 3} versusYValues: {1 . 1 . 3 . 1}.
 	
 	expectedData setAllDimensionNames: #('Time' 'Value').

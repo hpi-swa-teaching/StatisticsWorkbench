@@ -1,4 +1,4 @@
 testing
 testHardData
 
-	self executeTest: self hardData
+	self executeTest: self class createHardData
