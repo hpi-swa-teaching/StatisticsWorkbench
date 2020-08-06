@@ -3,7 +3,7 @@ testStrokeMorph
 
 	| axisLine |
 	
-	axisLine := SWAxisLine create.
+	axisLine := SWAxisMarker create.
 	
 	self assert: axisLine strokeMorph notNil.
 	

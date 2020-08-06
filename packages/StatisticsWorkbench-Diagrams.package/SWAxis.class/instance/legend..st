@@ -3,8 +3,8 @@ legend: aText
 
 	| morph |
 	
-	(self legend isNil)
-		ifTrue: [morph := TextMorph new contents: aText;
+	(self legend)
+		ifNil: [morph := TextMorph new contents: aText;
 					color: self color;
 					yourself.
 					
@@ -12,4 +12,4 @@ legend: aText
 				self
 					addMorph: morph;
 					updateLegend]
-		ifFalse: [self legend contents: aText]
+		ifNotNil: [self legend contents: aText]

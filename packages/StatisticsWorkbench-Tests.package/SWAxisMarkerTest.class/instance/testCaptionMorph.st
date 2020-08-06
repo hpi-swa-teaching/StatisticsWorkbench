@@ -3,7 +3,7 @@ testCaptionMorph
 
 	| axisLine |
 	
-	axisLine := SWAxisLine create.
+	axisLine := SWAxisMarker create.
 	axisLine caption: 'test'.
 	self assert: axisLine captionMorph text equals: 'test'.
 	

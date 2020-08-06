@@ -1,8 +1,8 @@
 accessing
 maximum: aValue
 
-	(aValue isNil)
-		ifTrue: [SWInvalidArgumentError signal: 'New maximum must not be nil.'].
+	(aValue)
+		ifNil: [SWInvalidArgumentError signal: 'New maximum must not be nil.'].
 
 	(self minimum notNil and: [aValue <= self minimum])
 		ifTrue: [SWInvalidArgumentError signal: 'Maximum must be larger than minimum.']
