@@ -31,7 +31,7 @@ We created multiple examples, in order to get you started with our project.
 You can find them in the StatisticsWorkbench-Examples package.
 They can be used by calling:
 ```
-*ExampleName* open.
+<ExampleName> open.
 ```
 E.g.
 ```
