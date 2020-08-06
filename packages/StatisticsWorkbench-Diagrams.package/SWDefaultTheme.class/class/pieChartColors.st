@@ -5,7 +5,8 @@ pieChartColors
 	
 	colors := OrderedCollection new.
 		
-	colors add: (Color r: 230/255 g: 159/255 b: 0);
+	colors
+		add: (Color r: 230/255 g: 159/255 b: 0);
 		add: (Color r: 86/255 g: 180/255 b: 233/255);
 		add: (Color r: 0 g: 158/255 b: 115/255);
 		add: (Color r: 240/255 g: 228/255 b: 66/255);
