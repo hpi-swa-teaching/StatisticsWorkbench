@@ -1,13 +1,9 @@
-as yet unclassified
+instance creation
 open
 
-	| labeledData unlabeledData graph |
+	| labeledData unlabeledData |
 
-	labeledData := #(#(1 1 'one') #(2 1 'two') #(3 3 'three') #(4 1 'four')).
-	labeledData := SWDataLabeled fromDataPointCollections: labeledData.
-		
-	unlabeledData := #(#(1 1) #(2 1) #(3 3) #(4 0)).
-	unlabeledData := SWDataUnlabeled fromDataPointCollections: unlabeledData.
+	labeledData := SWDataLabeled fromDataPointCollections: #(#(1 1 'one') #(2 1 'two') #(3 3 'three') #(4 1 'four')).
+	unlabeledData := SWDataUnlabeled fromDataPointCollections: #(#(0 2) #(1 1) #(2 1) #(3 3) #(4 0)).
 	
-	graph := (SWDiagram new visualize: labeledData and: unlabeledData with: SWLineChart create and: SWLineChart create).
-	graph openInWindow
+	^ (SWDiagram new visualize: labeledData and: unlabeledData with: SWBarChart create and: SWLineChart create) openInWindow
