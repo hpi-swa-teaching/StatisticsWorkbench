@@ -1,11 +1,9 @@
 geometry
 maxBarWidth
 
-	| calculatedMaxBarWitdh differenceCollection first maxSizeFactor |
+	| calculatedMaxBarWidth minimumBarGap |
 
-	maxSizeFactor := 0.9.
-	differenceCollection := (self data allDifferences: #x) reject: [:each | each = 0].
-	calculatedMaxBarWitdh := (self coordinateSystem xAxis normedMarkerLength) * (differenceCollection min) * maxSizeFactor.
-	first := (self coordinateSystem xAxis normedMarkerLength) * (self data first x) * 2 * maxSizeFactor.
+	minimumBarGap := ((self data allDifferences: #x) reject: [:each | each = 0]) min.
+	calculatedMaxBarWidth := (self coordinateSystem xAxis normedMarkerLength) * minimumBarGap * self class maximumSizeFactor.
 
-	^ (calculatedMaxBarWitdh asOrderedCollection, first asOrderedCollection) min
+	^ calculatedMaxBarWidth
