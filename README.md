@@ -115,8 +115,3 @@ Furthermore, you can display the mean value of your data:
 ```smalltalk
 self showMean.
 ```
-
-## Compatibility
-
-The new `SWAxisRange` class inherits from `Interval` and relies on the variable `start` which was not added until Squeak version 5.2.
-Accordingly this implementation is incompatible with older Squeak versions which is the reason the Travis CI Builds show failed tests relying on said variable.
