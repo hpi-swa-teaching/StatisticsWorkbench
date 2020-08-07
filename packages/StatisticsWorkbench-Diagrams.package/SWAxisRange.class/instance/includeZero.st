@@ -1,8 +1,8 @@
 adding
 includeZero
 
-	(self start > 0)
-		ifTrue: [self setFrom: 0 to: (self stop) by: 1].
+	(self first > 0)
+		ifTrue: [self setFrom: 0 to: (self last) by: 1].
 		
-	(self start < 0 and: [self stop < 0])
-		ifTrue: [self setFrom: (self start) to: 0 by: 1]
+	(self first < 0 and: [self last < 0])
+		ifTrue: [self setFrom: (self first) to: 0 by: 1]
