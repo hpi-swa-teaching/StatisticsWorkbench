@@ -1,4 +1,4 @@
 accessing
-originalDataSize: anObject
+originalDataSize: aValue
 	
-	originalDataSize := anObject
+	originalDataSize := aValue

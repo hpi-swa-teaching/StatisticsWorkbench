@@ -1,8 +1,9 @@
 testing
 testAsString
+
 	| comparisonData |
 	
-	comparisonData := SWDataTest createSeeded3.
+	comparisonData := self class createSeeded3.
 
 	self assert: (comparisonData asString = 'Time|Value
 0|1

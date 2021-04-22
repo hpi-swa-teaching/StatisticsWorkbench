@@ -1,6 +1,5 @@
 accessing
-orientation: anObject
+orientation: aSymbol
 	
-	orientation := anObject.
-	self length: self length.
+	orientation := aSymbol.
 	self update

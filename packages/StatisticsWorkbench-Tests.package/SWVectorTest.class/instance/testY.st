@@ -1,5 +1,6 @@
 testing
 testY
+
 	| vector5 |
 	
 	vector5 := SWVector create: #(1).

@@ -1,4 +1,4 @@
 accessing
-scatterPlot: anObject
+scatterPlot: aScatterPlot
 	
-	scatterPlot := anObject
+	scatterPlot := aScatterPlot

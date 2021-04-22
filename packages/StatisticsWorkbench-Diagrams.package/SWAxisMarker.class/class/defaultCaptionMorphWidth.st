@@ -1,0 +1,4 @@
+defaults
+defaultCaptionMorphWidth
+
+	^ 16

@@ -1,4 +1,4 @@
 geometry
 isTextHigherThanBar
 	
-	^ (self height < self barLabelMorph bottomLeft y)
+	^ self height < self barLabelMorph bottomLeft y

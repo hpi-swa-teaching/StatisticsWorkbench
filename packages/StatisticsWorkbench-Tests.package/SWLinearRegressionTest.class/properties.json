@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "sjs 8/4/2020 15:19",
+	"instvars" : [
+		 ],
+	"name" : "SWLinearRegressionTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

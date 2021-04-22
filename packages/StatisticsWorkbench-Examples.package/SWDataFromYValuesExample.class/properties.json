@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ds 8/5/2020 19:25",
+	"instvars" : [
+		 ],
+	"name" : "SWDataFromYValuesExample",
+	"pools" : [
+		 ],
+	"super" : "SWExample",
+	"type" : "normal" }

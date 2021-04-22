@@ -6,12 +6,13 @@
 		 ],
 	"commentStamp" : "aj 6/21/2018 10:34",
 	"instvars" : [
-		"endpoint",
 		"name",
-		"pointSet",
+		"centerPoint",
 		"slice",
 		"startpoint",
-		"value" ],
+		"value",
+		"edgePoints",
+		"label" ],
 	"name" : "SWPieSlice",
 	"pools" : [
 		 ],

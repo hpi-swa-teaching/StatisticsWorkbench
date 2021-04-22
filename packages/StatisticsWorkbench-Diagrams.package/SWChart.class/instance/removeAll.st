@@ -1,4 +1,4 @@
 adding/removing
 removeAll
 
-	^ self subclassResponsibility 
+	^ self subclassResponsibility

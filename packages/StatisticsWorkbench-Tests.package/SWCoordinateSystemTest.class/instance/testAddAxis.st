@@ -1,5 +1,6 @@
 testing
 testAddAxis
+
 	| xAxis |
 	
 	xAxis := SWAxis create.

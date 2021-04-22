@@ -1,0 +1,4 @@
+defaults
+defaultCaptionMorphXShiftXAxis
+
+	^ 4

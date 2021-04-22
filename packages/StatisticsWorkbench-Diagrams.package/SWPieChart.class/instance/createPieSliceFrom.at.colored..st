@@ -1,36 +1,35 @@
 creation
-createPieSliceFrom: aVector at: aPosition colored: aColor
-	| newPieSlice pointSet aKey aValue |
+createPieSliceFrom: aSWVector at: aPosition colored: aColor
 	
-	aKey := aVector x.
-	aValue := aVector y.
+	| newPieSlice edgePoints aKey aValue startPoint endPoint|
+	
+	aKey := aSWVector x.
+	aValue := aSWVector y.
 	
 	newPieSlice := SWPieSlice new.
-	newPieSlice date: aVector.
-	pointSet := OrderedCollection new.
+	newPieSlice vector: aSWVector.
+	edgePoints := OrderedCollection new.
 	
 	self add: newPieSlice.
-	self startpointOf: newPieSlice by: aPosition.
-	self endpointOf: newPieSlice by: aValue.
+	startPoint := self startpointBy: aPosition.
+	endPoint := self endpointFrom: startPoint by: aValue.
 	
 	newPieSlice
 			name: aKey;
-			value: aValue;
-			center: self center.
+			value: (aValue / self accumulateValues * 100 asFloat roundTo: 1);
+			center: self center;
+			centerPoint: self center.
 			
 	newPieSlice slice color: aColor.
 	
-	pointSet 
-			add: newPieSlice center; 
-			add: newPieSlice startpoint; 
-			yourself.
+	edgePoints
+			add: startPoint.
 			
-	self generateOuterBorderOf: newPieSlice with: aValue from: pointSet.
-	
-	pointSet 
-			add: newPieSlice endpoint; 
-			yourself.
-	
+	edgePoints := edgePoints, (self generateOuterBorderFromStartPoint: startPoint withValue: aValue).
+
+	edgePoints add: endPoint.
+
 	newPieSlice 
-			pointSet: pointSet; 
-			updateSlice	
+			edgePoints: edgePoints;
+			updateSlice
+

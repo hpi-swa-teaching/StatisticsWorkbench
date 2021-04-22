@@ -1,4 +1,0 @@
-defaults
-defaultStrokeColor
-
-	^ Color green

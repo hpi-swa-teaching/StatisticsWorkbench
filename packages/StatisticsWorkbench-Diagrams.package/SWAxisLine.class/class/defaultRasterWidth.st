@@ -1,5 +1,0 @@
-defaults
-defaultRasterWidth
-
-	^ 1
-	

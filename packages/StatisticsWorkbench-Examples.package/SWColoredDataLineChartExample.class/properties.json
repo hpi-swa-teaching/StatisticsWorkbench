@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ds 8/5/2020 19:22",
+	"instvars" : [
+		 ],
+	"name" : "SWColoredDataLineChartExample",
+	"pools" : [
+		 ],
+	"super" : "SWExample",
+	"type" : "normal" }

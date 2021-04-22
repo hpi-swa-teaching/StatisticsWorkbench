@@ -1,5 +1,0 @@
-defaults
-defaultCaptionMorphXShiftYAxis
-
-	^ 45
-	

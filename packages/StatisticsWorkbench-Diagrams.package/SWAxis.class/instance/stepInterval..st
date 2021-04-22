@@ -1,10 +1,10 @@
 accessing
-stepInterval: anObject
+stepInterval: aValue
 
-	(anObject isNil)
+	(aValue isNil)
 		ifTrue: [SWInvalidArgumentError signal: 'Step interval must be set.'].
-	(anObject <= 0)
+	(aValue <= 0)
 		ifTrue: [SWInvalidArgumentError signal: 'Step interval must be positive.'].
 	
-	stepInterval := anObject.
+	stepInterval := aValue.
 	self update

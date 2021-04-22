@@ -1,4 +1,5 @@
 accessing
-colorArray: anObject
+colorArray: aColorArray
 
-	colorArray := anObject
+	colorArray := aColorArray
+

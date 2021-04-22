@@ -1,4 +1,4 @@
-accessing
+geometry
 rotationMorph
 
 	^ rotationMorph

@@ -1,4 +1,5 @@
 accessing
-pieKey: anObject
+pieKey: aPieKey
 
-	pieKey := anObject
+	pieKey := aPieKey
+

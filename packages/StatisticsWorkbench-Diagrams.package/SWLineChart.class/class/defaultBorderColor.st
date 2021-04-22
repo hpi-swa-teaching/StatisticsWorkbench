@@ -1,4 +1,4 @@
 defaults
 defaultBorderColor
 
-	^ self defaultColor 
+	^ self defaultColor

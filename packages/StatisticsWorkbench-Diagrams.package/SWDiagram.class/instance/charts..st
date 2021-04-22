@@ -1,4 +1,4 @@
 accessing
-charts: anObject
+charts: aChartCollection
 
-	charts := anObject
+	charts := aChartCollection

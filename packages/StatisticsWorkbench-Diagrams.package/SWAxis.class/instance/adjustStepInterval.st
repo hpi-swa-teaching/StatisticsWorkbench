@@ -1,16 +1,17 @@
 adjusting
 adjustStepInterval
+
 	| newStepInterval |
 	
-	newStepInterval := self stepInterval.
-	(self length > 0) 
-		ifFalse: [^self].
+	self assert: self length > 0.
 	
-	(self markerDistance < SWAxis minMarkerDistance) 
+	newStepInterval := self stepInterval.
+	
+	(self markerDistance < self class minMarkerDistance) 
 		ifTrue: [newStepInterval := (self valueRange * self class minMarkerDistance / self length) ceiling].
 	
-	(self markerDistance > SWAxis maxMarkerDistance)
+	(self markerDistance > self class maxMarkerDistance)
 		ifTrue: [newStepInterval := (self valueRange * self class maxMarkerDistance / self length) ceiling].
 
-	(self stepInterval ~= newStepInterval) 
+	(self stepInterval ~= newStepInterval)
 		ifTrue: [self stepInterval: newStepInterval]

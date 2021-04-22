@@ -1,4 +1,4 @@
 accessing
-labelName: anObject
+labelName: aString
 
-	labelName := anObject
+	labelName := aString

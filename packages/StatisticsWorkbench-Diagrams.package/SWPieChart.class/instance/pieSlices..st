@@ -1,4 +1,5 @@
 accessing
-pieSlices: anObject
+pieSlices: pieSliceCollection
 
-	pieSlices := anObject
+	pieSlices := pieSliceCollection
+

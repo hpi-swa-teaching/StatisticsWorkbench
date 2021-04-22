@@ -1,5 +1,0 @@
-defaults
-defaultMarkerLength
-
-	^ 10
-	

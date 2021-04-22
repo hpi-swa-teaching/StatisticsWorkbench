@@ -1,5 +1,6 @@
 testing
 testCountingSort
+
 	| expectedResult |
 	
 	expectedResult := Dictionary new.

@@ -1,5 +1,0 @@
-defaults
-defaultMarkerWidth
-
-	^ 1
-	

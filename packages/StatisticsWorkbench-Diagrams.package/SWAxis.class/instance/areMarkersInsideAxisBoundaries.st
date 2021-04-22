@@ -1,8 +1,4 @@
 testing
 areMarkersInsideAxisBoundaries
 
-	^ (self maximum notNil
-		and: self minimum notNil
-		and: self stepInterval notNil
-		and: self startPoint notNil
-		and: self endPoint notNil)
+	^ {self maximum . self minimum . self stepInterval . self startPoint . self endPoint} allSatisfy: [:item | item notNil]

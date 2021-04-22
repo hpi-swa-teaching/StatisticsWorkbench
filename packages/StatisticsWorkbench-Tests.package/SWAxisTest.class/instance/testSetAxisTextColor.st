@@ -1,5 +1,6 @@
 testing
 testSetAxisTextColor
+
 	| axis color |
 	
 	axis := SWAxis create.

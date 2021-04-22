@@ -1,4 +1,4 @@
 accessing
-pieKeyNames: anObject
+pieKeyNames: aTextMorphCollection
 
-	pieKeyNames := anObject
+	pieKeyNames := aTextMorphCollection

@@ -1,5 +1,6 @@
 accessing
-vertices: anObject
+vertices: verticeCollection
 
-	vertices := anObject sorted: self verticesComparator.
-	self lineMorph setVertices: vertices asArray 
+	vertices := verticeCollection sorted: self verticesComparator.
+	self lineMorph setVertices: vertices asArray.
+

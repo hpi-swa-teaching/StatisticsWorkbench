@@ -1,7 +1,5 @@
 creation
 createVertices
-	| newVertices |
+
+	^ self data collect: [:vector | self coordinateSystem positionFor: vector asPoint]
 	
-	newVertices := OrderedCollection new.
-	self data do: [:vector | newVertices add: (self coordinateSystem positionFor: vector asPoint)].
-	^ newVertices

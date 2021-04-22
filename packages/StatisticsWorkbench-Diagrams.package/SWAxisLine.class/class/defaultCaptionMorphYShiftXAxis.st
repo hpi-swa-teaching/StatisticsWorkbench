@@ -1,5 +1,0 @@
-defaults
-defaultCaptionMorphYShiftXAxis
-
-	^ 7
-	

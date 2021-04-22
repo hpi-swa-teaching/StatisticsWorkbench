@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"newFrom:" : "ds 6/19/2020 20:08",
+		"newFromScatterPlot:" : "ds 6/19/2020 20:08",
+		"newFromScatterPlot:plotOn:" : "ds 6/19/2020 20:08",
+		"newFromXValues:andYValues:" : "ds 6/19/2020 20:08" },
+	"instance" : {
+		"calculateCorrelationFromXValues:andYValues:" : "ds 6/19/2020 20:05",
+		"calculateIntersectFromXValues:andYValues:" : "ds 6/19/2020 20:05",
+		"calculateMean:" : "ds 6/19/2020 20:05",
+		"calculateSlopeFromXValues:andYValues:" : "ds 6/19/2020 20:06",
+		"calculateStandardDeviation:" : "ds 6/19/2020 20:06",
+		"data" : "sjs 6/10/2020 09:16",
+		"initialize" : "sjs 5/11/2020 17:29",
+		"initializeFromXValues:andYValues:" : "ds 6/19/2020 20:07",
+		"intersect" : "ds 6/19/2020 20:07",
+		"intersect:" : "ds 6/19/2020 20:07",
+		"plotOn:" : "sjs 6/10/2020 09:20",
+		"plotrange" : "ds 6/19/2020 20:07",
+		"plotrange:" : "ds 6/19/2020 20:07",
+		"predict:" : "ds 6/19/2020 20:07",
+		"slope" : "ds 6/19/2020 20:07",
+		"slope:" : "ds 6/19/2020 20:08" } }

@@ -1,16 +1,19 @@
 creation
 createMarkerAtIndex: aIndex
-	| orientation | 
+
+	| markerOrientation shortenedNumber | 
 			
 	(self orientation = #horizontal)
-		ifTrue: [orientation := #vertical]
-		ifFalse: [orientation := #horizontal].
+		ifTrue: [markerOrientation := #vertical]
+		ifFalse: [markerOrientation := #horizontal].
 	 
-	^ SWAxisLine 	
+	shortenedNumber := SWNumberShortener new shortenNumber: (self minimum + (aIndex * self stepInterval)).
+	
+	^ SWAxisMarker
 			create: (self newMarkerPosition: aIndex)
-			orientation: orientation
-			caption: (self shortenNumbers: (self minimum + (aIndex * self stepInterval)))
+			orientation: markerOrientation
+			caption: shortenedNumber
 			textColor: self textColor
 			strokeColor: self borderColor
-			raster: (self rasterVisibility and: self rasterLength notNil and: aIndex ~= 0)
-			length: self rasterLength 
+			raster: (self rasterVisibility and: [self rasterLength notNil and: [aIndex ~= 0]])
+			length: self rasterLength

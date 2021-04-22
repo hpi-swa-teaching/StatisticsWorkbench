@@ -1,5 +1,5 @@
 testing
 testRemoveAll
 	
-	self	scatterPlot removeAll. 
-	self assert: scatterPlot dataPoints isEmpty
+	self scatterPlot removeAll. 
+	self assert: self scatterPlot dataPoints isEmpty

@@ -4,8 +4,7 @@ SmalltalkCISpec {
       #baseline : 'StatisticsWorkbench',
       #directory : 'packages',
       #platforms : [ #squeak ],
-      #load : [ 'tests' ],
-      #useLatestMetacello : true
+      #load : [ 'tests' ]
     }
   ]
 }

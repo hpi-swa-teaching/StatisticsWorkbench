@@ -1,5 +1,6 @@
 accessing
 asString 
+
 	| outputString |
 	
 	outputString := ''.
@@ -12,4 +13,5 @@ asString
 		outputString := outputString, each labelName, '|'.
 		each do: [:item | outputString := outputString, item asString, '|'].
 		outputString := outputString allButLast, Character cr].
+
 	^ outputString

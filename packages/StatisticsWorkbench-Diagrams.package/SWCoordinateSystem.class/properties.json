@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "aj 6/21/2018 10:36",
 	"instvars" : [
-		"axisNames",
+		"centeredAxes",
 		"boundsThreshold",
 		"xAxis",
-		"yAxis" ],
+		"yAxis",
+		"diagram" ],
 	"name" : "SWCoordinateSystem",
 	"pools" : [
 		 ],
