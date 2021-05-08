@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildDiagramSelectionWith: aBuilder
 
 	^ aBuilder pluggableListSpec new

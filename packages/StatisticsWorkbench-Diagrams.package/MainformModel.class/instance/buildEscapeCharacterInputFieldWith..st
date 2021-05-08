@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildEscapeCharacterInputFieldWith: aBuilder 
 
 	^ aBuilder pluggableTextSpec new
