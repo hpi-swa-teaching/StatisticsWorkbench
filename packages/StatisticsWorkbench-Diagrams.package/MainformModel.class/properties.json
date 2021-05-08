@@ -1,0 +1,16 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"delimeter",
+		"diagram" ],
+	"name" : "MainformModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

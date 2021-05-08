@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"open" : "PAR 5/8/2021 11:00" },
+	"instance" : {
+		"buildCsvFileSelectionWith:" : "PAR 5/8/2021 12:34",
+		"buildCsvPathInputFieldWith:" : "PAR 5/8/2021 11:33",
+		"buildDelimeterInputFieldWith:" : "PAR 5/8/2021 11:32",
+		"buildDiagramSelectionWith:" : "PAR 5/8/2021 12:00",
+		"buildVisualizeButtonWith:" : "PAR 5/8/2021 11:24",
+		"buildWith:" : "PAR 5/8/2021 12:33",
+		"delimeter" : "PAR 5/8/2021 12:01",
+		"delimeter:" : "PAR 5/8/2021 12:01",
+		"diagram" : "PAR 5/8/2021 12:01",
+		"diagram:" : "PAR 5/8/2021 12:01",
+		"openFileChooser" : "PAR 5/8/2021 13:19",
+		"stream" : "PAR 5/8/2021 12:37",
+		"stream:" : "PAR 5/8/2021 12:37",
+		"visualize" : "PAR 5/8/2021 13:21" } }
