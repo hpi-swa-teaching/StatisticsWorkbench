@@ -3,11 +3,12 @@ buildDiagramSelectionWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
 			model: self;
-			listSelector: nil;
-			
+			list: #getCharts;
+			getSelected:#selectedDiagram;
+			setSelected:#selectedDiagram:;
 			frame: (LayoutFrame new 
 				topFraction: 0.2;
-				bottomFraction: 0.4;
+				bottomFraction: 0.8;
 				leftFraction: 0;
 				rightFraction: 1
 				yourself);
