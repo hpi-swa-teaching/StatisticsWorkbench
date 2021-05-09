@@ -4,10 +4,10 @@
 	"instance" : {
 		"buildCsvFileSelectionWith:" : "PAR 5/8/2021 12:34",
 		"buildDelimeterInputFieldWith:" : "PAR 5/8/2021 21:29",
-		"buildDiagramSelectionWith:" : "PAR 5/8/2021 21:31",
+		"buildDiagramSelectionWith:" : "PAR 5/9/2021 08:35",
 		"buildEscapeCharacterInputFieldWith:" : "PAR 5/8/2021 21:29",
 		"buildVisualizeButtonWith:" : "PAR 5/8/2021 11:24",
-		"buildWith:" : "PAR 5/8/2021 21:27",
+		"buildWith:" : "PAR 5/9/2021 08:33",
 		"defaultDelimeter" : "PAR 5/8/2021 21:26",
 		"defaultEscapeCharacter" : "PAR 5/8/2021 21:26",
 		"delimeter" : "PAR 5/8/2021 12:01",
@@ -17,7 +17,7 @@
 		"getCharts" : "PAR 5/8/2021 21:23",
 		"openFileChooser" : "PAR 5/8/2021 13:19",
 		"selectedDiagram" : "PAR 5/8/2021 21:21",
-		"selectedDiagram:" : "PAR 5/8/2021 21:21",
+		"selectedDiagram:" : "PAR 5/9/2021 08:34",
 		"stream" : "PAR 5/8/2021 12:37",
 		"stream:" : "PAR 5/8/2021 12:37",
 		"visualize" : "PAR 5/8/2021 21:21" } }
