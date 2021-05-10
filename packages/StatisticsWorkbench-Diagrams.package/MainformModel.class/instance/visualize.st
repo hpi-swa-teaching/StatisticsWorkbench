@@ -2,10 +2,8 @@ event-handling
 visualize
 
 	|data|
-	Transcript show: self delimeter.
-	
-	data :=  SWDataUnlabeled fromCSVStream: self stream delimeter: self delimeter escapeWith: self escapeCharacter.
-
+		
+	data :=  SWDataUnlabeled fromCSVStream: self stream delimeter: self delimiter escapeWith: self escapeCharacter xAxis: 'Test1' yAxis:'Test'.
 	(SWDiagram new visualize: data with: self selectedDiagram create) openInWindow.
 	
 	

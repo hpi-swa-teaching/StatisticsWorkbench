@@ -1,5 +1,4 @@
-event-handling
+default-values
 defaultEscapeCharacter
 
-	self escapeCharacter: '"'.
 	^'"'

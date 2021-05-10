@@ -3,7 +3,7 @@ buildEscapeCharacterInputFieldWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 		model: self ;
-		getText: #defaultEscapeCharacter;
+		getText: #escapeCharacter;
 		editText: #escapeCharacter:;
 		frame: (LayoutFrame new 
 			topFraction: 0.8;

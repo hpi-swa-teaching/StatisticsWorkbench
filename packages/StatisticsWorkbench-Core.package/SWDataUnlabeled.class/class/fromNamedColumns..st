@@ -1,9 +1,12 @@
 instance creation
-fromNamedColumns: aDictionary 
+fromNamedColumns: aDictionary
 
-	| xValues yValues |
+	^ self fromNamedColumns: aDictionary xValues: aDictionary keys first yValues: aDictionary keys first.
+
+
+	"| xValues yValues |
 	
-	xValues := (aDictionary at: #X) collect: [:each | each asInteger].
-	yValues := (aDictionary at: #Y) collect: [:each | each asInteger].
+	xValues := (aDictionary at: aDictionary keys first) collect: [:each | each asInteger].
+	yValues := (aDictionary  at: aDictionary keys second) collect: [:each | each asInteger].
 	
-	^ self fromXValues: xValues versusYValues: yValues
+	^ self fromXValues: xValues versusYValues: yValues"

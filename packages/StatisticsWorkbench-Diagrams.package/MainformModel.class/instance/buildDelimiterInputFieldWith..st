@@ -1,10 +1,10 @@
 building
-buildDelimeterInputFieldWith: aBuilder 
+buildDelimiterInputFieldWith: aBuilder 
 
 	^ aBuilder pluggableTextSpec new
 		model: self ;
-		editText: #delimeter:;
-		getText: #defaultDelimeter;
+		editText: #delimiter:;
+		getText: #delimiter;
 		frame: (LayoutFrame new 
 			topFraction: 0.8;
 			bottomFraction: 1;

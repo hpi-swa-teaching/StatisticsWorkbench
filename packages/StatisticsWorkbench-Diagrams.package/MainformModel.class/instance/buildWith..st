@@ -9,7 +9,7 @@ buildWith: aBuilder
 			self buildDiagramSelectionWith: aBuilder.
 			self buildCsvFileSelectionWith: aBuilder.
 			self buildVisualizeButtonWith: aBuilder.
-			self buildDelimeterInputFieldWith: aBuilder.
+			self buildDelimiterInputFieldWith: aBuilder.
 			self buildEscapeCharacterInputFieldWith: aBuilder. 
 		};
 		yourself)

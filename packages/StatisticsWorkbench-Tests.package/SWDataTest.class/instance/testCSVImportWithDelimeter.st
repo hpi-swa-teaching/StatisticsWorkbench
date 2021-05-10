@@ -14,7 +14,7 @@ testCSVImportWithDelimeter
 	csvString := lines inject: '' into: [:agg :current | agg, current, String cr].
 	csvStream := ReadStream on: csvString from: 1 to: csvString size.
 	
-	labeledData := SWDataLabeled fromCSVStream: csvStream delimeter: $; escapeWith: $'.
+	labeledData := SWDataLabeled fromCSVStream: csvStream delimeter: $; escapeWith: $' xAxis: 'X' yAxis: 'Y'.
 	labeledData setAllDimensionNames: #('Time' 'Value').
 	
 	self assert: labeledData equals: seededData.
