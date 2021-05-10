@@ -13,5 +13,6 @@ createAt: startPoint xMin: xMin xMax: xMax xStep: xStep xLength: xLength yMin: y
 		addAxis: xAxis dimension: #x;
 		addAxis: yAxis dimension: #y;
 		centeredAxes: false;
+		setProperty: #indicateKeyboardFocus toValue: #never;
 		color: SWCoordinateSystem defaultColor;
 		yourself
