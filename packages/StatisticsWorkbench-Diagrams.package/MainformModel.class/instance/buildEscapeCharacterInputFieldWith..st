@@ -6,8 +6,8 @@ buildEscapeCharacterInputFieldWith: aBuilder
 		getText: #escapeCharacter;
 		editText: #escapeCharacter:;
 		frame: (LayoutFrame new 
-			topFraction: 0.8;
-			bottomFraction: 1;
+			topFraction: 0.2;
+			bottomFraction: 0.4;
 			leftFraction: 0.25;
 			rightFraction: 0.5
 			yourself);

@@ -10,6 +10,7 @@ buildWith: aBuilder
 			self buildCsvFileSelectionWith: aBuilder.
 			self buildVisualizeButtonWith: aBuilder.
 			self buildDelimiterInputFieldWith: aBuilder.
-			self buildEscapeCharacterInputFieldWith: aBuilder. 
+			self buildEscapeCharacterInputFieldWith: aBuilder.
+			self buildParseDataButtonWith: aBuilder.
 		};
 		yourself)

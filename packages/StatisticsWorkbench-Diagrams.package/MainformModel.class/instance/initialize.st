@@ -3,4 +3,5 @@ initialize
 	
 	super initialize.
 	self delimiter: self defaultDelimiter;
-		escapeCharacter: self defaultEscapeCharacter
+		escapeCharacter: self defaultEscapeCharacter;
+		buttonEnabled: false
