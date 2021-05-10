@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"create" : "ds 6/19/2020 20:00",
-		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:boundsThreshold:" : "jk 8/4/2020 11:40",
+		"create" : "FM 5/10/2021 20:58",
+		"createAt:xMin:xMax:xStep:xLength:yMin:yMax:yStep:yLength:boundsThreshold:" : "FM 5/10/2021 20:58",
 		"defaultAxisValuePaddingFactor" : "jk 6/28/2020 22:33",
 		"defaultBounds" : "ds 6/19/2020 20:00",
 		"defaultBoundsThreshold" : "ds 6/19/2020 20:00",
@@ -25,8 +25,10 @@
 		"diagram" : "jk 8/4/2020 11:35",
 		"diagram:" : "jk 6/25/2020 22:05",
 		"extent:" : "jk 8/4/2020 17:00",
+		"handlesMouseDown:" : "FM 5/10/2021 20:42",
 		"minimumOffsetX" : "ds 6/19/2020 19:56",
 		"minimumOffsetY" : "ds 6/19/2020 19:56",
+		"mouseDown:" : "FM 5/10/2021 20:50",
 		"positionAxes" : "jk 7/15/2020 18:24",
 		"positionFor:" : "jk 8/5/2020 20:11",
 		"rangeForDimension:" : "jk 8/5/2020 20:01",
