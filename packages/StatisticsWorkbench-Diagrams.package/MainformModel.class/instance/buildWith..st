@@ -4,7 +4,7 @@ buildWith: aBuilder
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Statistics Workbench';
-		extent: 250@200;
+		extent: self extent;
 		children:{
 			self buildDiagramSelectionWith: aBuilder.
 			self buildCsvFileSelectionWith: aBuilder.

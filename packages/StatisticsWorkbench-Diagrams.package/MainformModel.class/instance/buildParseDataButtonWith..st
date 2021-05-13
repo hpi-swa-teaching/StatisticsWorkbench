@@ -5,6 +5,7 @@ buildParseDataButtonWith: aBuilder
 		model: self ;
 		label: 'Parse Data!';
 		action: #parseData;
+		enabled: #parseDataButtonEnabled;
 		frame: (LayoutFrame new 
 			topFraction: 0.2;
 			bottomFraction: 0.4;

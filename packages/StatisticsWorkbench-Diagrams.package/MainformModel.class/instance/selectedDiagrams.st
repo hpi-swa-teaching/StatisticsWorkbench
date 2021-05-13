@@ -1,0 +1,3 @@
+accessing
+selectedDiagrams
+	^ false

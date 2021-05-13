@@ -9,9 +9,11 @@
 		"stream",
 		"escapeCharacter",
 		"delimiter",
-		"selectedDiagram",
+		"diagramsSelection",
 		"parsedData",
-		"buttonEnabled" ],
+		"dataParsed",
+		"fileChosen",
+		"parsedFile" ],
 	"name" : "MainformModel",
 	"pools" : [
 		 ],

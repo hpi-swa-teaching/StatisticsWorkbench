@@ -1,11 +1,12 @@
 building
 buildDiagramSelectionWith: aBuilder
 
-	^ aBuilder pluggableListSpec new
+	^ aBuilder pluggableMultiSelectionListSpec new
 			model: self;
 			list: #getCharts;
-			getSelected:#selectedDiagram;
-			setSelected:#selectedDiagram:;
+			setSelected:#selectDiagram:;
+			getSelectionList: #isSelected:;
+			setSelectionList: #diagrams:setSelected:;
 			frame: (LayoutFrame new 
 				topFraction: 0.4;
 				bottomFraction: 0.8;
