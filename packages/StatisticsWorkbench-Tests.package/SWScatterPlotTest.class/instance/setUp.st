@@ -2,8 +2,8 @@ testing
 setUp
 
 	super setUp.
-	hand := HandMorphForEventTests new.
 	self 
+		hand: HandMorphForEventTests new;
 		data: SWDataTest createSeeded;
 		scatterPlot: SWScatterPlot new;
 		diagram: (SWDiagram new visualize: self data with: self scatterPlot)

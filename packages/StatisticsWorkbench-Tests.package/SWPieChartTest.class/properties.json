@@ -1,0 +1,17 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data",
+		"diagram",
+		"pieChart",
+		"hand" ],
+	"name" : "SWPieChartTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
