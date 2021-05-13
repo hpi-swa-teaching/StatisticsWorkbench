@@ -1,4 +1,4 @@
 event-handling
 isSelected: aNumber
 
-	^ self diagramsSelection at: aNumber.
+	^ self chartSelection at: aNumber.

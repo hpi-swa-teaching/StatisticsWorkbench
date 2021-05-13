@@ -7,6 +7,6 @@ testObserverNotification
 	
 	mainformModel addDependent: self.
 	
-	mainformModel diagrams: 1 setSelected: true.
+	mainformModel chart: 1 setSelected: true.
 	
 	self assert:[ self notified].	

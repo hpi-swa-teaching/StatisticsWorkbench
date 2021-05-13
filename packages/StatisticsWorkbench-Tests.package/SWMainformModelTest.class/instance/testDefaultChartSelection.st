@@ -1,11 +1,11 @@
 as yet unclassified
-testDefaultDiagramSelection 
+testDefaultChartSelection 
 
 	|mainformModel|
 	
 	mainformModel := SWMainformModelTest createSWMainformModel.
 	
-	(1 to: self numberOfDiagrams)	do: [:each|
+	(1 to: self numberOfCharts)	do: [:each|
 		self assert: [(mainformModel isSelected: each) not].	
 	].
 		

@@ -6,7 +6,7 @@ buildWith: aBuilder
 		label: 'Statistics Workbench';
 		extent: self extent;
 		children:{
-			self buildDiagramSelectionWith: aBuilder.
+			self buildChartSelectionWith: aBuilder.
 			self buildCsvFileSelectionWith: aBuilder.
 			self buildVisualizeButtonWith: aBuilder.
 			self buildDelimiterInputFieldWith: aBuilder.

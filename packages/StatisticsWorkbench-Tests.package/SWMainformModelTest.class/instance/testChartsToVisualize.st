@@ -5,8 +5,8 @@ testChartsToVisualize
 	
 	mainformModel := SWMainformModelTest createSWMainformModel.
 	
-	mainformModel diagrams: 1 setSelected: true.
-	mainformModel diagrams: 2 setSelected: true.
+	mainformModel chart: 1 setSelected: true.
+	mainformModel chart: 2 setSelected: true.
 
 	expectedValue := OrderedCollection new 
 		add: (mainformModel getCharts at: 1); 

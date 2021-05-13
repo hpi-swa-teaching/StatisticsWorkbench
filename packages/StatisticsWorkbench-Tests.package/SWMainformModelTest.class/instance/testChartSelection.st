@@ -1,11 +1,11 @@
 as yet unclassified
-testDiagramSelection 
+testChartSelection 
 
 	|mainformModel|
 	
 	mainformModel := SWMainformModelTest createSWMainformModel.
 	
-	mainformModel diagrams: 1 setSelected: true.
-	mainformModel diagrams: 3 setSelected: true.
+	mainformModel chart: 1 setSelected: true.
+	mainformModel chart: 3 setSelected: true.
 	
 	self assert: [(mainformModel isSelected: 1) and: (mainformModel isSelected: 3)].

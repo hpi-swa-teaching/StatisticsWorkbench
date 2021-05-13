@@ -1,4 +1,4 @@
 as yet unclassified
-numberOfDiagrams
+numberOfCharts
 
 	^ SWChart subclasses size

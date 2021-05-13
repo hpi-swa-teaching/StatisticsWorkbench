@@ -1,8 +1,8 @@
 as yet unclassified
-testDiagramsLength 
+testChartSelectionLength 
 
 	|mainformModel|
 	
 	mainformModel := SWMainformModelTest createSWMainformModel.
 
-	self assert: [(mainformModel diagramsSelection size) = (self numberOfDiagrams)].
+	self assert: [(mainformModel chartSelection size) = (self numberOfCharts)].
