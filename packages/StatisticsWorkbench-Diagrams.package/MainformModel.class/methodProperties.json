@@ -2,11 +2,11 @@
 	"class" : {
 		"open" : "PAR 5/8/2021 11:00" },
 	"instance" : {
-		"buildCsvFileSelectionWith:" : "CK 5/10/2021 20:04",
+		"buildCsvFileSelectionWith:" : "PAR 5/13/2021 08:44",
 		"buildDelimiterInputFieldWith:" : "PAR 5/11/2021 12:48",
-		"buildDiagramSelectionWith:" : "PAR 5/13/2021 08:31",
-		"buildEscapeCharacterInputFieldWith:" : "CK 5/10/2021 20:03",
-		"buildVisualizeButtonWith:" : "PAR 5/12/2021 21:59",
+		"buildDiagramSelectionWith:" : "PAR 5/13/2021 08:43",
+		"buildEscapeCharacterInputFieldWith:" : "PAR 5/13/2021 08:45",
+		"buildVisualizeButtonWith:" : "PAR 5/13/2021 08:46",
 		"buildWith:" : "PAR 5/13/2021 07:43",
 		"chartsToVisualize" : "PAR 5/12/2021 22:11",
 		"currentFile" : "PAR 5/12/2021 21:42",

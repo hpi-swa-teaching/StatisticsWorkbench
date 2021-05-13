@@ -5,10 +5,5 @@ buildVisualizeButtonWith: aBuilder
 		model: self;
 		label: 'Visualize!';
 		action: #onVisualizeButtonClicked;
-		frame: (LayoutFrame new 
-			topFraction: 0.8;
-			bottomFraction: 1;
-			leftFraction: 0;
-			rightFraction: 1
-			yourself)
+		frame: (0@0.8 corner: 1@1)
 		yourself

@@ -6,10 +6,5 @@ buildDiagramSelectionWith: aBuilder
 			list: #getCharts;
 			getSelectionList: #isSelected:;
 			setSelectionList: #diagrams:setSelected:;
-			frame: (LayoutFrame new 
-				topFraction: 0.4;
-				bottomFraction: 0.8;
-				leftFraction: 0;
-				rightFraction: 1
-				yourself);
+			frame: (0@0.4 corner: 1@0.8);
 			yourself
