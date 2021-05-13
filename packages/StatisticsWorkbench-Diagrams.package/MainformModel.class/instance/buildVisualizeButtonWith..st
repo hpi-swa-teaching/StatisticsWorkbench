@@ -4,12 +4,6 @@ buildVisualizeButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new 
 		model: self;
 		label: 'Visualize!';
-		action: #visualize;
-		enabled: #buttonEnabled;
-		frame: (LayoutFrame new 
-			topFraction: 0.8;
-			bottomFraction: 1;
-			leftFraction: 0;
-			rightFraction: 1
-			yourself)
+		action: #onVisualizeButtonClicked;
+		frame: (0@0.8 corner: 1@1)
 		yourself

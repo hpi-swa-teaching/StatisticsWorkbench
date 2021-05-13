@@ -1,3 +1,3 @@
 accessing
-parsedData: anObject
-	parsedData := anObject
+parsedData: SWData
+	parsedData := SWData

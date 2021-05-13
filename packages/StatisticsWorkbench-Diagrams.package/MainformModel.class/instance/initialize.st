@@ -4,4 +4,6 @@ initialize
 	super initialize.
 	self delimiter: self defaultDelimiter;
 		escapeCharacter: self defaultEscapeCharacter;
-		buttonEnabled: false
+		chartSelection: self defaultDiagramsSelection;
+		fileChosen: false;
+		parsedFile: ''.

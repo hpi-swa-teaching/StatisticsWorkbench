@@ -5,12 +5,7 @@ buildCsvFileSelectionWith: aBuilder
 		model: self ;
 		label: 'Choose CSV-File';
 		action: #openFileChooser;
-		frame: (LayoutFrame new 
-			topFraction: 0;
-			bottomFraction: 0.2;
-			leftFraction: 0;
-			rightFraction: 1
-			yourself);
+		frame: (0@0 corner: 1@0.2);
 		yourself
 	
 	

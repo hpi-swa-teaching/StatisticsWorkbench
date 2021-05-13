@@ -4,6 +4,9 @@ fromCSVStream: aStream delimeter: delimeterCharacter escapeWith: escapeCharacter
 	| lines currentLine matrix namedColumns|
 	
 	lines := OrderedCollection new.
+	
+	(aStream atEnd) ifTrue: [^ self create].
+	
 	currentLine := aStream nextLine.
 	[currentLine] whileNotNil: [
 		lines add: currentLine.
