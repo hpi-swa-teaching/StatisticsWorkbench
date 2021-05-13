@@ -8,7 +8,8 @@
 		"data:" : "aj 5/30/2018 17:10",
 		"diagram" : "aj 5/30/2018 17:10",
 		"diagram:" : "aj 5/30/2018 17:10",
-		"setUp" : "sjs 6/11/2020 15:52",
+		"redMouseDownAt:" : "IK 5/13/2021 17:24",
+		"setUp" : "IK 5/13/2021 17:23",
 		"testAdd" : "sjs 6/11/2020 15:51",
 		"testBarCount" : "sjs 6/11/2020 15:51",
 		"testBarGraphImplementsCreate" : "sjs 6/11/2020 15:52",
@@ -16,4 +17,7 @@
 		"testCollectionsGetInitialized" : "sjs 6/11/2020 15:51",
 		"testIsInvisible" : "sjs 6/11/2020 15:51",
 		"testRemove" : "sjs 6/11/2020 15:51",
-		"testRemoveAll" : "sjs 6/11/2020 15:51" } }
+		"testRemoveAll" : "sjs 6/11/2020 15:51",
+		"testRemoveBarFromData" : "IK 5/13/2021 17:24",
+		"testRemoveOnUserInput" : "IK 5/13/2021 17:23",
+		"testRescaleAfterRemoving" : "IK 5/13/2021 17:26" } }

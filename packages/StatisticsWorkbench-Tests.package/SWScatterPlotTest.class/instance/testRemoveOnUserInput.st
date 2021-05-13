@@ -7,4 +7,4 @@ testRemoveOnUserInput
 	selectedDataPoint := self scatterPlot dataPoints detect: [:dataPoint | dataPoint vector x = 3 and: dataPoint vector y = 0 ].
 	hand handleEvent: (self redMouseDownAt: (selectedDataPoint)).
 	self deny: (self scatterPlot data contains: [:data | data x = 3 and: data y = 0 ]).
-	self assert: self scatterPlot data size = (size - 1) 
+	self assert: self scatterPlot dataPoints size = (size - 1) 

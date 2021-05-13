@@ -2,6 +2,7 @@ testing
 setUp 
 
 	super setUp.
+	hand := HandMorphForEventTests new.
 	self 
 		data: SWDataTest createSeeded;
 		barChart: SWBarChart new;
