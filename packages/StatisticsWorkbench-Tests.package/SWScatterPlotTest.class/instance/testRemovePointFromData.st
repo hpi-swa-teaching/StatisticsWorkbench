@@ -1,10 +1,9 @@
 testing
-testRemoveOnUserInput
+testRemovePointFromData
 
-	| size selectedDataPoint |
+	| size |
 	size := self scatterPlot dataPoints size.
 	self assert: (self scatterPlot data contains: [:data | data x = 3 and: data y = 0 ]) .
-	selectedDataPoint := self scatterPlot dataPoints detect: [:dataPoint | dataPoint vector x = 3 and: dataPoint vector y = 0 ].
-	hand handleEvent: (self redMouseDownAt: (selectedDataPoint)).
+	self scatterPlot data removeArray: #(3 0).
 	self deny: (self scatterPlot data contains: [:data | data x = 3 and: data y = 0 ]).
 	self assert: self scatterPlot data size = (size - 1) 
