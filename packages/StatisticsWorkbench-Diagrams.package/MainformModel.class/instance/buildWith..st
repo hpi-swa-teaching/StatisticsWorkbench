@@ -11,6 +11,5 @@ buildWith: aBuilder
 			self buildVisualizeButtonWith: aBuilder.
 			self buildDelimiterInputFieldWith: aBuilder.
 			self buildEscapeCharacterInputFieldWith: aBuilder.
-			self buildParseDataButtonWith: aBuilder.
 		};
 		yourself)

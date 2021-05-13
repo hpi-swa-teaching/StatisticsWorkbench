@@ -1,3 +1,0 @@
-accessing
-selectedDiagrams: aNumber
-	^ true.

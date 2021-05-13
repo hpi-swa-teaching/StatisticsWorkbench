@@ -1,3 +1,3 @@
 accessing
-fileChosen: anObject
-	fileChosen := anObject
+fileChosen: aBool
+	fileChosen := aBool

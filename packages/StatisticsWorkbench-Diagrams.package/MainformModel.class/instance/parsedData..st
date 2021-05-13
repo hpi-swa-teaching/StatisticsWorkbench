@@ -1,3 +1,3 @@
 accessing
-parsedData: aBool
-	parsedData := aBool
+parsedData: SWData
+	parsedData := SWData

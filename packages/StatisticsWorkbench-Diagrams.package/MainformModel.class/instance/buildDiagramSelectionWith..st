@@ -4,7 +4,6 @@ buildDiagramSelectionWith: aBuilder
 	^ aBuilder pluggableMultiSelectionListSpec new
 			model: self;
 			list: #getCharts;
-			setSelected:#selectDiagram:;
 			getSelectionList: #isSelected:;
 			setSelectionList: #diagrams:setSelected:;
 			frame: (LayoutFrame new 

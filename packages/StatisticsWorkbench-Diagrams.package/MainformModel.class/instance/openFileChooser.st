@@ -5,6 +5,4 @@ openFileChooser
 	fc := FileChooser new.
 	fc initializeAsDialogBox.
 	self stream: fc open;
-		setFileChosen: true;
-		setDataParsed: false.
-	
+		fileChosen: true.
