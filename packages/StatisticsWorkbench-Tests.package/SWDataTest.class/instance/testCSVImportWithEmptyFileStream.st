@@ -9,4 +9,4 @@ testCSVImportWithEmptyFileStream
 	
 	actualData := SWDataUnlabeled fromCSVStream: emptyStream.
 		
-	self assert: [expectedData equals: actualData].
+	self assert: expectedData equals: actualData.
