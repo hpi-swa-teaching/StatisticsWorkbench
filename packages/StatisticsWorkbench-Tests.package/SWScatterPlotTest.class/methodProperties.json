@@ -8,7 +8,6 @@
 		"diagram:" : "ds 6/19/2020 20:33",
 		"hand" : "IK 5/13/2021 17:46",
 		"hand:" : "IK 5/13/2021 17:46",
-		"redMouseDownAt:" : "IK 5/13/2021 09:59",
 		"scatterPlot" : "ds 6/19/2020 20:33",
 		"scatterPlot:" : "ds 6/19/2020 20:33",
 		"setUp" : "IK 5/13/2021 17:47",
@@ -20,4 +19,5 @@
 		"testRemoveOnUserInput" : "IK 5/13/2021 17:47",
 		"testRemovePointFromData" : "IK 5/13/2021 17:22",
 		"testRescaleAfterRemoving" : "IK 5/13/2021 16:54",
-		"testScatterPlotVisualisation" : "ds 6/19/2020 20:34" } }
+		"testScatterPlotVisualisation" : "ds 6/19/2020 20:34",
+		"yellowMouseDownAt:" : "CK 5/14/2021 14:23" } }

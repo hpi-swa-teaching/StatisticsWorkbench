@@ -10,7 +10,6 @@
 		"diagram:" : "aj 5/30/2018 17:10",
 		"hand" : "IK 5/13/2021 17:46",
 		"hand:" : "IK 5/13/2021 17:46",
-		"redMouseDownAt:" : "IK 5/13/2021 17:24",
 		"setUp" : "IK 5/13/2021 17:47",
 		"testAdd" : "sjs 6/11/2020 15:51",
 		"testBarCount" : "sjs 6/11/2020 15:51",
@@ -22,4 +21,5 @@
 		"testRemoveAll" : "sjs 6/11/2020 15:51",
 		"testRemoveBarFromData" : "IK 5/13/2021 17:24",
 		"testRemoveOnUserInput" : "IK 5/13/2021 17:46",
-		"testRescaleAfterRemoving" : "IK 5/13/2021 17:26" } }
+		"testRescaleAfterRemoving" : "IK 5/13/2021 17:26",
+		"yellowMouseDownAt:" : "CK 5/14/2021 14:22" } }
