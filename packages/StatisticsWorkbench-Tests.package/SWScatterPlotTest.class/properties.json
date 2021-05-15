@@ -9,7 +9,8 @@
 		"data",
 		"diagram",
 		"scatterPlot",
-		"hand" ],
+		"hand",
+		"world" ],
 	"name" : "SWScatterPlotTest",
 	"pools" : [
 		 ],

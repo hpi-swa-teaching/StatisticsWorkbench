@@ -8,6 +8,7 @@
 	"instvars" : [
 		"data",
 		"diagram",
+		"world",
 		"pieChart",
 		"hand" ],
 	"name" : "SWPieChartTest",
