@@ -9,7 +9,8 @@
 		"barChart",
 		"data",
 		"diagram",
-		"hand" ],
+		"hand",
+		"world" ],
 	"name" : "SWBarChartTest",
 	"pools" : [
 		 ],

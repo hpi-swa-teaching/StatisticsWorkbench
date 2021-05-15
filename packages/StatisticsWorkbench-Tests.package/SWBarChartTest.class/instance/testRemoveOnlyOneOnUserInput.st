@@ -1,10 +1,10 @@
 testing
-testRemoveOnUserInput
+testRemoveOnlyOneOnUserInput
 
-	| selectedDataPoint|
+	| selectedDataPoint size |
 	
 	self diagram openInWorld: self world.
-	self assert: (self barChart data contains: [:data | data x = 1 and: data y = 3 ]).
+	size := self data size.
 	selectedDataPoint := self barChart bars detect: [:dataPoint | dataPoint vector x = 1 and: dataPoint vector y = 3 ].
 	self hand handleEvent: (self yellowMouseDownAt: (selectedDataPoint center)).
-	self deny: (self barChart data contains: [:data | data x = 1 and: data y = 3 ]).
+	self assert: size = (self data size + 1)
