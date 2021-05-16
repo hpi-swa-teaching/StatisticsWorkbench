@@ -5,11 +5,6 @@ buildEscapeCharacterInputFieldWith: aBuilder
 		model: self ;
 		getText: #escapeCharacter;
 		editText: #escapeCharacter:;
-		frame: (LayoutFrame new 
-			topFraction: 0.8;
-			bottomFraction: 1;
-			leftFraction: 0.25;
-			rightFraction: 0.5
-			yourself);
+		frame: (0.25@0.2 corner: 0.5@0.4);
 		indicateUnacceptedChanges: false;
 		yourself

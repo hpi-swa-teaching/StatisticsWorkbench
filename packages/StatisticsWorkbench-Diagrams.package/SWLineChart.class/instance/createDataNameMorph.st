@@ -6,5 +6,6 @@ createDataNameMorph
 	textMorph := TextMorph new.
 	textMorph contents: self dataName;
 		wrapFlag: true.
-	self addMorph: textMorph.
-	self dataNameMorph: textMorph
+	self addMorph: textMorph
+	
+	

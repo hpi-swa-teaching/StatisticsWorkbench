@@ -8,7 +8,9 @@
 	"instvars" : [
 		"barChart",
 		"data",
-		"diagram" ],
+		"diagram",
+		"hand",
+		"world" ],
 	"name" : "SWBarChartTest",
 	"pools" : [
 		 ],

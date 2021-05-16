@@ -3,4 +3,7 @@ initialize
 	
 	super initialize.
 	self delimiter: self defaultDelimiter;
-		escapeCharacter: self defaultEscapeCharacter
+		escapeCharacter: self defaultEscapeCharacter;
+		chartSelection: self defaultDiagramsSelection;
+		fileChosen: false;
+		parsedFile: ''.

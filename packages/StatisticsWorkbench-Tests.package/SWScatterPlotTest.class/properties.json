@@ -8,7 +8,9 @@
 	"instvars" : [
 		"data",
 		"diagram",
-		"scatterPlot" ],
+		"scatterPlot",
+		"hand",
+		"world" ],
 	"name" : "SWScatterPlotTest",
 	"pools" : [
 		 ],
