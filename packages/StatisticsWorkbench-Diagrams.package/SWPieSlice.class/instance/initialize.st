@@ -4,7 +4,7 @@ initialize
 	super initialize.
 	
 	self 
-		slice: PolygonMorph new;
+		slice: SWPieSlicePolygon new;
 		color: Color transparent.
 	
 	self addMorph: self slice
