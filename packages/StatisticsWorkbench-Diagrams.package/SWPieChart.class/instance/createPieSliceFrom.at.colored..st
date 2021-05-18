@@ -10,6 +10,7 @@ createPieSliceFrom: aSWVector at: aPosition colored: aColor
 	newPieSlice vector: aSWVector.
 	edgePoints := OrderedCollection new.
 	
+	newPieSlice bounds: (0@0 corner: 0@0).
 	self add: newPieSlice.
 	startPoint := self startpointBy: aPosition.
 	endPoint := self endpointFrom: startPoint by: aValue.
