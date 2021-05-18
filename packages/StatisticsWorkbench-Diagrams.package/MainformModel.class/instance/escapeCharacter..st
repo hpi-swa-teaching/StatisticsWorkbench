@@ -1,3 +1,3 @@
 accessing
-escapeCharacter: anObject
-	escapeCharacter := anObject
+escapeCharacter: aCharacter
+	escapeCharacter := aCharacter

@@ -1,3 +1,3 @@
 accessing
-delimiter: anObject
-	delimiter := anObject
+delimiter: aCharacter
+	delimiter := aCharacter
