@@ -1,4 +1,4 @@
 visualization
 applyTheme: aColorTheme
 	
-	self pointColor: aColorTheme class dataPointColor.
+	self pointColor: (self diagram getColor: aColorTheme class dataPointColor for: self)
