@@ -1,5 +1,5 @@
 {
-	"category" : "StatisticsWorkbench-Diagrams",
+	"category" : "StatisticsWorkbench-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -13,7 +13,7 @@
 		"fileChosen",
 		"parsedFile",
 		"chartSelection" ],
-	"name" : "MainformModel",
+	"name" : "SWMainformModel",
 	"pools" : [
 		 ],
 	"super" : "Model",
