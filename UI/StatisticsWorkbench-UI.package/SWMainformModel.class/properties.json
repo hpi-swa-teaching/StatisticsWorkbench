@@ -1,0 +1,20 @@
+{
+	"category" : "StatisticsWorkbench-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"stream",
+		"escapeCharacter",
+		"delimiter",
+		"parsedData",
+		"fileChosen",
+		"parsedFile",
+		"chartSelection" ],
+	"name" : "SWMainformModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
