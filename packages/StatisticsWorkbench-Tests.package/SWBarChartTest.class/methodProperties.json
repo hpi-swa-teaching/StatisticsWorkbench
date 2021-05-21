@@ -17,6 +17,7 @@
 		"testBarGraphImplementsCreate" : "sjs 6/11/2020 15:52",
 		"testBarWidth" : "sjs 8/4/2020 15:50",
 		"testCollectionsGetInitialized" : "sjs 6/11/2020 15:51",
+		"testDifferentColors" : "IK 5/18/2021 19:19",
 		"testIsInvisible" : "sjs 6/11/2020 15:51",
 		"testRemove" : "sjs 6/11/2020 15:51",
 		"testRemoveAll" : "sjs 6/11/2020 15:51",

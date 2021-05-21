@@ -1,4 +1,4 @@
 visualization
 applyTheme: aColorTheme
 	
-	self lineColor: aColorTheme class lineChartColor.
+	self lineColor: (self diagram getColor: aColorTheme class lineChartColor for: self)

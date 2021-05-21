@@ -1,5 +1,5 @@
 visualization
 applyTheme: aColorTheme
 	
-	self barColor: aColorTheme class barColor.
+	self barColor: (self diagram getColor: aColorTheme class barColor for: self).
 	self barLabelColor: aColorTheme class barLabelColor

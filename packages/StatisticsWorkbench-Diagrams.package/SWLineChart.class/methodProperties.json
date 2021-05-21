@@ -8,7 +8,7 @@
 	"instance" : {
 		"add:" : "ds 6/19/2020 19:01",
 		"applyDataColor" : "ds 7/21/2020 11:16",
-		"applyTheme:" : "FG 6/11/2019 08:13",
+		"applyTheme:" : "IK 5/18/2021 20:14",
 		"color:" : "ds 6/19/2020 19:01",
 		"createDataNameMorph" : "PAR 5/17/2021 08:58",
 		"createLineMorph" : "ds 6/19/2020 19:01",
@@ -29,7 +29,7 @@
 		"remove:" : "ds 6/19/2020 19:34",
 		"removeAll" : "ds 6/19/2020 19:03",
 		"supportsShowMean" : "jk 8/4/2020 17:58",
-		"update" : "sjs 7/4/2020 11:49",
+		"update" : "IK 5/18/2021 20:18",
 		"updateDataName" : "sjs 7/4/2020 12:33",
 		"updateDataNameMorph" : "jvm 8/5/2020 10:22",
 		"vertices" : "ds 6/19/2020 19:04",

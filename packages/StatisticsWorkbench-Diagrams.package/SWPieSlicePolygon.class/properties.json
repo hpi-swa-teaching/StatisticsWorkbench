@@ -6,15 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stream",
-		"escapeCharacter",
-		"delimiter",
-		"parsedData",
-		"fileChosen",
-		"parsedFile",
-		"chartSelection" ],
-	"name" : "MainformModel",
+		 ],
+	"name" : "SWPieSlicePolygon",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "PolygonMorph",
 	"type" : "normal" }

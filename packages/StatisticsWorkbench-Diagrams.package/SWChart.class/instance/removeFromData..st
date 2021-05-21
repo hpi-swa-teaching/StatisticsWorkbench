@@ -1,5 +1,5 @@
 updating
 removeFromData: aChartElement
 
-	self data remove: (aChartElement vector).
-	self data changed
+	(self data size > 1) ifTrue: [ self data remove: aChartElement vector.
+		self data changed ]

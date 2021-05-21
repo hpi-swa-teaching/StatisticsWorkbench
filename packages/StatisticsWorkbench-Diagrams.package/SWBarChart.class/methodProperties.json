@@ -7,7 +7,7 @@
 		"maximumSizeFactor" : "jk 7/31/2020 12:18" },
 	"instance" : {
 		"add:" : "ds 6/19/2020 18:53",
-		"applyTheme:" : "FG 6/11/2019 08:48",
+		"applyTheme:" : "IK 5/18/2021 20:22",
 		"barBottom" : "ds 6/19/2020 18:53",
 		"barColor" : "ds 6/19/2020 18:53",
 		"barColor:" : "ds 6/19/2020 18:56",
@@ -27,4 +27,4 @@
 		"remove:" : "CK 5/14/2021 15:06",
 		"removeAll" : "ds 6/19/2020 18:55",
 		"supportsShowMean" : "jk 8/4/2020 17:58",
-		"update" : "jk 7/15/2020 15:48" } }
+		"update" : "IK 5/18/2021 20:22" } }
