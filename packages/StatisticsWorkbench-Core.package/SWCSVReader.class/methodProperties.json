@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"newWith:and:" : "CK 5/19/2021 13:23" },
+	"instance" : {
+		"delimiter" : "CK 5/19/2021 13:04",
+		"delimiter:" : "CK 5/19/2021 13:04",
+		"escapeCharacter" : "CK 5/19/2021 13:04",
+		"escapeCharacter:" : "CK 5/19/2021 13:04",
+		"getNamedColumns:" : "CK 5/19/2021 13:16",
+		"initialize" : "CK 5/19/2021 13:01",
+		"namedColumnsFromMatrix:" : "CK 5/19/2021 13:10",
+		"tokenize:delimeter:escapeWith:" : "CK 5/19/2021 13:11" } }
