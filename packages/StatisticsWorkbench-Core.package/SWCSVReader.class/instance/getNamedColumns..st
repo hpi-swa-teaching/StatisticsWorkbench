@@ -1,18 +1,14 @@
 initialize-release
 getNamedColumns: aStream
 	
-	| lines currentLine matrix|
+	| lines matrix|
 
-	lines := OrderedCollection new.
-	
-	(aStream atEnd) ifTrue: [^ self create].
-	
-	currentLine := aStream nextLine.
-	[currentLine] whileNotNil: [
-		lines add: currentLine.
-		currentLine := aStream nextLine.
-	].
+	(aStream atEnd) ifTrue: [^ Dictionary new.].
 
+	lines := self readAllLines: aStream.
+	
+	"(aStream atEnd) ifTrue: [^ self create]."
+	
 	matrix := self tokenize: lines delimeter: self delimiter escapeWith: self escapeCharacter.
 
 	^self namedColumnsFromMatrix: matrix
