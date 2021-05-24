@@ -5,11 +5,15 @@ buildWith: aBuilder
 		model: self;
 		label: 'Statistics Workbench';
 		extent: self extent;
+		"closeAction: (self test);"
 		children:{
 			self buildChartSelectionWith: aBuilder.
 			self buildCsvFileSelectionWith: aBuilder.
 			self buildVisualizeButtonWith: aBuilder.
 			self buildDelimiterInputFieldWith: aBuilder.
 			self buildEscapeCharacterInputFieldWith: aBuilder.
+			self buildXAxisSelectionButtonWith: aBuilder.
+			self buildYAxisSelectionButtonWith: aBuilder.
+			self buildCategoryColumnSelectionButtonWith: aBuilder.
 		};
 		yourself)

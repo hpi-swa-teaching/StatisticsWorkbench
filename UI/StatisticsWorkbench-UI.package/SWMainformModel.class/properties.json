@@ -12,7 +12,11 @@
 		"parsedData",
 		"fileChosen",
 		"parsedFile",
-		"chartSelection" ],
+		"chartSelection",
+		"xAxis",
+		"yAxis",
+		"categoryColumn",
+		"childView" ],
 	"name" : "SWMainformModel",
 	"pools" : [
 		 ],

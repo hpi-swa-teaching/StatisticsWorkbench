@@ -1,0 +1,4 @@
+default
+isSelected: aNumber 
+	
+	^ false 
