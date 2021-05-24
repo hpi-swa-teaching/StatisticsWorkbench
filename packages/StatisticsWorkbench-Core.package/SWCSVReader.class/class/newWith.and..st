@@ -2,8 +2,8 @@ as yet unclassified
 newWith: aDelimiter and: anEscapeChar
 
 	|csvreader|
-	csvreader := self new.
-	csvreader 
+	csvreader := self new initialize.
+	^csvreader 
 		delimiter: aDelimiter;
-		escapeCharacter: anEscapeChar.
-	^csvreader
+		escapeCharacter: anEscapeChar;
+		yourself.
