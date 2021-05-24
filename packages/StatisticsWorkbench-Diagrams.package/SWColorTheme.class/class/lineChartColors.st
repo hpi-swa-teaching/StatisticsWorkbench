@@ -1,4 +1,4 @@
 defaults
-lineChartColor
+lineChartColors
 
 	self subclassResponsibility

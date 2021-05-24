@@ -1,0 +1,17 @@
+defaults
+lineChartColors
+
+	| colors |
+	
+	colors := OrderedCollection new.
+		
+	colors
+		add: (Color r: 246/255 g: 168/255 b: 0);
+		add: (Color r: 86/255 g: 180/255 b: 233/255);
+		add: (Color r: 0 g: 158/255 b: 115/255);
+		add: (Color r: 240/255 g: 228/255 b: 66/255);
+		add: (Color r: 0 g: 114/255 b: 178/255);
+		add: (Color r: 213/255 g: 94/255 b: 0);
+		add: (Color r: 204/255 g: 121/255 b: 167/255).
+
+	^ colors
