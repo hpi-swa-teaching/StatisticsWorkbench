@@ -1,8 +1,8 @@
 support
-mouseOver: point
+mouseEnter: point
 
 	^ MouseEvent new
-		setType: #mouseOver
+		setType: #mouseEnter
 		position: point
 		buttons: 2r000
 		hand: hand
