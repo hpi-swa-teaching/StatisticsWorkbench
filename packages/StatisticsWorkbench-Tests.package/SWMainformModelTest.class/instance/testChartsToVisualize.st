@@ -1,19 +1,16 @@
 as yet unclassified
 testChartsToVisualize
 
-	|mainformModel expectedValue|
-	
-	mainformModel := SWMainformModelTest createSWMainformModel.
-	
-	mainformModel chart: 1 setSelected: true.
-	mainformModel chart: 2 setSelected: true.
+	| expectedValue |
+	self mainformModel chart: 1 setSelected: true.
+	self mainformModel chart: 2 setSelected: true.
 
 	expectedValue := OrderedCollection new 
-		add: (mainformModel getCharts at: 1); 
-		add: (mainformModel getCharts at: 2);
+		add: (self mainformModel getCharts at: 1); 
+		add: (self mainformModel getCharts at: 2);
 		yourself.
 
-	self assert: [mainformModel chartsToVisualize = expectedValue].
+	self assert: [self mainformModel chartsToVisualize = expectedValue].
 	
 
 

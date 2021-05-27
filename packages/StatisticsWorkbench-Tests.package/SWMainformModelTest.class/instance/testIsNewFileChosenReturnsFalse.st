@@ -1,13 +1,10 @@
 as yet unclassified
 testIsNewFileChosenReturnsFalse
 
-	|mainformModel fileStream|
+	|fileStream|
 	
-	mainformModel := SWMainformModelTest createSWMainformModel.
-
 	fileStream := self createFileStreamNamed: 'File1.txt'.
 	mainformModel stream: fileStream.
-	
 	mainformModel parseData.
 
-	self assert:( mainformModel isNewFileChosen not).	
+	self assert: (mainformModel isNewFileChosen not).	
