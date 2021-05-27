@@ -1,7 +1,9 @@
-as yet unclassified
+instance creation
 fromNamedColumns: aDictionary xAxis: aString yAxis: anotherString categorizedBy: anotherString2
 
 	|curSWData swdataCollection categories indizes xValues yValues workingCopy|
+	
+	(aDictionary keys contains: [:each| each = anotherString2]) ifFalse: [SWInvalidArgumentError signal: 'Wrong category-column-name'].
 	
 	categories := (aDictionary at: anotherString2) withoutDuplicates.
 	swdataCollection := OrderedCollection new.
@@ -17,6 +19,8 @@ fromNamedColumns: aDictionary xAxis: aString yAxis: anotherString categorizedBy:
 			
 		curSWData :=  self fromXValues: xValues versusYValues: yValues.
 		
+		curSWData dataName: category.
+		
 		curSWData setAllDimensionNames: {aString value. anotherString value}.
 		
 		swdataCollection add: curSWData.
@@ -31,3 +35,4 @@ fromNamedColumns: aDictionary xAxis: aString yAxis: anotherString categorizedBy:
 	yValues := (aDictionary at: aDictionary keys second) collect: [:each | each asInteger].
 		
 	^ self fromXValues: xValues versusYValues: yValues withLabels: (aDictionary at: #Labels)"
+ "Period or right bracket expected ->"

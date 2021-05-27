@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromNamedColumns: aDictionary xAxis: aString yAxis: anotherString
  
 	| xValues yValues data |
