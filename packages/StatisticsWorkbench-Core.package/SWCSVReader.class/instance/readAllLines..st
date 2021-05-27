@@ -1,7 +1,7 @@
 as yet unclassified
 readAllLines: aStream 
 
-	|lines currentLine|
+	|lines currentLine |
 	lines := OrderedCollection new.
 	
 	currentLine := aStream nextLine.
