@@ -1,4 +1,4 @@
 as yet unclassified
 createSWMainformModel
 
-	^ MainformModel new.
+	^ SWMainformModel new.

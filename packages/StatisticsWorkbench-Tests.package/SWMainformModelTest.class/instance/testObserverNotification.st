@@ -1,12 +1,7 @@
 as yet unclassified
 testObserverNotification
 
-	|mainformModel|
-	
-	mainformModel := SWMainformModelTest createSWMainformModel.
-	
-	mainformModel addDependent: self.
-	
-	mainformModel chart: 1 setSelected: true.
+	self mainformModel addDependent: self.
+	self mainformModel chart: 1 setSelected: true.
 	
 	self assert:[ self notified].	

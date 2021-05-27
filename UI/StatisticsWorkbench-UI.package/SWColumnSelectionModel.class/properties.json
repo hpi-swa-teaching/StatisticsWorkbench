@@ -1,0 +1,15 @@
+{
+	"category" : "StatisticsWorkbench-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"columns",
+		"parentSetter" ],
+	"name" : "SWColumnSelectionModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

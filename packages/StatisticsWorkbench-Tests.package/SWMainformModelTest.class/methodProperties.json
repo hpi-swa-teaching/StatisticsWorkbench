@@ -1,16 +1,19 @@
 {
 	"class" : {
-		"createSWMainformModel" : "PAR 5/11/2021 20:34" },
+		"createSWMainformModel" : "PAR 5/21/2021 20:12" },
 	"instance" : {
-		"createFileStreamNamed:" : "PAR 5/12/2021 20:35",
+		"createFileStreamNamed:" : "PAR 5/22/2021 10:48",
+		"mainformModel" : "PAR 5/26/2021 16:21",
+		"mainformModel:" : "PAR 5/26/2021 16:21",
 		"notified" : "PAR 5/11/2021 20:51",
 		"notified:" : "PAR 5/11/2021 20:51",
 		"numberOfCharts" : "PAR 5/13/2021 08:56",
-		"testChartSelection" : "PAR 5/13/2021 08:55",
-		"testChartSelectionLength" : "PAR 5/13/2021 08:56",
-		"testChartsToVisualize" : "PAR 5/13/2021 08:54",
-		"testDefaultChartSelection" : "PAR 5/13/2021 08:56",
-		"testIsNewFileChosen" : "PAR 5/12/2021 21:41",
-		"testIsNewFileChosenReturnsFalse" : "PAR 5/12/2021 21:41",
-		"testObserverNotification" : "PAR 5/13/2021 08:54",
+		"setUp" : "PAR 5/26/2021 16:22",
+		"testChartSelection" : "PAR 5/26/2021 16:23",
+		"testChartSelectionLength" : "PAR 5/26/2021 16:23",
+		"testChartsToVisualize" : "PAR 5/26/2021 16:27",
+		"testDefaultChartSelection" : "PAR 5/26/2021 16:24",
+		"testIsNewFileChosen" : "PAR 5/26/2021 16:25",
+		"testIsNewFileChosenReturnsFalse" : "PAR 5/26/2021 16:26",
+		"testObserverNotification" : "PAR 5/26/2021 16:26",
 		"update:" : "PAR 5/12/2021 19:18" } }
