@@ -1,4 +1,4 @@
-nil
+event handling
 handlesMouseOver: evt
 
 	^ true
