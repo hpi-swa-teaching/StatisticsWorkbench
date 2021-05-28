@@ -1,10 +1,11 @@
 {
 	"class" : {
 		"filterAllValuesOf:by:" : "PAR 5/28/2021 09:26",
+		"fromDataPartition:xAxis:yAxis:" : "PAR 5/28/2021 14:40",
 		"fromDataPointCollections:" : "sjs 8/4/2020 16:19",
 		"fromNamedColumns:" : "PAR 5/10/2021 13:26",
 		"fromNamedColumns:xAxis:yAxis:" : "PAR 5/28/2021 08:00",
-		"fromNamedColumns:xAxis:yAxis:categorizedBy:" : "PAR 5/28/2021 09:18",
+		"fromNamedColumns:xAxis:yAxis:categorizedBy:" : "PAR 5/28/2021 14:42",
 		"fromNamedColumns:xValues:yValues:" : "PAR 5/10/2021 13:25",
 		"getValues:of:" : "PAR 5/28/2021 09:27",
 		"partOf:with:at:" : "PAR 5/28/2021 09:26",
