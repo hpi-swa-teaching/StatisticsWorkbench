@@ -1,11 +1,14 @@
 {
 	"class" : {
+		"filterAllValuesOf:by:" : "PAR 5/28/2021 09:26",
 		"fromDataPointCollections:" : "sjs 8/4/2020 16:19",
 		"fromNamedColumns:" : "PAR 5/10/2021 13:26",
-		"fromNamedColumns:xAxis:yAxis:" : "PAR 5/24/2021 09:58",
-		"fromNamedColumns:xAxis:yAxis:categorizedBy:" : "PAR 5/27/2021 22:07",
+		"fromNamedColumns:xAxis:yAxis:" : "PAR 5/28/2021 08:00",
+		"fromNamedColumns:xAxis:yAxis:categorizedBy:" : "PAR 5/28/2021 09:18",
 		"fromNamedColumns:xValues:yValues:" : "PAR 5/10/2021 13:25",
-		"getValues:of:" : "PAR 5/23/2021 21:42",
-		"processStringData:ofDataDimension:" : "ds 6/19/2020 18:33" },
+		"getValues:of:" : "PAR 5/28/2021 09:27",
+		"partOf:with:at:" : "PAR 5/28/2021 09:26",
+		"processStringData:ofDataDimension:" : "ds 6/19/2020 18:33",
+		"split:by:" : "PAR 5/28/2021 09:01" },
 	"instance" : {
 		"asString" : "ds 6/19/2020 18:33" } }

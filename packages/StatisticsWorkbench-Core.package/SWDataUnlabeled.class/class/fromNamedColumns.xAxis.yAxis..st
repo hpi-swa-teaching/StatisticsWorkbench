@@ -2,8 +2,6 @@ instance creation
 fromNamedColumns: aDictionary xAxis: aString yAxis: anotherString
  
 	| xValues yValues data |
-	
-	self halt.
 
 	xValues := (aDictionary at: aString) collect: [:each | each asInteger].
 	yValues := (aDictionary at: anotherString) collect: [:each | each asInteger].
