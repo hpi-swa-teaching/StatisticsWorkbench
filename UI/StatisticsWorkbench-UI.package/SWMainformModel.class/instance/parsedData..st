@@ -1,3 +1,3 @@
 accessing
-parsedData: SWData
-	parsedData := SWData
+parsedData: namedColumns
+	parsedData := namedColumns

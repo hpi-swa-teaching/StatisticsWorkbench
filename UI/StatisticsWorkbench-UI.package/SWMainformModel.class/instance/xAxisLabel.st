@@ -1,4 +1,4 @@
-event-handling
+accessing
 xAxisLabel 
 
 	^'X-Axis: ', self xAxis.

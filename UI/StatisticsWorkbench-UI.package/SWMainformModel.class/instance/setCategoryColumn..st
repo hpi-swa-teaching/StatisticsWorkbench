@@ -1,6 +1,5 @@
 accessing
-setCategoryColumn: aString
+setCategoryColumn: aNumber
 
-	self childView closeBoxHit.
-	self categoryColumn: aString.
+	self categoryColumn: (self columns at: aNumber).
 	self changed: #setCategoryColumn.

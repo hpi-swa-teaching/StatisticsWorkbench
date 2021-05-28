@@ -1,4 +1,0 @@
-default
-isSelected: aNumber 
-	
-	^ false 

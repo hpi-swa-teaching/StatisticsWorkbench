@@ -1,3 +1,3 @@
 accessing
-categoryColumn: anObject
-	categoryColumn := anObject
+categoryColumn: aString
+	categoryColumn := aString

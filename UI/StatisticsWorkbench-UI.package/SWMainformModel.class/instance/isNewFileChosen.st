@@ -1,4 +1,4 @@
 event-handling
 isNewFileChosen
 
-	^ ((self currentFile) = (self parsedFile)) not
+	^ (self currentFile = self parsedFile) not

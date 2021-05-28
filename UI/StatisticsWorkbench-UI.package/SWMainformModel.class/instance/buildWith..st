@@ -5,7 +5,6 @@ buildWith: aBuilder
 		model: self;
 		label: 'Statistics Workbench';
 		extent: self extent;
-		"closeAction: (self test);"
 		children:{
 			self buildChartSelectionWith: aBuilder.
 			self buildCsvFileSelectionWith: aBuilder.

@@ -1,6 +1,5 @@
 accessing
-setXAxisColumn: aString
+setXAxisColumn: aNumber
 
-	self childView closeBoxHit.
-	self xAxis: aString.
+	self xAxis: (self columns at: aNumber).
 	self changed: #setXAxisColumn.

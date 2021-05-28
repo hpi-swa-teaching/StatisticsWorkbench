@@ -11,7 +11,6 @@ onVisualizeButtonClicked
 
 	ifTrue: [
 		swdata := SWDataUnlabeled fromNamedColumns: self parsedData xAxis: self xAxis yAxis: self yAxis.	
-			self halt.
 		self chartsToVisualize do:[:each|
 			(SWDiagram new visualize: swdata with: each create) openInWindow.
 		]. 
