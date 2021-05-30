@@ -7,5 +7,6 @@ testXYPopupOnHover
 	submorphsBefore := selectedDataPoint submorphs size.
 	self hand handleEvent: (self mouseEnter: selectedDataPoint center).
 	submorphsAfter := selectedDataPoint submorphs size.
-	self assert: selectedDataPoint infoPopup notNil
+	self assert: selectedDataPoint infoPopup notNil.
+	selectedDataPoint infoPopup delete
 	
