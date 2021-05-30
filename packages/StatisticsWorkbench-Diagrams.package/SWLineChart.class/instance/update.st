@@ -6,4 +6,5 @@ update
 	self vertices: self createVertices.
 	self lineMorph setVertices: self vertices asArray.
 	self updateDataName.
-	self lineMorph borderColor: self lineColor
+	self lineMorph borderColor: self lineColor.
+	self addDatapointsToLine
