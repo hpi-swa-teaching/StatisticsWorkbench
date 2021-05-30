@@ -12,6 +12,7 @@
 		"scatterPlot" : "ds 6/19/2020 20:33",
 		"scatterPlot:" : "ds 6/19/2020 20:33",
 		"setUp" : "FM 5/15/2021 19:55",
+		"tearDown" : "FM 5/30/2021 11:16",
 		"testAdd" : "jk 6/25/2020 22:28",
 		"testCollectionsGetInitialized" : "ds 6/19/2020 20:34",
 		"testDifferentColors" : "IK 5/18/2021 19:14",
@@ -24,8 +25,8 @@
 		"testRemovePointFromData" : "IK 5/13/2021 17:22",
 		"testRescaleAfterRemoving" : "IK 5/13/2021 16:54",
 		"testScatterPlotVisualisation" : "ds 6/19/2020 20:34",
-		"testXYPopupCorrectLabel" : "FM 5/30/2021 11:03",
-		"testXYPopupOnHover" : "FM 5/30/2021 11:01",
+		"testXYPopupCorrectLabel" : "FM 5/30/2021 11:19",
+		"testXYPopupOnHover" : "FM 5/30/2021 11:19",
 		"world" : "FM 5/15/2021 19:55",
 		"world:" : "FM 5/15/2021 19:55",
 		"yellowMouseDownAt:" : "CK 5/14/2021 14:23" } }
