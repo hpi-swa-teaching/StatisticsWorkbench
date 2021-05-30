@@ -1,4 +1,4 @@
 accessing
-infoPopup: anObject
+infoPopup: aTextMorph
 
-	infoPopup := anObject
+	infoPopup := aTextMorph
