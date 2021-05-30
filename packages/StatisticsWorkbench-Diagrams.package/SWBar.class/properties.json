@@ -9,7 +9,8 @@
 		"barLabelMorph",
 		"bottom",
 		"isLabelHorizontal",
-		"rotationMorph" ],
+		"rotationMorph",
+		"infoPopup" ],
 	"name" : "SWBar",
 	"pools" : [
 		 ],

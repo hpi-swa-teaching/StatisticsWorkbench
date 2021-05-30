@@ -10,6 +10,7 @@
 		"diagram:" : "aj 5/30/2018 17:10",
 		"hand" : "IK 5/13/2021 17:46",
 		"hand:" : "IK 5/13/2021 17:46",
+		"mouseEnter:" : "FM 5/30/2021 10:32",
 		"setUp" : "FM 5/15/2021 19:39",
 		"tearDown" : "FM 5/15/2021 15:35",
 		"testAdd" : "sjs 6/11/2020 15:51",
@@ -26,6 +27,8 @@
 		"testRemoveOnUserInputInWindow" : "FM 5/15/2021 20:19",
 		"testRemoveOnlyOneOnUserInput" : "FM 5/15/2021 15:45",
 		"testRescaleAfterRemoving" : "IK 5/13/2021 17:26",
+		"testXYPopupCorrectLabel" : "FM 5/30/2021 10:34",
+		"testXYPopupOnHover" : "FM 5/30/2021 10:34",
 		"world" : "FM 5/15/2021 15:34",
 		"world:" : "FM 5/15/2021 15:34",
 		"yellowMouseDownAt:" : "FM 5/15/2021 15:06" } }
