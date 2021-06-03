@@ -10,6 +10,7 @@ baseline: spec
 				package: 'StatisticsWorkbench-Diagrams' with: [spec requires: #('StatisticsWorkbench-Core' 'StatisticsWorkbench-Exceptions')];
 				package: 'StatisticsWorkbench-Tests' with: [spec requires: #('default')];
 				package: 'StatisticsWorkbench-Examples' with: [spec requires: #('StatisticsWorkbench-Core' 'StatisticsWorkbench-Exceptions' 'StatisticsWorkbench-Diagrams')];
+				package: 'StatisticsWorkbench-UI' with: [spec requires: #('StatisticsWorkbench-Core' 'StatisticsWorkbench-Exceptions' 'StatisticsWorkbench-Diagrams')];
 				yourself.
 			spec
 				group: 'default' with: #('StatisticsWorkbench-Core'  'StatisticsWorkbench-Exceptions' 'StatisticsWorkbench-Diagrams');
