@@ -1,0 +1,20 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'StatisticsWorkbench',
+      #directory : 'packages',
+      #load :  [ 'tests' ],
+      #platforms : [ #squeak ],
+      #useLatestMetacello : true
+    }
+  ],
+  #testing : {
+    #coverage : {
+      #categories : [ 'StatisticsWorkbench-Diagrams' ]
+    },
+    #exclude : {
+      #categories : [ 'StatisticsWorkbench-Tests' ]
+    }
+  }
+}
+
