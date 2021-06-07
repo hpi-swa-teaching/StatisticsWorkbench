@@ -1,4 +1,4 @@
-accessing
+testing
 mouseEnter: point
 
 	^ MouseEvent new

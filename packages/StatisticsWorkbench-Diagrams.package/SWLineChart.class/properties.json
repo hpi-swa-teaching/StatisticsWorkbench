@@ -11,7 +11,8 @@
 		"lineMorph",
 		"vertices",
 		"dataName",
-		"dataNameMorph" ],
+		"dataNameMorph",
+		"dataPoints" ],
 	"name" : "SWLineChart",
 	"pools" : [
 		 ],
