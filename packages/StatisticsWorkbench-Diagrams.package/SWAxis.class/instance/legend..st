@@ -5,6 +5,7 @@ legend: aText
 	
 	(self legend)
 		ifNil: [morph := TextMorph new contents: aText;
+					wrapFlag: true;
 					color: self color;
 					yourself.
 					

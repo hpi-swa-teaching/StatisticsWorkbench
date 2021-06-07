@@ -12,5 +12,5 @@ testBoundsOnLongDimensionNames
 	axisLabelBounds := textMorph bounds.
 	diagramBounds := diagram bounds.
 		
-	self assert: true"((axisLabelBounds intersect: diagramBounds) = axisLabelBounds)"
+	self assert: ((axisLabelBounds intersect: diagramBounds) = axisLabelBounds)
 		
