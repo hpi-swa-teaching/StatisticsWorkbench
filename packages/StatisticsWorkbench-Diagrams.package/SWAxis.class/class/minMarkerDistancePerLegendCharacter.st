@@ -1,0 +1,3 @@
+defaults
+minMarkerDistancePerLegendCharacter
+	^ 8
