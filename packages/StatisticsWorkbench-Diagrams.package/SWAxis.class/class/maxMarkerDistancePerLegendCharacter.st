@@ -1,0 +1,4 @@
+defaults
+maxMarkerDistancePerLegendCharacter
+
+	^ 25
