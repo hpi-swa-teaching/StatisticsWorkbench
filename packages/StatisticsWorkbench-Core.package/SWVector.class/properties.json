@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "aj 6/21/2018 10:40",
 	"instvars" : [
-		"labelName" ],
+		"labelName",
+		"misc" ],
 	"name" : "SWVector",
 	"pools" : [
 		 ],

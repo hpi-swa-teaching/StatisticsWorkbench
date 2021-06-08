@@ -12,7 +12,7 @@
 		"fromYValues:" : "sjs 6/22/2020 17:51",
 		"indizesOf:in:" : "PAR 5/23/2021 21:18",
 		"namedColumnsFromMatrix:" : "mv 6/24/2020 10:24",
-		"processDatafromXValues:versusYValues:" : "sjs 8/4/2020 16:21",
+		"processDatafromXValues:versusYValues:" : "PAR 6/8/2021 09:17",
 		"processStringData:ofDataDimension:" : "Kenneth-Schroeder 6/27/2018 14:14",
 		"tokenize:delimeter:escapeWith:" : "mv 6/24/2020 10:19" },
 	"instance" : {
@@ -38,6 +38,7 @@
 		"dimensionNames:" : "PAR 5/9/2021 19:58",
 		"dimensions" : "ds 6/19/2020 18:29",
 		"dimensions:" : "ds 6/19/2020 19:20",
+		"enrichWith:" : "PAR 6/8/2021 10:17",
 		"indexOfAxis:" : "jvm 8/5/2020 09:31",
 		"initialize" : "jvm 8/5/2020 09:28",
 		"initializeDimensionNamesOfSize:" : "ds 6/19/2020 18:29",

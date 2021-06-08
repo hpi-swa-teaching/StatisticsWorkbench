@@ -7,5 +7,8 @@ fromNamedColumns: aDictionary xAxis: aString yAxis: anotherString
 	yValues := (aDictionary at: anotherString) collect: [:each | each asInteger].
 		
 	data :=  self fromXValues: xValues versusYValues: yValues.
+
+	data enrichWith: aDictionary.
+	
 	data setAllDimensionNames: {aString value. anotherString value}.
 	^data
