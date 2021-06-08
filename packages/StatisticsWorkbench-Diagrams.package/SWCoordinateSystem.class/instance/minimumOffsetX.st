@@ -1,4 +1,4 @@
 geometry
 minimumOffsetX
 
-	^ (self xAxis minimum * self xAxis normedMarkerLength) asFloat
+	^ (self xAxis normedMarkerLength) asFloat

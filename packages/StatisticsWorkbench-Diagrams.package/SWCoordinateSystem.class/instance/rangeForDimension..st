@@ -9,8 +9,7 @@ rangeForDimension: aDimension
 	globalMin := self diagram minimumOfAllChartsForDimension: aDimension.
 	globalMax := self diagram maximumOfAllChartsForDimension: aDimension.
 	range := SWAxisRange from: globalMin to: globalMax.
-	range includeZero.
-	
+		
 	(self centeredAxes)
 		ifTrue: [range balanceExtent].
 	

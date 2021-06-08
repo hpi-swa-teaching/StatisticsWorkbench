@@ -6,5 +6,5 @@ updateRanges
 	rangeX := self rangeForDimension: #x.
 	rangeY := self rangeForDimension: #y.
 	
-	self updateMinX: rangeX min minY: rangeY min.
-	self updateMaxX:  rangeX max maxY: rangeY max
+	self updateMaxX:  rangeX max maxY: rangeY max.
+	self updateMinX: rangeX min minY: rangeY min
