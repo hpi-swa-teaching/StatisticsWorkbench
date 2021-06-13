@@ -5,7 +5,7 @@ testEnrichWithMiscData
 	
 	data := SWDataTest createSeeded.
 	
-	miscData := ('miscColumn' -> #('miscColumnValue1' 'miscColumnValue2' 'miscColumnValue3' 'miscColumnValue4')) asOrderedCollection asDictionary.
+	miscData := ('miscColumn' -> #('miscColumnValue1' 'miscColumnValue2' 'miscColumnValue3' 'miscColumnValue4')) asOrderedCollection as: Dictionary.
 	
 	data enrichWith: miscData.
 	

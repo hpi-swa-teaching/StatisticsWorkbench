@@ -9,5 +9,5 @@ split: aDictionary by: aKey
 		category ->	 (self partOf: aDictionary with: category at: aKey).
 	].
 
-	^dictionaryParts asDictionary.
+	^dictionaryParts as: Dictionary.
 	

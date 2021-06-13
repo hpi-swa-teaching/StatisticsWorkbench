@@ -3,7 +3,7 @@ OrderedDictionary {
 	'packages/StatisticsWorkbench-Diagrams.package' : #SquotCypressCodeSerializer,
 	'packages/StatisticsWorkbench-Examples.package' : #SquotCypressCodeSerializer,
 	'packages/StatisticsWorkbench-Exceptions.package' : #SquotCypressCodeSerializer,
-	'packages/StatisticsWorkbench-Tests.package' : #SquotCypressCodeSerializer,
 	'packages/BaselineOfStatisticsWorkbench.package' : #SquotCypressCodeSerializer,
-	'UI/StatisticsWorkbench-UI.package' : #SquotCypressCodeSerializer
+	'packages/StatisticsWorkbench-Tests.package' : #SquotCypressCodeSerializer,
+	'packages/StatisticsWorkbench-UI.package' : #SquotCypressCodeSerializer
 }
