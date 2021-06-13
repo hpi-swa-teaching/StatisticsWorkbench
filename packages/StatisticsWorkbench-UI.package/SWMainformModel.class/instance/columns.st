@@ -1,4 +1,4 @@
 accessing
 columns
 
-	^self parsedData keys
+	^self namedColumns keys
