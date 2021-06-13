@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CustomTestRunner",
+	"pools" : [
+		 ],
+	"super" : "TestRunner",
+	"type" : "normal" }
