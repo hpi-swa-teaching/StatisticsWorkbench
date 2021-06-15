@@ -10,7 +10,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #categories : [ 'StatisticsWorkbench-Diagrams', 'StatisticsWorkbench-UI', 'StatisticsWorkbench-Core' ]
+      #categories : [ 'StatisticsWorkbench-Diagrams', 'StatisticsWorkbench-Core' ]
     }
   }
 }
