@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"barChart" : "FM 6/27/2021 16:03",
+		"barChart:" : "FM 6/27/2021 16:03",
+		"data" : "FM 6/27/2021 16:03",
+		"data:" : "FM 6/27/2021 16:04",
+		"diagram" : "FM 6/27/2021 16:06",
+		"diagram:" : "FM 6/27/2021 16:06",
+		"setUp" : "FM 6/27/2021 16:07",
+		"testRemoveBarOnUserInput" : "FM 6/27/2021 16:09",
+		"testRemoveBarOnUserInputInWindow" : "FM 6/27/2021 16:09",
+		"testRemoveOnlyOneBarOnUserInput" : "FM 6/27/2021 16:09",
+		"testXYPopupCorrectLabel" : "FM 5/30/2021 10:34",
+		"testXYPopupOnHover" : "FM 5/30/2021 11:19" } }

@@ -1,8 +1,7 @@
 testing
-setUp
+setUp 
 
 	super setUp.
-
 
 	self 
 		data: SWDataTest createSeeded5;

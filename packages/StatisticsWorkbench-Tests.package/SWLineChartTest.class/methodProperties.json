@@ -6,13 +6,9 @@
 		"data:" : "ds 6/19/2020 20:28",
 		"diagram" : "ds 6/19/2020 20:28",
 		"diagram:" : "ds 6/19/2020 20:28",
-		"expectedFailures" : "FM 6/3/2021 20:44",
-		"hand" : "FM 5/30/2021 11:49",
-		"hand:" : "FM 5/30/2021 11:49",
 		"lineChart" : "ds 6/19/2020 20:28",
 		"lineChart:" : "ds 6/19/2020 20:28",
-		"mouseEnter:" : "FM 5/30/2021 11:39",
-		"setUp" : "FM 6/3/2021 20:18",
+		"setUp" : "FM 6/27/2021 15:58",
 		"testAdd" : "jk 6/25/2020 22:28",
 		"testAxesCentered" : "jk 6/20/2020 18:10",
 		"testCollectionsGetInitialized" : "ds 6/19/2020 20:29",
@@ -25,7 +21,4 @@
 		"testPolygonMorphInBounds" : "ds 6/19/2020 20:29",
 		"testRemoveAll" : "ds 6/19/2020 20:29",
 		"testRemoveRandom" : "ds 6/19/2020 20:29",
-		"testVerticesComparator" : "ds 6/19/2020 20:29",
-		"testXYPopupOnHover" : "FM 5/30/2021 12:39",
-		"world" : "FM 5/30/2021 11:49",
-		"world:" : "FM 5/30/2021 11:49" } }
+		"testVerticesComparator" : "ds 6/19/2020 20:29" } }

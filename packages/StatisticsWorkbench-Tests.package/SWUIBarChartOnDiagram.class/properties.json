@@ -4,13 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "cm 7/13/2019 14:56",
+	"commentStamp" : "",
 	"instvars" : [
-		"data",
 		"diagram",
-		"scatterPlot" ],
-	"name" : "SWScatterPlotTest",
+		"data",
+		"barChart" ],
+	"name" : "SWUIBarChartOnDiagram",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "SWUITest",
 	"type" : "normal" }

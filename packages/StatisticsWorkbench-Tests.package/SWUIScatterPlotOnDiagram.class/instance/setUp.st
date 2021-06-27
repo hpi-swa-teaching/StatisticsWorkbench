@@ -1,9 +1,9 @@
 testing
-setUp
+setUp 
 
 	super setUp.
-	
-	self 
+
+	self
 		data: SWDataTest createSeeded;
 		scatterPlot: SWScatterPlot new;
-		diagram: (SWDiagram new visualize: self data with: self scatterPlot).
+		diagram: (SWDiagram new visualize: self data with: self scatterPlot)

@@ -8,9 +8,7 @@
 	"instvars" : [
 		"data",
 		"diagram",
-		"world",
-		"pieChart",
-		"hand" ],
+		"pieChart" ],
 	"name" : "SWPieChartTest",
 	"pools" : [
 		 ],
