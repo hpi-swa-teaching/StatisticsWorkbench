@@ -1,15 +1,10 @@
 {
 	"class" : {
-		"filterAllValuesOf:by:" : "PAR 5/28/2021 09:26",
-		"fromDataPartition:xAxis:yAxis:" : "PAR 5/28/2021 14:40",
+		"fromDataPartition:xAxis:yAxis:" : "PAR 6/27/2021 15:45",
 		"fromDataPointCollections:" : "sjs 8/4/2020 16:19",
-		"fromNamedColumns:" : "PAR 5/10/2021 13:26",
-		"fromNamedColumns:xAxis:yAxis:" : "PAR 6/8/2021 10:34",
-		"fromNamedColumns:xAxis:yAxis:categorizedBy:" : "PAR 6/13/2021 14:52",
-		"fromNamedColumns:xValues:yValues:" : "PAR 6/8/2021 10:38",
-		"getValues:of:" : "PAR 5/28/2021 09:27",
-		"partOf:with:at:" : "PAR 5/28/2021 09:26",
-		"processStringData:ofDataDimension:" : "ds 6/19/2020 18:33",
-		"split:by:" : "FM 6/13/2021 13:21" },
+		"fromNamedColumns:" : "PAR 6/27/2021 15:41",
+		"fromNamedColumns:xAxis:yAxis:categorizedBy:" : "PAR 6/27/2021 15:47",
+		"fromNamedColumns:xValues:yValues:" : "PAR 6/27/2021 15:46",
+		"processStringData:ofDataDimension:" : "ds 6/19/2020 18:33" },
 	"instance" : {
 		"asString" : "ds 6/19/2020 18:33" } }

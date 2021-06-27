@@ -1,7 +1,7 @@
 as yet unclassified
 getValues: aCollection of: aIndexCollection
 
-	|tempCollection|
+	| tempCollection |
 	
 	tempCollection:= OrderedCollection new.
 	aIndexCollection do: [:index| tempCollection add: (aCollection at: index)].

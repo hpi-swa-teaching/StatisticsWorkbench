@@ -1,6 +1,6 @@
 event-handling
 onVisualizeButtonClicked
 
-	self categoryColumn isNil
+	self dataIsCategorized
 		ifTrue: [self visualizeSingleChart]
 		ifFalse: [self visualizeMultipleCharts]
