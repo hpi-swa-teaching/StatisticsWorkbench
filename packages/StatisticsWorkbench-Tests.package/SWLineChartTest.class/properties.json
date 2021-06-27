@@ -8,8 +8,7 @@
 	"instvars" : [
 		"data",
 		"diagram",
-		"lineChart",
-		"hand" ],
+		"lineChart" ],
 	"name" : "SWLineChartTest",
 	"pools" : [
 		 ],

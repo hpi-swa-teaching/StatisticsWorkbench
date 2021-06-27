@@ -1,0 +1,16 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"diagram",
+		"data",
+		"scatterPlot" ],
+	"name" : "SWUIScatterPlotOnDiagram",
+	"pools" : [
+		 ],
+	"super" : "SWUITest",
+	"type" : "normal" }

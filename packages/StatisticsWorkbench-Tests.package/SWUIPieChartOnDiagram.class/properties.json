@@ -1,0 +1,16 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"diagram",
+		"data",
+		"pieChart" ],
+	"name" : "SWUIPieChartOnDiagram",
+	"pools" : [
+		 ],
+	"super" : "SWUITest",
+	"type" : "normal" }
