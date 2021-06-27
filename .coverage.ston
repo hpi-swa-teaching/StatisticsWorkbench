@@ -4,16 +4,12 @@ SmalltalkCISpec {
       #baseline : 'StatisticsWorkbench',
       #directory : 'packages',
       #load :  [ 'tests' ],
-      #platforms : [ #squeak ],
-      #useLatestMetacello : true
+      #platforms : [ #squeak ]
     }
   ],
   #testing : {
     #coverage : {
       #categories : [ 'StatisticsWorkbench-Diagrams' ]
-    },
-    #exclude : {
-      #categories : [ 'StatisticsWorkbench-Tests' ]
     }
   }
 }
