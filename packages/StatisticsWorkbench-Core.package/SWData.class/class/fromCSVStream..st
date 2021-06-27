@@ -1,4 +1,10 @@
 CSV parsing
 fromCSVStream: aStream
 	
-	^ self fromCSVStream: aStream delimeter: self defaultDelimeter escapeWith: self defaultEscapeCharacter xAxis: 'X' yAxis: 'Y'
+	| csvreader namedColumns |
+	
+	csvreader := SWCSVReader new.
+	namedColumns := csvreader getNamedColumns: aStream.
+	(namedColumns isEmpty) ifTrue: [^self create].
+		
+	^self fromNamedColumns: namedColumns xValues: 'X' yValues: 'Y'

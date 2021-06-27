@@ -1,4 +1,4 @@
-initialize-release
+reading
 tokenize: lines delimeter: delimeterChar escapeWith: escapeChar
 
 	| tokenizedRows matrix |

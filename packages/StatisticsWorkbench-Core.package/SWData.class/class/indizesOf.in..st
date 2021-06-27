@@ -1,4 +1,4 @@
-as yet unclassified
+categorized-data
 indizesOf: anElement in: aCollection
 
 	|indizes|

@@ -1,4 +1,4 @@
-as yet unclassified
+categorized-data
 partOf: aDictionary with: anElement at: aKey
 
 	| indizes |

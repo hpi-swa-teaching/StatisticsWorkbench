@@ -1,11 +1,9 @@
 {
 	"class" : {
 		"create" : "ds 6/19/2020 18:31",
-		"defaultDelimeter" : "mv 6/24/2020 08:42",
-		"defaultEscapeCharacter" : "jvm 8/2/2020 13:00",
 		"filterAllValuesOf:by:" : "PAR 6/27/2021 15:58",
-		"fromCSVStream:" : "PAR 5/10/2021 13:18",
-		"fromCSVStream:delimeter:escapeWith:xAxis:yAxis:" : "PAR 5/18/2021 09:07",
+		"fromCSVStream:" : "PAR 6/27/2021 16:52",
+		"fromCSVStream:delimeter:escapeWith:xAxis:yAxis:" : "PAR 6/27/2021 16:20",
 		"fromNamedColumns:" : "jvm 8/5/2020 09:31",
 		"fromNamedColumns:xValues:yValues:" : "PAR 5/10/2021 08:11",
 		"fromString:ofDataDimension:" : "ds 6/19/2020 18:31",
@@ -13,7 +11,6 @@
 		"fromYValues:" : "sjs 6/22/2020 17:51",
 		"getValues:of:" : "PAR 6/27/2021 15:46",
 		"indizesOf:in:" : "PAR 5/23/2021 21:18",
-		"namedColumnsFromMatrix:" : "mv 6/24/2020 10:24",
 		"partOf:with:at:" : "PAR 6/27/2021 15:55",
 		"processDatafromXValues:versusYValues:" : "PAR 6/8/2021 09:17",
 		"processStringData:ofDataDimension:" : "Kenneth-Schroeder 6/27/2018 14:14",

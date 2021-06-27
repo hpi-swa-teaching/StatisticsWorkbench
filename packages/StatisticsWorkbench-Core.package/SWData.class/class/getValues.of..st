@@ -1,4 +1,4 @@
-as yet unclassified
+categorized-data
 getValues: aCollection of: aIndexCollection
 
 	| tempCollection |

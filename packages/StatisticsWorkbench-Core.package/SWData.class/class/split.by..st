@@ -1,4 +1,4 @@
-as yet unclassified
+categorized-data
 split: aDictionary by: aKey 
 
 	| categories dictionaryParts |

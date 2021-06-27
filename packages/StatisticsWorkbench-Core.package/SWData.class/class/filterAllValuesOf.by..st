@@ -1,4 +1,4 @@
-as yet unclassified
+categorized-data
 filterAllValuesOf: aDictionary by: indizes 
 
 	| copy |

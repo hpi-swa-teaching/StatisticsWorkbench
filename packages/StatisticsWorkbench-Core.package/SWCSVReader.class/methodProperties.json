@@ -2,11 +2,14 @@
 	"class" : {
 		"newWith:and:" : "PAR 5/21/2021 19:59" },
 	"instance" : {
+		"defaultDelimiter" : "PAR 6/27/2021 16:45",
+		"defaultEscapeCharacter" : "PAR 6/27/2021 16:45",
 		"delimiter" : "CK 5/19/2021 13:04",
 		"delimiter:" : "CK 5/19/2021 13:04",
 		"escapeCharacter" : "CK 5/19/2021 13:04",
 		"escapeCharacter:" : "CK 5/19/2021 13:04",
 		"getNamedColumns:" : "FM 5/24/2021 16:23",
+		"initialize" : "PAR 6/27/2021 16:44",
 		"namedColumnsFromMatrix:" : "FM 5/24/2021 16:05",
 		"readAllLines:" : "FM 5/24/2021 16:22",
 		"tokenize:delimeter:escapeWith:" : "CK 5/19/2021 13:11" } }
