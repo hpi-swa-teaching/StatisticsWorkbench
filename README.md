@@ -1,8 +1,10 @@
 
 # Statistics Workbench
 
-dev: [![Build Status](https://api.travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench)
-submission: [![Build Status](https://api.travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=submission)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench)
+dev: 
+[![CI](https://github.com/hpi-swa-teaching/StatisticsWorkbench/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/hpi-swa-teaching/StatisticsWorkbench/actions/workflows/ci.yml)
+[![Build Status](https://api.travis-ci.org/hpi-swa-teaching/StatisticsWorkbench.svg?branch=dev)](https://travis-ci.org/hpi-swa-teaching/StatisticsWorkbench)
+[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/StatisticsWorkbench/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/StatisticsWorkbench?branch=dev)
 
 (SWT20-Project-05)
 
