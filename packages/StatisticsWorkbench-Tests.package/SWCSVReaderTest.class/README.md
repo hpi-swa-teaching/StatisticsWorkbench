@@ -1,0 +1,1 @@
+SWCSVReaderTest tests if the CSVReader is working as expected.

@@ -1,0 +1,1 @@
+SWUIBarChartOnDiagram tests if SWBarChart behaves correctly on certain User Input.

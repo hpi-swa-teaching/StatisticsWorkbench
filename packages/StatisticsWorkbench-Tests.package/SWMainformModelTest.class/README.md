@@ -1,0 +1,1 @@
+SWMainformModelTest tests if the SWMainformModel is working as expected.

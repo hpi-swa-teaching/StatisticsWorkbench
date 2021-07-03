@@ -1,0 +1,1 @@
+SWUITest provides basic functionalities for testing User Input.

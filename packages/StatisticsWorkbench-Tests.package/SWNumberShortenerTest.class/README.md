@@ -1,0 +1,1 @@
+SWNumberShortenerTest tests if the SWNumberShortener is working as expected.

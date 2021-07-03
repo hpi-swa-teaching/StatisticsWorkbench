@@ -1,0 +1,1 @@
+SWPieChartTest tests if the SWPieChart is working as expected.

@@ -1,0 +1,1 @@
+SWUILineChartOnDiagram tests if SWLineChart behaves correctly on certain User Input.

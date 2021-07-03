@@ -1,0 +1,1 @@
+SWUIPieChartOnDiagram tests if SWPieChart behaves correctly on certain User Input.

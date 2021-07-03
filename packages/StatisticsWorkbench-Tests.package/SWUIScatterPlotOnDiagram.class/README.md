@@ -1,0 +1,1 @@
+SWUIScatterPlotOnDiagram tests if SWScatterPlot behaves correctly on certain User Input.
