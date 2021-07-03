@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FM 7/3/2021 17:42",
+	"instvars" : [
+		 ],
+	"name" : "SWDataStub",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

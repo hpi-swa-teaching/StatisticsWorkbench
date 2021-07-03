@@ -3,7 +3,7 @@ testEnrichWithMiscData
 
 	| data miscData |
 	
-	data := SWDataTest createSeeded.
+	data := SWDataStub createSeeded.
 	
 	miscData := ('miscColumn' -> #('miscColumnValue1' 'miscColumnValue2' 'miscColumnValue3' 'miscColumnValue4')) asOrderedCollection as: Dictionary.
 	

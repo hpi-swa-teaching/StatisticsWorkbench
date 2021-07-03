@@ -3,7 +3,7 @@ testCSVImportWithCustomDimensionNamesWithoutLabels
 
 	| seededData csvString csvStream unlabeledData lines |
 	
-	seededData := self class createSeeded3.
+	seededData := SWDataStub createSeeded3.
 	lines :={
 		'Time;Value' .
 		'0;1' .
