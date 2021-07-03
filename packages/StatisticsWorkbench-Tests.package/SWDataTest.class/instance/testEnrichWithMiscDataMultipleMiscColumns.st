@@ -3,7 +3,7 @@ testEnrichWithMiscDataMultipleMiscColumns
 
 	| data miscData |
 	
-	data := SWDataTest createSeeded7.
+	data := SWDataStub createSeeded7.
 	
 	miscData := Dictionary new.
 	miscData add: ('Column1' -> #('miscColumnValue1')).

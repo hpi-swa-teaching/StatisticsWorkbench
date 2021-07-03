@@ -3,7 +3,7 @@ setUp
 
 	super setUp.
 	self 
-		data: SWDataTest createSeeded;
+		data: SWDataStub createSeeded;
 	     	diagramLineChart: (SWDiagram new visualize: self data with: SWLineChart create);
 	 	diagramBarChart: (SWDiagram new visualize: self data with: SWBarChart create);
 		diagramEmpty: SWDiagram new;

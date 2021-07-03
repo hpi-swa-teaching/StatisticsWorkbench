@@ -3,7 +3,7 @@ testEnrichWithMiscDataOnError
 
 	| data wrongDimension correctDimension|
 	
-	data := SWDataTest createSeeded.
+	data := SWDataStub createSeeded.
 	
 	wrongDimension := ('miscColumn' -> #('miscColumnValue1' 'miscColumnValue2' 'miscColumnValue3' )) asOrderedCollection as: Dictionary.
 	correctDimension := ('miscColumn' -> #('miscColumnValue1' 'miscColumnValue2' 'miscColumnValue3' 'miscColumnValue4')) asOrderedCollection as: Dictionary.

@@ -2,5 +2,5 @@ testing
 setUp
 
 	super setUp.
-	self data: self class createSeeded.
+	self data: SWDataStub createSeeded.
 	self originalDataSize: self data size
