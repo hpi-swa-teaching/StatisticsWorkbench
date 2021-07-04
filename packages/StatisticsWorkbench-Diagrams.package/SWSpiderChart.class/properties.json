@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"spiderWeb" ],
+		"spiderWeb",
+		"lineMorph" ],
 	"name" : "SWSpiderChart",
 	"pools" : [
 		 ],
