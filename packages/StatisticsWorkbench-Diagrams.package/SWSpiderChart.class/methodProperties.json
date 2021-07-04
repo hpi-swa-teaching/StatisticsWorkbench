@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"create" : "FM 7/4/2021 13:05" },
+	"instance" : {
+		"drawSpiderWeb" : "FM 7/4/2021 13:36",
+		"initialize" : "FM 7/4/2021 13:36",
+		"needsCoordinateSystem" : "FM 7/4/2021 12:47",
+		"spiderWeb" : "FM 7/4/2021 13:26",
+		"spiderWeb:" : "FM 7/4/2021 13:26",
+		"update" : "FM 7/4/2021 13:11" } }
