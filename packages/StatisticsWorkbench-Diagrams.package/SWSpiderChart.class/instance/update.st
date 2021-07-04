@@ -1,5 +1,6 @@
 as yet unclassified
 update
 	
-	self	drawSpiderWeb;
+	self extent: self diagram extent;	
+		drawSpiderWeb;
 		drawData
