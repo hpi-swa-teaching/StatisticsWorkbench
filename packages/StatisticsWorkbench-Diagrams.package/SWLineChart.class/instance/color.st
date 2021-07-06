@@ -1,0 +1,4 @@
+visualization
+color
+
+	^ self lineColor

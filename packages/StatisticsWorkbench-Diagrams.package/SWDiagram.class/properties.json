@@ -8,6 +8,7 @@
 	"instvars" : [
 		"charts",
 		"coordinateSystem",
+		"legend",
 		"colorTheme" ],
 	"name" : "SWDiagram",
 	"pools" : [

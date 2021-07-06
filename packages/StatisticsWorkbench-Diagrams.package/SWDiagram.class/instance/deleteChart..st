@@ -2,4 +2,5 @@ adding/removing
 deleteChart: aSWChart
 
 	self charts remove: aSWChart.
-	aSWChart delete
+	aSWChart delete.
+	self update
