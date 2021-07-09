@@ -1,0 +1,17 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"centeredAxes",
+		"boundsThreshold",
+		"xAxis",
+		"yAxis" ],
+	"name" : "SWCartesianCoordinateSystem",
+	"pools" : [
+		 ],
+	"super" : "SWCoordinateSystem",
+	"type" : "normal" }

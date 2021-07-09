@@ -6,10 +6,6 @@
 		 ],
 	"commentStamp" : "aj 6/21/2018 10:36",
 	"instvars" : [
-		"centeredAxes",
-		"boundsThreshold",
-		"xAxis",
-		"yAxis",
 		"diagram" ],
 	"name" : "SWCoordinateSystem",
 	"pools" : [

@@ -1,7 +1,7 @@
 instance creation
 create
 	
-	^ SWCoordinateSystem createAt: self defaultStartPoint 
+	^ SWCartesianCoordinateSystem createAt: self defaultStartPoint 
 									xMin: self defaultMin 
 									xMax: self defaultMax 
 									xStep: self defaultStep 

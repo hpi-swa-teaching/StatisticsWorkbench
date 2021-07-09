@@ -2,7 +2,7 @@ visualization
 visualize: aSWData with: aChart 
 	
 	(aChart needsCoordinateSystem and: [self hasCoordinateSystem not])
-		ifTrue: [self add: self createCoordinateSystem].
+		ifTrue: [self add: aChart requiredCoordinateSystem create].
 
 	(aChart needsLegend and: [self hasLegend not])
 		ifTrue: [self createLegend].
