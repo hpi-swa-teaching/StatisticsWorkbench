@@ -1,0 +1,14 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sequencePolygons" ],
+	"name" : "SWSpiderChart",
+	"pools" : [
+		 ],
+	"super" : "SWChart",
+	"type" : "normal" }

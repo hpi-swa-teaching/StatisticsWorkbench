@@ -1,0 +1,15 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dimensions",
+		"spiderNet" ],
+	"name" : "SWSpiderCoordinateSystem",
+	"pools" : [
+		 ],
+	"super" : "SWCoordinateSystem",
+	"type" : "normal" }
