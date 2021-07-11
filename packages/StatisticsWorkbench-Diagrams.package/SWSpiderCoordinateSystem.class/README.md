@@ -1,0 +1,1 @@
+SWSpiderCoordinateSystem provides a radial, mullti dimensional CoordinateSystem. Only supports data with >2 dimensions, and values ranged from 0 to 100.

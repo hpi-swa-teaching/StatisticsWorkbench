@@ -1,0 +1,1 @@
+SWSpiderChart provides a very simple, to be finished implementation of a Chart for using the SpiderCoordinateSystem.
