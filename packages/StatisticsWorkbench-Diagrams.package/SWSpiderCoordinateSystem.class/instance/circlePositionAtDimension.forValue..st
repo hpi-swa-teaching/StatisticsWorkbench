@@ -1,7 +1,10 @@
 as yet unclassified
 circlePositionAtDimension: aNumber forValue: aValue
 	
-	| radius |
+	| radius xPosition yPosition degrees |
 	
 	radius := (self radius / 100) * aValue.
-	^((aNumber-1 * self radiantsPerDimension + 270 degreesToRadians) cos * radius @ ((aNumber-1 *  self radiantsPerDimension+ 270 degreesToRadians) sin * radius ) + self center) asIntegerPoint
+	degrees := aNumber - 1 * self radiantsPerDimension + self class axisOffsetToHorizontal degreesToRadians.
+	xPosition := degrees cos * radius.
+	yPosition := degrees sin * radius.
+	^ (xPosition @ yPosition) + self center asIntegerPoint

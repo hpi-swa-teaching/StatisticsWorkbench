@@ -2,8 +2,8 @@ as yet unclassified
 createLineMorph
 	
 	^ PolygonMorph new
-		color: Color gray;
-		borderWidth: 2;
-		borderColor: Color lightGray;
+		color: self colorTheme rasterColor;
+		borderWidth: self class defaultLineBorderWith;
+		borderColor: self colorTheme axisBorderColor;
 		makeOpen;
 		yourself

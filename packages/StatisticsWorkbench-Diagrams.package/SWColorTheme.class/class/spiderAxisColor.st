@@ -1,0 +1,4 @@
+defaults
+spiderAxisColor
+
+	self subclassResponsibility
