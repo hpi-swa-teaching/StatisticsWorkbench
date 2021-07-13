@@ -3,10 +3,12 @@
 		"create" : "FM 7/11/2021 14:32" },
 	"instance" : {
 		"add:" : "FM 7/11/2021 14:54",
+		"color" : "PAR 7/13/2021 13:19",
 		"createVertices" : "FM 7/11/2021 16:06",
 		"deleteSequence" : "FM 7/11/2021 16:05",
 		"drawSequence" : "FM 7/11/2021 17:49",
 		"initialize" : "FM 7/11/2021 16:05",
+		"keyInformation" : "PAR 7/13/2021 13:18",
 		"needsCoordinateSystem" : "FM 7/11/2021 14:31",
 		"requiredCoordinateSystem" : "FM 7/11/2021 14:27",
 		"sequencePolygons" : "FM 7/11/2021 16:02",

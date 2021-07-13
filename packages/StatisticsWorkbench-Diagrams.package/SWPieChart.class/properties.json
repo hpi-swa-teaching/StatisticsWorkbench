@@ -8,7 +8,6 @@
 	"instvars" : [
 		"chartCenter",
 		"circleStartpoint",
-		"pieKey",
 		"pieSlices",
 		"radius",
 		"colorArray" ],

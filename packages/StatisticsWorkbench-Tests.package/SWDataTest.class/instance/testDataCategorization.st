@@ -3,7 +3,7 @@ testDataCategorization
 
 	|namedColumns swdataCollection|
 	
-	namedColumns := SWDataStub createSeededNamedColumns1.
+	namedColumns := SWDataTest createSeededNamedColumns1.
 
 	swdataCollection := SWDataUnlabeled fromNamedColumns: namedColumns  xAxis: 'Column1' yAxis: 'Column2' categorizedBy: 'Category'.
 		

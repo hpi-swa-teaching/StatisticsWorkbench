@@ -3,7 +3,7 @@ testCSVImport
 
 	| seededData csvString csvStream labeledData lines |
 	
-	seededData := SWDataStub createSeeded4.
+	seededData := self class createSeeded4.
 	lines :={
 		'X,Y,Labels' .
 		'0,1,one' .

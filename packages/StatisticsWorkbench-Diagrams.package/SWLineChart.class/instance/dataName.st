@@ -1,4 +1,6 @@
 accessing
 dataName
-
-	^ dataName
+	
+	(dataName isNil)
+	ifTrue: [^ '']
+	ifFalse: [^dataName]

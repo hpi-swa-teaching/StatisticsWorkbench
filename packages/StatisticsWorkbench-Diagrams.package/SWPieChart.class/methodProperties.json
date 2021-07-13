@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"create" : "jk 6/25/2020 21:21",
+		"create" : "PAR 7/13/2021 12:26",
 		"defaultColorArray" : "jk 6/25/2020 21:21",
 		"defaultExtent" : "jk 6/25/2020 21:22",
 		"defaultRadius" : "6/25/2020 18:15:18",
@@ -20,6 +20,7 @@
 		"endpointFrom:by:" : "6/25/2020 18:15:18",
 		"generateOuterBorderFromStartPoint:withValue:" : "6/25/2020 18:15:18",
 		"initialize" : "6/25/2020 18:15:18",
+		"keyInformation" : "PAR 7/13/2021 11:37",
 		"needsCoordinateSystem" : "6/25/2020 18:15:18",
 		"pieKey" : "6/25/2020 18:15:18",
 		"pieKey:" : "6/25/2020 18:15:18",
@@ -35,6 +36,6 @@
 		"removePieSlice:" : "6/25/2020 18:15:18",
 		"startpointBy:" : "6/25/2020 18:15:18",
 		"toggleValueVisibility" : "6/25/2020 18:15:18",
-		"update" : "6/25/2020 18:15:18",
-		"updatePieKey" : "6/25/2020 18:15:18",
+		"update" : "PAR 7/13/2021 12:23",
+		"updatePieKey" : "PAR 7/13/2021 12:24",
 		"updatePieSlices" : "IK 5/20/2021 19:53" } }

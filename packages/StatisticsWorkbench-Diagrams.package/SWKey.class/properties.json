@@ -1,0 +1,18 @@
+{
+	"category" : "StatisticsWorkbench-Diagrams",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"key",
+		"keyColors",
+		"keyNames",
+		"keyBackgroundColor",
+		"textColor" ],
+	"name" : "SWKey",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

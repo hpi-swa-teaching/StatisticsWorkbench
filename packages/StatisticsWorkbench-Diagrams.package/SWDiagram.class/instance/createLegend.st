@@ -2,9 +2,8 @@ visualization
 createLegend
 
 	| key|
-	
-	key := SWPieKey new.
+	key := SWKey create. 			
 	self legend: key.
-	key topLeft: self topRight.
-	key key topLeft: self topRight.
+	self legend topLeft: self topRight.
+	self legend key topLeft: self topRight.
 	self addMorph: key

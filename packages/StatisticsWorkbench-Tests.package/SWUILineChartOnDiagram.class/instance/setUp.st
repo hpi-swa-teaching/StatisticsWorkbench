@@ -4,7 +4,7 @@ setUp
 	super setUp.
 	
 	self 
-		data: SWDataStub createSeededRandom;
+		data: SWDataTest createSeededRandom;
 		lineChart: SWLineChart new;
 		diagram: (SWDiagram new visualize: self data with: self lineChart).
 		

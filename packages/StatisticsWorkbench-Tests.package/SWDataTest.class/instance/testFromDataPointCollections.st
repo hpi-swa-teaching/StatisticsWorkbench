@@ -3,7 +3,7 @@ testFromDataPointCollections
 
 	| labeledData seededLabeledData unlabeledData seededUnlabeledData  |
 	
-	seededLabeledData := SWDataStub createSeeded4.
+	seededLabeledData := self class createSeeded4.
 	
 	labeledData := #((0 1 'one') #(1 1 'two') #(2 3 'three') #(3 1 'four')).
 	labeledData := SWDataLabeled fromDataPointCollections: labeledData.
@@ -11,7 +11,7 @@ testFromDataPointCollections
 	
 	self assert: labeledData equals: seededLabeledData.
 	
-	seededUnlabeledData := SWDataStub createSeeded.
+	seededUnlabeledData := self class createSeeded.
 	unlabeledData := #(#(0 1) #(1 1) #(1 3) #(3 0)).
 	unlabeledData := SWDataUnlabeled fromDataPointCollections: unlabeledData.
 	
