@@ -1,11 +1,11 @@
 testing
 testHash
-	| identicalVector1 identicalVector2 |
+	| vector1 vector2 |
 	
-	identicalVector1 := SWVector create: #(0).
-	identicalVector2 := SWVector create: #(0).
-	identicalVector1 labelName: 'testingHashing'.
-	identicalVector2 labelName: 'testingHashing'.
+	vector1 := SWVector create: #(0 123 456).
+	vector2 := SWVector create: #(0 123 456).
+	vector1 labelName: 'testingHashing'.
+	vector2 labelName: 'testingHashing'.
 	
-	self assert: identicalVector1 hash equals: identicalVector2 hash.
-	"self deny: self vector1 hash equals: self vector2 hash"
+	self assert: vector1 hash equals: vector2 hash.
+	self deny: vector1 hash equals: self vector3 hash
