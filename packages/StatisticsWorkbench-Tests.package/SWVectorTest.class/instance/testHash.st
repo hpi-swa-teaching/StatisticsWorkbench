@@ -8,4 +8,4 @@ testHash
 	vector2 labelName: 'testingHashing'.
 	
 	self assert: vector1 hash equals: vector2 hash.
-	self deny: vector1 hash equals: self vector3 hash
+	self deny: vector1 hash = self vector3 hash
