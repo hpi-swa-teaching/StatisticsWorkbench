@@ -1,0 +1,5 @@
+accessing
+dataColor
+
+	^ Color transparent
+	

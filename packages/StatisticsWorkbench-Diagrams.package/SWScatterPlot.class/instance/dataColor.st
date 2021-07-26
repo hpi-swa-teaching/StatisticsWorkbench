@@ -1,4 +1,4 @@
 accessing
-color 
+dataColor 
 
 	^ self pointColor

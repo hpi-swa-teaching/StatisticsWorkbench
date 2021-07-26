@@ -1,4 +1,4 @@
 visualization
-color
+dataColor
 
 	^ self lineColor

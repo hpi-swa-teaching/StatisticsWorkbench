@@ -1,4 +1,4 @@
 as yet unclassified
-color 
+dataColor 
 
 	^ self sequencePolygons first color.
