@@ -1,5 +1,5 @@
 testing
-testAsString
+testAsStringWithoutLabels
 
 	| comparisonData |
 	
