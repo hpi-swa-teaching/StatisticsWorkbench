@@ -1,6 +1,6 @@
 accessing
 labelName
 
-	labelName ifNil: [^ self y printString].
+	labelName ifNil: [^ (self at: 1) printString].
 
 	^ labelName
