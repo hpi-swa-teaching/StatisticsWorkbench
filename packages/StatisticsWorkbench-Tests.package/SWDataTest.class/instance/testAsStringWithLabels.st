@@ -3,7 +3,7 @@ testAsStringWithLabels
 
 	| comparisonData |
 	
-	comparisonData := self class createSeeded4.
+	comparisonData := SWDataStub createSeeded4.
 
 	self assert: (comparisonData asString = 'Time|Value
 one|0|1
