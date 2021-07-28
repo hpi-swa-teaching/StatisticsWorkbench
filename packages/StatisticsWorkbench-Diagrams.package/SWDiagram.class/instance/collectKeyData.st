@@ -1,7 +1,8 @@
-as yet unclassified
+accessing
 collectKeyData 
 
-	|keyInformationCollection flattenedCollection|
+	| keyInformationCollection flattenedCollection |
+
 	flattenedCollection := OrderedCollection new.
 	keyInformationCollection := self charts collect:[:chart| chart keyInformation].
 	

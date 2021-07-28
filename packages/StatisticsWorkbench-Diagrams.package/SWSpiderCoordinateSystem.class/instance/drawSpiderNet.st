@@ -1,6 +1,6 @@
-as yet unclassified
+visualization
 drawSpiderNet
 	
-	1 to: 5 do: [:each | self drawCircularLineForValue: each * 20].
+	1 to: self class numberOfCircularLines do: [:each | self drawCircularLineForValue: each * self class valuePerCircularLine].
 	
 	1 to: self dimensions do: [:dimension | self addAxisForDimension: dimension].

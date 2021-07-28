@@ -1,4 +1,4 @@
-as yet unclassified
+adding/removing
 resetSpiderNet
 
 	self spiderNet submorphs do: [:each | each delete].

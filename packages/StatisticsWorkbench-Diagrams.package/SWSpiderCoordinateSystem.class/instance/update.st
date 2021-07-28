@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 update
 
 	self center: self diagram center.

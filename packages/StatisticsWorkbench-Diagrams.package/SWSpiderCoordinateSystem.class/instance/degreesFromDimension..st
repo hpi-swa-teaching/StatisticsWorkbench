@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 degreesFromDimension: aNumber 
 
-	^ (aNumber - 1 * self radiantsPerDimension radiansToDegrees + self class axisOffsetToHorizontal ) \\ 360
+	^ (aNumber * self degreesPerDimension + self class axisOffsetToHorizontal ) \\ 360

@@ -1,4 +1,4 @@
-as yet unclassified
+visualization
 adjust: aTextMorph to: aMorph
 
 	| maxWidth |
