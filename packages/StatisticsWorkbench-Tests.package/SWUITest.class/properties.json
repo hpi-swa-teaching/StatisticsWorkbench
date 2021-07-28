@@ -6,6 +6,8 @@
 		 ],
 	"commentStamp" : "FM 7/3/2021 17:48",
 	"instvars" : [
+		"diagram",
+		"data",
 		"hand",
 		"world" ],
 	"name" : "SWUITest",

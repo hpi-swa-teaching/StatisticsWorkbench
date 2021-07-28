@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "FM 7/3/2021 17:51",
 	"instvars" : [
-		"diagram",
-		"data",
 		"scatterPlot" ],
 	"name" : "SWUIScatterPlotOnDiagram",
 	"pools" : [

@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "FM 7/3/2021 17:51",
+	"commentStamp" : "",
 	"instvars" : [
-		"lineChart" ],
-	"name" : "SWUILineChartOnDiagram",
+		"spiderChart" ],
+	"name" : "SWUISpiderChartOnDiagram",
 	"pools" : [
 		 ],
 	"super" : "SWUITest",
