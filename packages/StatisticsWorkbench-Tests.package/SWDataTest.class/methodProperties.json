@@ -16,6 +16,7 @@
 		"testCSVImportWithCustomDimensionNamesWithoutLabels" : "FM 7/3/2021 17:35",
 		"testCSVImportWithDelimeter" : "FM 7/3/2021 17:36",
 		"testCSVImportWithEmptyFileStream" : "PAR 5/13/2021 07:39",
+		"testCopyFrom" : "FM 7/28/2021 10:49",
 		"testCountingSort" : "ds 6/19/2020 20:19",
 		"testDataAllCategorized" : "FM 7/3/2021 17:38",
 		"testDataCategorization" : "FM 7/3/2021 17:38",
@@ -38,10 +39,11 @@
 		"testMax" : "ds 6/19/2020 20:20",
 		"testMaxDerivation" : "ds 6/19/2020 20:20",
 		"testMaxWithSymbols" : "ds 6/19/2020 20:20",
-		"testMean" : "ds 6/19/2020 20:20",
+		"testMean" : "FM 7/28/2021 10:51",
 		"testMedian" : "ds 6/19/2020 20:20",
 		"testMin" : "ds 6/19/2020 20:21",
 		"testMinDerivation" : "ds 6/19/2020 20:21",
 		"testMinWithSymbols" : "ds 6/19/2020 20:21",
 		"testMode" : "ds 6/19/2020 20:21",
-		"testRemove" : "FM 7/3/2021 17:31" } }
+		"testRemove" : "FM 7/3/2021 17:31",
+		"testSpecies" : "FM 7/28/2021 10:47" } }
