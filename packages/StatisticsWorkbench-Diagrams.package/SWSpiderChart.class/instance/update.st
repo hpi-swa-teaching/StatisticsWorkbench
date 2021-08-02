@@ -1,5 +1,6 @@
-as yet unclassified
+updating
 update
 
-	self deleteSequence;
-		drawSequence
+	self deleteGraph;
+		updateColor;
+		drawGraph

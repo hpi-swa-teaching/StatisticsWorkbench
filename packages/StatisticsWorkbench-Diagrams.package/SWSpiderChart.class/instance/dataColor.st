@@ -1,4 +1,4 @@
-as yet unclassified
+visualization
 dataColor 
 
-	^ self sequencePolygons first color.
+	^ self graph color

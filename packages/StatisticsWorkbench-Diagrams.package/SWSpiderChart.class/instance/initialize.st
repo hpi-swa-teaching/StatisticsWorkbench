@@ -1,5 +1,6 @@
-as yet unclassified
+accessing
 initialize
 
 	super initialize.
-	self sequencePolygons: OrderedCollection new
+	self graphColor: self class defaultGraphColor;
+		graphBorderColor: self class defaultGraphBorderColor

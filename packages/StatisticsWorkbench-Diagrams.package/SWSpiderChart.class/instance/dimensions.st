@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 dimensions
 
 	^ self data dimensions

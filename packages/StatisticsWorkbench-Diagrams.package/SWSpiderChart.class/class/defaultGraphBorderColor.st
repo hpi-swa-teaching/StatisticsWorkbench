@@ -1,0 +1,4 @@
+defaults
+defaultGraphBorderColor
+
+	^ Color black

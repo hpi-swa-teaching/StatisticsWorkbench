@@ -1,0 +1,4 @@
+defaults
+spiderChartGraphBorderColor
+
+	self subclassResponsibility

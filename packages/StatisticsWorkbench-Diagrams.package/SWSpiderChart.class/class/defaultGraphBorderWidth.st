@@ -1,0 +1,4 @@
+defaults
+defaultGraphBorderWidth
+
+	^ 2
