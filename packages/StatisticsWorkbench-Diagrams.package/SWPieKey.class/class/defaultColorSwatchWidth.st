@@ -1,4 +1,0 @@
-defaults
-defaultColorSwatchWidth
-
-	^ 20

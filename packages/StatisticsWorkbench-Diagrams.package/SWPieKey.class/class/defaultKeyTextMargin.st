@@ -1,4 +1,0 @@
-defaults
-defaultKeyTextMargin
-
-	^ 50
