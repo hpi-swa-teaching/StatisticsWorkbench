@@ -8,4 +8,4 @@ fromXValues: xValues versusYValues: yValues
 	
 	newData := self processDatafromXValues: xValues versusYValues: yValues.
 
-	^newData
+	^ newData

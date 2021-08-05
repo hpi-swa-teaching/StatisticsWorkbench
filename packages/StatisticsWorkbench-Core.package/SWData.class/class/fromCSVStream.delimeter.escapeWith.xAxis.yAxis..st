@@ -7,5 +7,5 @@ fromCSVStream: aStream delimeter: delimeterCharacter escapeWith: escapeCharacter
 	namedColumns := csvreader getNamedColumns: aStream.
 	(namedColumns isEmpty) ifTrue: [^self create].
 		
-	^self fromNamedColumns: namedColumns xValues: aString yValues: anotherString
+	^ self fromNamedColumns: namedColumns xValues: aString yValues: anotherString
 
