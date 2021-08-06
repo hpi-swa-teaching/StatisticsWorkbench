@@ -5,7 +5,6 @@ fromCSVStream: aStream delimeter: delimeterCharacter escapeWith: escapeCharacter
 
 	csvreader := SWCSVReader newWith: delimeterCharacter and: escapeCharacter.
 	namedColumns := csvreader getNamedColumns: aStream.
-	(namedColumns isEmpty) ifTrue: [^self create].
-		
+	(namedColumns isEmpty) ifTrue: [^ self create].		
 	^ self fromNamedColumns: namedColumns xValues: aString yValues: anotherString
 

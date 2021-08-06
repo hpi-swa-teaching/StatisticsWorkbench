@@ -1,0 +1,1 @@
+The SWCSVReader is helper class for CSV-parsing. Specify delimiter and escape character and call getNamedColumnsFrom:. You will receive a Dictionary. The keys represent the column names, whereas the values contain the column-values.
