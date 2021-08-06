@@ -1,3 +1,4 @@
 accessing
-dataPoints: anObject
-	dataPoints := anObject
+dataPoints: aCollection
+
+	dataPoints := aCollection
