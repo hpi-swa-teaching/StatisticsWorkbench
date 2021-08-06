@@ -8,10 +8,10 @@ testAdjustStepIntervalVertical
 	axis endPoint: axis startPoint x @ (axis startPoint y + 100);
 		orientation: #vertical.
 	
-	self assert: [axis markerDistance >= SWAxis minMarkerDistance]
-		description: axis markerDistance printString, ' should be greater than ', SWAxis minMarkerDistance.
+	self assert: [axis markerDistance >= SWAxis defaultMinMarkerDistance]
+		description: axis markerDistance printString, ' should be greater than ', SWAxis defaultMinMarkerDistance.
 	
 	axis endPoint: axis startPoint x @ (axis startPoint y + 1000).
 	
-	self assert: [axis markerDistance <= SWAxis maxMarkerDistance]
-		description: axis markerDistance printString, ' should be less than ', SWAxis maxMarkerDistance
+	self assert: [axis markerDistance <= SWAxis defaultMaxMarkerDistance]
+		description: axis markerDistance printString, ' should be less than ', SWAxis defaultMaxMarkerDistance.
