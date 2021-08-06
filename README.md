@@ -107,7 +107,6 @@ If you want to adjust your diagram, you can do that as follows:
 
 ```smalltalk
 (graph charts first) barWidth: 40.
-graph chartsColor: Color green.
 graph axisColor: Color red.
 ```
 
@@ -126,7 +125,7 @@ graph showMean.
 
 You can also interact with the diagram, for example by right-clicking on data points to delete them from the diagram. This functionality can be used to exclude outliers.
 
-Another way of accesing the StatisticsWorkBench tool is nthe brand new user interface. This can be opened by calling
+Another way of accesing the StatisticsWorkBench tool is the brand new user interface. This can be opened by calling
 
 ```smalltalk
 SWMainformModel open.
