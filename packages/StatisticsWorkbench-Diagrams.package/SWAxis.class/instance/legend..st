@@ -1,16 +1,7 @@
 accessing
 legend: aText
 
-	| morph |
-	
-	(self legend)
-		ifNil: [morph := TextMorph new contents: aText;
-					wrapFlag: true;
-					color: self color;
-					yourself.
-					
-				legend := morph.
-				self
-					addMorph: morph;
+	self hasLegend
+		ifFalse: [self createLegend: aText;
 					updateLegend]
-		ifNotNil: [self legend contents: aText]
+		ifTrue: [self legend contents: aText]

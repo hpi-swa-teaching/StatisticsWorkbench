@@ -1,4 +1,0 @@
-defaults
-maxMarkerDistancePerLegendCharacter
-
-	^ 25

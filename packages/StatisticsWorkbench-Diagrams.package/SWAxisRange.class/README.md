@@ -1,0 +1,1 @@
+A SWAxisMarker extents Interval to ease its usage for the Axis class.

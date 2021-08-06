@@ -1,0 +1,4 @@
+defaults
+defaultMaxMarkerDistancePerSymbol
+
+	^ 25

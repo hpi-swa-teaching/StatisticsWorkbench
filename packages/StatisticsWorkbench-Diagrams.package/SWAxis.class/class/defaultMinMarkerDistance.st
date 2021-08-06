@@ -1,0 +1,4 @@
+defaults
+defaultMinMarkerDistance
+
+	^ 15

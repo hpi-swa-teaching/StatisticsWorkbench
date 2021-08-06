@@ -1,4 +1,0 @@
-defaults
-minMarkerDistance
-
-	^ 15
