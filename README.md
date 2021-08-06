@@ -24,13 +24,22 @@ The test base is very comprehensive for some chart types and almost non-existent
 
 ## Installation
 
-First install metacello using [this guide](https://github.com/Metacello/metacello#squeak). Then run the following in a workspace in your Squeak image.
+First install metacello using [this guide](https://github.com/Metacello/metacello#squeak). Then run the following in a workspace in your Squeak image. This will install only required packages.
 
 ```smalltalk
 Metacello new
   baseline: 'StatisticsWorkbench';
   repository: 'github://hpi-swa-teaching/StatisticsWorkbench:dev/packages';
   load.
+```
+
+If you want to install every package (including Tests and Examples), run the following in your workspace:
+
+```smalltalk
+Metacello new
+  baseline: 'StatisticsWorkbench';
+  repository: 'github://hpi-swa-teaching/StatisticsWorkbench:dev/packages';
+  load: #('all').
 ```
 
 After that you are good to go.
