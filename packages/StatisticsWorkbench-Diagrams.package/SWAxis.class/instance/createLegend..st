@@ -7,5 +7,5 @@ createLegend: aText
 					wrapFlag: true;
 					color: self color;
 					yourself.
-	self legend: morph;
-		addMorph: morph
+	legend := morph.
+	self addMorph: morph
