@@ -10,7 +10,7 @@ fromNamedColumns: aDictionary xAxis: aString yAxis: anotherString categorizedBy:
 	dataPartitions := self split: aDictionary by: anotherString2.
 	
 	^ dataPartitions associations
-		collect: [:dataPart | self
+		collect: [: dataPart | self
 				fromDataPartition: dataPart
 				xAxis: aString
 				yAxis: anotherString]
