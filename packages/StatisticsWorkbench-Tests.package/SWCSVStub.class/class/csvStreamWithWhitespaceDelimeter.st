@@ -1,7 +1,8 @@
-as yet unclassified
+helper
 csvStreamWithWhitespaceDelimeter
 	
-	|lines csvString|
+	| lines csvString |
+	
 	lines :={
 		'X Y Labels' .
 		'0 1 one' .
@@ -10,4 +11,4 @@ csvStreamWithWhitespaceDelimeter
 		'3 1 four'
 	}.
 	csvString := lines inject: '' into: [:agg :current | agg, current, String cr].
-	^ ReadStream on: csvString from: 1 to: csvString size.
+	^ ReadStream on: csvString from: 1 to: csvString size 

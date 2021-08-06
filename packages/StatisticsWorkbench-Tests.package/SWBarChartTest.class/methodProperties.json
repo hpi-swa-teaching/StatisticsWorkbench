@@ -8,7 +8,7 @@
 		"data:" : "aj 5/30/2018 17:10",
 		"diagram" : "aj 5/30/2018 17:10",
 		"diagram:" : "aj 5/30/2018 17:10",
-		"setUp" : "FM 7/3/2021 17:30",
+		"setUp" : "PAR 8/6/2021 12:02",
 		"testAdd" : "sjs 6/11/2020 15:51",
 		"testBarCount" : "sjs 6/11/2020 15:51",
 		"testBarGraphImplementsCreate" : "sjs 6/11/2020 15:52",
@@ -16,7 +16,7 @@
 		"testCollectionsGetInitialized" : "sjs 6/11/2020 15:51",
 		"testDifferentColors" : "FM 7/3/2021 17:34",
 		"testIsInvisible" : "sjs 6/11/2020 15:51",
-		"testRemove" : "sjs 6/11/2020 15:51",
+		"testRemove" : "PAR 8/6/2021 12:03",
 		"testRemoveAll" : "sjs 6/11/2020 15:51",
-		"testRemoveBarFromData" : "IK 5/13/2021 17:24",
-		"testRescaleAfterRemoving" : "IK 5/13/2021 17:26" } }
+		"testRemoveBarFromData" : "PAR 8/6/2021 13:11",
+		"testRescaleAfterRemoving" : "PAR 8/6/2021 12:04" } }

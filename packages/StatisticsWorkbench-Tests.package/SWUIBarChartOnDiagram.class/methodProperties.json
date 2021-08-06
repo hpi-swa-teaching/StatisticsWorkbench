@@ -4,9 +4,9 @@
 	"instance" : {
 		"barChart" : "FM 6/27/2021 16:03",
 		"barChart:" : "FM 6/27/2021 16:03",
-		"setUp" : "FM 7/3/2021 17:32",
-		"testRemoveBarOnUserInput" : "FM 6/27/2021 16:09",
-		"testRemoveBarOnUserInputInWindow" : "FM 6/27/2021 16:09",
+		"setUp" : "PAR 8/6/2021 12:59",
+		"testRemoveBarOnUserInput" : "PAR 8/6/2021 13:11",
+		"testRemoveBarOnUserInputInWindow" : "PAR 8/6/2021 13:11",
 		"testRemoveOnlyOneBarOnUserInput" : "FM 6/27/2021 16:09",
 		"testXYPopupCorrectLabel" : "FM 5/30/2021 10:34",
 		"testXYPopupOnHover" : "FM 5/30/2021 11:19" } }

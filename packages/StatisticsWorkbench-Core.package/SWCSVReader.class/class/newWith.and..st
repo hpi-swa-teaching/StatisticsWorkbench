@@ -3,7 +3,7 @@ newWith: aDelimiter and: anEscapeChar
 
 	|csvreader|
 	csvreader := self new initialize.
-	^csvreader 
+	^ csvreader 
 		delimiter: aDelimiter;
 		escapeCharacter: anEscapeChar;
-		yourself.
+		yourself

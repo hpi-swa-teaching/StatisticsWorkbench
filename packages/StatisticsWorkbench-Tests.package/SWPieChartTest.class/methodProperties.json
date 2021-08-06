@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"data" : "IK 5/13/2021 17:45",
-		"data:" : "IK 5/13/2021 17:45",
-		"diagram" : "IK 5/13/2021 17:45",
-		"diagram:" : "IK 5/13/2021 17:45",
-		"pieChart" : "IK 5/13/2021 17:45",
-		"pieChart:" : "IK 5/13/2021 17:45",
-		"setUp" : "FM 7/3/2021 17:36",
+		"data" : "PAR 8/6/2021 12:56",
+		"data:" : "PAR 8/6/2021 12:58",
+		"diagram" : "PAR 8/6/2021 12:56",
+		"diagram:" : "PAR 8/6/2021 12:56",
+		"pieChart" : "PAR 8/6/2021 12:56",
+		"pieChart:" : "PAR 8/6/2021 12:57",
+		"setUp" : "PAR 8/6/2021 12:57",
 		"testAdd" : "IK 5/13/2021 17:58",
 		"testRemove" : "IK 5/13/2021 18:03",
 		"testRemoveAll" : "IK 5/13/2021 18:16",
-		"testRemovePieSliceFromData" : "IK 5/13/2021 18:04",
-		"testRescaleAfterRemoving" : "IK 5/13/2021 18:14" } }
+		"testRemovePieSliceFromData" : "PAR 8/6/2021 13:11",
+		"testRescaleAfterRemoving" : "PAR 8/6/2021 12:57" } }

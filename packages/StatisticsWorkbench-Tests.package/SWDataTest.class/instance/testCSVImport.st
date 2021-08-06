@@ -1,20 +1,11 @@
 testing
 testCSVImport
 
-	| seededData csvString csvStream labeledData lines |
+	| seededData csvStream labeledData |
 	
 	seededData := SWDataStub createSeeded4.
-	lines :={
-		'X,Y,Labels' .
-		'0,1,one' .
-		'1,1,two' .
-		'2,3,three' .
-		'3,1,four'
-	}.
-	csvString := lines inject: '' into: [:agg :current | agg, current, String cr].
-	csvStream := ReadStream on: csvString from: 1 to: csvString size.
-	
+	csvStream := SWCSVStub csvStreamLabeledDataCommaSeparated. 
 	labeledData := SWDataLabeled fromCSVStream: csvStream.
 	labeledData setAllDimensionNames: #('Time' 'Value').
 	
-	self assert: labeledData equals: seededData.
+	self assert: labeledData equals: seededData

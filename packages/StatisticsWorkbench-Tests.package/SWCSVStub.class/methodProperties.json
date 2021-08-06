@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"csvStreamLabeledData" : "PAR 8/6/2021 12:36",
+		"csvStreamLabeledDataCommaSeparated" : "PAR 8/6/2021 13:09",
+		"csvStreamLabeledDataWhitespaceSeparated" : "PAR 8/6/2021 13:09",
+		"csvStreamUnlabeledData" : "PAR 8/6/2021 12:38",
+		"csvStreamWithWhitespaceDelimeter" : "PAR 8/6/2021 12:35",
+		"emptyCSVStream" : "PAR 8/6/2021 12:45" },
+	"instance" : {
+		 } }

@@ -7,4 +7,4 @@ testIsNewFileChosenReturnsFalse
 	mainformModel stream: fileStream.
 	mainformModel parseData.
 
-	self assert: (mainformModel isNewFileChosen not).	
+	self assert: (mainformModel isNewFileChosen not)	

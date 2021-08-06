@@ -1,12 +1,9 @@
 testing
 testCSVImportWithEmptyFileStream 
 
-	|emptyStream actualData expectedData|
-
-	emptyStream := ReadStream on: '' from: 1 to: '' size.
+	| actualData expectedData |
 
 	expectedData := SWDataUnlabeled create.
-	
-	actualData := SWDataUnlabeled fromCSVStream: emptyStream.
+	actualData := SWDataUnlabeled fromCSVStream: SWCSVStub emptyCSVStream.
 		
-	self assert: expectedData equals: actualData.
+	self assert: expectedData equals: actualData

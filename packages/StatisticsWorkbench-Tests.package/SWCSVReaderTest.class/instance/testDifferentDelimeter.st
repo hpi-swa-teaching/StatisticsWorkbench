@@ -1,8 +1,9 @@
 testing
 testDifferentDelimeter
 	
-	| columnNames actualColumnNames |
+	| columns expectedColumnNames |
+	
 	self csvReader delimiter: ' '.
-	columnNames := self csvReader getNamedColumns:  self class csvStreamWithWhitespaceDelimeter.
-	actualColumnNames := {'X'. 'Y'. 'Labels'}.
-	self assert: columnNames keys = actualColumnNames 
+	columns := self csvReader getNamedColumns:  SWCSVStub csvStreamWithWhitespaceDelimeter.
+	expectedColumnNames := {'X'. 'Y'. 'Labels'}.
+	self assert: columns keys = expectedColumnNames 

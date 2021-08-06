@@ -1,3 +1,4 @@
 accessing
-csvReader: anObject
-	csvReader := anObject
+csvReader: aSWCSVReader
+
+	csvReader := aSWCSVReader

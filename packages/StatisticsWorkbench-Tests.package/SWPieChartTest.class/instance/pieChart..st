@@ -1,3 +1,4 @@
 accessing
-pieChart: anObject
-	pieChart := anObject
+pieChart: aSWPiechart
+
+	pieChart := aSWPiechart

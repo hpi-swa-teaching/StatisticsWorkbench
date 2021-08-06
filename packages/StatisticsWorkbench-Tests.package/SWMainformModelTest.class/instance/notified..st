@@ -1,3 +1,4 @@
 accessing
-notified: anObject
-	notified := anObject
+notified: aBoolean
+
+	notified := aBoolean

@@ -15,5 +15,5 @@ testFromDataPointCollections
 	unlabeledData := #(#(0 1) #(1 1) #(1 3) #(3 0)).
 	unlabeledData := SWDataUnlabeled fromDataPointCollections: unlabeledData.
 	
-	self assert: unlabeledData equals: seededUnlabeledData.
+	self assert: unlabeledData equals: seededUnlabeledData
 	
