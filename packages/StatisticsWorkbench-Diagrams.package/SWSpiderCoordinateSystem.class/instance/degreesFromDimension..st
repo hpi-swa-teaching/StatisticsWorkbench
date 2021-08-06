@@ -1,4 +1,4 @@
 geometry
 degreesFromDimension: aNumber 
 
-	^ (aNumber * self degreesPerDimension + self class axisOffsetToHorizontal ) \\ 360
+	^ (aNumber * self degreesPerDimension + self class defaultAxisOffsetToHorizontal ) \\ 360

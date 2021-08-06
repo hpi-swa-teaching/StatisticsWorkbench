@@ -1,4 +1,4 @@
-instance creation
+defaults
 valuePerCircularLine
 
-	^ self maximumAxisValue / self numberOfCircularLines
+	^ self defaultMaximumAxisValue / self defaultNumberOfCircularLines

@@ -1,7 +1,7 @@
 geometry
 labelPositionAtDimension: aNumber
 	
-	^ self circlePositionAtDimension: aNumber forValue: self class axisValueForLabel
+	^ self circlePositionAtDimension: aNumber forValue: self class defaultAxisValueForLabel
 
 
 	

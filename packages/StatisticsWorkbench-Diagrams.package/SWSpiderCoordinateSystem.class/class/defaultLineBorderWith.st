@@ -1,4 +1,4 @@
-instance creation
+defaults
 defaultLineBorderWith
 
 	^ 2

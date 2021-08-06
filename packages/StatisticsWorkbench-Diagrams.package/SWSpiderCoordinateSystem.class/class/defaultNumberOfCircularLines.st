@@ -1,0 +1,4 @@
+defaults
+defaultNumberOfCircularLines
+
+	^ 5
