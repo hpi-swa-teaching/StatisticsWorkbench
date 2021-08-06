@@ -15,5 +15,5 @@ baseline: spec
 			spec
 				group: 'default' with: #('StatisticsWorkbench-Core'  'StatisticsWorkbench-Exceptions' 'StatisticsWorkbench-Diagrams' 'StatisticsWorkbench-UI' 'StatisticsWorkbench-Examples' 'StatisticsWorkbench-Tests');
 				group: 'examples' with: #('default' 'StatisticsWorkbench-Examples');
-				group: 'tests' with: #('examples' 'StatisticsWorkbench-Tests')];
+				group: 'tests' with: #('StatisticsWorkbench-Tests')];
 				yourself
