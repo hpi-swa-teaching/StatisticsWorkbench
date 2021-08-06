@@ -1,5 +1,4 @@
 accessing
 applyDataColor
 	
-	(self data dataColor notNil)
-		ifTrue: [self lineColor: self data dataColor]
+	self data dataColor ifNotNil: [self lineColor: self data dataColor]

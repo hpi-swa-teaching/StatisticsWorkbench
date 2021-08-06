@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 keyInformation
 
 	^ (self dataName -> self dataColor) asOrderedCollection

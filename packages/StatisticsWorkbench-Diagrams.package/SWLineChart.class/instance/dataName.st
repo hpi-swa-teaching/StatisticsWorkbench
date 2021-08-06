@@ -1,6 +1,6 @@
 accessing
 dataName
 	
-	(dataName isNil)
-	ifTrue: [^ '']
-	ifFalse: [^dataName]
+	dataName isNil
+		ifTrue: [^ '']
+		ifFalse: [^ dataName]

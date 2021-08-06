@@ -1,4 +1,4 @@
 visualization
 applyTheme: aColorTheme
 	
-	self subclassResponsibility
+	^ self subclassResponsibility
