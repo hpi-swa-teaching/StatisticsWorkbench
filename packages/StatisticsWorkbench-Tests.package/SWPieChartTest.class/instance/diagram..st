@@ -1,3 +1,4 @@
 accessing
-diagram: anObject
-	diagram := anObject
+diagram: aSWDiagram
+
+	diagram := aSWDiagram

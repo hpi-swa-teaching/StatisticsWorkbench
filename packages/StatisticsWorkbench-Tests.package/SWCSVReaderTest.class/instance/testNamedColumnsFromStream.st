@@ -1,7 +1,8 @@
 testing
 testNamedColumnsFromStream
 	
-	| columnNames actualColumnNames |
-	columnNames := self csvReader getNamedColumns:  self class csvStream.
-	actualColumnNames := {'X'. 'Y'. 'Labels'}.
-	self assert: columnNames keys = actualColumnNames 
+	| columns expectedColumnNames |
+	
+	columns := self csvReader getNamedColumns:  SWCSVStub csvStreamLabeledData.
+	expectedColumnNames := {'X'. 'Y'. 'Labels'}.
+	self assert: columns keys = expectedColumnNames 

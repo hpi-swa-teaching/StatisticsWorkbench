@@ -12,4 +12,4 @@ testEnrichWithMiscDataMultipleMiscColumns
 	data enrichWith: miscData.
 	
 	self assert: (data first misc second = ('Column1' -> 'miscColumnValue1')).
-	self assert: (data first misc first =  ('Column2' -> 'miscColumnValue5')).
+	self assert: (data first misc first =  ('Column2' -> 'miscColumnValue5'))

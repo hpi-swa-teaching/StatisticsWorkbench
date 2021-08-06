@@ -4,9 +4,9 @@
 	"instance" : {
 		"scatterPlot" : "FM 6/27/2021 16:22",
 		"scatterPlot:" : "FM 6/27/2021 16:22",
-		"setUp" : "FM 7/3/2021 17:33",
-		"testRemoveOnlyOnePointOnUserInput" : "FM 6/27/2021 16:21",
-		"testRemovePointOnUserInput" : "FM 6/27/2021 16:20",
-		"testRemovePointOnUserInputInWindow" : "FM 6/27/2021 16:21",
-		"testXYPopupCorrectLabel" : "FM 5/30/2021 11:19",
-		"testXYPopupOnHover" : "FM 5/30/2021 11:19" } }
+		"setUp" : "PAR 8/6/2021 12:59",
+		"testRemoveOnlyOnePointOnUserInput" : "PAR 8/6/2021 13:12",
+		"testRemovePointOnUserInput" : "PAR 8/6/2021 13:13",
+		"testRemovePointOnUserInputInWindow" : "PAR 8/6/2021 13:13",
+		"testXYPopupCorrectLabel" : "PAR 8/6/2021 13:13",
+		"testXYPopupOnHover" : "PAR 8/6/2021 13:13" } }

@@ -14,4 +14,4 @@ testAdjustStepIntervalHorizontal
 	axis endPoint: (axis startPoint x + 1000) @ axis startPoint y.
 	
 	self assert: [axis markerDistance <= (axis maxLabelSize * SWAxis maxMarkerDistancePerLegendCharacter)]
-		description: axis markerDistance printString, ' should be less than ', (axis maxLabelSize * SWAxis maxMarkerDistancePerLegendCharacter).
+		description: axis markerDistance printString, ' should be less than ', (axis maxLabelSize * SWAxis maxMarkerDistancePerLegendCharacter)

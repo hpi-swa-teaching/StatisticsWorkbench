@@ -13,4 +13,4 @@ testAdjustStepInterval
 	axis endPoint: (axis startPoint x + 1000) @ axis startPoint y.
 	
 	self assert: [axis markerDistance <= SWAxis maxMarkerDistance]
-		description: axis markerDistance printString, ' should be less than ', SWAxis maxMarkerDistance.
+		description: axis markerDistance printString, ' should be less than ', SWAxis maxMarkerDistance

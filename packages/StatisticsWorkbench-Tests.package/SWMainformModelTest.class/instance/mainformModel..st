@@ -1,3 +1,4 @@
 accessing
-mainformModel: anObject
-	mainformModel := anObject
+mainformModel: aSWMainformModel
+
+	mainformModel := aSWMainformModel
