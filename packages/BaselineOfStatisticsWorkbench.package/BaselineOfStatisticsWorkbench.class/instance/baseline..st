@@ -13,7 +13,7 @@ baseline: spec
 				package: 'StatisticsWorkbench-UI' with: [spec requires: #('StatisticsWorkbench-Core' 'StatisticsWorkbench-Exceptions' 'StatisticsWorkbench-Diagrams')];
 				yourself.
 			spec
-				group: 'default' with: #('StatisticsWorkbench-Core'  'StatisticsWorkbench-Exceptions' 'StatisticsWorkbench-Diagrams' 'StatisticsWorkbench-UI');
+				group: 'default' with: #('StatisticsWorkbench-Core'  'StatisticsWorkbench-Exceptions' 'StatisticsWorkbench-Diagrams' 'StatisticsWorkbench-UI' 'StatisticsWorkbench-Examples' 'StatisticsWorkbench-Tests');
 				group: 'examples' with: #('default' 'StatisticsWorkbench-Examples');
-				group: 'tests' with: #('StatisticsWorkbench-Tests')];
+				group: 'tests' with: #('examples' 'StatisticsWorkbench-Tests')];
 				yourself
