@@ -1,3 +1,4 @@
 accessing
 namedColumns: aDictionary
-	parsedData := aDictionary
+
+	namedColumns := aDictionary

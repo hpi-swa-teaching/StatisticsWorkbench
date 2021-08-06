@@ -1,4 +1,4 @@
-event-handling
+chart-selection
 getCharts
 
-	^SWChart subclasses
+	^ SWChart subclasses

@@ -1,0 +1,1 @@
+SWMainformModel provides a UI for the CSV-File-Selection and corresponding delimiter and escape character. Picking a X-Axis and Y-Axis column afterwards is mandatory, the category column is optional.

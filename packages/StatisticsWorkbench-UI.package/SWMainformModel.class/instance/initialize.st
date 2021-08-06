@@ -5,5 +5,4 @@ initialize
 	self delimiter: self defaultDelimiter;
 		escapeCharacter: self defaultEscapeCharacter;
 		chartSelection: self defaultDiagramsSelection;
-		fileChosen: false;
-		parsedFile: ''.
+		parsedFile: ''

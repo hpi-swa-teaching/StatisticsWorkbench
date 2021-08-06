@@ -1,4 +1,4 @@
-event-handling
+chart-selection
 isSelected: aNumber
 
-	^ self chartSelection at: aNumber.
+	^ self chartSelection at: aNumber

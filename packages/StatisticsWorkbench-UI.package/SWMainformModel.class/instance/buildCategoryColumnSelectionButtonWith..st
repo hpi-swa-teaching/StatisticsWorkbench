@@ -6,5 +6,5 @@ buildCategoryColumnSelectionButtonWith: aBuilder
 		changeLabelWhen: #setCategoryColumn;
 		label: #categoryColumnLabel;
 		action: #onCategoryColumnButtonClick;
-		frame: (0.5@0.6 corner: 1@0.8)
+		frame: (0.5@0.6 corner: 1@0.8);
 		yourself

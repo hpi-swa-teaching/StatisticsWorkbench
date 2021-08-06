@@ -1,4 +1,4 @@
-accessing
+column-selection
 columns
 
-	^self namedColumns keys
+	^ self namedColumns keys

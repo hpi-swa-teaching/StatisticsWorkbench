@@ -4,19 +4,17 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PAR 8/6/2021 10:40",
 	"instvars" : [
 		"stream",
 		"escapeCharacter",
 		"delimiter",
-		"parsedData",
-		"fileChosen",
-		"parsedFile",
+		"namedColumns",
 		"chartSelection",
 		"xAxis",
 		"yAxis",
 		"categoryColumn",
-		"childView" ],
+		"parsedFile" ],
 	"name" : "SWMainformModel",
 	"pools" : [
 		 ],

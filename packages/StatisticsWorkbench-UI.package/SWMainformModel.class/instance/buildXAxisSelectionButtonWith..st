@@ -6,5 +6,5 @@ buildXAxisSelectionButtonWith: aBuilder
 		changeLabelWhen: #setXAxisColumn;
 		label: #xAxisLabel;
 		action: #onXAxisButtonClick;
-		frame: (0.5@0.2 corner: 1@0.4)
+		frame: (0.5@0.2 corner: 1@0.4);
 		yourself

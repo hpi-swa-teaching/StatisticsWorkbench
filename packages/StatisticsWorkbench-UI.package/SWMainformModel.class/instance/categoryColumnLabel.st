@@ -1,4 +1,4 @@
-event-handling
+column-selection
 categoryColumnLabel
 
-	^'Category: ', self categoryColumn.
+	^ 'Category: ', self categoryColumn

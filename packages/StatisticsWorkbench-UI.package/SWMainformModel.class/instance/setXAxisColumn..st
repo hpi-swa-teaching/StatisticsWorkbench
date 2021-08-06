@@ -1,4 +1,4 @@
-accessing
+column-selection
 setXAxisColumn: aNumber
 
 	self xAxis: (self columns at: aNumber).

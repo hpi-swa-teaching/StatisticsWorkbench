@@ -1,4 +1,4 @@
-accessing
+column-selection
 xAxisLabel 
 
-	^'X-Axis: ', self xAxis.
+	^ 'X-Axis: ', self xAxis

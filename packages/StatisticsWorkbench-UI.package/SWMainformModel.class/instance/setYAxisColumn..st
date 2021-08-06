@@ -1,4 +1,4 @@
-accessing
+column-selection
 setYAxisColumn: aNumber
 
 	self yAxis: (self columns at: aNumber).
